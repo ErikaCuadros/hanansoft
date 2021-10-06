@@ -13,6 +13,8 @@ COPY . /app
 
 RUN npm run build --prod
 
+RUN npm install @angular/cli  -g
+
 # Stage 2
 
 FROM nginx:1.17.1-alpine
