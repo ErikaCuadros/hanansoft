@@ -13,7 +13,7 @@ COPY . /app
 
 RUN npm run build --prod
 
-RUN npm install @angular/cli  -g
+RUN npm install -g @angular/cli
 
 # Stage 2
 
