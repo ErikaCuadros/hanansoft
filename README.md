@@ -1,8 +1,10 @@
 # PaginaWeb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
-This project was generated with [Node] version 14.17.6
-This project was generated with [Npm] version 6.14.15
+
+This project was generated with [Node] version 14.17.6.
+
+This project was generated with [Npm] version 6.14.15.
 
 ## Development server
 

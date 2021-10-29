@@ -1,20 +1,20 @@
-<div x-data="{ isOpen: false }" class="relative ...">
-    <button type="button" class="...">
-      Options
-    </button>
-  
-    <div
-      x-show="isOpen"
-      x-transition:enter="transition ease-out duration-100 transform"
-      x-transition:enter-start="opacity-0 scale-95"
-      x-transition:enter-end="opacity-100 scale-100"
-      x-transition:leave="transition ease-in duration-75 transform"
-      x-transition:leave-start="opacity-100 scale-100"
-      x-transition:leave-end="opacity-0 scale-95"
-      class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg"
-    >
-      <div class="rounded-md bg-white shadow-xs">
-        <!-- Snipped  -->
-      </div>
-    </div>
-  </div>
+<nav class="nav">
+    <section>
+        <picture>
+            <img class="nav__logo" src="../../assets/img/img/circulo-01.svg">
+            <img class="nav__barra" src="../../assets/img/Inicio/bara.svg" alt="">
+            <a class="nav__home" routerLink="/home">HOME</a>
+        </picture>
+
+        <picture class="nav__item">
+            <img class="nav__item-1" src="../../assets/img/img/nosotros.png" alt="" srcset="">
+            <p><a class="nav__nosotros text">NOSOTROS</a></p>
+            <img class="nav__item-2" src="../../assets/img/img/nuestra-experiencia.png" alt="" srcset="">
+            <p><a class="nav__experiencia text">NUESTRA EXPERIENCIA</a></p>
+            <img class="nav__item-3" src="../../assets/img/img/aliados.png"  alt="" srcset="">
+            <p><a class="nav__aliados text">ALIADOS</a></p>
+            <img class="nav__item-4" src="../../assets/img/img/oficina-virtual.png" alt="" srcset="">
+            <p><a class="nav__virtual text">OFICINA VIRTUAL</a></p>
+        </picture>
+    </section>
+</nav>
