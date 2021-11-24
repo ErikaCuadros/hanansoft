@@ -1,0 +1,27 @@
+.container{
+    margin-top: 13%;
+    }
+    .figura {
+        width: 400px;
+        height: 50px;
+        color: white;
+        border-right: 60px solid transparent;
+        border-bottom: 75px solid #0a3457;
+        
+    }
+    .img1{
+        box-shadow: 10px 10px 5px rgb(31, 28, 28);  
+     }
+    .color{
+        background-color: #05253f;
+        color: white;
+        text-align: justify;
+        margin-top: 12%;
+        margin-right: 0%;
+        height: 170px;
+    }
+    .color1{
+        background-color: #00172A;
+        color: white;
+    }
+    

@@ -3,14 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
 
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
-import { HomeComponent } from './home/home.component';
-import { InicioComponent } from './inicio/inicio.component';
-
+import { HomeComponent } from './Components/home/home.component';
+import { InicioComponent } from './Components/inicio/inicio.component';
+import { MarketingComponent } from './Components/marketing/marketing.component';
+import { ProduccionComponent } from './Components/produccion/produccion.component';
+import { AppsComponent } from './Components/apps/apps.component';
+import { ServicesComponent } from './Components/services/services.component';
+import { ComerceComponent } from './Components/comerce/comerce.component';
+import { DappsComponent } from './Components/dapps/dapps.component';
+import { CoachingComponent } from './Components/coaching/coaching.component';
+import { ArteComponent } from './Components/arte/arte.component';
+import { TurismoComponent } from './Components/turismo/turismo.component';
+import { NosotrosComponent } from './Components/nosotros/nosotros.component';
+import { AliadosComponent } from './Components/aliados/aliados.component';
+import { ExperienciaComponent } from './Components/experiencia/experiencia.component';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
@@ -20,7 +31,20 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    InicioComponent
+    InicioComponent,
+    MarketingComponent,
+    ProduccionComponent,
+    AppsComponent,
+    ServicesComponent,
+    ComerceComponent,
+    DappsComponent,
+    CoachingComponent,
+    ArteComponent,
+    TurismoComponent,
+    NosotrosComponent,
+    AliadosComponent,
+    ExperienciaComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -34,7 +58,8 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
   })
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,22 @@
+.container{
+    margin-top: 9%;
+ }
+.img1{
+  width: 350px;
+} 
+/* .row{
+    margin-left: 150px;
+} */
+.card1{
+    margin-left: 15px;
+    width: 25rem;
+}
+.hola{
+    justify-content: center;
+   
+}
+.color1{
+    background-color: #00172A;
+    color: white;
+}
+

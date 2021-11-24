@@ -1,0 +1,40 @@
+.container{
+    margin-top: 15%;
+    /* background: #00172A; */
+    background: transparent;
+    background-image: url("../../../assets/img/fondo.svg"); background-color: #cccccc;
+    }
+.img1{
+    width: 200px;
+    height: 200px;
+    margin-top: -80%;
+    margin-left: 10%;
+}
+.card1{
+    margin-left: 15px;
+    width: 20rem;
+}
+.hola{
+    justify-content: center;
+}
+.cuadro2{
+    margin-top: 25%;
+}
+.img2{
+margin-top: -33%;
+width: 225px;
+margin-left: 5%;
+}
+/* .image{
+    height:40em; background-size:cover; width:auto;
+    background-image:url('../../../assets/img/fondo.svg');
+    background-position:50% 50%;
+  }
+  #sect1 {  
+    height: 650 px;  
+    color: #fff;background-image:url("../../../assets/img/fondo.svg");  
+    background-size: 100% ;  
+    background-size: cover;  
+}  */
+/* body { background-image: url("../../../assets/img/fondo.svg"); background-color: #cccccc; } */
+
