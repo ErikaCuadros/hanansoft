@@ -7,18 +7,25 @@
     <title>Document</title>
 </head>
 <body class="color1">
-    <app-navbar></app-navbar>
+    <app-nav></app-nav>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto posicion">
                 <div class="figura">
-                    <p class="pt-6">MARKETING EXPONENCIAL</p>
+                    <p class="pt-6">{{"MARKETING.TITLE" | translate}}</p>
                 </div>
               <img src="../../../assets/img/mark.jpg" class="img1" alt="">
             </div>
             <div class="col col-md-3 ml-1 color">
-                <p class="  pt-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam, eaque laboriosam officiis odio quasi nam exercitationem molestias natus, iure quam harum beatae esse impedit dolore blanditiis inventore neque tenetur!</p>
-                <p class=" pb-6 pt-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ratione atque eveniet temporibus perspiciatis placeat nisi, odit tenetur similique cum quam, veniam expedita dolor ex. Ad quis magni cupiditate a.</p>
+                <p class="  pt-4 h6">{{"MARKETING.PARAGRAPH" | translate}}</p>
+                <p class=" pb-4 pt-6 h6">{{"MARKETING.PARAGRAPH-1" | translate}}</p>
+                <ul class=" pb-4 h6">
+                    <li>{{"MARKETING.LIST" | translate}}</li>
+                    <li>{{"MARKETING.LIST-1" | translate}}</li>
+                    <li>{{"MARKETING.LIST-2" | translate}}</li>
+                    <li>{{"MARKETING.LIST-3" | translate}}</li>
+                    <li>{{"MARKETING.LIST-4" | translate}}</li>
+                </ul>
             </div>
           </div>
     </div>

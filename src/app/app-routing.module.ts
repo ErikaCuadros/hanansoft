@@ -15,6 +15,8 @@ import { TurismoComponent } from './Components/turismo/turismo.component';
 import { NosotrosComponent } from './Components/nosotros/nosotros.component';
 import { AliadosComponent } from './Components/aliados/aliados.component';
 import { ExperienciaComponent } from './Components/experiencia/experiencia.component';
+import { PruebaComponent } from './Components/prueba/prueba.component';
+import { NavComponent } from './Components/nav/nav.component';
 const routes: Routes = [
 
   {path: '', component:HomeComponent},
@@ -32,6 +34,9 @@ const routes: Routes = [
   {path: 'nosotros', component:NosotrosComponent},
   {path: 'aliados', component:AliadosComponent},
   {path: 'experiencia', component:ExperienciaComponent},
+  {path: 'prueba', component:PruebaComponent},
+  {path: 'nav', component:NavComponent},
+
 ];
 
 @NgModule({

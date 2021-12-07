@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-* {
-    font-family: 'Orbitron', sans-serif;
-}
 
 .img-1 {
     position: absolute;
     width: 350px;
-    top: 30%;
+    top: 27%;
     left: 65%;
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
@@ -29,8 +26,8 @@
 .text-1 {
     color: white;
     position: absolute;
-    top: 47%;
-    left: 67%;
+    top: 44%;
+    left: 68%;
     z-index: 2;
    
 }
@@ -38,7 +35,7 @@
 .text-1-2 {
     color: white;
     position: absolute;
-    top: 46%;
+    top: 43%;
     left: 82%;
     background-color: #001e36;
     padding: 70px 10px 25px 10px;
@@ -50,7 +47,7 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 21%;
+    top: 18%;
     left: 80.5%;
     background-color: #001e36;
     padding: 20px 30px 70px 30px;
@@ -63,8 +60,8 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 27%;
-    left: 61%;
+    top: 24%;
+    left: 60%;
     background-color: #001e36;
     padding: 35px 30px 50px 30px;
     border: #002443ff 10px double;
@@ -75,16 +72,12 @@
 
 .img-2 {
     position: absolute;
-    width: 400px;
-    top: 55%;
-    left: 50%;
+    width: 375px;
+    top: 45%;
+    left: 44%;
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
-
     border: 1px solid #004483ff;       
-
-    
-    
     background-image: linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
@@ -93,21 +86,22 @@
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
     padding: 2px;
+    
 }
 
 .text-2 {
     color: white;
     position: absolute;
-    top: 70%;
-    left: 55%;
+    top: 60%;
+    left: 50%;
     z-index: 2;
 }
 
 .text-2-1 {
     color: white;
     position: absolute;
-    top: 77%;
-    left: 45%;
+    top: 68%;
+    left: 39%;
     background-color: #001e36;
     padding: 70px 20px 10px 20px;
     border: #002443ff 10px double;
@@ -118,8 +112,8 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 78%;
-    left: 70%;
+    top: 68%;
+    left: 59%;
     background-color: #001e36;
     padding: 60px 30px 15px 30px;
     border: #002443ff 10px double;
@@ -130,8 +124,8 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 45%;
-    left: 46.5%;
+    top: 34%;
+    left: 39%;
     background-color: #001e36;
     padding: 10px 30px 77px 30px;
     border: #002443ff 10px double;
@@ -141,7 +135,7 @@
 .img-3 {
     position: absolute;
     width: 350px;
-    top: 40%;
+    top: 33%;
     left: 10%;
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
@@ -163,8 +157,8 @@
 .text-3{
     color: white;
     position: absolute;
-    top: 50%;
-    left: 10.8%;
+    top: 43%;
+    left: 12%;
     font-size: 0.9rem;
     z-index: 2;
     
@@ -174,10 +168,10 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 31%;
+    top: 24%;
     left: 22%;
     background-color: #001e36;
-    padding: 20px 45px 75px 35px;
+    padding: 20px 25px 50px 25px;
     border: #002443ff 10px double;
     outline-width: 1px;
     
@@ -188,10 +182,10 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 55%;
+    top: 53%;
     left: 8.5%;
     background-color: #001e36;
-    padding: 70px 40px 40px 40px;
+    padding: 20px 25px 50px 25px;
     border: #002443ff 10px double;
     outline-width: 1px;
 }
@@ -199,8 +193,8 @@
 .img-4 {
     position: absolute;
     width: 350px;
-    top: 93%;
-    left: 31.5%;
+    top: 75%;
+    left: 20%;
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
 
@@ -223,18 +217,18 @@
 .text-4 {
     color: white;
     position: absolute;
-    top: 108.8%;
-    left: 33.3%;
+    top: 90%;
+    left: 24%;
     z-index: 2;
 }
 
 .text-4-2 {
     color: white;
     position: absolute;
-    top: 86%;
-    left: 27%;
+    top: 70%;
+    left: 15%;
     background-color: #001e36;
-    padding: 30px 30px 70px 50px;
+    padding: 30px 30px 50px 30px;
     border: #002443ff 10px double;
     outline-width: 1px;
     
@@ -251,7 +245,7 @@
 .img-5 {
     position: absolute;
     width: 300px;
-    top: 95%;
+    top: 78%;
     left:70%;
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
@@ -270,19 +264,13 @@
     padding: 2px;
 }
 
-.text-5 {
-    color: white;
-    position: absolute;
-    top: 97%;
-    left: 72%;
-    z-index: 2;
-}
+
 
 .text-5-1 {
     color: white;
     position: absolute;
-    top: 97%;
-    left: 72%;
+    top: 80%;
+    left: 74%;
     text-align: center;
     font-size: 0.77rem;
     z-index: 2;
