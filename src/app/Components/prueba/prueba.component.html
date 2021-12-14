@@ -1,0 +1,69 @@
+<body class="color1">
+  <div>
+    <p class="text1">Nav Bar</p>
+    <img class="nav__barra" src="../../assets/img/Inicio/bara.svg" alt="">
+    <img class="nav__item-1" routerLink="/nosotros" src="../../assets/img/img/nosotros.png" alt="" srcset="">
+    <p><a class="nav__nosotros text" routerLink="/nosotros" >NOSOTROS</a></p>
+    <img class="nav__item-2" src="../../assets/img/img/nuestra-experiencia.png" alt="" srcset="">
+    <p><a class="nav__experiencia text" routerLink="/experiencia" >NUESTRA EXPERIENCIA</a></p>
+    <img class="nav__item-3" src="../../assets/img/img/aliados.png"  alt="" srcset="">
+    <p><a class="nav__aliados text" routerLink="/aliados" >ALIADOS</a></p>
+    <img class="nav__item-4" src="../../assets/img/img/oficina-virtual.png" alt="" srcset="">
+    <p><a class="nav__virtual text" routerLink="" >OFICINA VIRTUAL</a></p>
+    <img class="nav__logo" src="../../assets/img/img/circulo-01.svg">
+    <p><a class="nav__home" routerLink="" >HOME</a></p>
+</div>
+
+<div class="container">
+    <div class="container-md p-6">
+        <h3 class="text-center pb-5 pt-6 h1">NUESTRA EXPERIENCIA</h3>
+    </div>
+    <div class="row hola" >
+        <div class="card1">
+          <div class="card-body">
+            <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems$ | async">
+                <button NguCarouselPrev class='leftRs'>&lt;</button>
+
+                <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+                  <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+                    <h1>{{ i + 1 }}</h1>
+                  </div>
+                </ngu-item>
+                <button NguCarouselNext class='rightRs'>&gt;</button>
+              </ngu-carousel>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="card-body" >
+                <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems1$ | async">
+                    <button NguCarouselPrev class='leftRs'>&lt;</button>
+
+                    <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+                      <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+                        <h1>{{ i + 1 }}</h1>
+                      </div>
+                    </ngu-item>
+                    <button NguCarouselNext class='rightRs'>&gt;</button>
+                  </ngu-carousel>
+            </div>
+          </div>
+          <div  class="card1" >
+            <div class="card-body" >
+                <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems2$ | async">
+                    <button NguCarouselPrev class='leftRs'>&lt;</button>
+
+                    <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+                      <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+                        <h1>{{ i + 1 }}</h1>
+                      </div>
+                    </ngu-item>
+                    <button NguCarouselNext class='rightRs'>&gt;</button>
+                  </ngu-carousel>
+            </div>
+          </div>
+        </div>
+      <div class="container-md col-md-9 p-8">
+        <p class="text-justify pb-8 pt-8">KetanoLab es una Agencia de Servicios Digitales enfocada en aportar un valor diferencial, enlazando plataformas, mejorando la experiencia de consumo adaptándose a la transformación digital y brindando servicios que vayan  en tendencia a las nuevas  tecnologias siguiendo al ritmo de cada proyecto.</p>
+    </div>
+</div>
+</body>

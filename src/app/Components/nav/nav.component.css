@@ -1,0 +1,72 @@
+
+.color1{
+    background-color: #00172A;
+    color: white;
+}
+.nav__logo{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -20px;
+  width: 150px;
+  height: 200px;
+}
+.nav__home{
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffff;
+  position: absolute;
+  margin-top: 105px;
+  margin-left: 395px;
+
+}
+.nav__barra{
+    position: absolute;
+    margin-top: 3%;
+  }
+.nav__item-1{
+  position: absolute;
+  margin-left: 570px;
+  margin-top: 65px;
+}
+.nav__nosotros{
+  position: absolute;
+  margin-left: 640px;
+  margin-top: 80px;
+}
+
+
+.nav__item-2{
+  position: absolute;
+  margin-left: 760px;
+  margin-top: 65px;
+}
+.nav__experiencia{
+  position: absolute;
+  margin-left: 840px;
+  margin-top: 80px;
+}
+
+.nav__item-3{
+  position: absolute;
+  margin-left: 1060px;
+  margin-top: 65px;
+}
+.nav__aliados{
+  position: absolute;
+  margin-left: 1130px;
+  margin-top: 80px;
+}
+
+.nav__item-4{
+  position: absolute;
+  margin-left: 1250px;
+  margin-top: 65px;
+}
+.nav__virtual{
+  position: absolute;
+  margin-left: 1330px;
+  margin-top: 80px;
+}
+.text1{
+  color: #000; /* Fallback for older browsers */
+  color: rgba(0, 0, 0, 0.5);
+}
