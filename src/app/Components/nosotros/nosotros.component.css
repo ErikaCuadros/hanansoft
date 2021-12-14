@@ -1,5 +1,5 @@
 .container{
-    margin-top: 9%;
+    margin-top: 5%;
     }
 .img1{
   width: 300px;
@@ -63,3 +63,15 @@ margin-top: -100px;
     background-color: #00172A;
     color: white;
 }
+.fuente{
+    font-family: 'Orbitron';
+  }
+ .navres{
+    visibility: hidden;
+  }
+  @media only screen and (max-width: 600px) {
+    .navres {
+      visibility: initial;
+      background-color: #00172A;
+    }
+  } 

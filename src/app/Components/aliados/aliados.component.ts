@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ElementRef } from '@angular/core';
+
 
 @Component({
   selector: 'app-aliados',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AliadosComponent implements OnInit {
 
-  constructor() { }
+  constructor(private elementRef: ElementRef) { }
 
   ngOnInit(): void {
+  }
+  ngAfterViewInit(){
+    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#00172A';
   }
 
 }

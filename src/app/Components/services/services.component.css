@@ -2,7 +2,7 @@
     margin-top: 13%;
     }
     .figura {
-        width: 400px;
+        width: 250px;
         height: 50px;
         color: white;
         border-right: 60px solid transparent;
@@ -10,7 +10,18 @@
         
     }
     .img1{
-        box-shadow: 10px 10px 5px rgb(31, 28, 28);  
+        box-shadow: 10px 10px 5px rgb(31, 28, 28); 
+        width: 600px;
+        border: 1px solid #004483ff;       
+        background-image: linear-gradient(#007df1ff, #007df1ff),
+                        linear-gradient(#007df1ff, #007df1ff),
+                        linear-gradient(#007df1ff, #007df1ff),
+                        linear-gradient(#007df1ff, #007df1ff);    
+        background-repeat: no-repeat;
+        background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
+        background-position: left bottom, left bottom, right top, right top, 1px 1px;
+        padding: 2px;
+ 
      }
     .color{
         background-color: #05253f;
@@ -18,8 +29,15 @@
         text-align: justify;
         margin-top: 12%;
         margin-right: 0%;
+        border: rgb(13, 207, 233) 3px dashed;
+        outline: 10px double rgb(31, 49, 83);
+        outline-offset: 10px;
     }
     .color1{
         background-color: #00172A;
         color: white;
     }
+    .fuente{
+        font-family: 'Orbitron';
+    }
+    
