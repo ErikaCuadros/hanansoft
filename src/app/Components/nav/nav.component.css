@@ -72,7 +72,7 @@
   color: rgba(#00172A);
   
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .hola1 {
     visibility: hidden;
   }

@@ -36,3 +36,6 @@ margin-left: 5%;
       background-color: #00172A;
     }
   } 
+body{
+    cursor:url(/assets/img/cursor.png), auto;
+  }

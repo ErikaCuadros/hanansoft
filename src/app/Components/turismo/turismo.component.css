@@ -1,5 +1,5 @@
 .container{
-    margin-top: 13%;
+    margin-top: 10%;
     }
     .figura {
         width: 400px;
@@ -29,7 +29,6 @@
         text-align: justify;
         margin-top: 12%;
         margin-right: 0%;
-        border: rgb(13, 207, 233) 3px dashed;
         outline: 10px double rgb(31, 49, 83);
         outline-offset: 10px;
     }
@@ -40,4 +39,29 @@
     .fuente{
         font-family: 'Orbitron';
     }
-    
+.navres{
+    visibility: hidden;
+  }
+  @media only screen and (max-width: 600px) {
+    .navres {
+      visibility: initial;
+      background-color: #00172A;
+    }
+  } 
+.img2{
+    position:absolute;
+    width: 370px;
+    height: 335px;
+    margin-top: 4px;
+    margin-left: -5px;
+        }
+        @media only screen and (max-width: 700px) {
+            .img2 {
+                width: 520px;
+                height: 260px;
+            }
+          }
+        
+          body{
+            cursor:url(/assets/img/cursor.png), auto;
+          }

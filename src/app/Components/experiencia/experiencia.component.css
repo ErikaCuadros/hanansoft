@@ -67,3 +67,6 @@
     background-color: #00172A;
   }
 } 
+body{
+  cursor:url(/assets/img/cursor.png), auto;
+}

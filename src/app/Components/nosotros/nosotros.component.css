@@ -1,5 +1,5 @@
 .container{
-    margin-top: 5%;
+    margin-top: 4%;
     }
 .img1{
   width: 300px;
@@ -75,3 +75,6 @@ margin-top: -100px;
       background-color: #00172A;
     }
   } 
+  body{
+    cursor:url(/assets/img/cursor.png), auto;
+  }

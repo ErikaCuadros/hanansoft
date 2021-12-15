@@ -1,5 +1,5 @@
 .container{
-    margin-top: 13%;
+    margin-top: 10%;
     }
     .figura {
         width: 300px;
@@ -20,6 +20,8 @@
         background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
         background-position: left bottom, left bottom, right top, right top, 1px 1px;
         padding: 2px;
+        outline: 2px solid #004483ff;
+        outline-offset: -5px;
      }
     .color{
         background-color: #05253f;
@@ -27,8 +29,7 @@
         text-align: justify;
         margin-top: 12%;
         height: 170px;
-        /* border: rgb(13, 207, 233) 3px dashed; */
-        outline: 10px double rgb(31, 49, 83);
+        outline: 6px double rgb(48, 74, 124);
         outline-offset: 10px;
     }
     .color1{
@@ -54,3 +55,12 @@ margin-left: -5px;
       body{
         cursor:url(/assets/img/cursor.png), auto;
       }
+      .navres{
+        visibility: hidden;
+      }
+      @media only screen and (max-width: 600px) {
+        .navres {
+          visibility: initial;
+          background-color: #00172A;
+        }
+      } 
