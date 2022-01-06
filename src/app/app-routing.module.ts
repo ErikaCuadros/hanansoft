@@ -17,6 +17,7 @@ import { AliadosComponent } from './Components/aliados/aliados.component';
 import { ExperienciaComponent } from './Components/experiencia/experiencia.component';
 import { PruebaComponent } from './Components/prueba/prueba.component';
 import { NavComponent } from './Components/nav/nav.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
 const routes: Routes = [
 
   {path: '', component:HomeComponent},
@@ -36,6 +37,7 @@ const routes: Routes = [
   {path: 'experiencia', component:ExperienciaComponent},
   {path: 'prueba', component:PruebaComponent},
   {path: 'nav', component:NavComponent},
+  {path: 'navbar', component:NavbarComponent},
 
 ];
 

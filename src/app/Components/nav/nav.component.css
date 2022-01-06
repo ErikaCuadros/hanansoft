@@ -2,6 +2,7 @@
 .color1{
     background-color: #00172A;
     color: white;
+    
 }
 .nav__logo{
   position: absolute;
@@ -29,7 +30,7 @@
 }
 .nav__nosotros{
   position: absolute;
-  margin-left: 640px;
+  margin-left: 630px;
   margin-top: 80px;
 }
 
@@ -41,7 +42,7 @@
 }
 .nav__experiencia{
   position: absolute;
-  margin-left: 840px;
+  margin-left: 830px;
   margin-top: 80px;
 }
 
@@ -63,10 +64,32 @@
 }
 .nav__virtual{
   position: absolute;
-  margin-left: 1330px;
+  margin-left: 1310px;
   margin-top: 80px;
 }
 .text1{
-  color: #000; /* Fallback for older browsers */
-  color: rgba(0, 0, 0, 0.5);
+  color: #00172A; /* Fallback for older browsers */
+  color: rgba(#00172A);
+  
+}
+@media only screen and (max-width: 700px) {
+  .hola1 {
+    visibility: hidden;
+  }
+}
+.text{
+  font-family: 'Orbitron';
+  color: #00ffff;
+  font-size: 15px;
+
+}
+
+.text:hover{
+  color: #000000;
+}
+body{
+  cursor:url(/assets/img/cursor.png), auto;
+}
+a{
+  cursor:url(/assets/img/cursor.png), auto;
 }

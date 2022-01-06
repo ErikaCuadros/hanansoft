@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-
+/* a{
+    cursor: url ("../../assets/img/cursor.png");
+} */
 .img-1 {
     position: absolute;
     width: 350px;
@@ -29,7 +31,7 @@
     top: 44%;
     left: 68%;
     z-index: 2;
-   
+    font-size: 13px;
 }
 
 .text-1-2 {
@@ -38,7 +40,7 @@
     top: 43%;
     left: 82%;
     background-color: #001e36;
-    padding: 70px 10px 25px 10px;
+    padding: 80px 15px 25px 10px;
     border: #002443ff 10px double;
     outline-width: 1px;
 }
@@ -60,10 +62,10 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 24%;
+    top: 22%;
     left: 60%;
     background-color: #001e36;
-    padding: 35px 30px 50px 30px;
+    padding: 50px 55px 50px 30px;
     border: #002443ff 10px double;
     outline-width: 1px;
 }
@@ -72,9 +74,10 @@
 
 .img-2 {
     position: absolute;
-    width: 375px;
-    top: 45%;
-    left: 44%;
+    width: 350px;
+    height: 200px;
+    top: 66%;
+    left: 20%;
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
     border: 1px solid #004483ff;       
@@ -86,24 +89,26 @@
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
     padding: 2px;
+
     
 }
 
 .text-2 {
     color: white;
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 83%;
+    left: 25%;
     z-index: 2;
+    font-size: 13px;
 }
 
 .text-2-1 {
     color: white;
     position: absolute;
-    top: 68%;
-    left: 39%;
+    top: 82%;
+    left: 13%;
     background-color: #001e36;
-    padding: 70px 20px 10px 20px;
+    padding: 50px 20px 20px 20px;
     border: #002443ff 10px double;
     outline-width: 1px;
 }
@@ -112,10 +117,10 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 68%;
-    left: 59%;
+    top: 82%;
+    left: 37%;
     background-color: #001e36;
-    padding: 60px 30px 15px 30px;
+    padding: 40px 30px 15px 30px;
     border: #002443ff 10px double;
     outline-width: 1px;
 }
@@ -124,10 +129,10 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 34%;
-    left: 39%;
+    top: 55%;
+    left: 35%;
     background-color: #001e36;
-    padding: 10px 30px 77px 30px;
+    padding: 10px 30px 60px 30px;
     border: #002443ff 10px double;
     outline-width: 1px;
 }
@@ -158,9 +163,10 @@
     color: white;
     position: absolute;
     top: 43%;
-    left: 12%;
+    left: 11%;
     font-size: 0.9rem;
     z-index: 2;
+    font-size: 13px;
     
 }
 
@@ -171,7 +177,7 @@
     top: 24%;
     left: 22%;
     background-color: #001e36;
-    padding: 20px 25px 50px 25px;
+    padding: 20px 20px 70px 25px;
     border: #002443ff 10px double;
     outline-width: 1px;
     
@@ -182,10 +188,10 @@
     color: white;
     position: absolute;
     text-align: center;
-    top: 53%;
+    top: 51%;
     left: 8.5%;
     background-color: #001e36;
-    padding: 20px 25px 50px 25px;
+    padding: 40px 25px 50px 25px;
     border: #002443ff 10px double;
     outline-width: 1px;
 }
@@ -193,8 +199,9 @@
 .img-4 {
     position: absolute;
     width: 350px;
-    top: 75%;
-    left: 20%;
+    top: 40%;
+    left: 46%;
+    
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
 
@@ -217,18 +224,19 @@
 .text-4 {
     color: white;
     position: absolute;
-    top: 90%;
-    left: 24%;
+    top: 55%;
+    left: 50%;
     z-index: 2;
+    font-size: 13px;
 }
 
 .text-4-2 {
     color: white;
     position: absolute;
-    top: 70%;
-    left: 15%;
+    top: 33%;
+    left: 41%;
     background-color: #001e36;
-    padding: 30px 30px 50px 30px;
+    padding: 50px 55px 50px 30px;
     border: #002443ff 10px double;
     outline-width: 1px;
     
@@ -245,8 +253,8 @@
 .img-5 {
     position: absolute;
     width: 300px;
-    top: 78%;
-    left:70%;
+    top: 76%;
+    left:66%;
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
 
@@ -270,10 +278,21 @@
     color: white;
     position: absolute;
     top: 80%;
-    left: 74%;
+    left: 68%;
     text-align: center;
     font-size: 0.77rem;
     z-index: 2;
+}
+.text-5-2 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 67%;
+    left: 80%;
+    background-color: #001e36;
+    padding: 60px 25px 50px 25px;
+    border: #002443ff 10px double;
+    outline-width: 1px;
 }
 
 .fuente {
@@ -281,7 +300,22 @@ font-family: alibaba-sans, sans-serif;
 font-weight: 400;
 font-style: italic;
 }
-
-
-
+.text{
+    font-family: 'Orbitron';
+}
+.navres{
+    visibility: hidden;
+  }
+  @media only screen and (max-width: 600px) {
+    .navres {
+      visibility: initial;
+      background-color: #00172A;
+    }
+  } 
+  html{
+    cursor:url(/assets/img/cursor.png), auto;
+  }
+  a{
+    cursor:url(/assets/img/cursor.png), auto;
+  }
 

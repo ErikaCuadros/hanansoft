@@ -33,14 +33,14 @@
     display: none;
   }
   .container{
-    margin-top: 9%;
+    margin-top: 5%;
  }
 .img1{
   width: 325px;
 } 
 
 .card1{
-    margin-left: 15px;
+    margin-left: 5px;
     width: 25rem;
 }
 .hola{
@@ -53,5 +53,20 @@
 }
 .text1{
   margin-top: -60px;
+  padding: 0px 20px 0px 30px;
 }
-
+.fuente{
+  font-family: 'Orbitron';
+}
+.navres{
+  visibility: hidden;
+}
+@media only screen and (max-width: 600px) {
+  .navres {
+    visibility: initial;
+    background-color: #00172A;
+  }
+} 
+body{
+  cursor:url(/assets/img/cursor.png), auto;
+}
