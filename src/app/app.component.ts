@@ -9,9 +9,10 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent {
   title = 'paginaWeb';
 
-  constructor(public traslate: TranslateService){
+  constructor(public traslate: TranslateService) {
     this.traslate.addLangs(['es', 'en']);
     this.traslate.setDefaultLang('en');
     this.traslate.use('es');
   }
 }
+

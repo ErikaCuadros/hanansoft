@@ -9,21 +9,21 @@
     left: 65%;
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
-    border: 1px solid #004483ff;       
+    border: 1px solid #004483ff;
 
-    
-    
+
+
     background-image: linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
-                    linear-gradient(#007df1ff, #007df1ff);    
+                    linear-gradient(#007df1ff, #007df1ff);
     background-repeat: no-repeat;
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
     padding: 2px;
 
-    
-    
+
+
 }
 .text-1 {
     color: white;
@@ -31,7 +31,7 @@
     top: 44%;
     left: 68%;
     z-index: 2;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .text-1-2 {
@@ -55,7 +55,7 @@
     padding: 20px 30px 70px 30px;
     border: #002443ff 10px double;
     outline-width: 1px;
-    
+
 }
 
 .text-1-4 {
@@ -80,17 +80,17 @@
     left: 20%;
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
-    border: 1px solid #004483ff;       
+    border: 1px solid #004483ff;
     background-image: linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
-                    linear-gradient(#007df1ff, #007df1ff);    
+                    linear-gradient(#007df1ff, #007df1ff);
     background-repeat: no-repeat;
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
     padding: 2px;
 
-    
+
 }
 
 .text-2 {
@@ -145,14 +145,14 @@
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
 
-    border: 1px solid #004483ff;       
+    border: 1px solid #004483ff;
 
-    
-    
+
+
     background-image: linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
-                    linear-gradient(#007df1ff, #007df1ff);    
+                    linear-gradient(#007df1ff, #007df1ff);
     background-repeat: no-repeat;
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
@@ -167,7 +167,7 @@
     font-size: 0.9rem;
     z-index: 2;
     font-size: 13px;
-    
+
 }
 
 .text-3-1 {
@@ -180,8 +180,8 @@
     padding: 20px 20px 70px 25px;
     border: #002443ff 10px double;
     outline-width: 1px;
-    
-    
+
+
 }
 
 .text-3-2 {
@@ -201,23 +201,23 @@
     width: 350px;
     top: 40%;
     left: 46%;
-    
+
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
 
-    border: 1px solid #004483ff;       
+    border: 1px solid #004483ff;
 
-    
-    
+
+
     background-image: linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
-                    linear-gradient(#007df1ff, #007df1ff);    
+                    linear-gradient(#007df1ff, #007df1ff);
     background-repeat: no-repeat;
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
     padding: 2px;
-    
+
 }
 
 
@@ -239,7 +239,7 @@
     padding: 50px 55px 50px 30px;
     border: #002443ff 10px double;
     outline-width: 1px;
-    
+
 }
 
 .text-4-1{
@@ -258,14 +258,14 @@
     box-shadow: 13px 13px 13px 1px rgba(0, 0, 0);
     z-index: 1;
 
-    border: 1px solid #004483ff;       
+    border: 1px solid #004483ff;
 
-    
-    
+
+
     background-image: linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
                     linear-gradient(#007df1ff, #007df1ff),
-                    linear-gradient(#007df1ff, #007df1ff);    
+                    linear-gradient(#007df1ff, #007df1ff);
     background-repeat: no-repeat;
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
@@ -311,7 +311,7 @@ font-style: italic;
       visibility: initial;
       background-color: #00172A;
     }
-  } 
+  }
   html{
     cursor:url(/assets/img/cursor.png), auto;
   }

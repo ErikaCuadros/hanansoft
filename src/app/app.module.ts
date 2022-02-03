@@ -25,6 +25,7 @@ import { ExperienciaComponent } from './Components/experiencia/experiencia.compo
 import { PruebaComponent } from './Components/prueba/prueba.component';
 import { NguCarouselModule } from '@ngu/carousel';
 import { NavComponent } from './Components/nav/nav.component';
+import { ChatComponent} from './Components/chat/chat.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -50,8 +51,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ExperienciaComponent,
     PruebaComponent,
     NavComponent,
-    
-    
+    ChatComponent,
   ],
   imports: [
     BrowserModule,
