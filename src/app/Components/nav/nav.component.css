@@ -2,7 +2,7 @@
 .color1{
     background-color: #00172A;
     color: white;
-    
+
 }
 .nav__logo{
   position: absolute;
@@ -32,6 +32,7 @@
   position: absolute;
   margin-left: 630px;
   margin-top: 80px;
+  background: url('/assets/img/img/nosotros.png')
 }
 
 
@@ -70,7 +71,7 @@
 .text1{
   color: #00172A; /* Fallback for older browsers */
   color: rgba(#00172A);
-  
+
 }
 @media only screen and (max-width: 700px) {
   .hola1 {
