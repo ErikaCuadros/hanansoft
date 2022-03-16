@@ -1,96 +1,92 @@
-
-.color1{
-    background-color: #00172A;
-    color: white;
-
-}
-.nav__logo{
-  position: absolute;
-  margin-left: 350px;
-  margin-top: -20px;
-  width: 150px;
-  height: 200px;
-}
-.nav__home{
-  font-family: 'Orbitron', sans-serif;
-  color: #00ffff;
-  position: absolute;
-  margin-top: 105px;
-  margin-left: 395px;
-
-}
-.nav__barra{
-    position: absolute;
-    margin-top: 3%;
+.bg-ketanolab {
+    background-image: url("../../../assets/img/Inicio/bara.svg");
+    background-repeat: no-repeat;
+    background-position-y: 60px;
   }
-.nav__item-1{
-  position: absolute;
-  margin-left: 570px;
-  margin-top: 65px;
+
+a {
+    font-family: 'Orbitron';
+    color: #fff;
+    font-size: 15px;
 }
-.nav__nosotros{
-  position: absolute;
-  margin-left: 630px;
-  margin-top: 80px;
-  background: url('/assets/img/img/nosotros.png')
+
+.navbar-nav {
+    margin-left: 150px;
+} 
+
+ .navbar-brand {
+    width: 150px;
+    line-height: 1;
 }
 
 
-.nav__item-2{
-  position: absolute;
-  margin-left: 760px;
-  margin-top: 65px;
-}
-.nav__experiencia{
-  position: absolute;
-  margin-left: 830px;
-  margin-top: 80px;
+.nav-link {
+    line-height: 9.5;
+    text-transform: uppercase;
 }
 
-.nav__item-3{
-  position: absolute;
-  margin-left: 1060px;
-  margin-top: 65px;
-}
-.nav__aliados{
-  position: absolute;
-  margin-left: 1130px;
-  margin-top: 80px;
+.nav-link-1 {
+    margin-left: 40px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 60px;
+    padding-right: 15px;   
 }
 
-.nav__item-4{
-  position: absolute;
-  margin-left: 1250px;
-  margin-top: 65px;
+.nav-link-1, .nav-link-1::before {
+    background-image: url("../../../assets/img/img/nosotros.png");
+    background-repeat: no-repeat;
+    /*background-color: saddlebrown;*/
 }
-.nav__virtual{
-  position: absolute;
-  margin-left: 1310px;
-  margin-top: 80px;
-}
-.text1{
-  color: #00172A; /* Fallback for older browsers */
-  color: rgba(#00172A);
 
-}
-@media only screen and (max-width: 700px) {
-  .hola1 {
-    visibility: hidden;
+.nav-link-2 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 65px;
+    padding-right: 20px;
   }
-}
-.text{
-  font-family: 'Orbitron';
-  color: #00ffff;
-  font-size: 15px;
 
+.nav-link-2, .nav-link-2::before {
+    background-image: url("../../../assets/img/img/nuestra-experiencia.png");
+    background-repeat: no-repeat;
 }
 
-.text:hover{
-  color: #000000;
+.nav-link-3 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 70px;
+    padding-right: 27px;
 }
-body{
-  cursor:url(/assets/img/cursor.png), auto;
+
+.nav-link-3 {
+    background-image: url("../../../assets/img/img/aliados.png");
+    background-repeat: no-repeat;
 }
-a{
-  cursor:url(/assets/img/cursor.png), auto;
+
+.nav-link-4{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 65px;
+    padding-right: 17px;
+}
+
+.nav-link-4 {
+    background-image: url("../../../assets/img/img/oficina-virtual.png");
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 500px){
+    .navbar-nav {
+        margin-left: 0px;
+    }
+
+    .nav-link {
+        line-height: 1.8;
+    }
+
+    .nav-link-1 {
+        margin-left: 0px;
+        margin-right: opx;
+        margin-top: 5px;
+      }
 }
