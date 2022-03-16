@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-/* a{
-    cursor: url ("../../assets/img/cursor.png");
-} */
 .img-1 {
     position: absolute;
     width: 350px;
@@ -300,22 +296,4 @@ font-family: alibaba-sans, sans-serif;
 font-weight: 400;
 font-style: italic;
 }
-.text{
-    font-family: 'Orbitron';
-}
-.navres{
-    visibility: hidden;
-  }
-  @media only screen and (max-width: 600px) {
-    .navres {
-      visibility: initial;
-      background-color: #00172A;
-    }
-  }
-  html{
-    cursor:url(/assets/img/cursor.png), auto;
-  }
-  a{
-    cursor:url(/assets/img/cursor.png), auto;
-  }
 
