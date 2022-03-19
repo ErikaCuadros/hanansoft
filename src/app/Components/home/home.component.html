@@ -1,27 +1,23 @@
-<div class="home">
-  <picture>
-    <img src="../../assets/img/Home/home.png" />
-  </picture>
-
-  <picture>
-    <img class="home__text" src="../../assets/img/keta.png" />
-  </picture>
-
-  <picture>
-    <img class="home__candado" routerLink="/inicio" src="../../assets/img/Home/candado.svg" />
-  </picture>
-
-  <picture class="home__redes">
-
-    <a href="https://www.facebook.com/ketanolabsrl/" target="blank"><img class="home__redes-facebook" src="../../assets/img/Home/facebook.svg" /></a>
-    <a href="https://twitter.com/KetanoLab" target="blank"><img class="home__redes-in" src="../../assets/img/Home/in.svg" /></a>
-    <a href="https://www.linkedin.com/company/76603728/" target="blank"><img class="home__redes-twiter" src="../../assets/img/Home/twiter.svg" /></a>
-
-  </picture>
-
-  <div class="home__centrado">
-    <a routerLink="/inicio">{{ "HOME.SERVICES" | translate }}</a>
+<div class="home-container">
+  <div class="d-flex justify-content-center">
+    <div class=""><img class="home-logo" src="../../assets/img/keta.png" /></div>
   </div>
-</div>
+  
+  <div class="d-flex justify-content-center">
+    <div class="p-2"><img class="home-candado" routerLink="/inicio" src="../../assets/img/Home/candado.svg" />
+    </div>
+  </div>
+  
+  <div class="d-flex justify-content-center">
+    <div class=""><a routerLink="/inicio">{{ "HOME.SERVICES" | translate }}</a>
+    </div>
+  </div>
 
+  <div class="d-flex justify-content-end pr-5">
+    <a href="https://www.facebook.com/ketanolabsrl/" target="blank"><img class="px-2 home-facebook" src="../../assets/img/Home/facebook.svg" /></a>
+    <a href="https://twitter.com/KetanoLab" target="blank"><img class="px-2 home-in" src="../../assets/img/Home/in.svg" /></a>
+    <a href="https://www.linkedin.com/company/76603728/" target="blank"><img class="px-2 home-twiter" src="../../assets/img/Home/twiter.svg" /></a>
+  </div>
+  
+</div>
 
