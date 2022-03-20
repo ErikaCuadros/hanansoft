@@ -1,51 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-* {
-    font-family: 'Orbitron', sans-serif;
-}
-
-.home {
-    position: relative;
+.home-container {
+    background-image: url("../../../assets/img/Home/home.png");
+    background-size: cover;
+    background-repeat: no-repeat;    
     height: 100vh;
-    overflow: hidden;
 }
 
-.home__text {
-    position: absolute;
-    top: 20%;
-    left: 20%;
+.home-logo {
+    height: auto;
+    width: auto;
+    margin-top: 18vh;
+    max-height: 500px;
 }
 
-.home__candado {
-    position: absolute;
+.home-candado {
     width: 150px;
     height: 150px;
-    top: 67.5%;
-    left: 46.3%;
 }
 
-.home__redes-twiter {
-    position: absolute;
-    bottom: 2%;
-    right: 4%;
+.home-twiter {
+    width: 75px;
 }
 
-.home__redes-in{
-    position: absolute;
-    bottom:3%;
-    right: 8.3%;
+.home-in{
+    width: 75px;
 }
 
-.home__redes-facebook{
-    position: absolute;
-    bottom: 2.1%;
-    right: 12%;
+.home-facebook{
+    width: 75px;
 }
 
-.home__centrado{
-    position: absolute;
-    top: 81%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #00DEF2;
-    font-size: 1.1rem;
-}
