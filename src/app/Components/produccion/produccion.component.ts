@@ -8,11 +8,15 @@ import { ElementRef } from '@angular/core';
 })
 export class ProduccionComponent implements OnInit {
 
-  constructor(private elementRef: ElementRef) { }
+  constructor(private elementRef: ElementRef) { 
+    this.estado = true;
+
+  }
 
   ngOnInit(): void {
   }
   ngAfterViewInit(){
     this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#00172A';
   }
+  estado: boolean;
 }

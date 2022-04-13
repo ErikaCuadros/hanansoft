@@ -1,33 +1,33 @@
 <app-nav></app-nav>
 <div class="container, align-top">
-<div class="container, align-top" (mouseover)="estado=true" (mouseout)="estado=false">
-    <div *ngIf="!estado" class="row justify-content-center">
-    <div class="col-auto posicion">
-        <div class="figura">
-            <p class="pt-6 ml-1 fuente">{{"DIGITAL-ART.TITLE" | translate}}</p>
-        </div>
-        <img src="../../../assets/img/Recurso 11.png" class="img1" alt="">
+<div class="container, align-top" (click)="estado=!estado">
+<div *ngIf="estado" class="row justify-content-center">
+<div class="col-auto posicion">
+    <div class="figura">
+        <p class="pt-6 ml-1 fuente">{{"DIGITAL-ART.TITLE" | translate}}</p>
     </div>
-    <div class="col col-md-3 ml-2 color">
-        <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-        <p class=" pb-6 pt-6 h6 p-5">{{"DIGITAL-ART.PARAGRAPH" | translate}}</p>
+    <img src="../../../assets/img/Recurso 11.png" class="img1" alt="">
+</div>
+<div class="col col-md-3 ml-2 color">
+    <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+    <p class=" pb-6 pt-6 h6 p-5">{{"DIGITAL-ART.PARAGRAPH" | translate}}</p>
+</div>
+</div>
+<!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
+<div *ngIf="!estado" class="row justify-content-center">
+<div class="col-auto posicion">
+    <div class="figura">
+        <p class="pt-6 ml-1 fuente">{{"DIGITAL-ART.TITLE" | translate}}</p>
+</div>
+<img style="width: 28m; height: 10em" src="../../../assets/img/Recurso 11.png" class="img1" alt="">
+    </div>
+<div class="offset-1 col-10 color p-7">
+    <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
+        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
+        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
+        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
     </div>
 </div>
-<!-- Aquí para abajo es la nueva parte que aparece al realizar mouseover-->
-<div *ngIf="estado" class="row justify-content-center">
-    <div class="col-auto posicion">
-        <div class="figura">
-            <p class="pt-6 ml-1 fuente">{{"DIGITAL-ART.TITLE" | translate}}</p>
-    </div>
-    <img style="width:400px; height:200px" src="../../../assets/img/Recurso 11.png" class="img1" alt="">
-        </div>
-    <div *ngIf="estado" class="offset-1 col-10 color p-7">
-        <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-            <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-            <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-            <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-            <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-        </div>
-    </div>
 </div>
 </div>

@@ -1,15 +1,32 @@
 <app-nav></app-nav>
-<div class="container, align-top">
-    <div class="row justify-content-center">
-        <div class="col-auto posicion">
-            <div class="figura">
-                <p class="pt-6 ml-1 fuente">{{"DIGITAL-PROJECTS.TITLE" | translate}}</p>
-            </div>
-            <img src="../../../assets/img/proyecDigi.svg" class="img1" alt="">
+<div class="container, align-top" (mouseover)="estado=true" (mouseout)="estado=false">
+<div *ngIf="!estado" class="container, align-top">
+<div class="row justify-content-center">
+    <div class="col-auto posicion">
+        <div class="figura">
+            <p class="pt-6 ml-1 fuente">{{"DIGITAL-PROJECTS.TITLE" | translate}}</p>
         </div>
-        <div class="col col-md-3 ml-2 color p-7">
-            <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-            <p class=" pb-6 pt-6 h6">{{"DIGITAL-PROJECTS.PARAGRAPH" | translate}}</p>
+        <img src="../../../assets/img/proyecDigi.svg" class="img1" alt="">
+    </div>
+    <div class="col col-md-3 ml-2 color p-7">
+        <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+        <p class=" pb-6 pt-6 h6">{{"DIGITAL-PROJECTS.PARAGRAPH" | translate}}</p>
+    </div>
+    </div>
+</div>
+<!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
+<div *ngIf="estado" class="container, align-top">
+<div class="row justify-content-center">
+    <div class="col-auto posicion">
+        <div class="figura">
+            <p class="pt-6 ml-1 fuente">{{"DIGITAL-PROJECTS.TITLE" | translate}}</p>
         </div>
-        </div>
+        <img style="width: 28m; height: 15em" src="../../../assets/img/proyecDigi.svg" class="img1" alt="">
+    </div>
+    <div class="offset-1 col-10 color p-7">
+        <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+        <p class=" pb-6 pt-6 h6">{{"DIGITAL-PROJECTS.PARAGRAPH" | translate}}</p>
+    </div>
+    </div>
+</div>
 </div>

@@ -2,20 +2,20 @@ import { Component, OnInit } from '@angular/core';
 import { ElementRef } from '@angular/core';
 
 @Component({
-  selector: 'app-arte',
-  templateUrl: './arte.component.html',
-  styleUrls: ['./arte.component.css']
+selector: 'app-arte',
+templateUrl: './arte.component.html',
+styleUrls: ['./arte.component.css']
 })
 export class ArteComponent implements OnInit {  
 
-  constructor(private elementRef: ElementRef) { 
-    this.estado = true;
-  }
+constructor(private elementRef: ElementRef) { 
+this.estado = true;
+}
 
-  ngOnInit(): void {
-  }
-  ngAfterViewInit(){
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#00172A';
-  }
-  estado: boolean;
+ngOnInit(): void {
+}
+ngAfterViewInit(){
+this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#00172A';
+}
+estado: boolean;
 }
