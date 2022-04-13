@@ -1,33 +1,28 @@
-<app-nav></app-nav>
-<div class="container, align-top">
-<div class="container, align-top" (click)="estado=!estado">
-<div *ngIf="estado" class="row justify-content-center">
-<div class="col-auto posicion">
-    <div class="figura">
-        <p class="pt-6 ml-1 fuente">{{"DIGITAL-ART.TITLE" | translate}}</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="color1">
+    <app-nav></app-nav>
+    <app-navbar class="navres"></app-navbar>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto posicion">
+                <div class="figura">
+                    <p class="pt-6 ml-1 fuente">{{"DIGITAL-ART.TITLE" | translate}}</p>
+                </div>
+              <img src="../../../assets/img/Recurso 11.png" class="img1" alt="">
+            </div>
+            <div class="col col-md-3 ml-2 color">
+                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+                <p class=" pb-6 pt-6 h6">{{"DIGITAL-ART.PARAGRAPH" | translate}}</p>
+            </div>
+          </div>
     </div>
-    <img src="../../../assets/img/Recurso 11.png" class="img1" alt="">
-</div>
-<div class="col col-md-3 ml-2 color">
-    <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-    <p class=" pb-6 pt-6 h6 p-5">{{"DIGITAL-ART.PARAGRAPH" | translate}}</p>
-</div>
-</div>
-<!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
-<div *ngIf="!estado" class="row justify-content-center">
-<div class="col-auto posicion">
-    <div class="figura">
-        <p class="pt-6 ml-1 fuente">{{"DIGITAL-ART.TITLE" | translate}}</p>
-</div>
-<img style="width: 28m; height: 10em" src="../../../assets/img/Recurso 11.png" class="img1" alt="">
-    </div>
-<div class="offset-1 col-10 color p-7">
-    <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-    </div>
-</div>
-</div>
-</div>
+    <br><br>
+</body>
+</html>
+
