@@ -25,4 +25,20 @@ body {
     font-size: 20px;
     cursor:url(/assets/img/cursor.png), auto;
 
+}   
+
+.servicios-box{
+    background-color: #05253f;
+    text-align: justify;
+    margin: 3rem 1rem 3rem 1rem;
+    outline: 6px double rgb(48, 74, 124);
+    outline-offset: 10px;
+}
+
+.servicios-solapa {
+    width: 300px;
+    height: 50px;
+    border-right: 60px solid transparent;
+    border-bottom: 75px solid #0a3457;  
+    padding-bottom: 1rem;   
 }
