@@ -6,13 +6,16 @@ import { ElementRef } from '@angular/core';
   templateUrl: './arte.component.html',
   styleUrls: ['./arte.component.css']
 })
-export class ArteComponent implements OnInit {
+export class ArteComponent implements OnInit {  
 
-  constructor(private elementRef: ElementRef) { }
+  constructor(private elementRef: ElementRef) { 
+    this.estado = true;
+  }
 
   ngOnInit(): void {
   }
   ngAfterViewInit(){
     this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#00172A';
   }
+  estado: boolean;
 }
