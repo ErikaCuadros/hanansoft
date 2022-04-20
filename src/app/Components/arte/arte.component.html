@@ -1,33 +1,45 @@
 <app-nav></app-nav>
-<div class="container, align-top">
-<div class="container, align-top" (click)="estado=!estado">
-<div *ngIf="estado" class="row justify-content-center">
-<div class="col-auto posicion">
-    <div class="figura">
-        <p class="pt-6 ml-1 fuente">{{"DIGITAL-ART.TITLE" | translate}}</p>
-    </div>
-    <img src="../../../assets/img/Recurso 11.png" class="img1" alt="">
-</div>
-<div class="col col-md-3 ml-2 color">
-    <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-    <p class=" pb-6 pt-6 h6 p-5">{{"DIGITAL-ART.PARAGRAPH" | translate}}</p>
-</div>
-</div>
+    <div class="container" (click)="estado=!estado">
+        <div *ngIf="estado" class="row justify-content-center">
+            <div class="col-auto">
+                <div class="figura">
+                    <p class="pt-6 ml-1">{{"DIGITAL-ART.TITLE" | translate}}</p>
+                </div>
+                <img src="../../../assets/img/Recurso 11.png" class="img1" alt="">
+            </div>
+            <div class="col col-md-3 ml-2 servicios-box">
+                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+                <p class=" pb-6 pt-6 h5 small"> {{"DIGITAL-ART.PARAGRAPH" | translate}}</p>
+            </div>
+        </div>
+
 <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
-<div *ngIf="!estado" class="row justify-content-center">
-<div class="col-auto posicion">
-    <div class="figura">
-        <p class="pt-6 ml-1 fuente">{{"DIGITAL-ART.TITLE" | translate}}</p>
-</div>
-<img style="width: 28m; height: 10em" src="../../../assets/img/Recurso 11.png" class="img1" alt="">
+
+        <div *ngIf="!estado" class="row justify-content-center">
+            <div class="col-auto">
+                <div class="figura">
+                    <p class="pt-6 ml-1">{{"DIGITAL-ART.TITLE" | translate}}</p>
+                </div>
+                <img src="../../../assets/img/Recurso 11.png" class="img1_v2" alt="">
+            </div>
+            <div class="offset-1 col-10 servicios-box">
+                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+                <p class=" pb-6 pt-10"> ¿Qué es el Arte Digital? </p>
+                <p class=" pb-6 pt-10">Los NFTs son una forma de darle valor agregado al arte en forma digital, funciona agregando una firma única e indeleble al archivo digital donde se encuentra la obra dentro de una red de blockchain, este proceso genera un token que tiene un carácter no fungible (el NFT).</p>
+                <p class=" pb-6 pt-10">Si bien las obras de arte digital con NFT se comercializan a partir de criptomonedas, pueden ser convertidas a una moneda como FIAT, como dólares, euros, etc.</p>
+                <p class=" pb-6 pt-10">Coaching NFT</p>
+                <p class=" pb-6 pt-10">La variedad de arte que se puede producir en ambientes digitales es fascinante, desde arte generativo, ilustración digital, arte glitch / gif, collage de video, arte con IA, obras de arte realizadas en realidad virtual, etc. Nosotros  te ofrecemos un espacio para potenciar tus habilidades, apoyándote en la experimentación. </p>
+                <p class=" pb-6 pt-10">Ofrecemos asesoría personalizada en los siguientes temas: </p>
+                <p class=" pb-6 pt-10">El mercado del coleccionismo y en qué se diferencia del mercado     de obras en masa. </p>
+                <p class=" pb-6 pt-10">Por qué le debe interesar a un artista la blockchain. </p>
+                <p class=" pb-6 pt-10">Qué puede ser y qué NO puede ser un NFT </p>
+                <p class=" pb-6 pt-10">Derechos de autor ¿Qué pasa con los derechos de mi obra con los NFT? </p>
+                <p class=" pb-6 pt-10">¿Qué pasa si piratean mi obra? </p>
+                <p class=" pb-6 pt-10">Creación de perfil en una plataforma de NFT </p>
+                <p class=" pb-6 pt-10">Creación de billeteras digitales </p>
+                <p class=" pb-6 pt-10">Producción de NFTs desde cero. </p>
+                <p class=" pb-6 pt-10">Cómo mejorar las ventas de tus NFT. </p>
+                <p class=" pb-6 pt-10">Cómo convertir el dinero que ganas por la venta del NFT a dólares o moneda local.</p>
+            </div>
+        </div>
     </div>
-<div class="offset-1 col-10 color p-7">
-    <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-        <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-    </div>
-</div>
-</div>
-</div>

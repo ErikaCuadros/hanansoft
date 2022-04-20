@@ -1,31 +1,30 @@
 <app-nav></app-nav>
-<div class="container, align-top">
-<div class="container, align-top" (mouseover)="estado=true" (mouseout)="estado=false">
-<div *ngIf="!estado" class="row justify-content-center">
-    <div class="col-auto posicion">
-        <div class="figura">
-            <p class="pt-6 ml-1 fuente">{{"APPS.TITLE" | translate}}</p>
+    <div class="container" (mouseover)="estado=true" (mouseout)="estado=false">
+        <div *ngIf="!estado" class="row justify-content-center">
+            <div class="col-auto">
+                <div class="figura">
+                    <p class="pt-6 ml-1">{{"APPS.TITLE" | translate}}</p>
+                </div>
+                <img src="../../../assets/img/app.png" class="img1" alt="">
+            </div>
+            <div class="col col-md-3 ml-2 servicios-box">
+                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+                <p class="pt-4 small">{{"APPS.PARAGRAPH" | translate}}</p>
+            </div>
         </div>
-        <img src="../../../assets/img/app.png" class="img1" alt="">
-    </div>
-    <div class="col col-md-3 ml-2 color p-7">
-        <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-        <p class="pt-4 h6">{{"APPS.PARAGRAPH" | translate}}</p>
-    </div>
-    </div>
 
 <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
-<div *ngIf="estado" class="row justify-content-center">
-<div class="col-auto posicion">
-    <div class="figura">
-        <p class="pt-6 ml-1 fuente">{{"APPS.TITLE" | translate}}</p>
+
+        <div *ngIf="estado" class="row justify-content-center">
+            <div class="col-auto">
+                <div class="figura">
+                    <p class="pt-6 ml-1">{{"APPS.TITLE" | translate}}</p>
+                </div>
+                <img src="../../../assets/img/app.png" class="img1_v2" alt="">
+            </div>
+            <div class="offset-1 col-10 servicios-box">
+                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+                <p class="pt-4 small">{{"APPS.PARAGRAPH" | translate}}</p>
+            </div>
+        </div>
     </div>
-    <img style="width: 28m; height: 10em" src="../../../assets/img/app.png" class="img1" alt="">
-</div>
-<div class="offset-1 col-10 color p-7">
-    <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-    <p class="pt-4 h6">{{"APPS.PARAGRAPH" | translate}}</p>
-</div>
-</div>
-</div>
-</div>

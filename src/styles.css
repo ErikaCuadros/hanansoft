@@ -24,5 +24,74 @@ body {
     font-weight: 500;
     font-size: 20px;
     cursor:url(/assets/img/cursor.png), auto;
+}
 
+.servicios-box{
+    background-color: #05253f;
+    text-align: justify;
+    margin: 4rem;
+    outline: 6px double rgb(48, 74, 124);
+    outline-offset: 10px;
+    padding: 1rem;
+}
+
+.figura{
+    width: 300px;
+    height: 50px;
+    border-right: 60px solid transparent;
+    border-bottom: 75px solid #0a3457;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.img1{
+    box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);  
+    border: 1px solid #004483ff;       
+    background-image: linear-gradient(#007df1ff, #007df1ff),
+    linear-gradient(#007df1ff, #007df1ff),
+    linear-gradient(#007df1ff, #007df1ff),
+    linear-gradient(#007df1ff, #007df1ff);    
+    background-repeat: no-repeat;
+    background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
+    background-position: left bottom, left bottom, right top, right top, 1px 1px;
+    padding: 2px;
+    outline: 2px solid #004483ff;
+    outline-offset: -5px;
+    width: 38rem;
+    height: 24rem;
+}
+
+/* Creé la clase "img1_v2" para cambiar el tamaño de la imgen 1, 
+pero después de la interacción con la acción del mouse */
+
+.img1_v2{
+    box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);  
+    border: 1px solid #004483ff;       
+    background-image: linear-gradient(#007df1ff, #007df1ff),
+    linear-gradient(#007df1ff, #007df1ff),
+    linear-gradient(#007df1ff, #007df1ff),
+    linear-gradient(#007df1ff, #007df1ff);    
+    background-repeat: no-repeat;
+    background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
+    background-position: left bottom, left bottom, right top, right top, 1px 1px;
+    padding: 2px;
+    outline: 2px solid #004483ff;
+    outline-offset: -5px;
+    width: 24rem;
+    height: 14rem;
+}
+
+.img2{
+    position:absolute;
+    width: 510px;
+    height: 259px;
+    margin-top: 4px;
+    margin-left: -5px;
+}
+
+@media only screen and (max-width: 700px) {
+.img2 {
+    width: 545px;
+    height: 250px;
+}
 }

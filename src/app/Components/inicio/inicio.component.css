@@ -1,47 +1,268 @@
+/* Altura de la página, y de las dos filas */
+
 .inicio-container {
+    height: 100vh;
+}
+
+.fila-1, .fila-2 {
     height: 80vh;
 }
 
-.fila-1, .fila-2{
-    height: 50%;
-}
-
-.div-estrategia {
-    position: relative;
-    left: 200px;
-    top: 80px;
-}
-
-    .estrategia-block-1 {
-        position: relative;
-        bottom: 250px;
-        left: 280px;
+@media (max-width: 767px) {
+    
+    .fila-1, .fila-2{
+        height: 230vh;
     }
-
-.div-blockchain {
-    position: relative;
-    left: 250px;
-    top: 50px;
 }
 
-.div-digitales {
+/* Inicio del estilo para las imágenes centrales */
+
+/* Tamaño y posición de las imágenes sin escalar */
+.img-container-estrategias {
     position: relative;
-    left: 170px;
-    top: 50px;
+    text-align: center;
+    width: 22rem;
+    top: 11rem;
+    left: 9rem;
 }
 
-.div-metaverso {
+.img-container-blockchain {
     position: relative;
-    left: 450px;
-    top: 100px;
+    text-align: center;
+    width: 22rem;
+    top: 11rem;
+    left: 9rem;}
+
+.img-container-digitales {
+    position: relative;
+    text-align: center;
+    width: 22rem;
+    top: 14rem;
+    left: 9rem;
 }
 
-.div-hunting {
+.img-container-metaverso {
     position: relative;
-    left: 150px;
-    top: 150px;
-    width: 360px;
+    text-align: center;
+    width: 22rem;
+    top: 12rem;
+    left: 9rem;
 }
+
+/* Tamaño y posición de las imágenes centrales abajo de los 1300px */
+
+@media (max-width: 1300px) {
+    .img-container-estrategias {
+        position: relative;
+        text-align: center;
+        width: 22rem;
+        top: 11rem;
+        left: 4rem;
+    }
+    
+    .img-container-blockchain {
+        position: relative;
+        text-align: center;
+        width: 22rem;
+        top: 10rem;
+        left: 17rem;}
+    
+    .img-container-digitales {
+        position: relative;
+        text-align: center;
+        width: 22rem;
+        top: 13rem;
+        left: 4rem;
+    }
+    
+    .img-container-metaverso {
+        position: relative;
+        text-align: center;
+        width: 22rem;
+        top: 12rem;
+        left: 17rem;
+    }
+        
+}
+
+/* Tamaño y posición de las imágenes centrales abajo de 767px */
+
+@media (max-width: 767px) {
+
+.img-container-estrategias {
+    position: relative;
+    text-align: center;
+    width: 22rem;
+    top: 11rem;
+    left: 14rem;
+}
+
+.img-container-blockchain {
+    position: relative;
+    text-align: center;
+    width: 22rem;
+    top: 10rem;
+    left: 14rem;}
+
+.img-container-digitales {
+    position: relative;
+    text-align: center;
+    width: 22rem;
+    top: 13rem;
+    left: 13rem;
+}
+
+.img-container-metaverso {
+    position: relative;
+    text-align: center;
+    width: 22rem;
+    top: 12rem;
+    left: 14rem;
+}
+
+}
+
+/* Fin de la sección de las clases de estilo para las imágenes centrales*/
+
+/* Inicio de las Imágenes Satélites */
+
+.servicios-box-estrategia-1 {
+    z-index: 2;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 2rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    max-width: 150px;
+    display: block;
+    font-size: 15px;
+    top: -8rem;
+    left: 28rem;
+}
+
+.servicios-box-estrategia-2 {
+    z-index: 2;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 2rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    max-width: 150px;
+    display: block;
+    font-size: 15px;
+    top: 6rem;
+    left: 2rem;
+}
+
+.servicios-box-blockchain-1 {
+    z-index: 2;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 2rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    max-width: 150px;
+    display: block;
+    font-size: 15px;
+    top: 12rem;
+    left: 4rem;
+}
+
+
+.servicios-box-digitales-1 {
+    z-index: 2;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 2rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    max-width: 150px;
+    display: block;
+    font-size: 15px;
+    top: -5rem;
+    left: 3rem;
+}
+
+.servicios-box-digitales-2 {
+    z-index: 2;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 2rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    max-width: 150px;
+    display: block;
+    font-size: 15px;
+    top: 9rem;
+    left: 28rem;
+}
+
+.servicios-box-metaverso-1 {
+    z-index: 2;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 2rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    max-width: 150px;
+    display: block;
+    font-size: 15px;
+    top: -10rem;
+    left: 2rem;
+}
+
+.servicios-box-metaverso-2 {
+    z-index: 2;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 2rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    max-width: 150px;
+    display: block;
+    font-size: 15px;
+    top: 5rem;
+    left: 2rem;
+}
+
+.servicios-box-metaverso-3 {
+    z-index: 2;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 2rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    max-width: 150px;
+    display: block;
+    font-size: 15px;
+    top: -22rem;
+    left: 29rem;
+}
+
+.servicios-box-metaverso-4 {
+    z-index: 2;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 2rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    max-width: 150px;
+    display: block;
+    font-size: 15px;
+    top: -7rem;
+    left: 29rem;
+}
+
+/* Escalar contenido para mejorar la responsividad */
 
 @media (max-width: 500px){
     .div-estrategia {
@@ -68,23 +289,10 @@
         top: 0px;
     }
 
-    .div-hunting {
-        position: relative;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-    }
 
     .fila-1, .fila-2{
         height: 100%;
     }
-}
-
-.img-container {
-    position: relative;
-    text-align: center;
-    color: white;
-    width: 350px;
 }
 
 .centered {
@@ -120,11 +328,3 @@
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
     padding: 2px;
 }
-
-
-.fuente {
-font-family: alibaba-sans, sans-serif;
-font-weight: 400;
-font-style: italic;
-}
-
