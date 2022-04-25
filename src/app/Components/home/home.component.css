@@ -24,7 +24,7 @@
     margin-top: 18vh;
     max-height: 1000px;
     z-index: 1;
-    top: -300px;
+    top: -200px;
     filter: brightness(50%);
    
 }
@@ -57,7 +57,7 @@
   }
 }
 .home-sombra{
-animation: fadeIn 1s infinite linear;
+animation: fadeIn 4s infinite linear;
 }
 
 
