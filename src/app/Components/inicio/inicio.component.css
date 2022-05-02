@@ -1,125 +1,57 @@
-/* Altura de la página, y de las dos filas */
+/* Altura máxima de la página, y de las dos filas */
 
-.inicio-container {
-    height: 100vh;
+.iniciocontainer {
+    max-height: 60rem;
 }
 
-.fila-1, .fila-2 {
-    height: 80vh;
+.fila-1{
+    max-height: 30rem;
 }
 
-@media (max-width: 767px) {
-    
-    .fila-1, .fila-2{
-        height: 230vh;
-    }
+#columa-2 {
+    max-height: 20rem;
+} 
+
+#columna-II {
+    max-height: 22rem;
 }
 
 /* Inicio del estilo para las imágenes centrales */
 
-/* Tamaño y posición de las imágenes sin escalar */
 .img-container-estrategias {
-    position: relative;
-    text-align: center;
-    width: 22rem;
-    top: 11rem;
-    left: 9rem;
-}
-
-.img-container-blockchain {
-    position: relative;
-    text-align: center;
-    width: 22rem;
-    top: 11rem;
-    left: 9rem;}
-
-.img-container-digitales {
     position: relative;
     text-align: center;
     width: 22rem;
     top: 14rem;
-    left: 9rem;
-}
-
-.img-container-metaverso {
-    position: relative;
-    text-align: center;
-    width: 22rem;
-    top: 12rem;
-    left: 9rem;
-}
-
-/* Tamaño y posición de las imágenes centrales abajo de los 1300px */
-
-@media (max-width: 1300px) {
-    .img-container-estrategias {
-        position: relative;
-        text-align: center;
-        width: 22rem;
-        top: 11rem;
-        left: 4rem;
-    }
-    
-    .img-container-blockchain {
-        position: relative;
-        text-align: center;
-        width: 22rem;
-        top: 10rem;
-        left: 17rem;}
-    
-    .img-container-digitales {
-        position: relative;
-        text-align: center;
-        width: 22rem;
-        top: 13rem;
-        left: 4rem;
-    }
-    
-    .img-container-metaverso {
-        position: relative;
-        text-align: center;
-        width: 22rem;
-        top: 12rem;
-        left: 17rem;
-    }
-        
-}
-
-/* Tamaño y posición de las imágenes centrales abajo de 767px */
-
-@media (max-width: 767px) {
-
-.img-container-estrategias {
-    position: relative;
-    text-align: center;
-    width: 22rem;
-    top: 11rem;
-    left: 14rem;
+    left: 25%;
+    z-index:2;
 }
 
 .img-container-blockchain {
     position: relative;
     text-align: center;
     width: 22rem;
-    top: 10rem;
-    left: 14rem;}
+    top: 13rem;
+    left: 25%;
+    z-index:2;
+}
 
 .img-container-digitales {
     position: relative;
     text-align: center;
     width: 22rem;
     top: 13rem;
-    left: 13rem;
+    left: 27%;
+    z-index:2;
 }
 
 .img-container-metaverso {
     position: relative;
     text-align: center;
     width: 22rem;
-    top: 12rem;
-    left: 14rem;
-}
-
+    top: 24vh;
+    left: 25%;
+    z-index:2;
 }
 
 /* Fin de la sección de las clases de estilo para las imágenes centrales*/
@@ -127,68 +59,68 @@
 /* Inicio de las Imágenes Satélites */
 
 .servicios-box-estrategia-1 {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     background-color: #001e36;
     padding: 1rem 2rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 150px;
+    max-width: 13rem;
     display: block;
     font-size: 15px;
-    top: -8rem;
-    left: 28rem;
+    top: -11rem;
+    left: 68%;
 }
 
 .servicios-box-estrategia-2 {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     background-color: #001e36;
     padding: 1rem 2rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 150px;
+    max-width: 14rem;
     display: block;
     font-size: 15px;
-    top: 6rem;
-    left: 2rem;
+    top: -2rem;
+    left: 1%;
 }
 
 .servicios-box-blockchain-1 {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     background-color: #001e36;
     padding: 1rem 2rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 150px;
+    max-width: 8rem;
     display: block;
     font-size: 15px;
-    top: 12rem;
-    left: 4rem;
+    top: 3rem;
+    left: 12%;
 }
 
 
 .servicios-box-digitales-1 {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     background-color: #001e36;
     padding: 1rem 2rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 150px;
+    max-width: 11rem;
     display: block;
     font-size: 15px;
-    top: -5rem;
-    left: 3rem;
+    top: -11rem;
+    left: 7%;
 }
 
 .servicios-box-digitales-2 {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     background-color: #001e36;
     padding: 1rem 2rem;
@@ -198,108 +130,79 @@
     max-width: 150px;
     display: block;
     font-size: 15px;
-    top: 9rem;
-    left: 28rem;
+    top: -2rem;
+    left: 69%;
 }
 
 .servicios-box-metaverso-1 {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     background-color: #001e36;
     padding: 1rem 2rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 150px;
+    max-width: 12rem;
     display: block;
     font-size: 15px;
-    top: -10rem;
-    left: 2rem;
+    top: -14rem;
+    left: 3%;
 }
 
 .servicios-box-metaverso-2 {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     background-color: #001e36;
     padding: 1rem 2rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 150px;
+    max-width: 12rem;
     display: block;
     font-size: 15px;
-    top: 5rem;
-    left: 2rem;
+    top: -3.5rem;
+    left: 3%;
 }
 
 .servicios-box-metaverso-3 {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     background-color: #001e36;
     padding: 1rem 2rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 150px;
+    max-width: 13rem;
     display: block;
     font-size: 15px;
-    top: -22rem;
-    left: 29rem;
+    top: -23rem;
+    left: 68%;
 }
 
 .servicios-box-metaverso-4 {
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     background-color: #001e36;
     padding: 1rem 2rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 150px;
+    max-width: 11rem;
     display: block;
     font-size: 15px;
-    top: -7rem;
-    left: 29rem;
+    top: -14.5rem;
+    left: 68%;
 }
 
-/* Escalar contenido para mejorar la responsividad */
-
-@media (max-width: 500px){
-    .div-estrategia {
-        position: relative;
-        left: 0px;
-        top: 0px;
-    }
-
-    .div-blockchain {
-        position: relative;
-        left: 0px;
-        top: 0px;
-    }
-
-    .div-digitales {
-        position: relative;
-        left: 0px;
-        top: 0px;
-    }
-
-    .div-metaverso {
-        position: relative;
-        left: 0px;
-        top: 0px;
-    }
-
-
-    .fila-1, .fila-2{
-        height: 100%;
-    }
-}
+/* Fin estilos de satélites */
 
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    top:-3vh;
+    z-index:2 ;
 }
 
 .servicios-box {
@@ -327,4 +230,136 @@
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
     padding: 2px;
+    position: relative;
+    top:-17vh;
+}
+
+/* Aquí empieza el responsive */
+
+@media (max-width: 1559px) {
+    
+    .servicios-box-estrategia-1 {
+        left: 69%;
+    }
+
+    .servicios-box-metaverso-4 {
+        left: 70%;
+    }
+}
+
+@media (max-width: 1530px) {
+    .servicios-box-blockchain-1 {
+        left: 10%;
+    }
+
+    .servicios-box-digitales-2 {
+        left: 70%;
+    }
+}
+
+@media (max-width: 1499px) {
+    .servicios-box-estrategia-1 {
+        left: 71%;
+    }
+
+    .servicios-box-digitales-2 {
+        left: 72%;
+    }
+
+    .servicios-box-metaverso-1 {
+        left: 1.5%;
+    }
+
+    .servicios-box-metaverso-2 {
+        left: 1.5%;
+    }
+
+    .servicios-box-metaverso-3 {
+        left: 71%;
+    }
+
+    .servicios-box-metaverso-4 {
+        left: 72%;
+    }
+}
+
+@media (max-width: 1459px) {
+    .servicios-box-estrategia-1 {
+        max-width: 10rem;
+        left: 73%;
+    }
+
+    .servicios-box-estrategia-2 {
+        max-width: 10rem;
+        top: -2rem;
+        left: 5%;
+    }
+
+    .servicios-box-digitales-1 {
+        left: 4%;
+    }
+
+    .servicios-box-digitales-2 {
+        left: 74%;
+    }
+}
+
+@media (max-width: 1419px) {
+    .servicios-box-metaverso-1 {
+        max-width: 10rem;
+        left: 4%;
+    }
+
+    .servicios-box-metaverso-2 {
+        top: -4.5rem;
+        left: 1%;
+    }
+
+    .servicios-box-metaverso-3 {
+        max-width: 8rem;
+        top: -25rem;
+        left: 74%;
+    }
+
+    .servicios-box-metaverso-4 {
+        top: -16.5rem;
+        left: 74%;
+    }
+
+}
+
+@media (max-width: 1379px) {
+    .servicios-box-estrategia-1 {
+        left: 76%;
+    }
+
+    .servicios-box-estrategia-2 {
+        left: 4%;
+    }
+
+    .servicios-box-blockchain-1 {
+        left: 7%;
+    }
+
+    .servicios-box-digitales-2 {
+        left: 77%;
+    }
+
+    .servicios-box-metaverso-2 {
+        max-width: 8rem;
+        top:-6rem;
+        left: 8%;
+    }
+
+    .servicios-box-metaverso-3 {
+        max-width: 8rem;
+        top:-26rem;
+        left: 76%;
+    }
+
+    .servicios-box-metaverso-4 {
+        max-width: 8rem;
+        top:-20rem;
+        left: 76%;
+    }
 }
