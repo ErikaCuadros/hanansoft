@@ -674,7 +674,10 @@ se le puede visibilziar completa, ordenada, y responsiva */
 los cambios al "navbar-nav" de aquí para abajo, afectan al menú "sánduche" */
 
 @media (max-width: 991px) {
-
+    #align-hamburguesa {
+        position: relative;
+        left: -10%;
+    }
     .brand-mobile {
         width: 75%;
 
@@ -692,7 +695,7 @@ los cambios al "navbar-nav" de aquí para abajo, afectan al menú "sánduche" */
     /* Aquí cambio el espacio entre los botones del nav, y su ubicación */
 
     .nav-link_1 {
-        border: 1px dashed red;
+        border: 1px dashed skyblue;
         position: relative;
         top:0rem;
         left: 34%;
@@ -701,7 +704,7 @@ los cambios al "navbar-nav" de aquí para abajo, afectan al menú "sánduche" */
     }
 
     .nav-link_2 {
-        border: 1px dashed red;
+        border: 1px dashed skyblue;
         position: relative;
         top:0rem;
         left: 34%;
@@ -710,7 +713,7 @@ los cambios al "navbar-nav" de aquí para abajo, afectan al menú "sánduche" */
     }
 
     .nav-link_3 {
-        border: 1px dashed red;
+        border: 1px dashed skyblue;
         position: relative;
         top:0em;
         left: 34%;
@@ -718,7 +721,7 @@ los cambios al "navbar-nav" de aquí para abajo, afectan al menú "sánduche" */
         height: 6rem;
     }   
     .nav-link_4 {
-        border: 1px dashed red;
+        border: 1px dashed skyblue;
         position: relative;
         top:0rem;
         left: 34%;
@@ -835,7 +838,6 @@ los cambios al "navbar-nav" de aquí para abajo, afectan al menú "sánduche" */
         margin-left: 2.7rem;      
     }
 }
-
 
 @media (max-width: 570px) {
 
