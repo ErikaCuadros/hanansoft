@@ -3,18 +3,81 @@
     background-size: cover;
     background-repeat: no-repeat;    
     height: 100vh;
+     
 }
 
+/*logo*/
+.logo{
+    height: 800px;
+    width: 800px;
+    margin-top: 18vh;
+    max-height: 1000px;
+    position: relative;
+    top: -150px;
+    left: 0px;
+}
+
+.home-sombra {
+    position: absolute;
+    height: 700px;
+    width: auto;
+    margin-top: 18vh;
+    max-height: 1000px;
+    z-index: 1;
+    top: -200px;
+    filter: brightness(50%);
+   
+}
 .home-logo {
+    position: absolute;
     height: auto;
     width: auto;
     margin-top: 18vh;
     max-height: 500px;
+    z-index: 1;
+    
+}
+
+
+@keyframes fadeIn {
+  0% {
+      opacity: .5;
+  }
+
+  50% {
+      opacity: .25;
+  }
+
+  75% {
+      opacity: .75;
+  }
+
+  100% {
+      opacity: .5;
+  }
+}
+.home-sombra{
+animation: fadeIn 4s infinite linear;
+}
+
+
+
+/*candado y cuentas*/
+.candado-cuentas{
+    position: relative;
+    top: -600px;
+    
 }
 
 .home-candado {
     width: 150px;
     height: 150px;
+}
+.home-candado:hover{
+    
+    transform: scale(1.25); 
+    transition-duration: 1.5s;
+
 }
 
 .home-twiter {
