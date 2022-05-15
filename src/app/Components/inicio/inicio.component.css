@@ -160,15 +160,17 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 15rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
-    top: -10rem;
-    left: 2%;
+    top: -11rem;
+    left: 38%;
+    text-transform: uppercase;
 }
 
 .servicios-box-estrategia-2 {
@@ -178,15 +180,17 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 13rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
-    top: -14rem;
-    left: 67%;
+    top: -9rem;
+    left: 71%;
+    text-transform: uppercase;
 }
 
 .servicios-box-estrategia-3 {
@@ -196,15 +200,17 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 16rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
-    top: -5rem;
-    left: 67%;
+    top: -4rem;
+    left: 20%;
+    text-transform: uppercase;
 }
 
 .servicios-box-blockchain-1 {
@@ -214,19 +220,18 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding-top: 0.6rem;
-    padding-left: 0.3rem;
+    padding: 0.5rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 6rem;
-    min-height: 4rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
-    top: -10rem;
-    left: 20%;
+    top: -11rem;
+    left: 19%;
+    text-transform: uppercase;
 }
-
 
 .servicios-box-blockchain-2 {
     box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
@@ -235,17 +240,18 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 12rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
     top: 0rem;
-    left: 67%;
+    left: 19%;
+    text-transform: uppercase;
 }
-
 
 .servicios-box-digitales-1 {
     box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
@@ -254,15 +260,17 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 11rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
-    top: -10rem;
-    left: 10%;
+    top: -3rem;
+    left: 5%;
+    text-transform: uppercase;
 }
 
 .servicios-box-digitales-2 {
@@ -272,17 +280,17 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding-top: 0.8rem;
-    padding-left: 0.3rem;
+    padding: 0.5rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    min-height: 4rem;
-    max-width: 6rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
     top: -14rem;
-    left: 67%;
+    left: 69%;
+    text-transform: uppercase;
 }
 
 .servicios-box-digitales-3 {
@@ -292,15 +300,17 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 11rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
-    top: -4rem;
-    left: 67%;
+    top: -6rem;
+    left: 69%;
+    text-transform: uppercase;
 }
 
 .servicios-box-metaverso-1 {
@@ -310,15 +320,17 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 17rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
-    top: -9rem;
-    left: 0%;
+    top: -11rem;
+    left: 49%;
+    text-transform: uppercase;
 }
 
 .servicios-box-metaverso-2 {
@@ -328,15 +340,16 @@
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
-    max-width: 12rem;
+    width: 12rem;
+    height: 5rem;
     display: block;
     font-size: 15px;
-    top: 0rem;
-    left: 68%;
+    top: 1rem;
+    left: 37%;
+    text-transform: uppercase;
 }
-
 /* Aquí empieza el responsive */

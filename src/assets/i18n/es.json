@@ -30,7 +30,7 @@
         "TITLE-1":"Sistemas digitales",
         "TITLE-2":"E-Commerce",
         "TITLE-3":"Head hunting developers",
-        "TITLE-4":"APPs",
+        "TITLE-4":"Aplicaciones móviles",
         "TITLE-5":"Metaverso",
         "COACHING":"Coaching",
         "COACHING-1":"Turismo virtual",
@@ -41,9 +41,10 @@
         "TITLE-9":"Marketing exponencial",
         "TITLE-10":"Blockchain",
         "TITLE-10.1":"Blockchain",
-        "TITLE-11":"DAPPs",
+        "TITLE-11":"Aplicaciones descentralizadas",
         "TITLE-12":"Nueva Zelanda", 
-        "TITLE-13":"Sistemas web"
+        "TITLE-13":"Servicios web",
+        "TITLE-14":"Soluciones blockchain"
     },
     "MARKETING":{
         "TITLE":"MARKETING EXPONENCIAL",
@@ -81,5 +82,9 @@
     "SIGHTSEEING":{
         "TITLE":"COACHING TURISMO VIRTUAL",
         "PARAGRAPH":"El Turismo también esta en camino a la nueva era digital, donde a través del uso de plataformas y herramientas digitales como la realidad virtual las personas puedan visitar lugares de interés como zonas arqueológicas milenarias, edificios emblemáticos, centros históricos y hasta sumergirse en misterioso lagos de manera  interactiva mas alla de su imaginacion.Aprende con nosotros a aplicar estrategias y herramientas digitales que te ayuden a generar nuevos proyectos para un sitio turistico donde se brinde una experiencia que motive a los nuevos turistas virtuales a viajar a través del tiempo y el ciberespacio a lugares magicos. Laboratorio de Virtualizacion del Patrimonio Turistico."
+    },
+    "DEVELOPERS":{
+        "TITLE":"HEAD HUNTING DEVELOPERS",
+        "PARAGRAPH":"La experiencia de vivir en un país cosmopolita al otro lado del mundo te brindará la oportunidad de ampliar tu visión y desarrollar nuevas capacidades como programador en un entorno diverso y de alto nivel. Nosotros te asesoramos en base a nuestra experiencia vivida en Nueva Zelanda, y te contactamos con empresas interesadas en expandir su equipo y conocer nuevas culturas."
     }
 }
