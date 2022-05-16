@@ -1,22 +1,18 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-ketanolab">
-  <div class="container">
-      <a class="navbar-brand d-lg-none" href="#">
-          <!-- Creé la clase "brand-mobile" para la imagen "circulo-01.svg" para empequeñecerle en la vista móvil-->
-        <img class="brand-mobile" src="../../assets/img/img/circulo-01.svg" alt="Ketanolab">
-      </a>  
-    <button id="align-hamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav"><!--mx-auto-->
-          <a class="navbar-brand d-none d-lg-block" href="#">
-              <img src="../../assets/img/img/circulo-01.svg" alt="Ketanolab">
-          </a>        
-          <a class="nav-link_1" href="/nosotros"><span class="nav-link-1"><p class="text-nav-1">{{"NAV.TITLE-1" | translate}}</p></span></a>
-          <a class="nav-link_2" href="/experiencia"><span class="nav-link-2"><p class="text-nav-2">{{"NAV.TITLE-2" | translate}}</p></span></a>
-          <a class="nav-link_3" href="/aliados"><span class="nav-link-3"><p class="text-nav-3">{{"NAV.TITLE-3" | translate}}</p></span></a>
-          <a class="nav-link_4" href="#"><span class="nav-link-4"><p class="text-nav-4">{{"NAV.TITLE-4" | translate}}</p></span></a>
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a href="/inicio" class="navbar-brand"><img src="../../assets/img/img/circulo-01.svg" alt="Ketanolab"></a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="menu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item"><a class="nav-link" href="/nosotros">{{"NAV.TITLE-1" | translate}}</a></li>
+          <li class="nav-item"><a class="nav-link" href="/experiencia">{{"NAV.TITLE-2" | translate}}</a></li>
+          <li class="nav-item"><a class="nav-link" href="/aliados">{{"NAV.TITLE-3" | translate}}</a></li>
+          <li class="nav-item"><a class="nav-link" target="_blank" href="https://app.gather.town/app/zmougmiMJ2HHVYbZ/ketanolab">{{"NAV.TITLE-4" | translate}}</a></li>  
+        </ul>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>

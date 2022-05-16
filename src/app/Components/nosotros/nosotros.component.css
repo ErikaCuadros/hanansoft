@@ -1,24 +1,27 @@
 .card {
     position: relative;
-    overflow: hidden;
+    overflow: hidden;    
     margin: 10px;
     min-width: 230px;
     max-width: 315px;
     width: 100%;
+    height: 24rem;
     text-align: left;
     line-height: 1.4em;
     font-size: 16px;
   }
+
   .card * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
   }
+
   .card-img-overlay {
     color: black;
     position: absolute;
-    top: calc(77%);
+    top: calc(81%);
     width: 100%;
     background-color: #ffffff;
     padding: 15px 25px 65px;
@@ -36,13 +39,14 @@
   }
   
   .card-text {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   .card-title {
-    font-weight: 300;
-    font-size: 1.4em;
-    line-height: 1.2em;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.2rem;
     text-transform: uppercase;
+    margin-left: 1.5rem;
   }
   .card-text {
     font-size: 0.9em;

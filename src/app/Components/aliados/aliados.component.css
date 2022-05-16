@@ -1,20 +1,15 @@
+.container {
+    margin-top: 10rem;
+    justify-content: center;
+}
+
 .card, .card ::after {
     position: relative;
-    width: 290px;
-    height:290px;
+    width: 15rem;
+    height:15rem;
     left: 5px;
     top: 5px;
     background: url(../../../assets/img/marco.svg);
-    background-repeat: no-repeat;
-}
-
-#card2, #card2 ::after {
-    position: relative;
-    width: 290px;
-    height:290px;
-    left: 5px;
-    top: 5px;
-    background: url(../../../assets/img/open.svg);
     background-repeat: no-repeat;
 }
 
@@ -27,16 +22,17 @@
 
 .img1 {
     position: absolute;
-    width: 16rem;
-    height: 14rem;
-    top: 1.5rem;
-    left: 1.5rem;
+    width: 11rem;
+    padding: 1rem;
+    height: 11rem;
+    top: 1rem;
+    left: 2.5rem;
     transition: all .5s;
 }
 
 .img2 {
-    width: 16rem;
-    height: 6rem;
+    width: 11rem;
+    height: 11rem;
     box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);  
     border: 1px solid #004483ff;       
     background-image: linear-gradient(#007df1ff, #007df1ff),
@@ -46,11 +42,11 @@
     background-repeat: no-repeat;
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
-    padding: 2px;
+    padding: 2rem;
     outline: 2px solid #004483ff;
     outline-offset: -5px;
-    top: 0.7rem;
-    left: 2.3rem;
+    top: 1rem;
+    left: 3rem;
     transition: all .5s;
 }
 

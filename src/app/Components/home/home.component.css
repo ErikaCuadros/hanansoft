@@ -1,44 +1,42 @@
 .home-container {
     background-image: url("../../../assets/img/Home/home.png");
-    background-size: cover;
-    background-repeat: no-repeat;    
-    height: 100vh;
-     
+    background-size: 100rem 50rem;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-height: 50rem; 
 }
 
-/*logo*/
+/* Todo el logo*/
 .logo{
-    height: 800px;
-    width: 800px;
-    margin-top: 18vh;
-    max-height: 1000px;
+    width: 50rem;
+    height: 70rem;
     position: relative;
-    top: -150px;
-    left: 0px;
+    top: 0rem;
+    left: 24%;
 }
 
+/* Sombra de la palabra Ketanolab */
 .home-sombra {
     position: absolute;
-    height: 700px;
     width: auto;
-    margin-top: 18vh;
-    max-height: 1000px;
+    height: 43rem;
     z-index: 1;
-    top: -200px;
     filter: brightness(50%);
    
 }
+
+/* Palabra ketanolab */
 .home-logo {
     position: absolute;
-    height: auto;
     width: auto;
-    margin-top: 18vh;
-    max-height: 500px;
+    height: auto;
+    margin-top: 12rem;
+    max-height: 60rem;
     z-index: 1;
     
 }
 
-
+/* Animación de sombra */
 @keyframes fadeIn {
   0% {
       opacity: .5;
@@ -56,39 +54,48 @@
       opacity: .5;
   }
 }
+
 .home-sombra{
 animation: fadeIn 4s infinite linear;
 }
 
+/* Candado. */
 
-
-/*candado y cuentas*/
-.candado-cuentas{
+.p-2 {
     position: relative;
-    top: -600px;
-    
+    left: 24%;
 }
 
 .home-candado {
-    width: 150px;
-    height: 150px;
+    position: relative;
+    top:-38rem;
+    width: 50rem;
+    height: 10rem;
 }
-.home-candado:hover{
-    
-    transform: scale(1.25); 
-    transition-duration: 1.5s;
 
+/* Texto. */
+.text {
+    position: relative;
+    top: -36rem;
+    text-align: center;
 }
+
+/* Íconos Redes Sociales */
 
 .home-twiter {
-    width: 75px;
+    position: relative;
+    top: -40rem;
+    width: 5rem;
 }
 
-.home-in{
-    width: 75px;
+.home-in {
+    position: relative;
+    top: -40rem;
+    width: 5rem;
 }
 
 .home-facebook{
-    width: 75px;
+    position: relative;
+    top: -40rem;
+    width: 5rem;
 }
-

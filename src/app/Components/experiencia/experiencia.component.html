@@ -1,51 +1,48 @@
 <app-nav></app-nav>
 <div class="container">
-  <h1 class="text-center pb-5 pt-6">{{"EXPERIENCE.TITLE" | translate}}</h1>
-  <div class="row justify-content-md-center" >
-      <div class="card1">
-        <div class="card-body">
-          <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems$ | async">
-              <button NguCarouselPrev class='leftRs'>&lt;</button>
-            
-              <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-                <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                  <h1>{{ i + 1 }}</h1>
-                </div>
-              </ngu-item>
-              <button NguCarouselNext class='rightRs'>&gt;</button>
-            </ngu-carousel>
-          </div>
-        </div>
-        <div class="card1">
-          <div class="card-body" >
-              <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems1$ | async">
-                  <button NguCarouselPrev class='leftRs'>&lt;</button>
-                
-                  <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-                    <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                      <h1>{{ i + 1 }}</h1>
-                    </div>
-                  </ngu-item>
-                  <button NguCarouselNext class='rightRs'>&gt;</button>
-                </ngu-carousel>
-          </div>
-        </div>
-        <div  class="card1" >
-          <div class="card-body" >
-              <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems2$ | async">
-                  <button NguCarouselPrev class='leftRs'>&lt;</button>
-                
-                  <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-                    <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                      <h1>{{ i + 1 }}</h1>
-                    </div>
-                  </ngu-item>
-                  <button NguCarouselNext class='rightRs'>&gt;</button>
-                </ngu-carousel>
-          </div>
-        </div>
+<h1 class="text-center pb-5 pt-6">{{"EXPERIENCE.TITLE" | translate}}</h1>
+<div class="row justify-content-md-center" >
+<div class="card1">
+<div class="card-body">
+<ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems$ | async">
+    <button NguCarouselPrev class='leftRs'>&lt;</button>
+  
+    <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+      <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+        <h1>{{ i + 1 }}</h1>
       </div>
-    <div class="container-md col-md-10 p-8">
-      <p class="text-justify pb-8 pt-8">{{"EXPERIENCE.PARAGRAPH" | translate}}</p>
-  </div>
+    </ngu-item>
+    <button NguCarouselNext class='rightRs'>&gt;</button>
+  </ngu-carousel>
+</div>
+</div>
+<div class="card1">
+<div class="card-body" >
+    <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems1$ | async">
+        <button NguCarouselPrev class='leftRs'>&lt;</button>
+      
+        <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+          <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+            <h1>{{ i + 1 }}</h1>
+          </div>
+        </ngu-item>
+        <button NguCarouselNext class='rightRs'>&gt;</button>
+      </ngu-carousel>
+</div>
+</div>
+<div  class="card1" >
+<div class="card-body" >
+    <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems2$ | async">
+        <button NguCarouselPrev class='leftRs'>&lt;</button>
+      
+        <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+          <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+            <h1>{{ i + 1 }}</h1>
+          </div>
+        </ngu-item>
+        <button NguCarouselNext class='rightRs'>&gt;</button>
+      </ngu-carousel>
+</div>
+</div>
+</div>
 </div>
