@@ -11,5 +11,4 @@ export class developersComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

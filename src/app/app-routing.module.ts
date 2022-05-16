@@ -18,6 +18,7 @@ import { ExperienciaComponent } from './Components/experiencia/experiencia.compo
 import { PruebaComponent } from './Components/prueba/prueba.component';
 import { NavComponent } from './Components/nav/nav.component';
 import { developersComponent } from './Components/developers/developers.component';
+import { blockchainComponent } from './Components/blockchain/blockchain.component';
 const routes: Routes = [
 
   {path: '', component:HomeComponent},
@@ -38,6 +39,7 @@ const routes: Routes = [
   {path: 'prueba', component:PruebaComponent},
   {path: 'nav', component:NavComponent},
   {path: 'developers', component:developersComponent},
+  {path: 'blockchain', component:blockchainComponent},
 
 ];
 

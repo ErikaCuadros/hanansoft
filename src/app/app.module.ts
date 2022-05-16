@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { developersComponent } from './Components/developers/developers.component';
+import { blockchainComponent } from './Components/blockchain/blockchain.component';
 
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
@@ -35,6 +36,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
+    blockchainComponent,
     developersComponent,
     HomeComponent,
     InicioComponent,
