@@ -1,8 +1,8 @@
 .fondo {
     background-image: url(../../../assets/img/aliados.png);
     background-repeat: no-repeat;
-    background-size: 100rem 44.3rem;
-    height: 44.3rem;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
