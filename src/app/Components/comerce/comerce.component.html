@@ -1,28 +1,61 @@
 <app-nav></app-nav>
-    <div class="container" (mouseover)="estado=true" (mouseout)="estado=false">
-        <div *ngIf="!estado" class="row justify-content-center">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="centrar">
+                    {{"COMMERCE.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <p> 
+                    {{"COMMERCE.PARAGRAPH" | translate}}
+                </p>    
+            </article>
+        </div>
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="centrar">
+                    {{"COMMERCE.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <p> 
+                    {{"COMMERCE.PARAGRAPH" | translate}}
+                </p>    
+            </article>
+        </div>
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="centrar">
+                    {{"COMMERCE.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <p> 
+                    {{"COMMERCE.PARAGRAPH" | translate}}
+                </p>   
+            </article>
+        </div>
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="centrar">
+                    {{"COMMERCE.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <img src="../../../assets/img/ecom.png" class="img1 pequeño" alt="e-commerce">    
+            </article>
+        </div>   
+    </div>
+</div>    
+
+<!-- <div class="container">
+        <div class="row justify-content-center">
             <div class="col-auto">
                 <div class="figura">
                     <p class="pt-6 ml-6">{{"COMMERCE.TITLE" | translate}}</p>
                 </div>
-                <img src="../../../assets/img/ecom.png" class="img1" alt="">
+                
             </div>
             <div class="col col-md-3 ml-2 servicios-box">
                 <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
                 <p class=" pb-6 pt-6 small">{{"COMMERCE.PARAGRAPH" | translate}}</p>
             </div>
-        </div>
-<!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
-        <div *ngIf="estado" class="row justify-content-center">
-            <div class="col-auto">
-                <div class="figura">
-                    <p class="pt-6 ml-6">{{"COMMERCE.TITLE" | translate}}</p>
-                </div>
-                <img src="../../../assets/img/ecom.png" class="img1_v2" alt="">
-            </div>
-            <div class="offset-1 col-10 servicios-box">
-                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-                <p class=" pb-6 pt-6 small">{{"COMMERCE.PARAGRAPH" | translate}}</p>
-            </div>
-        </div>
-    </div>
+        </div> -->

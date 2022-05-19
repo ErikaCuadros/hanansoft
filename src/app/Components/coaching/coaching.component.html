@@ -1,28 +1,51 @@
 <app-nav></app-nav>
-    <div class="container" (mouseover)="estado=true" (mouseout)="estado=false">
-        <div *ngIf="!estado" class="row justify-content-center">
-            <div class="col-auto">
-                <div class="figura">
-                    <p class="pt-6 ml-1">{{"DIGITAL-PROJECTS.TITLE" | translate}}</p>
-                </div>
-                <img src="../../../assets/img/proyecDigi.svg" class="img1" alt="">
-            </div>
-            <div class="col col-md-3 ml-2 servicios-box">
-                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-                <p class=" pb-6 pt-6 small">{{"DIGITAL-PROJECTS.PARAGRAPH" | translate}}</p>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="ml-9">
+                    {{"DIGITAL-PROJECTS.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <p> 
+                    {{"DIGITAL-PROJECTS.PARAGRAPH" | translate}}
+                </p>    
+            </article>
         </div>
-<!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
-        <div *ngIf="estado" class="row justify-content-center">
-            <div class="col-auto">
-                <div class="figura">
-                    <p class="pt-6 ml-1">{{"DIGITAL-PROJECTS.TITLE" | translate}}</p>
-                </div>
-                <img src="../../../assets/img/proyecDigi.svg" class="img1_v2" alt="">
-            </div>
-            <div class="offset-1 col-10 servicios-box">
-                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-                <p class=" pb-6 pt-6 small">{{"DIGITAL-PROJECTS.PARAGRAPH" | translate}}</p>
-            </div>   
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="ml-9">
+                    {{"DIGITAL-PROJECTS.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <p> 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quia,
+                    aperiam iure rerum aliquam harum amet libero quo incidunt ratione. Quae,
+                    laboriosam repellat! Error facilis in molestias inventore, itaque repudiandae?
+                </p>    
+            </article>
         </div>
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="ml-9">
+                    {{"DIGITAL-PROJECTS.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <p> 
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quia,
+                    aperiam iure rerum aliquam harum amet libero quo incidunt ratione. Quae,
+                    laboriosam repellat! Error facilis in molestias inventore, itaque repudiandae?
+                </p>
+                   
+            </article>
+        </div>
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="ml-9">
+                    {{"DIGITAL-PROJECTS.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <img src="../../../assets/img/proyecDigi.svg" class="img1 pequeño" alt="Proyectos Digitales">    
+            </article>
+        </div>   
     </div>

@@ -1,28 +1,52 @@
 <app-nav></app-nav>
-    <div class="container" (click)="estado=!estado">
-        <div *ngIf="estado" class="row justify-content-center">
-            <div class="col-auto">
-                <div class="figura">
-                    <p class="pt-6 ml-1">{{"DIGITAL-ART.TITLE" | translate}}</p>
-                </div>
-                <img src="../../../assets/img/Recurso 11.png" class="img1" alt="">
-            </div>
-            <div class="col col-md-3 ml-2 servicios-box">
-                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-                <p class=" pb-6 pt-6 h5 small"> {{"DIGITAL-ART.PARAGRAPH" | translate}}</p>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="ml-9">
+                    {{"DIGITAL-ART.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <p> 
+                    {{"DIGITAL-ART.PARAGRAPH" | translate}}
+                </p>    
+            </article>
         </div>
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="ml-9">
+                    {{"DIGITAL-ART.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <p> 
+                    {{"DIGITAL-ART.PARAGRAPH" | translate}}
+                </p>    
+            </article>
+        </div>
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="ml-9">
+                    {{"DIGITAL-ART.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <p> 
+                    {{"DIGITAL-ART.PARAGRAPH" | translate}}
+                </p>   
+            </article>
+        </div>
+        <div class="col-md-3 mt-16">
+            <article>
+                <h1 class="ml-9">
+                    {{"DIGITAL-ART.TITLE" | translate}}    
+                </h1>
+                <hr>
+                <img src="../../../assets/img/Recurso 11.png" class="img1 pequeño" alt="Arte Digital">   
+            </article>
+        </div>   
+    </div>
+</div>
 
-<!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
-
-        <div *ngIf="!estado" class="row justify-content-center">
-            <div class="col-auto">
-                <div class="figura">
-                    <p class="pt-6 ml-1">{{"DIGITAL-ART.TITLE" | translate}}</p>
-                </div>
-                <img src="../../../assets/img/Recurso 11.png" class="img1_v2" alt="">
-            </div>
-            <div class="offset-1 col-10 servicios-box">
+<!-- 
                 <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
                 <p class=" pb-6 pt-10"> ¿Qué es el Arte Digital? </p>
                 <p class=" pb-6 pt-10">Los NFTs son una forma de darle valor agregado al arte en forma digital, funciona agregando una firma única e indeleble al archivo digital donde se encuentra la obra dentro de una red de blockchain, este proceso genera un token que tiene un carácter no fungible (el NFT).</p>
@@ -42,4 +66,4 @@
                 <p class=" pb-6 pt-10">Cómo convertir el dinero que ganas por la venta del NFT a dólares o moneda local.</p>
             </div>
         </div>
-    </div>
+    </div> -->

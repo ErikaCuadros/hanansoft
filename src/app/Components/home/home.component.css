@@ -7,7 +7,7 @@
 }
 
 /* Todo el logo*/
-.logo{
+.logo {
     width: 50rem;
     height: 70rem;
     position: relative;
@@ -98,4 +98,15 @@ animation: fadeIn 4s infinite linear;
     position: relative;
     top: -40rem;
     width: 5rem;
+}
+
+
+/* Media query 375px */
+
+@media (max-width: 375px) {
+    .home-container {
+        width: 24rem;
+        background-size: 2001px 667px;
+        background-position: -40rem 0rem;
+    }    
 }

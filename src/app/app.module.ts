@@ -24,7 +24,7 @@ import { TurismoComponent } from './Components/turismo/turismo.component';
 import { NosotrosComponent } from './Components/nosotros/nosotros.component';
 import { AliadosComponent } from './Components/aliados/aliados.component';
 import { ExperienciaComponent } from './Components/experiencia/experiencia.component';
-import { PruebaComponent } from './Components/prueba/prueba.component';
+import { footerComponent } from './Components/footer/footer.component';
 import { NguCarouselModule } from '@ngu/carousel';
 import { NavComponent } from './Components/nav/nav.component';
 import { ChatComponent} from './Components/chat/chat.component';
@@ -36,6 +36,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
+    footerComponent,
     blockchainComponent,
     developersComponent,
     HomeComponent,
@@ -52,7 +53,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     NosotrosComponent,
     AliadosComponent,
     ExperienciaComponent,
-    PruebaComponent,
     NavComponent,
     ChatComponent,
   ],
