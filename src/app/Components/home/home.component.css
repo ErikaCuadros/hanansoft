@@ -1,41 +1,36 @@
-.home-container {
+a {
+    font-family: 'Orbitron';
+    color: #fff;
+}
+
+.fondo {
     background-image: url("../../../assets/img/Home/home.png");
-    background-size: 100rem 52rem;
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
     background-repeat: no-repeat;
-    overflow: hidden;
-    height: 52rem; 
+    background-position: center;
+    background-color: #000000;
 }
 
 /* Todo el logo*/
-.logo {
-    width: 50rem;
-    height: 70rem;
+.logo{
     position: relative;
-    top: 0rem;
-    left: 24%;
+    max-width: 600px;
 }
 
 /* Sombra de la palabra Ketanolab */
 .home-sombra {
-    position: absolute;
-    width: auto;
-    height: 43rem;
     z-index: 1;
     filter: brightness(50%);
-   
 }
 
 /* Palabra ketanolab */
 .home-logo {
-    position: absolute;
-    width: auto;
-    height: auto;
-    margin-top: 12rem;
-    max-height: 60rem;
     z-index: 1;
-    
+    max-width: 800px;
 }
-
+    
 /* Animación de sombra */
 @keyframes fadeIn {
   0% {
@@ -59,26 +54,6 @@
 animation: fadeIn 4s infinite linear;
 }
 
-/* Candado. */
-
-.p-2 {
-    position: relative;
-    left: 24%;
-}
-
-.home-candado {
-    position: relative;
-    top:-38rem;
-    width: 50rem;
-    height: 10rem;
-}
-
-/* Texto. */
-.text {
-    position: relative;
-    top: -36rem;
-    text-align: center;
-}
 
 /* Íconos Redes Sociales */
 
@@ -100,13 +75,13 @@ animation: fadeIn 4s infinite linear;
     width: 5rem;
 }
 
+.nav-link-1, .nav-link-1::before {
+    background-image: url("../../../assets/img/img/nosotros.png"); 
+    background-repeat: no-repeat;
+}
 
-/* Media query 375px */
-
-@media (max-width: 375px) {
-    .home-container {
-        width: 24rem;
-        background-size: 2001px 667px;
-        background-position: -40rem 0rem;
-    }    
+.nav-link-1 {
+    padding-top: 12px;
+    padding-left: 65px;
+    padding-right: 25px;
 }

@@ -1,20 +1,16 @@
-#alinear {
-    margin-left: 20rem;
-    color: white;
-}
-
-#align2 {
-    margin-right: 25rem;
-}
-
-#margen {
-    margin-top: 2rem;
-}
-
-#color {
-    background-color: #00172A;
+footer {
+    background-color: #00172a;
+    font-size: 14px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 h6 {
-    color: white;
+    color: #00AEC6;
+}
+
+p {
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
 }

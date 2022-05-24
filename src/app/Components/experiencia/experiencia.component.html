@@ -1,49 +1,98 @@
-<app-nav></app-nav>
-<div class="container">
-<h1 class="text-center pb-5 pt-6">{{"EXPERIENCE.TITLE" | translate}}</h1>
-<div class="row justify-content-md-center" >
-<div class="card1">
-<div class="card-body">
-<ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems$ | async">
-    <button NguCarouselPrev class='leftRs'>&lt;</button>
+<div class="container-fluid container-experiencia">
+  <app-nav></app-nav>
+  <!-- ========== Start Carrusel de productos ========== -->
+  <div class="container experiencia">
+    <h1 class="text-center pb-5 pt-6">{{"EXPERIENCE.TITLE" | translate}}</h1>
+    <div class="row justify-content-md-center" >
+    <div class="card1">
+    <div class="card-body">
+    <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems$ | async">
+        <button NguCarouselPrev class='leftRs'>&lt;</button>
+      
+        <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+          <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+            <h1>{{ i + 1 }}</h1>
+          </div>
+        </ngu-item>
+        <button NguCarouselNext class='rightRs'>&gt;</button>
+      </ngu-carousel>
+    </div>
+    </div>
+    <div class="card1">
+    <div class="card-body" >
+        <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems1$ | async">
+            <button NguCarouselPrev class='leftRs'>&lt;</button>
+          
+            <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+              <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+                <h1>{{ i + 1 }}</h1>
+              </div>
+            </ngu-item>
+            <button NguCarouselNext class='rightRs'>&gt;</button>
+          </ngu-carousel>
+    </div>
+    </div>
+    <div  class="card1" >
+    <div class="card-body" >
+        <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems2$ | async">
+            <button NguCarouselPrev class='leftRs'>&lt;</button>
+          
+            <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+              <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+                <h1>{{ i + 1 }}</h1>
+              </div>
+            </ngu-item>
+            <button NguCarouselNext class='rightRs'>&gt;</button>
+          </ngu-carousel>
+    </div>
+    </div>
+    </div>
+  </div>
+  <!-- ========== End Carrusel de productos ========== -->
+
   
-    <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-      <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-        <h1>{{ i + 1 }}</h1>
+  
+    <div class="container clientes">
+      <h1 class="text-center mb-5">Nuestros clientes</h1>
+      <div class="justify-content-center d-flex">
+        <div class="marco-ext-h">
+          <a href="https://www.derechosdigitales.org/"><img src="../../../assets/img/Logo-Derechos-Digitales-01.png" class="imagen mx-auto d-block"  alt=""></a>        
+
+        </div>
       </div>
-    </ngu-item>
-    <button NguCarouselNext class='rightRs'>&gt;</button>
-  </ngu-carousel>
-</div>
-</div>
-<div class="card1">
-<div class="card-body" >
-    <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems1$ | async">
-        <button NguCarouselPrev class='leftRs'>&lt;</button>
-      
-        <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-          <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-            <h1>{{ i + 1 }}</h1>
+    </div>
+
+    <!-- ========== Start Logos aliados ========== -->
+      <div class="container aliados">
+        <h1 class="text-center mb-5">Organizaciones amigas </h1>
+        <div class="justify-content-center d-flex">
+          <div class="marco-ext">
+            <div class="">
+              <a href="https://martadero.org/quienes-somos/"><img src="../../../assets/img/marca-mARTadero-escala-grises-para-fondo-oscuro.png" class="imagen mx-auto d-block"  alt=""></a>        
+            </div>
           </div>
-        </ngu-item>
-        <button NguCarouselNext class='rightRs'>&gt;</button>
-      </ngu-carousel>
-</div>
-</div>
-<div  class="card1" >
-<div class="card-body" >
-    <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems2$ | async">
-        <button NguCarouselPrev class='leftRs'>&lt;</button>
-      
-        <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-          <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-            <h1>{{ i + 1 }}</h1>
+          <div class="marco-ext">
+            <div class="">
+              <a href="https://openlab.ec/presentacion"><img src="../../../assets/img/Logo_Openlab3n.svg" class="imagen mx-auto d-block" alt=""></a>                   
+            </div>
           </div>
-        </ngu-item>
-        <button NguCarouselNext class='rightRs'>&gt;</button>
-      </ngu-carousel>
+          <div class="marco-ext">
+            <div class="">
+              <img src="../../../assets/img/lapazsw.svg" class="imagen mx-auto d-block"  alt="">        
+            </div>
+          </div>
+          <div class="marco-ext">
+            <div class="">
+              <img src="../../../assets/img/asoc4.jpg" class="imagen mx-auto d-block" alt="">        
+            </div>
+          </div>    
+        </div>
+      </div>
+    <!-- ========== End Logos aliados ========== -->
+            
 </div>
-</div>
-</div>
-</div>
+
 <app-footer></app-footer>
+
+
+  

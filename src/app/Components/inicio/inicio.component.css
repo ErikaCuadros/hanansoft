@@ -1,3 +1,23 @@
+a:hover {
+    color: #00AEC6;
+}
+
+.container-inicio {
+    background-image: url("../../../assets/img/earth-1272884_1920.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  .container-inicio::before {
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #00000020;
+  }
+
 /* Altura de las columnas de la página */
 #columna-1 {
     max-height: 24rem;

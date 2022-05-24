@@ -1,13 +1,8 @@
 .fondo {
-    background-image: url(../../../assets/img/aliados.png);
+    background-image: url(../../../assets/img/planet.jpg);
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-}
-
-.container {
-    margin-top: 10rem;
-    justify-content: center;
 }
 
 .card, .card ::after {
@@ -37,27 +32,46 @@
     transition: all .5s;
 }
 
-.img2 {
-    width: 11rem;
-    height: 11rem;
-    box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);  
-    border: 1px solid #004483ff;       
-    background-image: linear-gradient(#007df1ff, #007df1ff),
-    linear-gradient(#007df1ff, #007df1ff),
-    linear-gradient(#007df1ff, #007df1ff),
-    linear-gradient(#007df1ff, #007df1ff);    
+.marco-int {
+    /*box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);*/  
+    /*border: 1px solid #1A99B3;*/       
+    background-image: linear-gradient(#1A99B3, #1A99B3),
+    linear-gradient(#1A99B3, #1A99B3),
+    linear-gradient(#1A99B3, #1A99B3),
+    linear-gradient(#1A99B3, #1A99B3);    
     background-repeat: no-repeat;
-    background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
+    background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
     padding: 2rem;
-    outline: 2px solid #004483ff;
-    outline-offset: -5px;
-    top: 1rem;
-    left: 3rem;
+    /*outline: 2px solid ;
+    outline-offset: -5px;*/
     transition: all .5s;
+}
+
+.marco-ext {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#fff, #fff),
+    linear-gradient(#fff, #fff),
+    linear-gradient(#fff, #fff),
+    linear-gradient(#fff, #fff); 
+    background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
+    background-position: top left, left top, right bottom, right bottom, 1px 1px;
+    padding: 10px;
+    margin: 2rem 2rem;
+    width: 300px;
+}
+
+.marco-fondo {
 }
 
 /* Comienza efecto */
 .card :hover {
     transform: translate(-15px, -15px);
+}
+
+.imagen {
+    height: 150px;
+}
+
+.container-logos {
 }

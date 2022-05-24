@@ -1,3 +1,19 @@
+.container-experiencia {
+  background-image: url("../../../assets/img/Home/home.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.container-experiencia::before {
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #00000020;
+}
+
 .bannerStyle h1 {
     min-height: 218px;
     line-height: 218px;
@@ -45,4 +61,68 @@
 .text1{
   margin-top: -60px;
   padding: 0px 20px 0px 30px;
+}
+
+.marco-int {
+  /*box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);*/  
+  /*border: 1px solid #1A99B3;*/       
+  background-image: linear-gradient(#1A99B3, #1A99B3),
+  linear-gradient(#1A99B3, #1A99B3),
+  linear-gradient(#1A99B3, #1A99B3),
+  linear-gradient(#1A99B3, #1A99B3);    
+  background-repeat: no-repeat;
+  background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
+  background-position: left bottom, left bottom, right top, right top, 1px 1px;
+  padding: 2rem;
+  /*outline: 2px solid ;
+  outline-offset: -5px;*/
+  transition: all .5s;
+}
+
+.marco-ext {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#fff, #fff),
+  linear-gradient(#fff, #fff),
+  linear-gradient(#fff, #fff),
+  linear-gradient(#fff, #fff); 
+  background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
+  background-position: top left, left top, right bottom, right bottom, 1px 1px;
+  padding: 10px;
+  margin: 2rem 2rem;
+  min-width: 300px;
+}
+
+.marco-ext-h {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#fff, #fff),
+  linear-gradient(#fff, #fff),
+  linear-gradient(#fff, #fff),
+  linear-gradient(#fff, #fff); 
+  background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
+  background-position: top left, left top, right bottom, right bottom, 1px 1px;
+  padding: 10px;
+  margin: 2rem 2rem;
+  max-width: 400px;
+}
+
+.marco-fondo {
+}
+
+/* Comienza efecto */
+.imagen:hover {
+  transform: translate(-15px, -15px);
+}
+
+.imagen {
+  height: 150px;
+}
+
+.clientes {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.aliados {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }

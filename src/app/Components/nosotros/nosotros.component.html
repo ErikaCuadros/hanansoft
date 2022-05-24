@@ -1,14 +1,22 @@
-<app-nav></app-nav>
+<div class="container-nosotros">
+
+  <app-nav></app-nav>
   <!-- inicio container -->
   <div class="container"> 
-    <!-- h1 -->
+    <div class="quienes-somos">
+      <h1 class="text-center mb-5">Sobre Ketanolab</h1>
+      <p class="text-justify">{{"WE.PARAGRAPH" | translate}}</p>
+    </div>
+    
+
+
     <h1 class="text-center mb-12 "> {{"WE.TITLE" | translate}} </h1>
     <!-- inicio fila 1 -->
-    <div class="row">
+    <div class="row equipo">
       <!-- inicio columna 1 de fila 1 -->
-      <div class="offset-2 col-md-3">
+      <div class="col-md-4">
         <!-- inicio card de Roger. -->
-        <div class="card text-white">
+        <div class="card tarjeta">
           <img class="card-img" src="../../../assets/img/roger.png"   alt="Roger.">
           <div class="card-img-overlay">
             <h5 class="card-title">{{"WE.PERSON-1" | translate}}</h5>
@@ -19,9 +27,9 @@
         </div>
       </div>
       <!-- inicio columna 2 de fila 1 -->
-      <div class="col-md-3">
+      <div class="col-md-4">
         <!-- inicio card de Pedro. -->
-        <div class="card text-white">
+        <div class="card tarjeta">
           <img class="card-img" src="../../../assets/img/pedro.png"  alt="Pedro.">
           <div class="card-img-overlay">
             <h5 class="card-title">{{"WE.PERSON-2" | translate}}</h5>
@@ -32,27 +40,22 @@
         </div>
       </div>
       <!-- inicio columna 3 de fila 1 -->
-      <div class="col-md-3">
+      <div class="col-md-4">
         <!-- inicio card de Milenka. -->
-        <div  class="card text-white">
-          <img class="card-img" src="../../../assets/img/mile.jpg" alt="Milenka.">
-          <div class="card-img-overlay"> 
-            <h5 class="card-title">{{"WE.PERSON-3" | translate}}</h5>
-            <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, inventore. 
-            Tenetur deleniti similique eveniet fugiat exercitationem quas repellat. Sequi et est saepe! Placeat amet. </p>
-            <a href="https://uy.linkedin.com/in/milenka-e-pereira-648a0942/" target="_blank" ></a>
+          <div  class="card tarjeta">
+            <img class="card-img" src="../../../assets/img/mile.jpg" alt="Milenka.">
+            <div class="card-img-overlay"> 
+              <h5 class="card-title">{{"WE.PERSON-3" | translate}}</h5>
+              <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, inventore. 
+              Tenetur deleniti similique eveniet fugiat exercitationem quas repellat. Sequi et est saepe! Placeat amet. </p>
+              <a href="https://uy.linkedin.com/in/milenka-e-pereira-648a0942/" target="_blank" ></a>
+            </div>
           </div>
-        </div>  
-      </div>
-    </div>
-    <!-- inicio fila 2 -->
-    <div class="row">
-      <!-- inicio columna 1 de fila 2 -->
-      <div class="offset-1 col-md-10 p-8">
-        <p class="text-justify pb-8 pt-8">{{"WE.PARAGRAPH" | translate}}</p>
-      </div>
-    </div>
+          
 
-    
-  <app-footer></app-footer>
-  
+
+      </div>
+    </div>
+</div>
+</div>
+<app-footer></app-footer>
