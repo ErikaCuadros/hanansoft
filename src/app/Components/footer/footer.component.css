@@ -14,3 +14,7 @@ p {
     margin-bottom: 0.2rem;
     margin-top: 0.2rem;
 }
+
+.estilo {
+    border-top: 5px solid white;
+}

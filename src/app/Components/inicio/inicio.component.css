@@ -94,7 +94,7 @@ a:hover {
     -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
     width: 19rem;
-    height: 11rem;
+    height: 12rem;
     position: relative;
     top: 6rem;
     left: 30%;
@@ -209,7 +209,7 @@ a:hover {
     display: block;
     font-size: 15px;
     top: -9rem;
-    left: 71%;
+    left: 70%;
     text-transform: uppercase;
 }
 
@@ -340,7 +340,7 @@ a:hover {
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
@@ -360,7 +360,7 @@ a:hover {
     z-index: 1;
     text-align: center;
     background-color: #001e36;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
     position: relative;
