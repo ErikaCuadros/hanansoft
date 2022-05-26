@@ -12,15 +12,15 @@ import { ElementRef } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ExperienciaComponent implements OnInit {
-  images = ['assets/img/pag1.svg', 'assets/img/pag2.svg', 'assets/img/pag3.svg'];
-  images1 = ['assets/img/pag5.svg', 'assets/img/pag6.svg', 'assets/img/pag7.svg'];
-  images2 = ['assets/img/pag7.svg', 'assets/img/pag6.svg', 'assets/img/pag3.svg'];
+  images = ['assets/img/cacho.svg', 'assets/img/nusimi.jpg', 'assets/img/simidic.svg'];
+  images1 = ['assets/img/certix.png', 'assets/img/certix2.png', 'assets/img/certix3.png'];
+  images2 = ['assets/img/bancobisa.svg', 'assets/img/ehealth.svg', 'assets/img/boliviana.svg', 'assets/img/cliente4.svg', 'assets/img/cliente5.svg'];
   carouselBanner: NguCarouselConfig = {
     grid: { xs: 1, sm: 1, md: 1, lg: 1, all: 0 },
-    slide: 1,
-    speed: 400,
+    slide: 2,
+    speed: 800,
     interval: {
-      timing: 3000,
+      timing: 5000,
       initialDelay: 1000
     },
     point: {

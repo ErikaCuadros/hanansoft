@@ -1,98 +1,171 @@
+<!-- Inicio container general-->
 <div class="container-fluid container-experiencia">
+<!-- nav bar metido dentro del container -->
   <app-nav></app-nav>
-  <!-- ========== Start Carrusel de productos ========== -->
-  <div class="container experiencia">
-    <h1 class="text-center pb-5 pt-6">{{"EXPERIENCE.TITLE" | translate}}</h1>
-    <div class="row justify-content-md-center" >
-    <div class="card1">
-    <div class="card-body">
-    <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems$ | async">
-        <button NguCarouselPrev class='leftRs'>&lt;</button>
-      
-        <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-          <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-            <h1>{{ i + 1 }}</h1>
+<!-- ========== Start Carrusel de productos ========== -->
+  <!-- Inicio del container del carrusél. -->
+  <div class="container mt-16 mb-16">
+      <!-- h1 Experiencia -->
+    <h1 class="text-center pb-5 pt-6 mb-16">
+      {{"EXPERIENCE.TITLE" | translate}}
+    </h1>
+    <!-- Inicio Fila 1 -->
+    <div class="row justify-content-md-center">
+      <!-- Inicio Columna 1 de Fila 1 -->
+      <div class="col-md-3">
+        <!-- Inicio de card Aplicaciones Móviles -->
+        <div class="card">
+          <div class="card-body">
+            <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems$ | async">
+                <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+                  <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+                    <h1 class="etiqueta">
+                      {{ i + 1 }}
+                    </h1>
+                  </div>
+                </ngu-item>
+            </ngu-carousel> 
           </div>
-        </ngu-item>
-        <button NguCarouselNext class='rightRs'>&gt;</button>
-      </ngu-carousel>
-    </div>
-    </div>
-    <div class="card1">
-    <div class="card-body" >
-        <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems1$ | async">
-            <button NguCarouselPrev class='leftRs'>&lt;</button>
-          
-            <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-              <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                <h1>{{ i + 1 }}</h1>
-              </div>
-            </ngu-item>
-            <button NguCarouselNext class='rightRs'>&gt;</button>
-          </ngu-carousel>
-    </div>
-    </div>
-    <div  class="card1" >
-    <div class="card-body" >
-        <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems2$ | async">
-            <button NguCarouselPrev class='leftRs'>&lt;</button>
-          
-            <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-              <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                <h1>{{ i + 1 }}</h1>
-              </div>
-            </ngu-item>
-            <button NguCarouselNext class='rightRs'>&gt;</button>
-          </ngu-carousel>
-    </div>
-    </div>
+        </div>
+        <!-- Nombre e hipervínculo Apps -->
+          <a href="https://play.google.com/store/apps/developer?id=Ketanolab" class="nombre mb-16" target="_blank">
+            Aplicaciones Móviles
+          </a>
+      </div>
+      <!-- Inicio de Columna 2 de Fila 1 -->
+      <div class="col-md-3">
+        <!-- Inicio de card Certix -->
+        <div class="card">
+          <div class="card-body" >
+            <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems1$ | async">
+                <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+                  <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+                    <h1 class="etiqueta">
+                      {{ i + 1 }}
+                    </h1>
+                  </div>
+                </ngu-item>
+            </ngu-carousel>
+          </div>
+        </div>
+        <!-- Nombre e hipervínculo Certix-->
+          <a href="https://certix.me" class="nombre mb-16" target="_blank">
+            Certix
+          </a>
+      </div>
+      <!-- Inicio de Columna 3 de Fila 1 -->
+      <div class="col-md-3">
+        <!-- Inicio de card Clientes -->
+        <div  class="card" >
+          <div class="card-body" >
+            <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems2$ | async">
+                <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
+                  <div class="bannerStyle" [style.background]="'url(' + item + ')'">
+                    <h1 class="etiqueta">
+                      {{ i + 1 }}
+                    </h1>
+                  </div>
+                </ngu-item>
+            </ngu-carousel>
+          </div>
+        </div>
+        <!-- Nombre e hipervínculo Clientes -->
+          <a href="/experiencia#clientes" class="nombre mb-16">
+            Clientes
+          </a>
+      </div>
     </div>
   </div>
-  <!-- ========== End Carrusel de productos ========== -->
-
-  
-  
-    <div class="container clientes">
-      <h1 class="text-center mb-5">Nuestros clientes</h1>
-      <div class="justify-content-center d-flex">
-        <div class="marco-ext-h">
-          <a href="https://www.derechosdigitales.org/"><img src="../../../assets/img/Logo-Derechos-Digitales-01.png" class="imagen mx-auto d-block"  alt=""></a>        
-
+    <!-- ========== End Carrusel de productos ========== -->
+    <!-- Inicio container clientes -->
+  <div class="container clientes mt-16 mb-16">
+    <!-- h1 Nuestros Clientes -->
+    <h1 class="text-center mb-16 mt-16" id="clientes">
+      Nuestros clientes
+    </h1>
+    <!-- Inicio 1 Fila -->
+      <div class="row justify-content-md-center">
+    <!-- Inicio columna 1 de fila 1 -->
+        <div class="col-md-3 justify-content-center d-flex">
+          <div class="marco-ext-h">
+            <a href="https://www.derechosdigitales.org/" target="_blank">
+              <img src="../../../assets/img/Logo-Derechos-Digitales-01.png" class="imagen mx-auto d-block efecto"  alt="">
+            </a>        
+          </div>
+        </div>
+        <!-- Inicio de columna 2 de fila 1 -->
+        <div class="col-md-3 justify-content-center d-flex">
+          <div class="marco-ext-h">
+            <a href="https://www.bisa.com/" target="_blank">
+              <img src="../../../assets/img/bancobisa.png" class="mx-auto d-block efecto"  alt="">
+            </a>        
+          </div>
+        </div>
+        <!-- Inicio de columna 3 de fila 1 -->
+        <div class="col-md-3 justify-content-center d-flex">
+          <div class="marco-ext-h">
+            <a href="https://www.lbc.bo/" target="_blank">
+              <img src="../../../assets/img/boliviana.png" class="mx-auto d-block efecto"  alt="">
+            </a>        
+          </div>
+        </div>
+        <!-- Inicio de columna 4 de fila 1 -->
+        <div class="col-md-3 justify-content-center d-flex">
+          <div class="marco-ext-h">
+            <a href="https://www.facebook.com/CCMSFLP/" target="_blank">
+              <img src="../../../assets/img/sanfrancisco.jpg" class="imagen mx-auto d-block efecto"  alt="">
+            </a>        
+          </div>
+        </div>
+      </div>
+      <!-- Inicio de fila 2 -->
+      <div class="row justify-content-md-center">
+        <!-- Inicio columna 1 de fila 2 -->
+        <div class="col-md-3 justify-content-center d-flex">
+          <div class="marco-ext-h">
+            <a href="https://www.comunicacion.gob.bo/" target="_blank">
+              <img src="../../../assets/img/mincom_blanco.png" class="mx-auto d-block efecto"  alt="">
+            </a>        
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- ========== Start Logos aliados ========== -->
-      <div class="container aliados">
-        <h1 class="text-center mb-5">Organizaciones amigas </h1>
-        <div class="justify-content-center d-flex">
-          <div class="marco-ext">
-            <div class="">
-              <a href="https://martadero.org/quienes-somos/"><img src="../../../assets/img/marca-mARTadero-escala-grises-para-fondo-oscuro.png" class="imagen mx-auto d-block"  alt=""></a>        
-            </div>
-          </div>
-          <div class="marco-ext">
-            <div class="">
-              <a href="https://openlab.ec/presentacion"><img src="../../../assets/img/Logo_Openlab3n.svg" class="imagen mx-auto d-block" alt=""></a>                   
-            </div>
-          </div>
-          <div class="marco-ext">
-            <div class="">
-              <img src="../../../assets/img/lapazsw.svg" class="imagen mx-auto d-block"  alt="">        
-            </div>
-          </div>
-          <div class="marco-ext">
-            <div class="">
-              <img src="../../../assets/img/asoc4.jpg" class="imagen mx-auto d-block" alt="">        
-            </div>
-          </div>    
+<!-- ========== Start Container Logos aliados ========== -->
+  <div class="container aliados mt-16 mb-16">
+    <!-- H1 organizaciones amigas -->
+    <h1 class="text-center mb-16">Organizaciones amigas </h1>
+    <!-- Inicio de fila 1 -->
+    <div class="row justify-content-center d-flex">
+      <!-- Inicio de columna 1 de fila 1 -->
+      <div class="col-md-3 marco-ext2">
+        <div>
+          <a href="https://martadero.org/quienes-somos/" target="_blank">
+            <img src="../../../assets/img/marca-mARTadero-escala-grises-para-fondo-oscuro.png" class="imagen mx-auto d-block efecto"  alt="">
+          </a>        
         </div>
       </div>
-    <!-- ========== End Logos aliados ========== -->
-            
+      <!-- Inicio de columna 2 de fila 1 -->
+      <div class="col-md-3 marco-ext2">
+        <div>
+          <a href="https://openlab.ec/presentacion" target="_blank">
+            <img src="../../../assets/img/Logo_Openlab3n.svg" class="imagen mx-auto d-block efecto" alt="">
+          </a>                   
+        </div>
+      </div>
+      <!-- Inicio de columna 3 de fila 1 -->
+      <div class="col-md-3 marco-ext2">
+        <div>
+          <img src="../../../assets/img/lapazsw.svg" class="imagen mx-auto d-block efecto"  alt="">        
+        </div>
+      </div>
+      <!-- Inicio de columna 4 de fila 1 -->
+      <div class="col-md-3 marco-ext2">
+        <div>
+          <img src="../../../assets/img/asoc4.jpg" class="imagen mx-auto d-block efecto" alt="">        
+        </div>
+      </div>    
+    </div>
+  </div>
 </div>
-
+<!-- ========== End Logos aliados ========== -->      
 <app-footer></app-footer>
-
-
-  

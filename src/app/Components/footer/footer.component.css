@@ -16,5 +16,11 @@ p {
 }
 
 .estilo {
-    border-top: 5px solid white;
+    outline: 5px solid white;
+    outline-offset: 0.5rem;
+}
+
+#scroll {
+    overflow-y: scroll;
+    max-height: 7rem;
 }

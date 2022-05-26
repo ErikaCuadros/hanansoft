@@ -3,6 +3,7 @@
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  height: 105rem;
 }
 
 .container-experiencia::before {
@@ -20,42 +21,17 @@
     text-align: center;
     
   }
-  .leftRs {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    height: 50px;
-    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.568);
-    border-radius: 999px;
-    left: 0;
-    z-index: 1;
-    margin-top: 100px;
-    display: none;
-  }
-  
-  .rightRs {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    height: 50px;
-    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.568);
-    border-radius: 999px;
-    right: 0;
-    z-index: 1;
-    display: none;
-  }
 
 .img1{
   width: 325px;
 } 
 
-.card1{
+.card{
     margin-left: 5px;
-    width: 25rem;
+    width: 23rem;
+    background: none;
+    overflow: hidden;
+    height: 13.8rem;
 }
 
 .text1{
@@ -87,9 +63,22 @@
   linear-gradient(#fff, #fff); 
   background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
   background-position: top left, left top, right bottom, right bottom, 1px 1px;
-  padding: 10px;
-  margin: 2rem 2rem;
-  min-width: 300px;
+  padding: 6px;
+  margin: 2rem 1rem;
+  width: 300px;
+}
+
+.marco-ext2 {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#fff, #fff),
+  linear-gradient(#fff, #fff),
+  linear-gradient(#fff, #fff),
+  linear-gradient(#fff, #fff); 
+  background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
+  background-position: top left, left top, right bottom, right bottom, 1px 1px;
+  padding: 6px;
+  margin: 2rem 1rem;
+  width: 300px;
 }
 
 .marco-ext-h {
@@ -100,16 +89,17 @@
   linear-gradient(#fff, #fff); 
   background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
   background-position: top left, left top, right bottom, right bottom, 1px 1px;
-  padding: 10px;
-  margin: 2rem 2rem;
-  max-width: 400px;
-}
-
-.marco-fondo {
+  padding: 6px;
+  margin: 2rem 1rem;
+  max-width: 300px;
 }
 
 /* Comienza efecto */
-.imagen:hover {
+.efecto {
+  transition: all 500ms
+}
+
+.efecto:hover {
   transform: translate(-15px, -15px);
 }
 
@@ -125,4 +115,23 @@
 .aliados {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.etiqueta {
+  color: black;
+  position: relative;
+  top: -5rem;
+  left: 8rem;
+}
+
+.nombre {
+  background-color: black;
+  color: white;
+  font-family: orbitron;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.nombre:hover {
+  color:aqua;
 }
