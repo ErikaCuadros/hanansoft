@@ -4,6 +4,7 @@ footer {
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin-top: 1rem;
+    height: 5rem;
 }
 
 h6 {
@@ -16,11 +17,5 @@ p {
 }
 
 .estilo {
-    outline: 5px solid white;
-    outline-offset: 0.5rem;
-}
-
-#scroll {
-    overflow-y: scroll;
-    max-height: 7rem;
+    margin-top: -5rem;
 }

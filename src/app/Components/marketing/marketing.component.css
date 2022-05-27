@@ -1,26 +1,19 @@
-/* Todos los estilos se encuentran en Style.css */
+.fondo {
+    background-image: url("../../../assets/img/background-3883181_1920.jpg");
+    background-size: cover;
+    position: relative;
+    top: -3.7rem;
+    height: 75vh;  
+}
+
 middle {
     vertical-align: middle;
 }
 
-h1 {
-    margin-bottom: 2rem;
-}
-
-p {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: medium;
-}
-
-li {
-    font-size: medium;
-}
-
-h1 {
-    font-size: large;
-}
-
 .pequeño {
     height: 15rem;
+}
+
+.align {
+    margin-left: 4rem;
 }

@@ -6,9 +6,6 @@
   <!-- Inicio del container del carrusél. -->
   <div class="container mt-16 mb-16">
       <!-- h1 Experiencia -->
-    <h1 class="text-center pb-5 pt-6 mb-16">
-      {{"EXPERIENCE.TITLE" | translate}}
-    </h1>
     <!-- Inicio Fila 1 -->
     <div class="row justify-content-md-center">
       <!-- Inicio Columna 1 de Fila 1 -->
@@ -19,7 +16,7 @@
             <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems$ | async">
                 <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
                   <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                    <h1 class="etiqueta">
+                    <h1>
                       {{ i + 1 }}
                     </h1>
                   </div>
@@ -40,7 +37,7 @@
             <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems1$ | async">
                 <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
                   <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                    <h1 class="etiqueta">
+                    <h1>
                       {{ i + 1 }}
                     </h1>
                   </div>
@@ -61,7 +58,7 @@
             <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems2$ | async">
                 <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
                   <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                    <h1 class="etiqueta">
+                    <h1>
                       {{ i + 1 }}
                     </h1>
                   </div>
@@ -81,7 +78,7 @@
   <div class="container clientes mt-16 mb-16">
     <!-- h1 Nuestros Clientes -->
     <h1 class="text-center mb-16 mt-16" id="clientes">
-      Nuestros clientes
+      Confian en Nosotros
     </h1>
     <!-- Inicio 1 Fila -->
       <div class="row justify-content-md-center">
@@ -133,7 +130,7 @@
 <!-- ========== Start Container Logos aliados ========== -->
   <div class="container aliados mt-16 mb-16">
     <!-- H1 organizaciones amigas -->
-    <h1 class="text-center mb-16">Organizaciones amigas </h1>
+    <h1 class="text-center mb-16">Aliados </h1>
     <!-- Inicio de fila 1 -->
     <div class="row justify-content-center d-flex">
       <!-- Inicio de columna 1 de fila 1 -->
@@ -167,5 +164,7 @@
     </div>
   </div>
 </div>
-<!-- ========== End Logos aliados ========== -->      
+<!-- ========== End Logos aliados ========== --> 
+<div class="mb-16">
+</div>     
 <app-footer></app-footer>

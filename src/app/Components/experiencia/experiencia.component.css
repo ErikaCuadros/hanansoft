@@ -3,7 +3,7 @@
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  height: 105rem;
+  height: 200vh;
 }
 
 .container-experiencia::before {
@@ -115,13 +115,6 @@
 .aliados {
   margin-top: 5rem;
   margin-bottom: 5rem;
-}
-
-.etiqueta {
-  color: black;
-  position: relative;
-  top: -5rem;
-  left: 8rem;
 }
 
 .nombre {

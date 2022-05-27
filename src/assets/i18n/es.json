@@ -3,36 +3,31 @@
         "SERVICES": "SERVICIOS"
     },
     "APPS":{
-        "TITLE":"APPs",
-        "PARAGRAPH.0":"El desarrollo de aplicaciones para dispositivos móviles permite brindar un funcionamiento y recursos que aportan un acceso más rápido y sencillo a la información necesaria, con",
-        "PARAGRAPH.1":"versatilidad en cuanto a su utilización y atribución de funcionalidades.Desarrollamos contigo aplicaciones moviles bajo las plataformas Android y iOS que permitan buscar posibilidades nuevas y",
-        "PARAGRAPH.2":"fomentar la creatividad, dependiendo del tipo de contenido que se quiere ofrecer, con el fin de brindar al usuario una experiencia integral mediante  el uso de diferentes herramientas digitales."
+        "TITLE":"Aplicaciones Móviles",
+        "PARAGRAPH.0":"El desarrollo de aplicaciones para dispositivos móviles permite brindar un funcionamiento y recursos que aportan un acceso más rápido y sencillo a la información necesaria, con versatilidad en cuanto a su utilización y atribución de funcionalidades.Desarrollamos contigo",
+        "PARAGRAPH.1":"aplicaciones moviles bajo las plataformas Android y iOS que permitan buscar posibilidades nuevas y fomentar la creatividad, dependiendo del tipo de contenido que se quiere ofrecer, con el fin de brindar al usuario una experiencia integral mediante  el uso de diferentes herramientas digitales."
     },
     "DIGITAL-ART":{
         "TITLE":"COACHING ARTE DIGITAL",
-        "PARAGRAPH.0":"El surgimiento de los NFTs (Tokens no fungibles) definidos como activos digitales que estan basados en redes blockchain, han llegado a revolucionar el mundo del arte, dando lugar al Cryptoarte que es una forma de introducir escasez",
-        "PARAGRAPH.1":"y valor al arte en forma digital, explorando nuevas estéticas, donde participan diferentes artistas desde fotografos hasta artistas en ilustración digital, arte glitch / gif, collage de video, arte con IA, realidad virtual entre otros. Nosotros te",
-        "PARAGRAPH.2":"acompañamos en el proceso para identificar qué obras pueden ser un NFT, como producirlas en las diferentes plataformas y a difundir tu portafolio de arte digital, ademas de formar parte de comunidades de artistas digitales en Lationoamerica."
+        "PARAGRAPH.0":"El surgimiento de los NFTs (Tokens no fungibles) definidos como activos digitales que estan basados en redes blockchain, han llegado a revolucionar el mundo del arte, dando lugar al Cryptoarte que es una forma de introducir escasez y valor al arte en forma digital, explorando nuevas estéticas, donde participan diferentes artistas desde",
+        "PARAGRAPH.1":" fotografos hasta artistas en ilustración digital, arte glitch / gif, collage de video, arte con IA, realidad virtual entre otros. Nosotros te acompañamos en el proceso para identificar qué obras pueden ser un NFT, como producirlas en las diferentes plataformas y a difundir tu portafolio de arte digital, ademas de formar parte de comunidades de artistas digitales en Lationoamerica."
     },
     "DIGITAL-PROJECTS":{
         "TITLE":"COACHING PROYECTOS DIGITALES",
-        "PARAGRAPH.0":"El coach digital exponencial se diferencia por acompañar a las personas a  reinventarse ofreciéndoles conocimientos y experimentación a través de la sinergia del uso de las nuevas tecnologías y la aplicación de la inteligencia emocional.Antes de comenzar un proyecto digital",
-        "PARAGRAPH.1":"debes tener una hoja de ruta y conocer en que etapa te encuentras, siguiendo nuestra metodologia AVALON te ayudaremos a  coocrear juntos tu nueva realidad de forma simple, creativa y efectiva, brinadandote un coaching digital exponencial sin días y horarios cerrados,",
-        "PARAGRAPH.2":"utilizando las diferentes plataformas y aplicaciones en las cuales un coach estara disponible para tomar sesiones donde obtendras una estimación del costo según la cantidad de tiempo de la sesión on-line."
+        "PARAGRAPH.0":"El coach digital exponencial se diferencia por acompañar a las personas a  reinventarse ofreciéndoles conocimientos y experimentación a través de la sinergia del uso de las nuevas tecnologías y la aplicación de la inteligencia emocional.Antes de comenzar un proyecto digital debes tener una hoja de ruta y conocer en que etapa te encuentras, siguiendo",
+        "PARAGRAPH.1":"nuestra metodologia AVALON te ayudaremos a  coocrear juntos tu nueva realidad de forma simple, creativa y efectiva, brinadandote un coaching digital exponencial sin días y horarios cerrados, utilizando las diferentes plataformas y aplicaciones en las cuales un coach estara disponible para tomar sesiones donde obtendras una estimación del costo según la cantidad de tiempo de la sesión on-line."
     
     },
     "COMMERCE":{
         "TITLE":"E-COMMERCE",
-        "PARAGRAPH.0":"En el año 2020 se ha visto un avance de 10 años en el desarrollo del E-comerce y la adaptacion de la realidad aumentada asi como de la  inteligencia artificial seran importantes  en los próximos años; a",
-        "PARAGRAPH.1":"su vez  se ha visto el surgimiento de marcas locales mas alla de las marcas internacionales en diferentes areas de consumo. Ofrecemos el desarrollo de una plataforma E-commerce",
-        "PARAGRAPH.2":"funcional y creativa que pueda relacionar al vendedor con la comunidad que ha elegido, ya sea que se ofrezca  productos que muestren la filosofia de su propia  marca o  para vender un portafolio de diferentes marcas."
+        "PARAGRAPH.0":"En el año 2020 se ha visto un avance de 10 años en el desarrollo del E-comerce y la adaptacion de la realidad aumentada asi como de la  inteligencia artificial seran importantes  en los próximos años; a su vez  se ha visto el surgimiento de marcas locales mas alla de las marcas internacionales en diferentes areas de",
+        "PARAGRAPH.1":"consumo. Ofrecemos el desarrollo de una plataforma E-commerce funcional y creativa que pueda relacionar al vendedor con la comunidad que ha elegido, ya sea que se ofrezca  productos que muestren la filosofia de su propia  marca o  para vender un portafolio de diferentes marcas."
     
     },
     "DAPPS":{
-        "TITLE":"DAPPs",
-        "PARAGRAPH.0":"La tecnología blockchain vino a revolucionar el mundo, dado que tendrá una amplia repercusión en las finanzas, el marketing y los negocios, desde ya se apuntala a convertirse en una especie de institución tecnológica que hará cambiar las",
-        "PARAGRAPH.1":"operaciones en bancos, organizaciones y empresas, convirtiendose en el Internet del valor.Nosotros estructuramos redes Blockchain públicas y privadas, utilizando diferentes plataformas como Hyperledger y Ethereum entre", 
-        "PARAGRAPH.2":"otras, para ofrecer soluciones que puedan aplicarse a diferentes negocios ya que la innovacion de la tecnologia del blockchain cada vez va creando nuevos caminos."
+        "TITLE":"Aplicaciones Descentralizadas",
+        "PARAGRAPH.0":"La tecnología blockchain vino a revolucionar el mundo, dado que tendrá una amplia repercusión en las finanzas, el marketing y los negocios, desde ya se apuntala a convertirse en una especie de institución tecnológica que hará cambiar las operaciones en bancos, organizaciones y empresas, convirtiendose en el Internet",
+        "PARAGRAPH.1":" del valor.Nosotros estructuramos redes Blockchain públicas y privadas, utilizando diferentes plataformas como Hyperledger y Ethereum entre otras, para ofrecer soluciones que puedan aplicarse a diferentes negocios ya que la innovacion de la tecnologia del blockchain cada vez va creando nuevos caminos."
     },
     "EXPERIENCE":{
         "TITLE":"NUESTRA EXPERIENCIA",
@@ -60,8 +55,7 @@
     },
     "MARKETING":{
         "TITLE":"MARKETING EXPONENCIAL",
-        "PARAGRAPH":"El Marketing exponencial es sociologia aplicada con datos que nos ayudan en la optimizacion integral de un negocio.",
-        "PARAGRAPH-1":"Nuestro Sistema de Marketing Exponencial esta enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas, mediante:",
+        "PARAGRAPH":"El Marketing exponencial es sociologia aplicada con datos que nos ayudan en la optimizacion integral de un negocio. Nuestro Sistema de Marketing Exponencial esta enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas, mediante:",
         "LIST":"1. Contenido exponencial.",
         "LIST-1":"2. Alcance Exponencial.",
         "LIST-2":"3. Confianza digital exponencial.",
@@ -95,9 +89,8 @@
     },
     "SIGHTSEEING":{
         "TITLE":"COACHING TURISMO VIRTUAL",
-        "PARAGRAPH.0":"El Turismo también esta en camino a la nueva era digital, donde a través del uso de plataformas y herramientas digitales como la realidad virtual las personas puedan visitar lugares de interés como zonas arqueológicas milenarias, edificios",
-        "PARAGRAPH.1":"emblemáticos, centros históricos y hasta sumergirse en misterioso lagos de manera  interactiva mas alla de su imaginacion.Aprende con nosotros a aplicar estrategias y herramientas digitales que te ayuden a generar nuevos",
-        "PARAGRAPH.2":"proyectos para un sitio turistico donde se brinde una experiencia que motive a los nuevos turistas virtuales a viajar a través del tiempo y el ciberespacio a lugares magicos. Laboratorio de Virtualizacion del Patrimonio Turistico."
+        "PARAGRAPH.0":"El Turismo también esta en camino a la nueva era digital, donde a través del uso de plataformas y herramientas digitales como la realidad virtual las personas puedan visitar lugares de interés como zonas arqueológicas milenarias, edificios emblemáticos, centros históricos y hasta sumergirse en misterioso lagos de manera  interactiva mas alla de su",
+        "PARAGRAPH.1":"imaginacion.Aprende con nosotros a aplicar estrategias y herramientas digitales que te ayuden a generar nuevos proyectos para un sitio turistico donde se brinde una experiencia que motive a los nuevos turistas virtuales a viajar a través del tiempo y el ciberespacio a lugares magicos. Laboratorio de Virtualizacion del Patrimonio Turistico."
     },
     "DEVELOPERS":{
         "TITLE":"HEAD HUNTING DEVELOPERS",
