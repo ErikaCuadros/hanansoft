@@ -2,10 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-// Inicio Servicio Cargar Scripts
-import { CargarScriptsService } from './cargar-scripts.service';
-// Fin Servicio Cargar Scripts
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { developersComponent } from './Components/developers/developers.component';
@@ -75,7 +71,6 @@ export function HttpLoaderFactory(http: HttpClient) {
   })
   ],
   providers: [
-    CargarScriptsService
   ],
   bootstrap: [AppComponent]
 })
