@@ -58,8 +58,6 @@ body {
     padding: 2px;
     outline: 2px solid #004483ff;
     outline-offset: -5px;
-    width: 38rem;
-    height: 24rem;
 }
 
 /* Creé la clase "img1_v2" para cambiar el tamaño de la imgen 1, 
@@ -95,4 +93,12 @@ pero después de la interacción con la acción del mouse */
     width: 545px;
     height: 250px;
 }
+}
+
+.pequeño {
+    width: 400px;
+}
+
+.align {
+    margin-left: 4rem;
 }

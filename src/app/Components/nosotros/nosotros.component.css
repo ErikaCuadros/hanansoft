@@ -2,7 +2,7 @@
   background-image: url("../../../assets/img/background-3883181_1920.jpg");
   background-size: cover;
   position: relative;
-  height: 110vh;  
+  height: 160vh;  
 }
 
 .container-nosotros::before {
@@ -68,7 +68,7 @@
 
 .card-title {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   font-family: "orbitron";
 }

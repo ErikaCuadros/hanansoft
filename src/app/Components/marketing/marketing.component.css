@@ -3,17 +3,5 @@
     background-size: cover;
     position: relative;
     top: -3.7rem;
-    height: 75vh;  
-}
-
-middle {
-    vertical-align: middle;
-}
-
-.pequeño {
-    height: 15rem;
-}
-
-.align {
-    margin-left: 4rem;
+    height: 85vh;  
 }

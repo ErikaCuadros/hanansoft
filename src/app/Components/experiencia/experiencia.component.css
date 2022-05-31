@@ -3,7 +3,7 @@
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  height: 200vh;
+  height: 180vh;
 }
 
 .container-experiencia::before {
@@ -68,6 +68,27 @@
   width: 300px;
 }
 
+/* Aquí está el flex que se usa en los logos de los clientes */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(12%)
+}
+
+/* Este es el espacio entre los logos de clientes*/
+
+.logo{
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+/* Este es el espacio entre los logos de aliados*/
+
+.logo2{
+  margin-left: 3rem;
+}
+
 .marco-ext2 {
   background-repeat: no-repeat;
   background-image: linear-gradient(#fff, #fff),
@@ -75,10 +96,7 @@
   linear-gradient(#fff, #fff),
   linear-gradient(#fff, #fff); 
   background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
-  background-position: top left, left top, right bottom, right bottom, 1px 1px;
-  padding: 6px;
-  margin: 2rem 1rem;
-  width: 300px;
+  background-position: top left, left top, right bottom, right bottom, 1px 9px;
 }
 
 .marco-ext-h {
@@ -88,13 +106,10 @@
   linear-gradient(#fff, #fff),
   linear-gradient(#fff, #fff); 
   background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
-  background-position: top left, left top, right bottom, right bottom, 1px 1px;
-  padding: 6px;
-  margin: 2rem 1rem;
-  max-width: 300px;
+  background-position: top left, left top, right bottom, right bottom, 1px 1px  ;
 }
 
-/* Comienza efecto */
+/* Comienza efecto en imágenes al pasar el mouse encima*/
 .efecto {
   transition: all 500ms
 }
@@ -103,8 +118,77 @@
   transform: translate(-15px, -15px);
 }
 
-.imagen {
-  height: 150px;
+/* Termina efecto */
+
+/* Configuración de las imágenes de los logos de clientes */
+#imagen1 {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 250px;
+}
+
+#imagen2 {
+  margin-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 250px;
+}
+
+#imagen3 {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 250px;
+}
+
+#imagen4 {
+  margin-top: 0rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 200px;
+}
+
+#imagen5 {
+  margin: 1rem;
+  width: 250px;
+}
+
+#imagenesaliados1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: -0.5rem;
+  width: 250px;
+}
+
+#imagenesaliados2 {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 125px;
+}
+
+#imagenesaliados3 {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 175px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#imagenesaliados4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 175px;
 }
 
 .clientes {
