@@ -3,7 +3,7 @@ import { NguCarouselConfig } from '@ngu/carousel';
 import { interval, Observable } from 'rxjs';
 import { map, startWith, take } from 'rxjs/operators';
 import { slider } from '../../slide-animation';
-import { CargarScriptsService } from 'src/app/cargar-scripts.service';
+import { ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-experiencia',
@@ -12,9 +12,8 @@ import { CargarScriptsService } from 'src/app/cargar-scripts.service';
   animations: [slider],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-
-export class ExperienciaComponent implements OnInit 
-{
+export class ExperienciaComponent implements OnInit {
+  
   images = ['assets/img/cacho.svg', 'assets/img/nusimi.jpg', 'assets/img/simidic.svg'];
   images1 = ['assets/img/certix.png', 'assets/img/certix2.png', 'assets/img/certix3.png'];
   images2 = ['assets/img/bancobisa.svg', 'assets/img/ehealth.svg', 'assets/img/boliviana.svg', 'assets/img/cliente4.svg', 'assets/img/cliente5.svg'];
@@ -45,10 +44,8 @@ export class ExperienciaComponent implements OnInit
   public carouselTileItems1$!: Observable<number[]>;
   public carouselTileItems2$!: Observable<number[]>;
 
-  constructor( private _CargaScripts: CargarScriptsService)
-  { 
-    _CargaScripts.Carga(["experiencia/carousel"]);
-  }
+  constructor(private elementRef: ElementRef) { }
+  
 
   ngOnInit(): void {
     this.tempData = [];
@@ -90,5 +87,8 @@ export class ExperienciaComponent implements OnInit
         return data2;
       })
     );
+  }
+  ngAfterViewInit(){
+    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#00172A';
   }
 }
