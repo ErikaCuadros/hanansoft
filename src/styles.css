@@ -18,6 +18,11 @@
     font-family: 'Orbitron';
 }
 
+.h2, h2 {
+    font-size: 2.5rem;
+    font-family: 'Orbitron';
+}
+
 body {
     background-color: #00172a;
     color: #fff;

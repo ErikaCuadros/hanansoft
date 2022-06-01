@@ -3,7 +3,7 @@
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  height: 180vh;  /* CONSTRUIR DE OTRO MODO PARA EVITAR QUE SE DAÑE EL FOOTER */
+  padding-bottom: 1rem;
 }
 
 .container-experiencia::before {
@@ -68,18 +68,10 @@
   width: 300px;
 }
 
-/* Aquí está el flex que se usa en los logos de los clientes */
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 /* Este es el espacio entre los logos de clientes*/
 
 .logo{
   margin-left: 3rem;
-  margin-top: 3rem;
 }
 
 /* Este es el espacio entre los logos de aliados*/
