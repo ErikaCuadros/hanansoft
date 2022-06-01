@@ -3,7 +3,7 @@
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  height: 180vh;
+  height: 180vh;  /* CONSTRUIR DE OTRO MODO PARA EVITAR QUE SE DAÑE EL FOOTER */
 }
 
 .container-experiencia::before {
@@ -73,7 +73,6 @@
 .flex {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(12%)
 }
 
 /* Este es el espacio entre los logos de clientes*/
