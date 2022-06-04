@@ -2,80 +2,78 @@
 <div class="container-fluid container-experiencia">
 <!-- nav bar metido dentro del container -->
   <app-nav></app-nav>
-<!-- ========== Start Carrusel de productos ========== -->
-  <!-- Inicio del container del carrusél. -->
-  <div class="container mt-16 mb-16">
-      <!-- h1 Experiencia -->
-    <!-- Inicio Fila 1 -->
-    <div class="row justify-content-md-center">
-      <!-- Inicio Columna 1 de Fila 1 -->
-      <div class="col-md-3">
-        <!-- Inicio de card Aplicaciones Móviles -->
-        <div class="card">
-          <div class="card-body">
-            <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems$ | async">
-                <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-                  <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                    <h1>
-                      {{ i + 1 }}
-                    </h1>
-                  </div>
-                </ngu-item>
-            </ngu-carousel> 
+  <!-- Container carrusel -->
+    <div class="container mt-16">
+      <!-- Fila 1 del container carrusel -->
+      <div class="row">
+        <!-- Columa 1 de fila 1 -->
+        <div class="col-md-12">
+          <!-- Carousel -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active tamaño">
+                <h3>Banco Bisa</h3>
+                <a href="https://www.bisa.com/" target="_blank">https://www.bisa.com/</a>
+                <img src="assets/img/bancobisa.svg" alt="Los Angeles" class="d-block">
+              </div>
+              <div class="carousel-item tamaño">
+                <h3>Boliviana Ciacruz</h3>
+                <a href="https://www.lbc.bo/" target="_blank">https://www.lbc.bo/</a>
+                <img src="assets/img/boliviana.svg" alt="Chicago" class="d-block"> 
+              </div>
+              <div class="carousel-item tamaño">
+                <h3>Cacho de Cacho</h3>
+                <a href="https://play.google.com/store/apps/details?id=viny.soltux" target="_blank">https://play.google.com/store/apps/details?id=viny.soltux</a>
+                <img src="assets/img/cacho.svg" alt="New York" class="d-block"> 
+              </div>
+              <div class="carousel-item tamaño">
+                <h3>Certix</h3>
+                <a href="https://certix.me" target="_blank">https://certix.me</a>
+                <img src="assets/img/certix.png" alt="New York" class="d-block">
+              </div>
+              <div class="carousel-item tamaño">
+                <h3>Ecotambo</h3>
+                <img src="assets/img/cliente4.svg" alt="New York" class="d-block">
+              </div>
+              <div class="carousel-item tamaño">
+                <h3>Tupac Katari</h3>
+                <p>Tupac Katari</p>
+                <img src="assets/img/cliente5.svg" alt="New York" class="d-block">
+              </div>
+              <div class="carousel-item tamaño">
+                <h3>NuSimi</h3>
+                <a href="https://play.google.com/store/apps/details?id=com.ketanolab.nusimi" target="_blank">https://play.google.com/store/apps/details?id=com.ketanolab.nusimi</a>
+                <img src="assets/img/nusimi.svg" alt="New York" class="d-block">
+              </div>
+              <div class="carousel-item tamañosanfrancisco">
+                <h3>Museo San Francisco</h3>
+                <p>Museo San Francisco</p>
+                <img src="assets/img/sanfrancisco.jpg" alt="New York" class="d-block" style="width:100%">
+              </div>
+            </div>              
+              <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
           </div>
         </div>
-        <!-- Nombre e hipervínculo Apps -->
-          <a href="https://play.google.com/store/apps/developer?id=Ketanolab" class="nombre mb-16" target="_blank">
-            Aplicaciones Móviles
-          </a>
       </div>
-      <!-- Inicio de Columna 2 de Fila 1 -->
-      <div class="col-md-3">
-        <!-- Inicio de card Certix -->
-        <div class="card">
-          <div class="card-body" >
-            <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems1$ | async">
-                <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-                  <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                    <h1>
-                      {{ i + 1 }}
-                    </h1>
-                  </div>
-                </ngu-item>
-            </ngu-carousel>
-          </div>
-        </div>
-        <!-- Nombre e hipervínculo Certix-->
-          <a href="https://certix.me" class="nombre mb-16" target="_blank">
-            Certix
-          </a>
-      </div>
-      <!-- Inicio de Columna 3 de Fila 1 -->
-      <div class="col-md-3">
-        <!-- Inicio de card Clientes -->
-        <div  class="card" >
-          <div class="card-body" >
-            <ngu-carousel [inputs]="carouselBanner" [dataSource]="carouselTileItems2$ | async">
-                <ngu-item *nguCarouselDef="let item; index as i; let ani = animate" [@slider]="ani">
-                  <div class="bannerStyle" [style.background]="'url(' + item + ')'">
-                    <h1>
-                      {{ i + 1 }}
-                    </h1>
-                  </div>
-                </ngu-item>
-            </ngu-carousel>
-          </div>
-        </div>
-        <!-- Nombre e hipervínculo Clientes -->
-          <a href="/experiencia#clientes" class="nombre mb-16">
-            Clientes
-          </a>
-      </div>
-    </div>
-  </div>
-    <!-- ========== End Carrusel de productos ========== -->
-
-    
+    </div>  
     <!-- Inicio container clientes -->
   <div class="container clientes">
     <!-- h1 Nuestros Clientes -->

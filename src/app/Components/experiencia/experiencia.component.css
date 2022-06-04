@@ -203,3 +203,16 @@
 .nombre:hover {
   color:aqua;
 }
+
+/* Carousel Bootstrap */
+
+.tamaño {
+  width: 625px;
+  margin-left: 30%;
+}
+
+.tamañosanfrancisco {
+  width: 325px;
+  height: 450px;
+  margin-left: 30%;
+}
