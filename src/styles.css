@@ -41,17 +41,8 @@ body {
     padding: 1rem;
 }
 
-.figura{
-    width: 300px;
-    height: 50px;
-    border-right: 60px solid transparent;
-    border-bottom: 75px solid #0a3457;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-}
-
 .img1{
-    box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);  
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;  
     border: 1px solid #004483ff;       
     background-image: linear-gradient(#007df1ff, #007df1ff),
     linear-gradient(#007df1ff, #007df1ff),
@@ -63,26 +54,6 @@ body {
     padding: 2px;
     outline: 2px solid #004483ff;
     outline-offset: -5px;
-}
-
-/* Creé la clase "img1_v2" para cambiar el tamaño de la imgen 1, 
-pero después de la interacción con la acción del mouse */
-
-.img1_v2{
-    box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);  
-    border: 1px solid #004483ff;       
-    background-image: linear-gradient(#007df1ff, #007df1ff),
-    linear-gradient(#007df1ff, #007df1ff),
-    linear-gradient(#007df1ff, #007df1ff),
-    linear-gradient(#007df1ff, #007df1ff);    
-    background-repeat: no-repeat;
-    background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
-    background-position: left bottom, left bottom, right top, right top, 1px 1px;
-    padding: 2px;
-    outline: 2px solid #004483ff;
-    outline-offset: -5px;
-    width: 24rem;
-    height: 14rem;
 }
 
 .img2{
@@ -106,4 +77,73 @@ pero después de la interacción con la acción del mouse */
 
 .align {
     margin-left: 4rem;
+}
+
+.centrar {
+    position: relative;
+    left: 20rem;
+}
+
+/* Botón Formulario */
+.button-form {
+    align-items: center;
+    background-image: linear-gradient(144deg,#021e5a, #4ee6f1 50%,#012863);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: orbitron;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    width: 14rem;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 22rem;
+    margin-top: -2.5rem;
+  }
+  
+  .button-form:active,
+  .button-form:hover {
+    outline: 0;
+  }
+  
+  .button-form span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-form:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-form {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+  
+/* Estilos que afectan al formulario de Contáctanos */
+
+.formulario {
+    width: 29rem;
+    background-image: linear-gradient(144deg,#06389b, #05041f 50%,#08857e);
+    margin-left: 30rem;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+}
+
+.tamaño {
+       width: 25rem;
 }
