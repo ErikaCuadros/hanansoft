@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class blockchainComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    this.estado = true;
+  }
 
   ngOnInit(): void {
   }
 
+  estado: boolean;
 }

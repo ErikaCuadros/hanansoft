@@ -4,30 +4,31 @@
     },
     "apps":{
         "title":"Aplicaciones Móviles",
-        "paragraph.0":"El desarrollo de aplicaciones para dispositivos móviles permite brindar un funcionamiento y recursos que aportan un acceso más rápido y sencillo a la información necesaria, con versatilidad en cuanto a su utilización y atribución de funcionalidades.Desarrollamos contigo",
-        "paragraph.1":"aplicaciones moviles bajo las plataformas Android y iOS que permitan buscar posibilidades nuevas y fomentar la creatividad, dependiendo del tipo de contenido que se quiere ofrecer, con el fin de brindar al usuario una experiencia integral mediante  el uso de diferentes herramientas digitales."
+        "paragraph.0":"El desarrollo de aplicaciones para dispositivos móviles permite brindar un acceso más rápido, sencillo y eficiente a la información necesaria, con  gran versatilidad. Diseñando funcionalidades específicas, mejora en la capacidad de conectividad y disponibilidad de servicios y productos.",
+        "paragraph.1":"¿Qué ofrecemos? Desarrollamos contigo aplicaciones móviles bajo las plataformas Android e iOS que permitan buscar posibilidades nuevas y fomentar la creatividad, con el fin de brindar al usuario una experiencia integral mediante el uso de diferentes herramientas digitales. "
     },
     "digital-art":{
         "title":"COACHING ARTE DIGITAL",
-        "paragraph.0":"El surgimiento de los NFTs (Tokens no fungibles) definidos como activos digitales que estan basados en redes blockchain, han llegado a revolucionar el mundo del arte, dando lugar al Cryptoarte que es una forma de introducir escasez y valor al arte en forma digital, explorando nuevas estéticas, donde participan diferentes artistas desde",
-        "paragraph.1":" fotografos hasta artistas en ilustración digital, arte glitch / gif, collage de video, arte con IA, realidad virtual entre otros. Nosotros te acompañamos en el proceso para identificar qué obras pueden ser un NFT, como producirlas en las diferentes plataformas y a difundir tu portafolio de arte digital, ademas de formar parte de comunidades de artistas digitales en Lationoamerica."
+        "paragraph":"El surgimiento de los NFTs (Tokens no fungibles) definidos como activos digitales que están basados en redes blockchain, han llegado a revolucionar el mundo del arte, dando lugar al Criptoarte que es una forma de introducir escasez y valor al arte en forma digital."
+        
     },
     "digital-projects":{
         "title":"COACHING PROYECTOS DIGITALES",
-        "paragraph.0":"El coach digital exponencial se diferencia por acompañar a las personas a  reinventarse ofreciéndoles conocimientos y experimentación a través de la sinergia del uso de las nuevas tecnologías y la aplicación de la inteligencia emocional.Antes de comenzar un proyecto digital debes tener una hoja de ruta y conocer en que etapa te encuentras, siguiendo",
-        "paragraph.1":"nuestra metodologia AVALON te ayudaremos a  coocrear juntos tu nueva realidad de forma simple, creativa y efectiva, brinadandote un coaching digital exponencial sin días y horarios cerrados, utilizando las diferentes plataformas y aplicaciones en las cuales un coach estara disponible para tomar sesiones donde obtendras una estimación del costo según la cantidad de tiempo de la sesión on-line."
-    
+        "paragraph":"Programa de Coaching Digital: “Puente Digital hacia el Dorado”. El programa de coaching está dirigido a emprendedores y Pymes que no tienen claro el panorama y necesitan actualizar su presencia en internet, y en general, para todo emprendedor que no ha podido hallar la estrategia correcta para desarrollar su empresa al siguiente nivel de transición. ¡Todo este entrenamiento tiene un valor de 300 dólares! Pero hoy gracias a Ketanolab, puede ser tuyo con un increíble descuento del 70% ¡y podrás tenerlo tan solo por 60 dólares! El objetivo es abrirte la visión a las posibilidades que la migración digital puede darte. ¿Qué ofrecemos?",
+        "list":"- 5 videotutoriales de alto valor mediante los cuales podrás instruirte en todo momento y en todo lugar a tu ritmo y a tu tiempo.",
+        "list-1":"- 1 caja de herramientas digitales con las que podrás entender cómo funciona la lógica de las distintas redes sociales para la promoción de tus productos o servicios.",
+        "list-2":"- ¡Bono extra!: También te introducirás al fascinante mundo de Payoneer y las posibilidades que te abre esta tarjeta. Y así tener una vía segura y accesible de cobros y pagos."    
     },
     "commerce":{
         "title":"E-COMMERCE",
-        "paragraph.0":"En el año 2020 se ha visto un avance de 10 años en el desarrollo del E-comerce y la adaptacion de la realidad aumentada asi como de la  inteligencia artificial seran importantes  en los próximos años; a su vez  se ha visto el surgimiento de marcas locales mas alla de las marcas internacionales en diferentes areas de",
-        "paragraph.1":"consumo. Ofrecemos el desarrollo de una plataforma E-commerce funcional y creativa que pueda relacionar al vendedor con la comunidad que ha elegido, ya sea que se ofrezca  productos que muestren la filosofia de su propia  marca o  para vender un portafolio de diferentes marcas."
+        "paragraph.0":"En el año 2020 se ha visto un avance significativo en el desarrollo del comercio digital en el mundo, así como también el uso de la realidad aumentada y virtual, y de la  inteligencia artificial para los sistemas comerciales.",
+        "paragraph.1":"¿Qué ofrecemos? Ofrecemos el desarrollo de plataformas de E-commerce funcionales y creativas que puedan relacionar al vendedor con su comunidad, para vender sus propios productos o para exponer un portafolio de diferentes marcas."
     
     },
     "dapps":{
         "title":"Aplicaciones Descentralizadas",
-        "paragraph.0":"La tecnología blockchain vino a revolucionar el mundo, dado que tendrá una amplia repercusión en las finanzas, el marketing y los negocios, desde ya se apuntala a convertirse en una especie de institución tecnológica que hará cambiar las operaciones en bancos, organizaciones y empresas, convirtiendose en el Internet",
-        "paragraph.1":" del valor.Nosotros estructuramos redes Blockchain públicas y privadas, utilizando diferentes plataformas como Hyperledger y Ethereum entre otras, para ofrecer soluciones que puedan aplicarse a diferentes negocios ya que la innovacion de la tecnologia del blockchain cada vez va creando nuevos caminos."
+        "paragraph.0":"Estamos experimentando el surgimiento de la descentralización del mundo digital expresado varios campos; las Finanzas Descentralizadas (DeFi) basadas en redes blockchain que ofrecen servicios financieros, las aplicaciones descentralizadas (DAPPs) que son sistemas digitales que pueden ser utilizadas en muchas áreas que requieren la tokenización de diferentes activos.",
+        "paragraph.1":"¿Qué ofrecemos? Te ayudamos a desarrollar una DAPP a medida para tu empresa, bajo el paradigma de la descentralización, optimizando, internacionalizando y dando mayor seguridad a tu operación."
     },
     "experience":{
         "title":"NUESTRA EXPERIENCIA",
@@ -55,12 +56,13 @@
     },
     "marketing":{
         "title":"MARKETING EXPONENCIAL",
-        "paragraph":"El Marketing exponencial es sociologia aplicada con datos que nos ayudan en la optimizacion integral de un negocio. Nuestro Sistema de Marketing Exponencial esta enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas, mediante:",
-        "list":"1. Contenido exponencial.",
-        "list-1":"2. Alcance Exponencial.",
-        "list-2":"3. Confianza digital exponencial.",
-        "list-3":"4. Ventas exponenciales.",
-        "list-4":"5. Relaciones digitales exponenciales."
+        "paragraph":"El Marketing exponencial es sociologia aplicada con datos que nos ayudan en la optimizacion integral de un negocio. Nuestro Sistema de Marketing Exponencial esta enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas- ¿Qué ofrecemos?:",
+        "list":"Ofrecemos para su empresa una asesoría que le permitirá desarrollar un plan de comunicación basado en Marketing Exponencial, que constará de los siguientes elementos:",
+        "list-1":"1. Contenido exponencial.",
+        "list-2":"2. Alcance Exponencial.",  
+        "list-3":"3. Confianza digital exponencial.",
+        "list-4":"4. Ventas exponenciales.",
+        "list-5":"5. Relaciones digitales exponenciales."
     },
     "nav":{
         "title":"Nav Bar",
@@ -85,16 +87,19 @@
     },
     "services":{
         "title":"SERVICIOS WEB",
-        "paragraph":"Tener un sitio web hoy en día es mas accesible y fundamental para estar inmersos en las oportunidades que nos ofrece el mercado virtual.   Nosrotros te acompanamos a disenar tu proyecto con un diseno y desarrollo web vanguardista y creativo transformando tu web en una experiencia, contando para esto con herramientas digitales como la  realidad virtual y realidad aumentada."
+        "paragraph.0":"Tener un sistema de gestión online o un sitio web  hoy en día es más accesible y fundamental para estar inmersos en las oportunidades que nos ofrece el mercado virtual, o las necesidades de gestión operativa que tienen hoy en día diversas ONGs, e instituciones públicas.",
+        "paragraph.1":"¿Qué ofrecemos? Desarrollamos sistemas digitales a medida de las necesidades. Te acompañamos a construir tu proyecto digital con un diseño funcional y desarrollo web vanguardista, transformando tu sistema digital en una experiencia única y eficiente, contando con herramientas digitales y metodologías de última generación. Como parte del proceso, te ayudamos a conceptualizar tu proyecto digital, y medirlo de manera que podamos crecer juntos."
     },
     "sightseeing":{
         "title":"COACHING TURISMO VIRTUAL",
-        "paragraph.0":"El Turismo también esta en camino a la nueva era digital, donde a través del uso de plataformas y herramientas digitales como la realidad virtual las personas puedan visitar lugares de interés como zonas arqueológicas milenarias, edificios emblemáticos, centros históricos y hasta sumergirse en misterioso lagos de manera  interactiva mas alla de su",
-        "paragraph.1":"imaginacion.Aprende con nosotros a aplicar estrategias y herramientas digitales que te ayuden a generar nuevos proyectos para un sitio turistico donde se brinde una experiencia que motive a los nuevos turistas virtuales a viajar a través del tiempo y el ciberespacio a lugares magicos. Laboratorio de Virtualizacion del Patrimonio Turistico."
+        "paragraph.0":"El turismo también está aprovechando todo lo que ofrece la nueva era digital, ya que, a través del uso de plataformas y herramientas digitales como la realidad virtual, las personas, sin salir de su casa, pueden visitar lugares de interés como museos, zonas arqueológicas milenarias, edificios emblemáticos, centros históricos, sitios naturales, etc. Adentrarse completamente en ellos teniendo como límite su imaginación.",
+        "paragraph.1":"Aprende con nosotros a aplicar estrategias y herramientas digitales que te ayuden a generar nuevos proyectos en turismo, donde se brinde una experiencia que motive a los nuevos turistas virtuales a viajar a través del tiempo y el ciberespacio para visitar lugares mágicos."
     },
     "developers":{
-        "title":"HEAD HUNTING DEVELOPERS",
-        "paragraph.0":"La experiencia de vivir en un país cosmopolita al otro lado del mundo te brindará la oportunidad de ampliar tu visión y desarrollar nuevas capacidades como programador en un entorno diverso y de",
-        "paragraph.1":"alto nivel. Nosotros te asesoramos en base a nuestra experiencia vivida en Nueva Zelanda, y te contactamos con empresas interesadas en expandir su equipo y conocer nuevas culturas."    
+        "title":"HEAD HUNTING DEVELOPERS PARA NUEVA ZELANDA",
+        "paragraph":"La experiencia de vivir en un país cosmopolita al otro lado del mundo te brindará la oportunidad de ampliar tu visión y desarrollar nuevas capacidades como programador en un entorno diverso y de alto nivel. Nosotros te asesoramos en base a nuestra experiencia vivida en Nueva Zelanda, y te contactamos con empresas interesadas en expandir su equipo y conocer nuevas culturas. ¿Qué ofrecemos?",    
+        "list":"- Mentorías especializadas para que puedas acceder a empresas de desarrollo de software en Nueva Zelanda, viviendo en el mismo país.",
+        "list-1":"- Sesión en vivo de una hora.",
+        "list-2":"- Documentación de apoyo."
     }
 }

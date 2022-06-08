@@ -7,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class developersComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    this.estado = true
+  }
 
   ngOnInit(): void {
   }
+
+  estado: boolean;
 }

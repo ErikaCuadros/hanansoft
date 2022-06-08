@@ -1,50 +1,100 @@
+<!-- Container General -->
 <div class="container-fluid mt-16 mb-16 fondo">
+    <!-- Navbar metido en container -->
     <app-nav></app-nav>
+    <!-- h1 -->
     <h1 class="ml-9 mt-16">
         {{"developers.title" | translate}}    
     </h1>
-    <div class="row">
-        <div class="col-md-4 mt-16">
-            <article>
-                <p class="align"> 
-                    {{"developers.paragraph.0" | translate}}
-                </p>    
-            </article>
+    <!-- Container Contenido de la página -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-16">
+                <article>
+                    <p class="align"> 
+                        {{"developers.paragraph" | translate}}
+                    </p>    
+                </article>
+            </div>
+            <div class="col-md-4 mt-16">
+                <article>
+                    <ul>
+                        <li>
+                            {{"developers.list" | translate}}    
+                        </li> 
+                        <li class="mt-5">
+                            {{"developers.list-1" | translate}}    
+                        </li> 
+                        <li class="mt-5">
+                            {{"developers.list-2" | translate}}    
+                        </li> 
+                    </ul>    
+                </article>
+            </div>
+            <div class="col-md-4 mt-16">
+                <article>
+                    <img src="../../../assets/img/nueva_zelanda.jpeg" class="img1 pequeño mt-9" alt="Nueva_Zelanda">    
+                </article>
+            </div>   
         </div>
-        <div class="col-md-4 mt-16">
-            <article>
-                <p> 
-                    {{"developers.paragraph.1" | translate}}
-                </p>    
-            </article>
-        </div>
-        <div class="col-md-4">
-            <article>
-                <img src="../../../assets/img/nueva_zelanda.jpeg" class="img1 pequeño" alt="Nueva_Zelanda">    
-            </article>
-        </div>   
     </div>
+    <!-- Fin container contenido de la página -->
+    <!-- Container Formulario -->
+
+  <div class="container mt-16 mb-16">
+
+    <!-- Formulario con efecto ngIF, se oculta el botòn y aparece el formulario -->
+    
+        <div class="container" (click)="estado=!estado">
+            <div *ngIf="estado">
+                <a  class="button-form centrar"> 
+                    <span class="text">
+                        Comunícate Ahora.
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
+    
+        <div *ngIf="!estado" class="mt-16 mb-16">
+            <form class="p-8 formulario">
+                <div class="form-group">
+                    <label for="nombre">
+                        Nombre
+                    </label>
+                    <input type="text" class="form-control mt-5 tamaño" id="nombre" placeholder="Nombre" value="Tu Nombre" required>
+                </div>
+                <div class="form-group mt-5">
+                    <label for="apellido">
+                        Apellido
+                    </label>
+                    <input type="text" class="form-control mt-5 tamaño" id="apellido" placeholder="Apellido" value="Tu Apellido" required>
+                </div>
+                <div class="form-group mt-5">
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="email" class="form-control mt-5 tamaño" id="email" aria-describedby="emailHelp" placeholder="Ingresa tu correo electrónico">
+                    <small id="emailHelp" class="form-text text-muted">Es importante que digites correctamente tu corrreo <br/> porque te vamos a responder al mismo.</small>
+                </div>
+                <div class="form-group mt-5">
+                    <label for="consulta">
+                        Área de Consulta
+                    </label>
+                    <textarea class="form-control mt-5 tamaño" aria-describedby="contentHelp" id="consulta" rows="5"></textarea>
+                    <small id="contentHelp" class="form-text text-muted">Por favor, escribe tu consulta, y sé lo más claro posible.</small>
+                </div>
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="checkbox" value="" id="check" required>
+                    <label class="form-check-label" for="check">
+                        Aceptas Nuestros Términos y Condiciones.
+                    </label>
+                </div>
+                <button class="btn btn-primary mt-5 ml-16" type="submit">Enviar Formulario</button>
+            </form>    
+        </div>  
+    </div>
+    <!-- Fin div Formulario -->
 </div>
 <app-footer></app-footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-                
-            </div>
-            <div class="col col-md-3 ml-2 servicios-box">
-                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-                <p class=" pb-6 pt-6 h5 small"> {{"DEVELOPERS.PARAGRAPH" | translate}}</p>
-            </div>
-        </div> -->
