@@ -139,12 +139,6 @@ body {
 /* Estilos que afectan al formulario de Contáctanos */
 
 .formulario {
-    width: 29rem;
     background-image: linear-gradient(144deg,#06389b, #05041f 50%,#08857e);
-    margin-left: 30rem;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-}
-
-.tamaño {
-       width: 25rem;
 }

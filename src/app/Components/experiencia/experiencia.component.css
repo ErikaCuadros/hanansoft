@@ -68,12 +68,6 @@
   width: 300px;
 }
 
-/* Este es el espacio entre los logos de clientes*/
-
-.logo{
-  margin-left: 3rem;
-}
-
 /* Este es el espacio entre los logos de aliados*/
 
 .logo2{
@@ -90,16 +84,6 @@
   background-position: top left, left top, right bottom, right bottom, 1px 9px;
 }
 
-.marco-ext-h {
-  background-repeat: no-repeat;
-  background-image: linear-gradient(#fff, #fff),
-  linear-gradient(#fff, #fff),
-  linear-gradient(#fff, #fff),
-  linear-gradient(#fff, #fff); 
-  background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
-  background-position: top left, left top, right bottom, right bottom, 1px 1px  ;
-}
-
 /* Comienza efecto en imágenes al pasar el mouse encima*/
 .efecto {
   transition: all 500ms
@@ -113,38 +97,29 @@
 
 /* Configuración de las imágenes de los logos de clientes */
 #imagen1 {
-  margin-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: 250px;
+  width: 175px;
+  margin-right: 1rem;
 }
 
 #imagen2 {
-  margin-top: 3rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  width: 250px;
+  margin-top: 1rem;
+  width: 175px;
+  margin-right: 1rem;
 }
 
 #imagen3 {
-  margin-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  width: 250px;
+  width: 175px;
 }
 
 #imagen4 {
-  margin-top: 0rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  width: 200px;
+  width: 80px;
+  margin-left: 1rem;
 }
 
 #imagen5 {
-  margin: 1rem;
-  width: 250px;
+  margin-top: 1rem;
+  width: 200px;
+  margin-left: 2rem;
 }
 
 #imagenesaliados1 {
@@ -192,22 +167,10 @@
   margin-bottom: 5rem;
 }
 
-.nombre {
-  background-color: black;
-  color: white;
-  font-family: orbitron;
-  padding: 0.5rem 1rem;
-  text-align: center;
-}
-
-.nombre:hover {
-  color:aqua;
-}
-
 /* Carousel Bootstrap */
 
 .tamaño {
-  width: 400px;
+  width: 500px;
 }
 
 .tamañosanfrancisco {
