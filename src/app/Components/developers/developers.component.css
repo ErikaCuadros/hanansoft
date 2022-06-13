@@ -3,5 +3,8 @@
     background-size: cover;
     position: relative;
     top: -3.7rem;
-    height: 85vh;  
+}
+
+.salto_de_pagina {
+    max-width: 60rem;
 }

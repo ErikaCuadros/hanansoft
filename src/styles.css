@@ -75,10 +75,6 @@ body {
     width: 400px;
 }
 
-.align {
-    margin-left: 1rem;
-}
-
 .centrar {
     position: relative;
     top:4rem;
@@ -99,7 +95,7 @@ body {
     font-size: 20px;
     justify-content: center;
     line-height: 1em;
-    width: 19rem;
+    width: 14rem;
     padding: 3px;
     text-decoration: none;
     user-select: none;
@@ -141,4 +137,8 @@ body {
 .formulario {
     background-image: linear-gradient(144deg,#06389b, #05041f 50%,#08857e);
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+}
+
+.centrar_boton {
+    margin-left:  -40rem;
 }
