@@ -3,24 +3,24 @@
     <!-- Nav metido en container -->
     <app-nav></app-nav>
     <!-- h1 -->
-    <h1 class="ml-9 mt-16">
-        {{"sightseeing.title" | translate}}    
-    </h1>
     <!-- Inicio container contenido página -->
     <div class="container">
-        <div class="row">
+      <h1 class="mt-16">
+        {{"sightseeing.title" | translate}}
+      </h1>
+      <div class="row">
             <div class="col-md-4 mt-16">
                 <article>
-                    <p class="align"> 
+                    <p class="align">
                         {{"sightseeing.paragraph.0" | translate}}
-                    </p>    
+                    </p>
                 </article>
             </div>
             <div class="col-md-4 mt-16">
                 <article>
                     <ul>
                         <li>
-                            <h2>
+                            <h2 class="ofrecemos bold">
                                 {{"ofrecemos.title" | translate}}
                             </h2>
                         </li>
@@ -30,10 +30,10 @@
                         <li class="centrar_boton">
 
                         <!-- Formulario con efecto ngIF, se oculta el botòn y aparece el formulario -->
-                        
+
                             <div class="container" (click)="estado=!estado">
                                 <div *ngIf="estado">
-                                    <a  class="button-form centrar"> 
+                                    <a  class="button-form centrar">
                                         <span class="text">
                                             {{"button.contact" | translate}}
                                         </span>
@@ -47,9 +47,9 @@
             </div>
             <div class="col-md-4 mt-16">
                 <article>
-                    <img src="../../../assets/img/turismovirt.svg" class="img1 pequeño mt-8 ml-8" alt="Turismo Virtual">    
+                    <img src="../../../assets/img/turismovirt.svg" class="img1 mediano mt-8 ml-8" alt="Turismo Virtual">
                 </article>
-            </div>   
+            </div>
         </div>
     </div>
     <!-- Container Formulario -->
@@ -92,12 +92,12 @@
                     </label>
                 </div>
                 <button class="btn btn-primary mt-5 ml-16" type="submit">Enviar Formulario</button>
-            </form>    
-        </div>  
+            </form>
+        </div>
         </div>
         </div>
     </div>
-    <!-- Fin div Formulario -->    
+    <!-- Fin div Formulario -->
 <app-footer></app-footer>
 </div>
 
@@ -120,10 +120,10 @@
                 <div class="figura">
                     <p class="pt-6 ml-1">{{"SIGHTSEEING.TITLE" | translate}}</p>
                 </div>
-                
+
             </div>
         <div class="col col-md-3 ml-2 servicios-box">
-            
+
             <p class=" pb-6 pt-6">{{"SIGHTSEEING.PARAGRAPH" | translate}}</p>
         </div>
     </div> -->

@@ -8,22 +8,22 @@
         "paragraph.1":"Desarrollamos contigo aplicaciones móviles bajo las plataformas Android e iOS que permitan buscar posibilidades nuevas y fomentar la creatividad, con el fin de brindar al usuario una experiencia integral mediante el uso de diferentes herramientas digitales. "
     },
     "digital-art":{
-        "title":"Coaching Arte Digital",
+        "title":"Arte Digital NFT's",
         "paragraph":"El surgimiento de los NFTs (Tokens no fungibles) definidos como activos digitales que están basados en redes blockchain, han llegado a revolucionar el mundo del arte, dando lugar al Criptoarte que es una forma de introducir escasez y valor al arte en forma digital."
-        
+
     },
     "digital-projects":{
-        "title":"Coaching Proyectos Digitales",
+        "title":"Coaching Digital",
         "paragraph":"Programa de Coaching Digital: “Puente Digital hacia el Dorado”. El programa de coaching está dirigido a emprendedores y Pymes que no tienen claro el panorama y necesitan actualizar su presencia en internet, y en general, para todo emprendedor que no ha podido hallar la estrategia correcta para desarrollar su empresa al siguiente nivel de transición. ¡Todo este entrenamiento tiene un valor de 300 dólares! Pero hoy gracias a Ketanolab, puede ser tuyo con un increíble descuento del 70% ¡y podrás tenerlo tan solo por 60 dólares! El objetivo es abrirte la visión a las posibilidades que la migración digital puede darte.",
         "list":"- 5 videotutoriales de alto valor mediante los cuales podrás instruirte en todo momento y en todo lugar a tu ritmo y a tu tiempo.",
         "list-1":"- 1 caja de herramientas digitales con las que podrás entender cómo funciona la lógica de las distintas redes sociales para la promoción de tus productos o servicios.",
-        "list-2":"- ¡Bono extra!: También te introducirás al fascinante mundo de Payoneer y las posibilidades que te abre esta tarjeta. Y así tener una vía segura y accesible de cobros y pagos."    
+        "list-2":"- ¡Bono extra!: También te introducirás al fascinante mundo de Payoneer y las posibilidades que te abre esta tarjeta. Y así tener una vía segura y accesible de cobros y pagos."
     },
     "commerce":{
         "title":"E-commerce",
         "paragraph.0":"En el año 2020 se ha visto un avance significativo en el desarrollo del comercio digital en el mundo, así como también el uso de la realidad aumentada y virtual, y de la  inteligencia artificial para los sistemas comerciales.",
         "paragraph.1":"Ofrecemos el desarrollo de plataformas de E-commerce funcionales y creativas que puedan relacionar al vendedor con su comunidad, para vender sus propios productos o para exponer un portafolio de diferentes marcas."
-    
+
     },
     "dapps":{
         "title":"Aplicaciones Descentralizadas",
@@ -50,8 +50,8 @@
         "title-10":"Blockchain",
         "title-10.1":"Blockchain",
         "title-11":"Aplicaciones descentralizadas",
-        "title-12":"Nueva Zelanda", 
-        "title-13":"Servicios web",
+        "title-12":"Nueva Zelanda",
+        "title-13":"Automatización de servicios",
         "title-14":"Soluciones blockchain"
     },
     "marketing":{
@@ -59,7 +59,7 @@
         "paragraph":"El Marketing exponencial es sociologia aplicada con datos que nos ayudan en la optimizacion integral de un negocio. Nuestro Sistema de Marketing Exponencial esta enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas.",
         "list":"Ofrecemos para su empresa una asesoría que le permitirá desarrollar un plan de comunicación basado en Marketing Exponencial, que constará de los siguientes elementos:",
         "list-1":"1. Contenido exponencial.",
-        "list-2":"2. Alcance Exponencial.",  
+        "list-2":"2. Alcance Exponencial.",
         "list-3":"3. Confianza digital exponencial.",
         "list-4":"4. Ventas exponenciales.",
         "list-5":"5. Relaciones digitales exponenciales."
@@ -75,6 +75,7 @@
     "we":{
         "title":"NOSOTROS",
         "person-1":"Roger Prado De La Fuente",
+        "person-1_description":"Administrador de empresas cam amplia experiencia en startups, international public speaker que ha dado charlas en diferentes paises de sudamerica",
         "person-2":"Pedro Terán Gezn",
         "person-2_description":"Programador y arquitecto de software  con más de 10 años de experiencia trabajando en proyectos globales y dirigido equipos de desarrollo técnico multiculturales.",
         "person-3":"Milenka Escobar Pereira",
@@ -82,31 +83,31 @@
         "person-4":"Samantha Ayleen Rueda",
         "person-4_description":"Egresada de idiomas por la Universidad Central del Ecuador, y artista apasionada por la danza clásica y la cultura libre, deseo que a través de éstas, acontesca un cambio social.",
         "person-5":"Melania San Miguel Chacón",
-        "person-5_description":"Licenciada en Turismo por la Universidad Mayor de San Andrés. Facilitadora certificada por la OIT, he encabezado equipos para la implementación de programas de capacitación, organización de eventos, realización de material educativo e investigaciones. Mi trabajo gira en torno a temas relacionados a la gestión del patrimonio natural y cultural, al desarrollo de la cultura emprendedora, al fortalecimiento de capacidades personales, docencia universitaria e investigación, al desarrollo de emprendimientos en las áreas urbana y rural, así como al buen aprovechamiento de los recursos turísticos, con una perspectiva de sostenibilidad.",
+        "person-5_description":"Facilitadora certificada por la OIT, ha encabezado equipos para la implementación de programas de capacitación, su trabajo gira en torno a temas relacionados a la gestión del patrimonio natural y cultural, al desarrollo de emprendimientos en las áreas urbana y rural, así como al buen aprovechamiento de los recursos turísticos, con una perspectiva de sostenibilidad.",
         "paragraph":"Está compuesto por un equipo de innovadores con experiencia, conocimiento y responsabilidad en diferentes áreas, desde el desarrollo de plataformas, soluciones blockchain y servicios digitales enfocados en cambiar la experiencia del usuario hasta la asesoría en cultura digital desde enfoques interculturales."
     },
     "production":{
-        "title":"PRODUCCIÓN DIGITAL",
+        "title":"Producción Digital",
         "paragraph":"Imaginamos contigo tu proyecto con el fin de elevar tus productos audiovisuales digitales para redes sociales, paginas web, con animaciones 2D y 3D."
     },
     "services":{
-        "title":"Servicios Web",
+        "title":"Automatización de servicios",
         "paragraph.0":"Tener un sistema de gestión online o un sitio web  hoy en día es más accesible y fundamental para estar inmersos en las oportunidades que nos ofrece el mercado virtual, o las necesidades de gestión operativa que tienen hoy en día diversas ONGs, e instituciones públicas. Desarrollamos sistemas digitales a medida de las necesidades.",
         "paragraph.1":"Te acompañamos a construir tu proyecto digital con un diseño funcional y desarrollo web vanguardista, transformando tu sistema digital en una experiencia única y eficiente, contando con herramientas digitales y metodologías de última generación. Como parte del proceso, te ayudamos a conceptualizar tu proyecto digital, y medirlo de manera que podamos crecer juntos."
     },
     "sightseeing":{
-        "title":"Coaching Turismo Virtual",
+        "title":"Turismo Virtual",
         "paragraph.0":"El turismo también está aprovechando todo lo que ofrece la nueva era digital, ya que, a través del uso de plataformas y herramientas digitales como la realidad virtual, las personas, sin salir de su casa, pueden visitar lugares de interés como museos, zonas arqueológicas milenarias, edificios emblemáticos, centros históricos, sitios naturales, etc. Adentrarse completamente en ellos teniendo como límite su imaginación.",
         "paragraph.1":"Aprende con nosotros a aplicar estrategias y herramientas digitales que te ayuden a generar nuevos proyectos en turismo, donde se brinde una experiencia que motive a los nuevos turistas virtuales a viajar a través del tiempo y el ciberespacio para visitar lugares mágicos."
     },
     "developers":{
-        "title":"Head Hunting Developers Para Nueva Zelanda",
-        "paragraph":"La experiencia de vivir en un país cosmopolita al otro lado del mundo te brindará la oportunidad de ampliar tu visión y desarrollar nuevas capacidades como programador en un entorno diverso y de alto nivel. Nosotros te asesoramos en base a nuestra experiencia vivida en Nueva Zelanda, y te contactamos con empresas interesadas en expandir su equipo y conocer nuevas culturas.",    
+        "title":"Head Hunting Developers Nueva Zelanda",
+        "paragraph":"La experiencia de vivir en un país cosmopolita al otro lado del mundo te brindará la oportunidad de ampliar tu visión y desarrollar nuevas capacidades como programador en un entorno diverso y de alto nivel. Nosotros te asesoramos en base a nuestra experiencia vivida en Nueva Zelanda, y te contactamos con empresas interesadas en expandir su equipo y conocer nuevas culturas.",
         "list":"- Mentorías especializadas para que puedas acceder a empresas de desarrollo de software en Nueva Zelanda, viviendo en el mismo país.",
         "list-1":"- Sesión en vivo de una hora.",
         "list-2":"- Documentación de apoyo."
     },
-    
+
     "ofrecemos":{
         "title":"¿Qué Ofrecemos?"
     },

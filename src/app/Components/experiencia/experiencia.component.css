@@ -19,12 +19,12 @@
     min-height: 218px;
     line-height: 218px;
     text-align: center;
-    
+
   }
 
 .img1{
   width: 325px;
-} 
+}
 
 .card{
     margin-left: 5px;
@@ -40,12 +40,12 @@
 }
 
 .marco-int {
-  /*box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);*/  
-  /*border: 1px solid #1A99B3;*/       
+  /*box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);*/
+  /*border: 1px solid #1A99B3;*/
   background-image: linear-gradient(#1A99B3, #1A99B3),
   linear-gradient(#1A99B3, #1A99B3),
   linear-gradient(#1A99B3, #1A99B3),
-  linear-gradient(#1A99B3, #1A99B3);    
+  linear-gradient(#1A99B3, #1A99B3);
   background-repeat: no-repeat;
   background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
   background-position: left bottom, left bottom, right top, right top, 1px 1px;
@@ -60,7 +60,7 @@
   background-image: linear-gradient(#fff, #fff),
   linear-gradient(#fff, #fff),
   linear-gradient(#fff, #fff),
-  linear-gradient(#fff, #fff); 
+  linear-gradient(#fff, #fff);
   background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
   background-position: top left, left top, right bottom, right bottom, 1px 1px;
   padding: 6px;
@@ -79,7 +79,7 @@
   background-image: linear-gradient(#fff, #fff),
   linear-gradient(#fff, #fff),
   linear-gradient(#fff, #fff),
-  linear-gradient(#fff, #fff); 
+  linear-gradient(#fff, #fff);
   background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
   background-position: top left, left top, right bottom, right bottom, 1px 9px;
 }
@@ -170,7 +170,7 @@
 /* Carousel Bootstrap */
 
 .tamaño {
-  width: 500px;
+  width: 400px;
 }
 
 .tamañosanfrancisco {

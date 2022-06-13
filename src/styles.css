@@ -10,7 +10,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+
 }
 
 .h1, h1 {
@@ -42,12 +42,12 @@ body {
 }
 
 .img1{
-    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;  
-    border: 1px solid #004483ff;       
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    border: 1px solid #004483ff;
     background-image: linear-gradient(#007df1ff, #007df1ff),
     linear-gradient(#007df1ff, #007df1ff),
     linear-gradient(#007df1ff, #007df1ff),
-    linear-gradient(#007df1ff, #007df1ff);    
+    linear-gradient(#007df1ff, #007df1ff);
     background-repeat: no-repeat;
     background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
     background-position: left bottom, left bottom, right top, right top, 1px 1px;
@@ -75,10 +75,13 @@ body {
     width: 400px;
 }
 
+.pequeño {
+    width: 600px;
+}
 .centrar {
     position: relative;
     top:4rem;
-    left: 16rem;    
+    left: 16rem;
 }
 
 /* Botón Formulario */
@@ -106,12 +109,12 @@ body {
     margin-left: 22rem;
     margin-top: -2.5rem;
   }
-  
+
   .button-form:active,
   .button-form:hover {
     outline: 0;
   }
-  
+
   .button-form span {
     background-color: rgb(5, 6, 45);
     padding: 16px 24px;
@@ -120,18 +123,18 @@ body {
     height: 100%;
     transition: 300ms;
   }
-  
+
   .button-form:hover span {
     background: none;
   }
-  
+
   @media (min-width: 768px) {
     .button-form {
       font-size: 24px;
       min-width: 196px;
     }
   }
-  
+
 /* Estilos que afectan al formulario de Contáctanos */
 
 .formulario {
