@@ -1,5 +1,5 @@
 .container-experiencia {
-  background-image: url("../../../assets/img/Home/home.png");
+  background-image: url("../../../assets/img/background-3883181_1920.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -177,4 +177,13 @@
   width: 325px;
   height: 450px;
   margin-left: 30%;
+}
+
+/* Pc */
+.pc {
+  position: relative;
+  top: 1.3rem;
+  left: -0.6rem;
+  width: 50rem;
+  height: 3rem;
 }
