@@ -73,13 +73,20 @@
   font-family: "orbitron";
 }
 .card-text {
-  font-size: 0.9em;
+  font-size: 1rem;
   letter-spacing: 1px;
   opacity: 0.9;
 }
 
 .card-text-milenka {
-  font-size: 0.6em;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+
+.card-text-chacon {
+  font-size: 0.6rem;
   letter-spacing: 1px;
   opacity: 0.9;
 }
