@@ -1,13 +1,13 @@
 <!-- Inicio container general -->
 <div class="container-fluid mt-16 mb-16 fondo">
-    <!-- Nav metido en container -->
+    <!-- Navbar -->
     <app-nav></app-nav>
-    <!-- h1 -->
-    <h1 class="ml-9 mt-16">
-        {{"digital-art.title" | translate}}
-    </h1>
     <!-- Container contenido página -->
     <div class="container">
+        <!-- h1 -->
+    <h1 class="mt-16">
+        {{"digital-art.title" | translate}}
+    </h1>
         <div class="row">
             <div class="col-md-6 mt-16">
                 <article>
@@ -20,7 +20,7 @@
                         <!-- Formulario con efecto ngIF, se oculta el botòn y aparece el formulario -->
 
                             <div class="container" (click)="estado=!estado">
-      person-1_description                          <div *ngIf="estado">
+                                <div *ngIf="estado">
                                     <a  class="button-form centrar">
                                         <span class="text">
                                             {{"button.contact" | translate}}
