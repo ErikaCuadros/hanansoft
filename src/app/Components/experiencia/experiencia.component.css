@@ -189,12 +189,6 @@
   width: 400px;
 }
 
-.tamañosanfrancisco {
-  width: 325px;
-  height: 450px;
-  margin-left: 30%;
-}
-
 .pc {
   position: relative;
   top: 1.3rem;
@@ -212,4 +206,29 @@
 .h3certix {
   position: relative;
   top: 1.5rem;
+  left: 1rem;
+}
+
+.h3nusimi {
+  position: relative;
+  top: 1.5rem;
+  left: 1rem;
+}
+
+.nusimi {
+  position: relative;
+  top: 1.3rem;
+  left: -0.2;
+  width: 377px;
+}
+
+.sanfrancisco {
+  position: relative;
+  left: -0.2rem;
+  width: 394px;
+}
+
+.lugar {
+  position: relative;
+  top: -1rem;
 }
