@@ -84,6 +84,9 @@ body {
     left: 16rem;
 }
 
+.justificado {
+  text-align: justify
+}
 /* Botón Formulario */
 .button-form {
     align-items: center;
@@ -149,4 +152,3 @@ body {
 .ofrecemos {
     font-size: 1.75rem
   }
-  
