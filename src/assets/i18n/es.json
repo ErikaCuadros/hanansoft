@@ -9,15 +9,16 @@
     },
     "digital-art":{
         "title":"Arte Digital NFT's",
-        "paragraph":"El surgimiento de los NFTs (Tokens no fungibles) definidos como activos digitales que están basados en redes blockchain, han llegado a revolucionar el mundo del arte, dando lugar al Criptoarte que es una forma de introducir escasez y valor al arte en forma digital."
+        "paragraph.0":"El surgimiento de los NFTs (Tokens no fungibles) definidos como activos digitales que están basados en redes blockchain, han llegado a revolucionar el mundo del arte, dando lugar al Criptoarte que es una forma de introducir escasez y valor al arte en forma digital.",
+        "paragraph.1":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam nemo maxime ipsa ab, corrupti inventore dolore pariatur voluptates, quae mollitia quaerat tenetur placeat distinctio illum laborum! Saepe, accusantium suscipit."
 
     },
     "digital-projects":{
         "title":"Coaching Digital",
-        "paragraph":"Programa de Coaching Digital: “Puente Digital hacia el Dorado”. El programa de coaching está dirigido a emprendedores y Pymes que no tienen claro el panorama y necesitan actualizar su presencia en internet, y en general, para todo emprendedor que no ha podido hallar la estrategia correcta para desarrollar su empresa al siguiente nivel de transición. ¡Todo este entrenamiento tiene un valor de 300 dólares! Pero hoy gracias a Ketanolab, puede ser tuyo con un increíble descuento del 70% ¡y podrás tenerlo tan solo por 60 dólares! El objetivo es abrirte la visión a las posibilidades que la migración digital puede darte.",
-        "list":"- 5 videotutoriales de alto valor mediante los cuales podrás instruirte en todo momento y en todo lugar a tu ritmo y a tu tiempo.",
-        "list-1":"- 1 caja de herramientas digitales con las que podrás entender cómo funciona la lógica de las distintas redes sociales para la promoción de tus productos o servicios.",
-        "list-2":"- ¡Bono extra!: También te introducirás al fascinante mundo de Payoneer y las posibilidades que te abre esta tarjeta. Y así tener una vía segura y accesible de cobros y pagos."
+        "paragraph.0":"Programa de Coaching Digital: “Puente Digital hacia el Dorado”. El programa de coaching está dirigido a emprendedores y Pymes que no tienen claro el panorama y necesitan actualizar su presencia en internet, y en general, para todo emprendedor que no ha podido hallar la estrategia correcta para desarrollar su empresa al siguiente nivel de transición. ¡Todo este entrenamiento tiene un valor de 300 dólares! Pero hoy gracias a Ketanolab, puede ser tuyo con un increíble descuento del 70% ¡y podrás tenerlo tan solo por 60 dólares! El objetivo es abrirte la visión a las posibilidades que la migración digital puede darte.",
+        "paragraph.1":"- 5 videotutoriales de alto valor mediante los cuales podrás instruirte en todo momento y en todo lugar a tu ritmo y a tu tiempo.",
+        "paragraph.2":"- 1 caja de herramientas digitales con las que podrás entender cómo funciona la lógica de las distintas redes sociales para la promoción de tus productos o servicios.",
+        "paragraph.3":"- ¡Bono extra!: También te introducirás al fascinante mundo de Payoneer y las posibilidades que te abre esta tarjeta. Y así tener una vía segura y accesible de cobros y pagos."
     },
     "commerce":{
         "title":"E-commerce",
@@ -56,13 +57,13 @@
     },
     "marketing":{
         "title":"Marketing Exponencial",
-        "paragraph":"El Marketing exponencial es sociologia aplicada con datos que nos ayudan en la optimizacion integral de un negocio. Nuestro Sistema de Marketing Exponencial esta enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas.",
-        "list":"Ofrecemos para su empresa una asesoría que le permitirá desarrollar un plan de comunicación basado en Marketing Exponencial, que constará de los siguientes elementos:",
-        "list-1":"1. Contenido exponencial.",
-        "list-2":"2. Alcance Exponencial.",
-        "list-3":"3. Confianza digital exponencial.",
-        "list-4":"4. Ventas exponenciales.",
-        "list-5":"5. Relaciones digitales exponenciales."
+        "paragraph.0":"El Marketing exponencial es sociologia aplicada con datos que nos ayudan en la optimizacion integral de un negocio. Nuestro Sistema de Marketing Exponencial esta enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas.",
+        "paragraph.1":"Ofrecemos para su empresa una asesoría que le permitirá desarrollar un plan de comunicación basado en Marketing Exponencial, que constará de los siguientes elementos:",
+        "paragraph.2":"1. Contenido exponencial.",
+        "paragraph.3":"2. Alcance Exponencial.",
+        "paragraph.4":"3. Confianza digital exponencial.",
+        "paragraph.5":"4. Ventas exponenciales.",
+        "paragraph.6":"5. Relaciones digitales exponenciales."
     },
     "nav":{
         "title":"Nav Bar",
@@ -102,12 +103,18 @@
     },
     "developers":{
         "title":"Head Hunting Developers Nueva Zelanda",
-        "paragraph":"La experiencia de vivir en un país cosmopolita al otro lado del mundo te brindará la oportunidad de ampliar tu visión y desarrollar nuevas capacidades como programador en un entorno diverso y de alto nivel. Nosotros te asesoramos en base a nuestra experiencia vivida en Nueva Zelanda, y te contactamos con empresas interesadas en expandir su equipo y conocer nuevas culturas.",
-        "list":"- Mentorías especializadas para que puedas acceder a empresas de desarrollo de software en Nueva Zelanda, viviendo en el mismo país.",
-        "list-1":"- Sesión en vivo de una hora.",
-        "list-2":"- Documentación de apoyo."
+        "paragraph.0":"La experiencia de vivir en un país cosmopolita al otro lado del mundo te brindará la oportunidad de ampliar tu visión y desarrollar nuevas capacidades como programador en un entorno diverso y de alto nivel. Nosotros te asesoramos en base a nuestra experiencia vivida en Nueva Zelanda, y te contactamos con empresas interesadas en expandir su equipo y conocer nuevas culturas.",
+        "paragraph.1":"- Mentorías especializadas para que puedas acceder a empresas de desarrollo de software en Nueva Zelanda, viviendo en el mismo país.",
+        "paragraph.2":"- Sesión en vivo de una hora.",
+        "paragraph.3":"- Documentación de apoyo."
     },
-
+    "blockchain":{
+        "title":"Soluciones Blockchain",
+        "paragraph.0":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam nemo maxime ipsa ab, corrupti inventore dolore pariatur voluptates, quae mollitia quaerat tenetur placeat distinctio illum laborum! Saepe, accusantium suscipit.",
+        "paragraph.1":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam nemo maxime ipsa ab, corrupti inventore dolore pariatur voluptates, quae mollitia quaerat tenetur placeat distinctio illum laborum! Saepe, accusantium suscipit.",
+        "paragraph.2":"- Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam nemo maxime ipsa ab, corrupti inventore dolore pariatur voluptates, quae mollitia quaerat tenetur placeat distinctio illum laborum! Saepe, accusantium suscipit."
+        
+    },
     "ofrecemos":{
         "title":"¿Qué Ofrecemos?"
     },
@@ -116,3 +123,4 @@
     "contact":"Contáctanos"
     }
 }
+ 

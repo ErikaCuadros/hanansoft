@@ -10,8 +10,8 @@
         <div class="row">
             <div class="col-md-4 mt-16">
                 <article>
-                    <p class="align">
-                        {{"marketing.paragraph" | translate}}
+                    <p class="text-justify">
+                        {{"marketing.paragraph.0" | translate}}
                     </p>
                 </article>
             </div>
@@ -23,23 +23,23 @@
                                 {{"ofrecemos.title" | translate}}
                             </h2>
                         </li>
-                        <li class="mt-5">
-                            {{"marketing.list" | translate}}
+                        <li class="text-justify mt-5">
+                            {{"marketing.paragraph.1" | translate}}
                         </li>
                         <li class="mt-5">
-                            {{"marketing.list-1" | translate}}
+                            {{"marketing.paragraph.2" | translate}}
                         </li>
                         <li>
-                            {{"marketing.list-2" | translate}}
+                            {{"marketing.paragraph.3" | translate}}
                         </li>
                         <li>
-                            {{"marketing.list-3" | translate}}
+                            {{"marketing.paragraph.4" | translate}}
                         </li>
                         <li>
-                            {{"marketing.list-4" | translate}}
+                            {{"marketing.paragraph.5" | translate}}
                         </li>
                         <li>
-                            {{"marketing.list-5" | translate}}
+                            {{"marketing.paragraph.6" | translate}}
                         </li>
                         <li class="centrar_boton mb-16">
                             <div class="container" (click)="estado=!estado">
@@ -58,7 +58,7 @@
             </div>
             <div class="col-md-4 mt-10">
                 <article>
-                    <img src="../../../assets/img/markExp.svg" class="img1 pequeño mt-14" alt="marketing exponencial">
+                    <img src="../../../assets/img/markexp.png" class="img1 pequeño mt-14" alt="marketing exponencial">
                 </article>
             </div>
         </div>
@@ -74,17 +74,11 @@
                 <div *ngIf="!estado" class="mt-16 mb-16">
                     <form class="p-8 formulario" target="_blank" action="https://formsubmit.co/contacto@ketanolab.com" method="POST">
                         <div class="form-group">
-                            <label for="nombre">
-                                Nombre
+                            <label for="nombreapellido">
+                                Nombre y Apellido
                             </label>
-                            <input type="text" class="form-control mt-5 tamaño" id="nombre" placeholder="Nombre" value="Tu Nombre" required>
+                            <input type="text" class="form-control mt-5 tamaño" id="nombreapellido" placeholder="Nombre y Apellido" value="Tu Nombre y Apellido" required>
                         </div>
-                        <div class="form-group mt-5">
-                            <label for="apellido">
-                                Apellido
-                            </label>
-                            <input type="text" class="form-control mt-5 tamaño" id="apellido" placeholder="Apellido" value="Tu Apellido" required>
-                            </div>
                         <div class="form-group mt-5">
                             <label for="email">
                                 Email
@@ -97,13 +91,7 @@
                             </label>
                             <textarea class="form-control mt-5 tamaño" id="consulta" rows="5"></textarea>
                         </div>
-                        <div class="form-check mt-5">
-                            <input class="form-check-input" type="checkbox" value="" id="check" required>
-                            <label class="form-check-label" for="check">
-                                Aceptas Nuestros Términos y Condiciones.
-                            </label>
-                        </div>
-                        <button class="btn btn-primary mt-5 ml-16" type="submit">Enviar Formulario</button>
+                        <button class="btn btn-primary mt-5" type="submit">Enviar Formulario</button>
                     </form>
                 </div>
             </div>

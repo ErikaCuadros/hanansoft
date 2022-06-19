@@ -6,16 +6,13 @@
     <div class="container">
         <!-- h1 -->
     <h1 class="mt-16">
-        Soluciones Blockchain    
+        {{"blockchain.title" | translate}}    
     </h1>
         <div class="row">
             <div class="col-md-4 mt-16">
                 <article>
-                    <p class="align"> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Culpa quibusdam nemo maxime ipsa ab, corrupti inventore 
-                        dolore pariatur voluptates, quae mollitia quaerat tenetur 
-                        placeat distinctio illum laborum! Saepe, accusantium suscipit.
+                    <p class="text-justify"> 
+                        {{"blockchain.paragraph.0" | translate}}
                     </p>    
                 </article>
             </div>
@@ -28,11 +25,13 @@
                             </h2>
                         </li>
                         <li>
-                            <p class="mt-5"> 
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Culpa quibusdam nemo maxime ipsa ab, corrupti inventore 
-                                dolore pariatur voluptates, quae mollitia quaerat tenetur 
-                                placeat distinctio illum laborum! Saepe, accusantium suscipit.
+                            <p class="text-justify mt-5"> 
+                                {{"blockchain.paragraph.1" | translate}}
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-justify mt-5"> 
+                                {{"blockchain.paragraph.2" | translate}}
                             </p>
                         </li>
                         <li class="centrar_boton">
@@ -69,16 +68,10 @@
         <div *ngIf="!estado" class="mt-16 mb-16">
             <form class="p-8 formulario" target="_blank" action="https://formsubmit.co/contacto@ketanolab.com" method="POST">
                 <div class="form-group">
-                    <label for="nombre">
-                        Nombre
+                    <label for="nombreapellido">
+                        Nombre y Apellido
                     </label>
-                    <input type="text" class="form-control mt-5 tamaño" id="nombre" placeholder="Nombre" value="Tu Nombre" required>
-                </div>
-                <div class="form-group mt-5">
-                    <label for="apellido">
-                        Apellido
-                    </label>
-                    <input type="text" class="form-control mt-5 tamaño" id="apellido" placeholder="Apellido" value="Tu Apellido" required>
+                    <input type="text" class="form-control mt-5 tamaño" id="nombreapellido" placeholder="Nombre y Apellido" value="Tu Nombre y Apellido" required>
                 </div>
                 <div class="form-group mt-5">
                     <label for="email">
@@ -92,13 +85,7 @@
                     </label>
                     <textarea class="form-control mt-5 tamaño" id="consulta" rows="5"></textarea>
                     </div>
-                <div class="form-check mt-5">
-                    <input class="form-check-input" type="checkbox" value="" id="check" required>
-                    <label class="form-check-label" for="check">
-                        Aceptas Nuestros Términos y Condiciones.
-                    </label>
-                </div>
-                <button class="btn btn-primary mt-5 ml-16" type="submit">Enviar Formulario</button>
+                <button class="btn btn-primary mt-5" type="submit">Enviar Formulario</button>
             </form>    
         </div>  
     </div>

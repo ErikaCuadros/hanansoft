@@ -66,7 +66,16 @@ de los botones del nav, porque al hacer el responsive, es necesario contraer su 
     display: inline-block;
     position: relative;
     top: 0.1rem;
-    left: 0.2rem;
+    left: 0rem;
+    font-size: 15px;
+    max-height: 2.4rem;
+}
+
+.text-nav-6 {
+    display: inline-block;
+    position: relative;
+    top: 0.1rem;
+    left: 0rem;
     font-size: 15px;
     max-height: 2.4rem;
 }
@@ -113,21 +122,43 @@ de los botones del nav, individualmente, ya que varían mucho al hacer responsiv
 .nav-link_5 {
     line-height: 9.5;
     text-transform: uppercase;
-    width: 9rem;
-    left: 6rem;
+    width: 4.5rem;
+    left: 5rem;
     position: relative;
     top: 4.8rem;
     max-height: 2.4rem;
+    transition: all 500ms;
+}
+
+.nav-link_5:hover {
+    background-image: url("../../../assets/img/en.svg");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
 }
 
 .nav-link_6 {
     line-height: 9.5;
     text-transform: uppercase;
-    width: 9rem;
+    width: 4.5rem;
     position: relative;
-    left: 2rem;
+    left: 6rem;
     top: 4.8rem;
     max-height: 2.4rem;
+    transition: all 500ms;
+}
+
+.nav-link_6:hover {
+    background-image: url("../../../assets/img/es.svg");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
 }
 
 /* Éstas clases modifican el elemento span, y afectan al padding y margen de la imagen de fondo
@@ -193,6 +224,7 @@ usado en los botones del nav (cambié los pixeles por rem, para aumentar su resp
 .nav-link-5 {
     position: relative;
     top: -4.8rem;
+
 }
 
 .nav-link-6 {
