@@ -177,18 +177,6 @@
   left: 2.7rem;
 }
 
-.certix {
-  width: 400px;
-  position: relative;
-  left: 3rem;
-}
-
-.certiximg {
-  position: relative;
-  left: -0.5rem;
-  width: 400px;
-}
-
 .pc {
   position: relative;
   top: 1.3rem;
@@ -200,35 +188,99 @@
 
 .h3centrar {
   position: relative;
+  top: 16rem;
   left: 1rem;
 }
 
+.h3bolivianacentrar {
+  position: relative;
+  top: 14rem;
+  left: 1rem;     
+}
+/* Configuración del título h3 que acompaña a la imagen de Certix.*/
 .h3certix {
   position: relative;
-  top: 1.5rem;
+  top: 13.5rem;
+  left: 1rem;
+}
+
+/* Configuración del título h3 que acompaña a la imagen de Ecotambo.*/
+.h3ecotambo {
+  position: relative;
+  top: 15.8rem;
+  left: 1rem;
+}
+
+/* Configuración del título h3 que acompaña a la imagen de Tupac.*/
+.h3tupac {
+  position: relative;
+  top: 15rem;
   left: 1rem;
 }
 
 .h3nusimi {
   position: relative;
-  top: 1.5rem;
+  top: -2rem;
   left: 1rem;
 }
 
-.nusimi {
+.h3francisco {
   position: relative;
-  top: 1.3rem;
-  left: -0.2;
-  width: 377px;
-}
-
-.sanfrancisco {
-  position: relative;
-  left: -0.2rem;
-  width: 394px;
+  top: -3rem;
+  left: 1rem;
 }
 
 .lugar {
   position: relative;
   top: -1rem;
+}
+
+.posicion0 {
+  margin-top: -17.5rem;
+  margin-left: -3.2rem;
+}
+
+.posicion1 {
+  margin-top: -15.4rem;
+  margin-left: -3.2rem;
+}
+
+.posicion2 {
+  margin-top: -17.5rem;
+  margin-left: -3.2rem;
+}
+
+/* Posición y tamaño de la imagen de Certix en el carrusel */
+.posicion3 {
+  width: 23.7rem;
+  margin-top: -13.3rem;
+  margin-left: 0.2rem;
+}
+
+/* Posición y tamaño de la imagen de Ecotambo en el carrusel */
+.posicion4 {
+  width: 24.8rem;
+  margin-top: -15.6rem;
+  margin-left: -0.4rem;
+}
+
+/* Posición y tamaño de la imagen de Tupac Katari en el carrusel */
+.posicion5 {
+  width: 24.8rem;
+  margin-top: -15rem;
+  margin-left: 0.2rem;
+}
+
+/* Posición y tamaño de la imagen de Nusimi en el carrusel */
+.posicion6 {
+  width: 56rem;
+  margin-top: -12rem;
+  margin-left: -0.1rem;
+}
+
+/* Posición y tamaño de la imagen de San Francisco en el carrusel */
+.posicion7 {
+  width: 56rem;
+  margin-top: -12.1rem;
+  margin-left: -0.4rem;
 }
