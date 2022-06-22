@@ -1,7 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-ketanolab">
   <div class="container">
       <a class="navbar-brand d-lg-none" href="#">
-          <!-- Creé la clase "brand-mobile" para la imagen "circulo-01.svg" para empequeñecerle en la vista móvil-->
         <img class="brand-mobile" src="../../assets/img/img/circulo-01.svg" alt="Ketanolab">
       </a>
     <button id="align-hamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,12 +11,53 @@
           <a class="navbar-brand d-none d-lg-block" href="#">
               <img src="../../assets/img/img/circulo-01.svg" alt="Ketanolab">
           </a>
-          <a class="nav-link_3" href="/inicio"><span class="nav-link-3"><p class="text-nav-3">Servicios</p></span></a>
-          <a class="nav-link_1" href="/nosotros"><span class="nav-link-1"><p class="text-nav-1">{{"nav.title-1" | translate}}</p></span></a>
-          <a class="nav-link_2" href="/experiencia"><span class="nav-link-2"><p class="text-nav-2">{{"nav.title-2" | translate}}</p></span></a>
-          <a class="nav-link_4" href="https://gather.town/app/zmougmiMJ2HHVYbZ/ketanolab" target="_blank"><span class="nav-link-4"><p class="text-nav-4">{{"nav.title-4" | translate}}</p></span></a>
-          <a class="nav-link_5" href="#!"><span class="nav-link-5"><p class="text-nav-5">EN</p></span></a>
-          <a class="nav-link_6" href="#!"><span class="nav-link-6"><p class="text-nav-6">ES</p></span></a>
+
+          <!-- Construcción con before y after de los botones del navbar -->
+
+          <!-- Servicios -->
+            
+            <div id="servicios">    
+            </div>
+            <a href="/inicio" id="a_servicios">
+              {{"nav.title-1" | translate}}
+            </a>
+            
+          <!-- Nosotros -->
+            
+          <div id="nosotros">    
+          </div>
+          <a href="/nosotros" id="a_nosotros">
+            {{"nav.title-2" | translate}}
+          </a>
+         
+          <!-- Nuestra Experiencia -->
+            
+          <div id="experiencia">    
+          </div>
+          <a href="/experiencia" id="a_experiencia">
+            {{"nav.title-3" | translate}}
+          </a>
+        
+          <!-- Oficina Virtual -->
+            
+          <div id="oficina">    
+          </div>
+          <a href="https://gather.town/app/zmougmiMJ2HHVYbZ/ketanolab" id="a_oficina" target="_blank">
+            {{"nav.title-4" | translate}}
+          </a>
+        
+        <!-- Enlaces de Español e Inglés. -->
+
+        <!-- Inglés -->
+        <a href="#" id="a_EN">
+          EN
+        </a>
+
+        <!-- Español -->
+        <a href="#" id="a_ES">
+          ES
+        </a>
+
       </div>
     </div>
   </div>

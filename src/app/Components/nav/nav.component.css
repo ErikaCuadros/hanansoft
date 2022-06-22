@@ -20,214 +20,204 @@
 
 a {
     font-family: 'Orbitron';
-    color: #fff;
+    color: #fff;    
 }
 
-/* Creé las clases ".text-nav-1" , ".text-nav-2" , ".text-nav-3" ,y ".text-nav-4", para personalizar el texto
-de los botones del nav, porque al hacer el responsive, es necesario contraer su tamaño y cambiarle de posición */
+/* Construcción de los botones del nav con pseudo elementos before y after */
 
-.text-nav-1 {
-    display: inline-block;
-    position: relative;
-    top: 0.1rem;
-    left: 1.8rem;
-    font-size: 15px;
-    max-height: 2.4rem;
-}
+/* 1.- Construcción del botón servicios. */
 
-.text-nav-2 {
-    display: inline-block;
-    position: relative;
-    top: 0.1rem;
-    left: 1%;
-    font-size: 15px;
-    max-height: 2.4rem;
-}
-
-.text-nav-3 {
-    display: inline-block;
-    position: relative;
-    top: 0.1rem;
-    left: 0.2rem;
-    font-size: 15px;
-    max-height: 2.4rem;
-}
-
-.text-nav-4 {
-    display: inline-block;
-    position: relative;
-    top: 0.1rem;
-    left: 1rem;
-    font-size: 15px;
-    max-height: 2.4rem;
-}
-
-.text-nav-5 {
-    display: inline-block;
-    position: relative;
-    top: 0.1rem;
-    left: 0rem;
-    font-size: 15px;
-    max-height: 2.4rem;
-}
-
-.text-nav-6 {
-    display: inline-block;
-    position: relative;
-    top: 0.1rem;
-    left: 0rem;
-    font-size: 15px;
-    max-height: 2.4rem;
-}
-
-/* Creé las clases ".nav-link_1" , ".nav-link_2" , ".nav-link_3" ,y ".nav-link_4", para personalizar el tamaño en el eje x, 
-de los botones del nav, individualmente, ya que varían mucho al hacer responsive. */
-
-.nav-link_1 {
-    line-height: 9.5;
-    text-transform: uppercase;
-    width: 11.5rem;
-    position: relative;
-    top: 4.8rem;
-    max-height: 2.4rem;
-}
-
-.nav-link_2 {
-    line-height: 9.5;
-    text-transform: uppercase;
-    width: 19rem;
-    position: relative;
-    top: 4.8rem;
-    max-height: 2.4rem;
-}
-
-.nav-link_3 {
-    line-height: 9.5;
-    text-transform: uppercase;
-    width: 11.5rem;
-    position: relative;
-    top: 4.8rem;
-    max-height: 2.4rem;
-}
-
-.nav-link_4 {
-    line-height: 9.5;
-    text-transform: uppercase;
-    width: 10.5rem;
-    position: relative;
-    top: 4.8rem;
-    max-height: 2.4rem;
-}
-
-.nav-link_5 {
-    line-height: 9.5;
-    text-transform: uppercase;
-    width: 4.5rem;
-    left: 5rem;
-    position: relative;
-    top: 4.8rem;
-    max-height: 2.4rem;
-    transition: all 500ms;
-}
-
-.nav-link_5:hover {
-    background-image: url("../../../assets/img/en.svg");
+/* Aquí en #servicios, modificando el atributo margin se puede manipular fácilmente la ubicación de todo el botón */
+#servicios {
+    background-image: url("../../../assets/img/img/middle.png");
     background-repeat: no-repeat;
-    background-size: 4rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 3rem;
-    padding-right: 2rem;
+    margin-top: 4.5rem;
+    margin-left: 4rem;
+    background-size: 7rem 3.1rem;
 }
 
-.nav-link_6 {
-    line-height: 9.5;
-    text-transform: uppercase;
-    width: 4.5rem;
-    position: relative;
-    left: 6rem;
-    top: 4.8rem;
-    max-height: 2.4rem;
-    transition: all 500ms;
-}
-
-.nav-link_6:hover {
-    background-image: url("../../../assets/img/es.svg");
+#servicios::before {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/img/before.png");
     background-repeat: no-repeat;
-    background-size: 4rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 3rem;
-    padding-right: 1rem;
+    padding: 5rem;
+    margin-top: 0rem;
+    margin-left: -4.06rem;
 }
 
-/* Éstas clases modifican el elemento span, y afectan al padding y margen de la imagen de fondo
-usado en los botones del nav (cambié los pixeles por rem, para aumentar su responsividad) */
-
-.nav-link-1 {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 2rem;
-    padding-right: 3rem;
-    position: relative;
-    top: -4.8rem;   
-}
-
-.nav-link-1, .nav-link-1::before {
-    background-image: url("../../../assets/img/img/nosotros.png"); 
+#servicios::after {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/img/after.png");
     background-repeat: no-repeat;
-    max-height: 1rem;
+    padding: 5rem;
+    margin-top: -10rem;
+    margin-left: 7rem;
 }
 
-.nav-link-2 {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 4rem;
-    padding-right: 2rem;
+#a_servicios {
     position: relative;
-    top: -4.8rem;
-  }
+    top: 5rem;
+    left: -16.5rem;
+    max-height: 2rem;
+}
 
-.nav-link-2, .nav-link-2::before {
-    background-image: url("../../../assets/img/img/nuestra-experiencia.png");
+/* Fin Construcción de botón */
+
+
+/* 2.- Construcción del botón nosotros. */
+
+
+/* Aquí en #nosotros, modificando el atributo margin se puede manipular fácilmente la ubicación de todo el botón */
+#nosotros {
+    background-image: url("../../../assets/img/img/middle.png");
     background-repeat: no-repeat;
+    margin-top: 4.5rem;
+    margin-left: -10rem;
+    background-size: 7rem 3.1rem;
 }
 
-.nav-link-3 {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 4rem;
-    padding-right: 2rem;
-    position: relative;
-    top: -4.8rem;
-}
-
-.nav-link-3, .nav-link-3::before {
-    background-image: url("../../../assets/img/img/aliados.png");
+#nosotros::before {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/img/before.png");
     background-repeat: no-repeat;
+    padding: 5rem;
+    margin-top: 0rem;
+    margin-left: -4.06rem;
+
 }
 
-.nav-link-4 {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 3rem;
-    padding-right: 2rem;
-    position: relative;
-    top: -4.8rem;
-}
-
-.nav-link-4, .nav-link-4::before {
-    background-image: url("../../../assets/img/img/oficina-virtual.png");
+#nosotros::after {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/img/after.png");
     background-repeat: no-repeat;
-}
-
-.nav-link-5 {
-    position: relative;
-    top: -4.8rem;
+    padding: 5rem;
+    margin-top: -10rem;
+    margin-left: 7rem;
 
 }
 
-.nav-link-6 {
+#a_nosotros {
     position: relative;
-    top: -4.8rem;
+    top: 5rem;
+    left: -16.5rem;
+    max-height: 2rem;
+}
+
+/* Fin Construcción de botón */
+
+
+/* 3.- Construcción del botón nuestra experiencia. */
+
+
+/* Aquí en #experiencia, modificando el atributo margin se puede manipular fácilmente la ubicación de todo el botón */
+#experiencia {
+    background-image: url("../../../assets/img/img/middle.png");
+    background-repeat: no-repeat;
+    margin-top: 4.5rem;
+    margin-left: -10rem;
+    background-size: 14rem 3.1rem;
+}
+
+#experiencia::before {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/img/before.png");
+    background-repeat: no-repeat;
+    padding: 5rem;
+    margin-top: 0rem;
+    margin-left: -4.06rem;
+}
+
+#experiencia::after {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/img/after.png");
+    background-repeat: no-repeat;
+    padding: 5rem;
+    margin-top: -10rem;
+    margin-left: 14rem;
+}
+
+#a_experiencia {
+    position: relative;
+    top: 5rem;
+    left: -24rem;
+    min-width: 15rem;
+    max-height: 2rem;
+}
+
+/* Fin Construcción de botón */
+
+
+/* 4.- Construcción del botón Oficina Virtual. */
+
+
+/* Aquí en #oficina, modificando el atributo margin se puede manipular fácilmente la ubicación de todo el botón */
+#oficina {
+    background-image: url("../../../assets/img/img/middle.png");
+    background-repeat: no-repeat;
+    margin-top: 4.5rem;
+    margin-left: -18.5rem;
+    background-size: 9.5rem 3.1rem;
+}
+
+#oficina::before {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/img/before.png");
+    background-repeat: no-repeat;
+    padding: 5rem;
+    margin-top: 0rem;
+    margin-left: -4.06rem;
+}
+
+#oficina::after {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/img/after.png");
+    background-repeat: no-repeat;
+    padding: 5rem;
+    margin-top: -10rem;
+    margin-left: 9.5rem;
+}
+
+#a_oficina {
+    position: relative;
+    top: 5rem;
+    left: -19.6rem;
+    min-width: 10rem;
+    max-height: 2rem;
+}
+
+/* Fin Construcción de botón */
+
+/* Estilos de los enlaces de Inglés y Español */
+
+/* Inglés */
+#a_EN {
+    position: relative;
+    top: 5rem;
+    left: -18rem;
+    max-height: 2rem;
+}
+
+#a_EN:hover{
+    color: #00AEC6;
+}
+
+/* Español */
+#a_ES {
+    position: relative;
+    top: 5rem;
+    left: -17rem;
+    max-height: 2rem;
+}
+
+#a_ES:hover{
+    color: #00AEC6;
+    
 }
