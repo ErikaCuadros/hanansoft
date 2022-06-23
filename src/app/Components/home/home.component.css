@@ -75,11 +75,6 @@ animation: fadeIn 4s infinite linear;
     width: 5rem;
 }
 
-.nav-link-1, .nav-link-1::before {
-    background-image: url("../../../assets/img/img/nosotros.png"); 
-    background-repeat: no-repeat;
-}
-
 .nav-link-1 {
     padding-top: 12px;
     padding-left: 65px;
