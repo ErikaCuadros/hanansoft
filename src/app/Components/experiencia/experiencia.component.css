@@ -221,16 +221,17 @@
   top: 15rem;
   left: 1rem;
 }
-
+/* Configuración del título h3 que acompaña a la imagen de Nusimi.*/
 .h3nusimi {
   position: relative;
-  top: -2rem;
+  top: 14rem;
   left: 1rem;
 }
 
+/* Configuración del título h3 que acompaña a la imagen de San Francisco.*/
 .h3francisco {
   position: relative;
-  top: -3rem;
+  top: 14rem;
   left: 1rem;
 }
 
@@ -277,14 +278,14 @@
 
 /* Posición y tamaño de la imagen de Nusimi en el carrusel */
 .posicion6 {
-  width: 56rem;
-  margin-top: -12rem;
-  margin-left: -0.1rem;
+  width: 28rem;
+  margin-top: -13.6rem;
+  margin-left: -0.2rem;
 }
 
 /* Posición y tamaño de la imagen de San Francisco en el carrusel */
 .posicion7 {
-  width: 56rem;
-  margin-top: -12.1rem;
-  margin-left: -0.4rem;
+  width: 24.8rem;
+  margin-top: -13.6rem;
+  margin-left: -0.3rem;
 }

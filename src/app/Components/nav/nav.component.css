@@ -38,8 +38,7 @@
 
 .navbar-nav {
     margin-left: -8.5rem;
-    margin-top: -2rem;
-    
+    margin-top: -2rem;    
 }
 
 a {
@@ -244,4 +243,485 @@ a {
 
 #a_ES:hover{
     color: #00AEC6;
+}
+
+/* Media Queries para hacer responsive la página */
+
+@media (max-width:2000px){
+    .bg-ketanolab {
+        background-size: 92rem 0.76rem;
+    }
+    
+    .navbar-nav {
+    margin-left: -13rem;
+    }
+   
+    #servicios {
+        margin-left: 4rem;
+    }
+
+    #nosotros {
+    margin-left: -8rem;
+    }
+
+    #experiencia {
+        margin-left: -7rem;
+    }
+
+    #oficina {
+        margin-left: -16rem;
+    }
+
+    #a_EN {
+        left: -13.5rem;
+        }
+
+
+    #a_ES {
+        left: -10.5rem;
+    }
+}   
+
+@media (max-width:1980px){
+    .bg-ketanolab {
+        background-size: 90rem 0.76rem;
+    }
+
+}
+
+@media (max-width:1946px){
+    .bg-ketanolab {
+        background-size: 89rem 0.76rem;
+    }
+
+    #servicios {
+        margin-left: 5rem;
+    }
+
+    #a_EN {
+        left: -14.5rem;
+        }
+
+
+    #a_ES {
+        left: -11.5rem;
+    }
+}
+
+
+@media (max-width:1929px){
+    .bg-ketanolab {
+        background-size: 87rem 0.76rem;
+    }
+
+    #servicios {
+        margin-left: 6rem;
+    }
+}
+
+
+@media (max-width:1896px){
+    .navbar-brand{
+        margin-left: 1rem;
+    }
+
+    .bg-ketanolab {
+        background-size: 85rem 0.76rem;
+    }
+
+    #servicios {
+        margin-left: 7rem;
+    }
+}
+
+
+@media (max-width:1865px){
+    .navbar-brand{
+        margin-left: 2rem;
+    }
+    .bg-ketanolab {
+        background-size: 83rem 0.76rem;
+    }
+
+    #servicios {
+        margin-left: 7rem;
+    }
+
+    #a_EN {
+        left: -15.5rem;
+        }
+
+
+    #a_ES {
+        left: -12.5rem;
+    }
+}
+
+
+@media (max-width:1834px){
+    .navbar-brand{
+        margin-left: 3rem;
+    }
+
+    .bg-ketanolab {
+        background-size: 81rem 0.76rem;
+    }
+
+    #servicios {
+        margin-left: 6rem;
+    }
+}
+
+
+@media (max-width:1805px){
+
+    .navbar-brand{
+        margin-left: 4rem;
+    }
+
+
+    .bg-ketanolab {
+        background-size: 79.3rem 0.76rem;
+    }
+
+    #servicios {
+        margin-left: 6rem;
+    }
+
+
+    #nosotros {
+        margin-left: -9rem;
+    }
+    
+        #experiencia {
+            margin-left: -8.5rem;
+    }
+    
+        #oficina {
+            margin-left: -18rem;
+    }
+}
+
+
+@media (max-width:1775px){
+    .bg-ketanolab {
+        background-size: 77.3rem 0.76rem;
+    }
+}
+
+
+@media (max-width:1743px){
+    .bg-ketanolab {
+        background-size: 75.3rem 0.76rem;
+    }
+
+    #a_EN {
+        left: -16.5rem;
+        }
+
+    #a_ES {
+        left: -13.5rem;
+    }
+}
+
+
+@media (max-width:1720px){
+    .bg-ketanolab {
+        background-size: 75.3rem 0.76rem;
+    }
+
+    #a_EN {
+        left: -17.5rem;
+        }
+
+    #a_ES {
+        left: -14.5rem;
+    }
+}
+
+
+@media (max-width:1710px){
+    .bg-ketanolab {
+        background-size: 73.3rem 0.76rem;
+    }
+
+
+    #servicios {
+        margin-left: 4.5rem;
+    }
+
+
+    #nosotros {
+        margin-left: -9.5rem;
+    }
+    
+        #experiencia {
+            margin-left: -9rem;
+    }
+    
+        #oficina {
+            margin-left: -18.5rem;
+    }
+
+    #a_EN {
+        left: -17.5rem;
+        }
+
+    #a_ES {
+        left: -14.5rem;
+    }
+}
+
+
+@media (max-width:1677px){
+    .bg-ketanolab {
+        background-size: 71.3rem 0.76rem;
+    }
+
+}
+
+
+@media (max-width:1655px){
+    .bg-ketanolab {
+        background-size: 70rem 0.76rem;
+    }
+
+
+    #nosotros {
+        margin-left: -10rem;
+    }
+    
+    #experiencia {
+            margin-left: -9.5rem;
+    }
+    
+    #oficina {
+            margin-left: -19rem;
+    }
+
+    #a_EN {
+        left: -17.5rem;
+        }
+
+    #a_ES {
+        left: -15.5rem;
+    }
+}
+
+
+@media (max-width:1625px){
+    .bg-ketanolab {
+        background-size: 68rem 0.76rem;
+    }
+
+
+    #a_EN {
+        left: -17.5rem;
+        }
+
+    #a_ES {
+        left: -16rem;
+    }
+}
+
+
+@media (max-width:1535px){
+    
+    .bg-ketanolab {
+        background-position-x: 11rem;    
+        background-size: 72rem 0.76rem;
+    
+    }
+    
+    .navbar-nav {
+        margin-left: -14rem;
+    }
+
+    .bg-ketanolab::before {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/Inicio/beforebara.png");
+    background-repeat: no-repeat;
+    background-position-x: -25rem;
+    padding-top: 5rem;
+    padding-left: 11rem;
+    margin-top: -4.7rem;
+    margin-left: 0rem;
+    }
+
+ 
+    .bg-ketanolab::after {
+        content: "";
+        display: block;
+        background-image: url("../../../assets/img/Inicio/afterbara.png");
+        background-repeat: no-repeat;
+        background-position-x: 0rem;
+        padding-top: 5rem;
+        padding-left: 11.5rem;
+        margin-top: -4.7rem;
+        margin-left: -13rem;
+    }       
+}
+
+
+@media (max-width:1498px){
+    
+    .bg-ketanolab {    
+        background-size: 70rem 0.76rem;
+    
+    }
+
+    .navbar-nav {
+        margin-left: -13rem;
+    }
+ }
+
+
+@media (max-width:1466px){
+    
+    .bg-ketanolab {    
+        background-size: 68rem 0.76rem;
+    
+    }
+ }
+
+
+@media (max-width:1200px){
+    
+    .bg-ketanolab {    
+        background-size: 51rem 0.76rem;
+    
+    }
+    
+    a {
+        font-size: 14px;
+    }
+
+    #a_servicios {
+        top: 5.3rem;
+        left: -14.5rem;           
+    }
+
+    #servicios {
+        background-image: url("../../../assets/img/img/middle.png");
+        background-repeat: no-repeat;
+        margin-top: 4.5rem;
+        margin-left: 4rem;
+        background-size: 4.5rem 3.1rem;
+    }
+    
+    #servicios::after {
+        content: "";
+        display: block;
+        background-image: url("../../../assets/img/img/after.png");
+        background-repeat: no-repeat;
+        padding: 5rem;
+        margin-top: -10rem;
+        margin-left: 4.5rem;
+    }
+     #nosotros {
+        background-image: url("../../../assets/img/img/middle.png");
+        background-repeat: no-repeat;
+        margin-top: 4.5rem;
+        margin-left: -9rem;
+        background-size: 4rem 3.1rem;
+        
+    }
+    #nosotros::after {
+        content: "";
+        display: block;
+        background-image: url("../../../assets/img/img/after.png");
+        background-repeat: no-repeat;
+        padding: 5rem;
+        margin-top: -10rem;
+        margin-left: 4rem;
+    
+    }
+    
+    #a_nosotros {
+        position: relative;
+        top: 5.3rem;
+        left: -14rem;
+        max-height: 2rem;
+    }
+    #experiencia {
+        background-image: url("../../../assets/img/img/middle.png");
+        background-repeat: no-repeat;
+        margin-top: 4.5rem;
+        margin-left: -9rem;
+        background-size: 9rem 3.1rem;
+    }
+    
+    #experiencia::after {
+        content: "";
+        display: block;
+        background-image: url("../../../assets/img/img/after.png");
+        background-repeat: no-repeat;
+        padding: 5rem;
+        margin-top: -10rem;
+        margin-left: 9rem;
+    }
+    
+    #a_experiencia {
+        position: relative;
+        top: 5.3rem;
+        left: -19.3rem;
+        min-width: 15rem;
+        max-height: 2rem;
+    }
+
+    #oficina {
+        background-image: url("../../../assets/img/img/middle.png");
+        background-repeat: no-repeat;
+        margin-top: 4.5rem;
+        margin-left: -19.5rem;
+        background-size: 7rem 3.1rem;
+    }
+    
+    #oficina::after {
+        content: "";
+        display: block;
+        background-image: url("../../../assets/img/img/after.png");
+        background-repeat: no-repeat;
+        padding: 5rem;
+        margin-top: -10rem;
+        margin-left: 7rem;
+    }
+    
+    #a_oficina {
+        position: relative;
+        top: 5.3rem;
+        left: -17rem;
+        min-width: 10rem;
+        max-height: 2rem;
+    }
+    
+    /* Fin Construcción de botón */
+    
+    /* Estilos de los enlaces de Inglés y Español */
+    
+    /* Inglés */
+    #a_EN {
+        position: relative;
+        top: 5rem;
+        left: -17.5rem;
+        max-height: 2rem;
+    }
+    
+    #a_EN:hover{
+        color: #00AEC6;
+    }
+    
+    /* Español */
+    #a_ES {
+        position: relative;
+        top: 5rem;
+        left: -16.5rem;
+        max-height: 2rem;
+    }
+    
+    #a_ES:hover{
+        color: #00AEC6;
+    }
+    
 }
