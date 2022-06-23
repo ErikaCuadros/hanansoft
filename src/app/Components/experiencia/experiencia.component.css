@@ -186,6 +186,10 @@
   z-index: 1;
 }
 
+#pcposicion {
+  margin-top: 1rem;
+}
+
 .h3centrar {
   position: relative;
   top: 16rem;

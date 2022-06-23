@@ -1,26 +1,51 @@
 .bg-ketanolab {
-    background-image: url("../../../assets/img/Inicio/bara.svg");
+    background-image: url("../../../assets/img/Inicio/middlebara.png");
     background-repeat: no-repeat;
-    background-position-y: 1.5rem;
-    background-position-x: -25.8rem;
-    background-size: 144rem;
+    background-position-y: 6.2rem;
+    background-position-x: 16rem;
+    background-size: 66.69rem 0.76rem;
 }
 
+.bg-ketanolab::before {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/Inicio/beforebara.png");
+    background-repeat: no-repeat;
+    background-position-x: -20rem;
+    padding-top: 5rem;
+    padding-left: 16.3rem;
+    margin-top: -4.7rem;
+    margin-left: 0rem;
+}
+
+.bg-ketanolab::after {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/Inicio/afterbara.png");
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    padding-top: 5rem;
+    padding-left: 16.3rem;
+    margin-top: -4.7rem;
+    margin-left: -17rem;
+}
+
+
 .navbar-brand {
-    width: 8rem;
-    line-height: 1;
-    margin-right: 3.5rem;
+    width: 6.5rem;
+    margin-top: 2rem;
 }
 
 .navbar-nav {
-    margin-left: 4rem;
-    max-height: 9rem;
-    margin-top: -1.3rem;
+    margin-left: -8.5rem;
+    margin-top: -2rem;
+    
 }
 
 a {
     font-family: 'Orbitron';
     color: #fff;    
+    font-size: 18px;
 }
 
 /* Construcción de los botones del nav con pseudo elementos before y after */
@@ -58,7 +83,7 @@ a {
 
 #a_servicios {
     position: relative;
-    top: 5rem;
+    top: 5.1rem;
     left: -16.5rem;
     max-height: 2rem;
 }
@@ -102,7 +127,7 @@ a {
 
 #a_nosotros {
     position: relative;
-    top: 5rem;
+    top: 5.1rem;
     left: -16.5rem;
     max-height: 2rem;
 }
@@ -144,8 +169,8 @@ a {
 
 #a_experiencia {
     position: relative;
-    top: 5rem;
-    left: -24rem;
+    top: 5.1rem;
+    left: -23.5rem;
     min-width: 15rem;
     max-height: 2rem;
 }
@@ -161,7 +186,7 @@ a {
     background-image: url("../../../assets/img/img/middle.png");
     background-repeat: no-repeat;
     margin-top: 4.5rem;
-    margin-left: -18.5rem;
+    margin-left: -19rem;
     background-size: 9.5rem 3.1rem;
 }
 
@@ -187,8 +212,8 @@ a {
 
 #a_oficina {
     position: relative;
-    top: 5rem;
-    left: -19.6rem;
+    top: 5.1rem;
+    left: -19rem;
     min-width: 10rem;
     max-height: 2rem;
 }
@@ -201,7 +226,7 @@ a {
 #a_EN {
     position: relative;
     top: 5rem;
-    left: -18rem;
+    left: -17.5rem;
     max-height: 2rem;
 }
 
@@ -213,11 +238,10 @@ a {
 #a_ES {
     position: relative;
     top: 5rem;
-    left: -17rem;
+    left: -16.5rem;
     max-height: 2rem;
 }
 
 #a_ES:hover{
     color: #00AEC6;
-    
 }
