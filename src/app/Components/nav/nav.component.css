@@ -867,6 +867,41 @@ a {
     
     #a_servicios {
         margin-top: -14.5rem;
+        margin-left: calc(102%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(102%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(120%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(107%);
+    }
+
+    #a_EN {
+        top: 7rem;
+        left: calc(60%);
+        }
+
+    #a_ES {
+        top: 7rem;
+        left: calc(60%);
+    }
+    
+}
+
+
+@media (max-width:462px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
         margin-left: calc(104%);
     }
 
