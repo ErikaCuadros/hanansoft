@@ -574,7 +574,7 @@ a {
     .navbar-nav {
         margin-left: -13rem;
     }
- }
+}
 
 
 @media (max-width:1466px){
@@ -583,145 +583,63 @@ a {
         background-size: 68rem 0.76rem;
     
     }
- }
+}
 
-
-@media (max-width:1200px){
+@media (max-width:1399px){
     
     .bg-ketanolab {    
-        background-size: 51rem 0.76rem;
-    
+        background-image: none;    
     }
     
-    a {
-        font-size: 14px;
+    .bg-ketanolab::before {
+        content: "";
+        display: none;
+    }
+    
+     
+    .bg-ketanolab::after {
+        content: "";
+        display: none;
+    }
+    
+    #servicios {
+        margin-left: calc(60%);
     }
 
     #a_servicios {
-        top: 5.3rem;
-        left: -14.5rem;           
+        margin-left: calc(78.5%);
     }
 
-    #servicios {
-        background-image: url("../../../assets/img/img/middle.png");
-        background-repeat: no-repeat;
-        margin-top: 4.5rem;
-        margin-left: 4rem;
-        background-size: 4.5rem 3.1rem;
+    #nosotros {
+        margin-left: calc(60%);
     }
-    
-    #servicios::after {
-        content: "";
-        display: block;
-        background-image: url("../../../assets/img/img/after.png");
-        background-repeat: no-repeat;
-        padding: 5rem;
-        margin-top: -10rem;
-        margin-left: 4.5rem;
-    }
-     #nosotros {
-        background-image: url("../../../assets/img/img/middle.png");
-        background-repeat: no-repeat;
-        margin-top: 4.5rem;
-        margin-left: -9rem;
-        background-size: 4rem 3.1rem;
-        
-    }
-    #nosotros::after {
-        content: "";
-        display: block;
-        background-image: url("../../../assets/img/img/after.png");
-        background-repeat: no-repeat;
-        padding: 5rem;
-        margin-top: -10rem;
-        margin-left: 4rem;
-    
-    }
-    
+
     #a_nosotros {
-        position: relative;
-        top: 5.3rem;
-        left: -14rem;
-        max-height: 2rem;
+        margin-left: calc(78.5%);
     }
+    
     #experiencia {
-        background-image: url("../../../assets/img/img/middle.png");
-        background-repeat: no-repeat;
-        margin-top: 4.5rem;
-        margin-left: -9rem;
-        background-size: 9rem 3.1rem;
-    }
-    
-    #experiencia::after {
-        content: "";
-        display: block;
-        background-image: url("../../../assets/img/img/after.png");
-        background-repeat: no-repeat;
-        padding: 5rem;
-        margin-top: -10rem;
-        margin-left: 9rem;
-    }
-    
-    #a_experiencia {
-        position: relative;
-        top: 5.3rem;
-        left: -19.3rem;
-        min-width: 15rem;
-        max-height: 2rem;
+        margin-left: calc(60%);
     }
 
+    #a_experiencia {
+        margin-left: calc(78.5%);
+    }
+    
     #oficina {
-        background-image: url("../../../assets/img/img/middle.png");
-        background-repeat: no-repeat;
-        margin-top: 4.5rem;
-        margin-left: -19.5rem;
-        background-size: 7rem 3.1rem;
+        margin-left: calc(60%);
     }
-    
-    #oficina::after {
-        content: "";
-        display: block;
-        background-image: url("../../../assets/img/img/after.png");
-        background-repeat: no-repeat;
-        padding: 5rem;
-        margin-top: -10rem;
-        margin-left: 7rem;
-    }
-    
+
     #a_oficina {
-        position: relative;
-        top: 5.3rem;
-        left: -17rem;
-        min-width: 10rem;
-        max-height: 2rem;
+        margin-left: calc(78.5%);
     }
-    
-    /* Fin Construcción de botón */
-    
-    /* Estilos de los enlaces de Inglés y Español */
-    
-    /* Inglés */
+
     #a_EN {
-        position: relative;
-        top: 5rem;
-        left: -17.5rem;
-        max-height: 2rem;
-    }
-    
-    #a_EN:hover{
-        color: #00AEC6;
-    }
-    
-    /* Español */
+        left: calc(60%);
+        }
+
     #a_ES {
-        position: relative;
-        top: 5rem;
-        left: -16.5rem;
-        max-height: 2rem;
-    }
-    
-    #a_ES:hover{
-        color: #00AEC6;
+        left: calc(60%);
     }
     
 }
