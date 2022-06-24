@@ -607,38 +607,291 @@ a {
     }
 
     #a_servicios {
+        margin-top: -14.5rem;
         margin-left: calc(78.5%);
     }
 
     #nosotros {
+        margin-top: 7rem;
         margin-left: calc(60%);
     }
 
     #a_nosotros {
+        margin-top: -14.5rem;
         margin-left: calc(78.5%);
     }
     
     #experiencia {
+        margin-top: 7rem;
         margin-left: calc(60%);
     }
 
     #a_experiencia {
-        margin-left: calc(78.5%);
+        margin-top: -14.5rem;
+        margin-left: calc(86%);
     }
     
     #oficina {
+        margin-top: 7rem;
         margin-left: calc(60%);
     }
 
     #a_oficina {
-        margin-left: calc(78.5%);
+        margin-top: -14.5rem;
+        margin-left: calc(81%);
     }
 
     #a_EN {
+        top: 7rem;
         left: calc(60%);
         }
 
     #a_ES {
+        top: 7rem;
+        left: calc(60%);
+    }
+    
+    
+}
+
+@media (max-width:1279px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
+        margin-left: calc(82%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(82%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(91.5%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(85.5%);
+    }
+
+    #a_EN {
+        top: 7rem;
+        left: calc(60%);
+        }
+
+    #a_ES {
+        top: 7rem;
+        left: calc(60%);
+    }
+    
+}
+
+
+@media (max-width:1023px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
+        margin-left: calc(88%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(88%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(100%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(92.5%);
+    }
+
+    #a_EN {
+        top: 7rem;
+        left: calc(60%);
+        }
+
+    #a_ES {
+        top: 7rem;
+        left: calc(60%);
+    }
+    
+}
+
+
+@media (max-width:767px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
+        margin-left: calc(92%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(92%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(106%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(97.5%);
+    }
+
+    #a_EN {
+        top: 7rem;
+        left: calc(60%);
+        }
+
+    #a_ES {
+        top: 7rem;
+        left: calc(60%);
+    }
+    
+}
+
+@media (max-width:639px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
+        margin-left: calc(96%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(96%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(112%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(103%);
+    }
+
+    #a_EN {
+        top: 7rem;
+        left: calc(60%);
+        }
+
+    #a_ES {
+        top: 7rem;
+        left: calc(60%);
+    }
+    
+}
+
+
+@media (max-width:550px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
+        margin-left: calc(98%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(98%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(114%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(104%);
+    }
+
+    #a_EN {
+        top: 7rem;
+        left: calc(60%);
+        }
+
+    #a_ES {
+        top: 7rem;
+        left: calc(60%);
+    }
+    
+}
+
+
+@media (max-width:518px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
+        margin-left: calc(100%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(100%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(116%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(106%);
+    }
+
+    #a_EN {
+        top: 7rem;
+        left: calc(60%);
+        }
+
+    #a_ES {
+        top: 7rem;
+        left: calc(60%);
+    }
+    
+}
+
+
+@media (max-width:487px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
+        margin-left: calc(104%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(104%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(122%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(110%);
+    }
+
+    #a_EN {
+        top: 7rem;
+        left: calc(60%);
+        }
+
+    #a_ES {
+        top: 7rem;
         left: calc(60%);
     }
     
