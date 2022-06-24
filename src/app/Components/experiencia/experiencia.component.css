@@ -4,6 +4,7 @@
   background-attachment: fixed;
   position: relative;
   padding-bottom: 1rem;
+  height: 86rem;
 }
 
 .container-experiencia::before {

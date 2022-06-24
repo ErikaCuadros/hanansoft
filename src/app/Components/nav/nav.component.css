@@ -986,25 +986,25 @@ a {
 }
 
 
-@media (max-width:430px){
+@media (max-width:402px){
     
     #a_servicios {
         margin-top: -14.5rem;
-        margin-left: calc(102%);
+        margin-left: calc(104%);
     }
 
     #a_nosotros {
         margin-top: -14.5rem;
-        margin-left: calc(102%);
+        margin-left: calc(104%);
     }
 
     #a_experiencia {
         margin-top: -14.5rem;
-        margin-left: calc(121%);
+        margin-left: calc(124%);
     }
 
     #a_oficina {
         margin-top: -14.5rem;
-        margin-left: calc(109%);
+        margin-left: calc(111%);
     }
 }
