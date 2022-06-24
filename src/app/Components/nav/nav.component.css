@@ -931,3 +931,80 @@ a {
     }
     
 }
+
+
+@media (max-width:430px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
+        margin-left: calc(102%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(102%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(121%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(109%);
+    }
+
+    #a_EN {
+        top: 7rem;
+        left: calc(60%);
+        }
+
+    #a_ES {
+        top: 7rem;
+        left: calc(60%);
+    }
+    
+    #servicios {
+        margin-left: calc(56%);
+    }
+
+    #nosotros {
+        margin-top: 7rem;
+        margin-left: calc(56%);
+    }
+    
+    #experiencia {
+        margin-top: 7rem;
+        margin-left: calc(56%);
+    }
+    
+    #oficina {
+        margin-top: 7rem;
+        margin-left: calc(56%);
+    }
+}
+
+
+@media (max-width:430px){
+    
+    #a_servicios {
+        margin-top: -14.5rem;
+        margin-left: calc(102%);
+    }
+
+    #a_nosotros {
+        margin-top: -14.5rem;
+        margin-left: calc(102%);
+    }
+
+    #a_experiencia {
+        margin-top: -14.5rem;
+        margin-left: calc(121%);
+    }
+
+    #a_oficina {
+        margin-top: -14.5rem;
+        margin-left: calc(109%);
+    }
+}
