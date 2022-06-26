@@ -455,12 +455,12 @@ a {
         margin-left: -9.5rem;
     }
     
-        #experiencia {
-            margin-left: -9rem;
+    #experiencia {
+        margin-left: -9rem;
     }
     
-        #oficina {
-            margin-left: -18.5rem;
+    #oficina {
+        margin-left: -18.5rem;
     }
 
     #a_EN {
@@ -585,7 +585,163 @@ a {
     }
 }
 
-@media (max-width:1399px){
+
+@media (max-width:1385px){
+
+    .bg-ketanolab {    
+        background-size: 65rem 0.76rem;
+    
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    #a_servicios {
+        margin-top: 0.3rem;
+        margin-left: 1.5rem;
+    }
+
+    #servicios {
+        margin-left: 4.5rem;
+        background-size: 5rem 3.1rem;
+    }
+
+    #servicios::after {
+        margin-left: 5rem;
+    }
+
+    #a_nosotros {
+        margin-top: 0.3rem;
+        margin-left: 1.5rem;
+    }
+
+    #nosotros {
+        margin-left: -10rem;
+        background-size: 5rem 3.1rem;
+    }
+
+    #nosotros::after {
+        margin-left: 5rem;
+    }
+    
+    #a_experiencia {
+        margin-top: 0.3rem;
+        margin-left: 3.5rem;
+    }
+
+    #experiencia {
+        margin-left: -10rem;
+        background-size: 10rem 3.1rem;
+    }
+
+    #experiencia::after {
+        margin-left: 10rem;
+    }
+    
+    #a_oficina {
+        margin-top: 0.3rem;
+        margin-left: 1rem;
+    }
+
+    #oficina {
+        margin-left: -22rem;
+        background-size: 8rem 3.1rem;
+    }
+
+    #oficina::after {
+        margin-left: 8rem;
+    }
+
+    #a_EN {
+        top: 5.5rem;
+        left: -17.5rem;
+        }
+
+    #a_ES {
+        top: 5.5rem;
+        left: -14.5rem;
+    }
+}
+
+
+@media (max-width:1279px){
+    
+    .bg-ketanolab {    
+        background-size: 58rem 0.76rem;    
+    }
+
+    #servicios {
+        margin-left: 2.5rem;
+    }
+
+    #nosotros {
+        margin-left: -11rem;
+    }
+
+    #experiencia {
+        margin-left: -11rem;
+    }
+    #oficina {
+        margin-left: -23rem;      
+    }
+
+    #a_EN {
+        top: 5.5rem;
+        left: -18.5rem;
+        }
+
+    #a_ES {
+        top: 5.5rem;
+        left: -16.5rem;
+    }
+
+}
+
+
+
+@media (max-width:1275px){
+    
+    .bg-ketanolab {    
+        background-size: 56rem 0.76rem;    
+    }
+
+
+    #a_EN {
+        top: 5.5rem;
+        left: -19.5rem;
+        }
+
+    #a_ES {
+        top: 5.5rem;
+        left: -17.5rem;
+    }
+
+}
+
+
+@media (max-width:1245px){
+    
+    .bg-ketanolab {    
+        background-size: 54rem 0.76rem;    
+    }
+
+
+}
+
+
+@media (max-width:1215px){
+    
+    .bg-ketanolab {    
+        background-size: 52rem 0.76rem;    
+    }
+
+
+}
+
+
+
+@media (max-width:1199px){
     
     .bg-ketanolab {    
         background-image: none;    
@@ -651,40 +807,6 @@ a {
         left: calc(60%);
     }
     
-    
-}
-
-@media (max-width:1279px){
-    
-    #a_servicios {
-        margin-top: -14.5rem;
-        margin-left: calc(82%);
-    }
-
-    #a_nosotros {
-        margin-top: -14.5rem;
-        margin-left: calc(82%);
-    }
-
-    #a_experiencia {
-        margin-top: -14.5rem;
-        margin-left: calc(91.5%);
-    }
-
-    #a_oficina {
-        margin-top: -14.5rem;
-        margin-left: calc(85.5%);
-    }
-
-    #a_EN {
-        top: 7rem;
-        left: calc(60%);
-        }
-
-    #a_ES {
-        top: 7rem;
-        left: calc(60%);
-    }
     
 }
 
