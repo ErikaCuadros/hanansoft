@@ -1,90 +1,137 @@
 {
-    "HOME":{
-        "SERVICES": "SERVICES"
-    },
-    "APPS":{
-        "TITLE":"APPs",
-        "PARAGRAPH":"The development of applications for mobile devices allows to provide operation and resources that provide faster and easier access to the necessary information, with versatility in terms of its use and attribution of functionalities. We develop mobile applications with you under the Android and iOS platforms that allow look for new possibilities and encourage creativity, depending on the type of content to be offered, in order to provide the user with a comprehensive experience through the use of different digital tools."
-    },
-    "DIGITAL-ART":{
-        "TITLE":"DIGITAL ART COACHING",
-        "PARAGRAPH":"The emergence of NFTs (Non-fungible Tokens) defined as digital assets that are based on blockchain networks, have come to revolutionize the world of art, giving rise to Cryptoart which is a way of introducing scarcity and value to art in digital form, exploring new aesthetics, where different artists participate from photographers to artists in digital illustration, glitch / gif art, video collage, AI art, virtual reality among others.We accompany you in the process to identify which works can be an NFT, how to produce them in the different platforms and to spread your portfolio of digital art, in addition to being part of communities of digital artists in Latin America."
-    },
-    "DIGITAL-PROJECTS":{
-        "TITLE":"COACHING DIGITAL PROJECTS",
-        "PARAGRAPH":"The exponential digital coach differentiates itself by accompanying people to reinvent themselves by offering them knowledge and experimentation through the synergy of the use of new technologies and the application of emotional intelligence.Before starting a digital project you must have a roadmap and know In what stage are you, following our AVALON methodology we will help you to cooperate together your new reality in a simple, creative and effective way, giving you an exponential digital coaching without closed days and hours, using the different platforms and applications in which a coach will be available to take sessions where you will get an estimate of the cost according to the amount of time of the online session."
-    },
-    "COMMERCE":{
-        "TITLE":"E-COMMERCE",
-        "PARAGRAPH":"The year 2020 has seen a 10-year advance in the development of E-commerce and the adaptation of augmented reality as well as artificial intelligence will be important in the coming years; in turn, the emergence of local brands has been seen beyond international brands in different areas of consumption. We offer the development of a functional and creative E-commerce platform that can connect the seller with the community they have chosen, whether it is offering products that show the philosophy of their own brand or to sell a portfolio of different brands."
-    },
-    "DAPPS":{
-        "TITLE":"DAPPs",
-        "PARAGRAPH":"Blockchain technology came to revolutionize the world, since it will have a wide impact on finance, marketing and business, from now on it aims to become a kind of technological institution that will change operations in banks, organizations and companies, becoming In the Internet of value, we structure public and private Blockchain networks, using different platforms such as Hyperledger and Ethereum among others, to offer solutions that can be applied to different businesses since the innovation of blockchain technology is creating new paths every time."
-    },
-    "EXPERIENCE":{
-        "TITLE":"OUR EXPERIENCE",
-        "PARAGRAPH":"KetanoLab is a Digital Services Agency focused on providing differential value, linking platforms, improving the consumer experience, adapting to digital transformation and providing services that are in line with new technologies, following the rhythm of each project."
-    },
-    "BEGINNING":{
-        "TITLE-1":"ONLINE DIGITAL SYSTEMS",
-        "TITLE-2":"E-COMMERCE",
-        "TITLE-3":"SERVICES",
-        "TITLE-3.1":"WEB",
-        "TITLE-4":"APPs",
-        "TITLE-5":"DIGITAL NFT COACHING",
-        "COACHING":"COACHING",
-        "COACHING-1.1":"SIGHTSEEING",
-        "COACHING-1.2":"VIRTUAL",
-        "COACHING-2.1":"PROJECTS",
-        "COACHING-2.2":"DIGITAL",
-        "TITLE-6":"DIGITAL ART",
-        "TITLE-7":"DIGITAL STRATEGY CONSULTING",
-        "TITLE-8":"PRODUCTION",
-        "TITLE-8.1":"DIGITAL",
-        "TITLE-9":"MARKETING",
-        "TITLE-9.1":"EXPONENTIAL",
-        "TITLE-10":"DEVELOPMENT OF SOLUTIONS",
-        "TITLE-10.1":"BLOCKCHAIN",
-        "TITLE-11":"DAPPs",
-        "TITLE-12":"HEAD HUNTING DEVELOPERS",
-        "TITLE-12.1":"NEW ZEALAND"
-    },
-    "MARKETING":{
-        "TITLE":"EXPONENTIAL MARKETING",
-        "PARAGRAPH":"Exponential Marketing is applied sociology with data that help us in the integral optimization of a business.",
-        "PARAGRAPH-1":"Our Exponential Marketing System is focused on changing the mentality of a business with digitized information, using or creating an exponential sales function, through:",
-        "LIST":"1. Exponential content.",
-        "LIST-1":"2. Exponential Reach.",
-        "LIST-2":"3. Exponential digital trust.",
-        "LIST-3":"4. Exponential sales.",
-        "LIST-4":"5. Exponential digital relationships."
-    },
-    "NAV":{
-        "TITLE":"Nav Bar",
-        "TITLE-1":"WE",
-        "TITLE-2":"OUR EXPERIENCE",
-        "TITLE-3":"ALLIES",
-        "TITLE-4":"VIRTUAL OFFICE",
-        "TITLE-5":"HOME"
-    },
-    "WE":{
-        "TITLE":"WE",
-        "PERSON-1":"Roger Prado De La Fuente",
-        "PERSON-2":"Pedro Terán",
-        "PERSON-3":"Milenka E. Pereira",
-        "PARAGRAPH":"KetanoLab is a Digital Services Agency focused on providing differential value, linking platforms, improving the consumer experience, adapting to digital transformation and providing services that are in line with new technologies, following the rhythm of each project."
-    },
-    "PRODUCTION":{
-        "TITLE":"DIGITAL PRODUCTION",
-        "PARAGRAPH":"We imagine your project with you in order to elevate your digital audiovisual products for social networks, web pages, with 2D and 3D animations."
-    },
-    "SERVICES":{
-        "TITLE":"WEB SERVICES",
-        "PARAGRAPH":"Having a website today is more accessible and essential to be immersed in the opportunities offered by the virtual market. We accompany you to design your project with an avant-garde and creative web design and development, transforming your website into an experience, counting on digital tools such as virtual reality and augmented reality."
-    },
-    "SIGHTSEEING":{
-        "TITLE":"VIRTUAL TOURISM COACHING",
-        "PARAGRAPH":"Tourism is also on the way to the new digital era, where through the use of platforms and digital tools such as virtual reality, people can visit places of interest such as ancient archaeological sites, emblematic buildings, historic centers and even immerse themselves in mysterious lakes of interactive way beyond your imagination. Learn with us to apply strategies and digital tools that help you generate new projects for a tourist site where an experience is provided that motivates new virtual tourists to travel through time and cyberspace to Magic places. Virtualization Laboratory of Tourist Heritage."
-    }
+  "home":{
+    "services": "SERVICES"
+  },
+  "apps":{
+    "title":"Mobile Apps",
+    "paragraph.0":"Nowadays, cell phones are the main window to the internet. The development of applications for mobile devices allows quick, simple and efficient access to the information provided, designing specific functionalities that improve the connectivity, capacity and availability of services and products allowing to generate a deeper connection and more fluid communication with the clients.",
+    "paragraph.1":"- Development of Mobile apps for Android e iOS.",
+    "paragraph.2":"- Creative UI/UX design adapted to communication and brand needs in order to provide the user with a comprehensive experience through the use of different digital tools.",
+    "paragraph.3":"- Scalable development with clean architecture, principles of accessibility and internationalization."
+  },
+  "digital-art":{
+    "title":"NFT's Digital Art",
+    "paragraph.0":"The development of different digital ecosystems based on Blockchain platforms have given rise to NFTs (non-fungible tokens) defined as digital assets that are revolutionizing the world of art, video games, real estate, etc.",
+    "paragraph.1":"- Development of NFT tokenization platforms.",
+    "paragraph.2":"- Design and development of virtual spaces in Metaverses.",
+    "paragraph.3":"- Mentorship for the development of NFTs projects."
+  },
+  "digital-projects":{
+    "title":"Digital Coaching ",
+    "paragraph.0":"Digital Coaching Program: “Digital Bridge to El Dorado”. The digital coaching program is aimed at entrepreneurs and startups that are in the transition to digital, and want to have a specific strategy to take their business to the next level. The objective is to open the vision to the possibilities that digital migration can offer for the future.",
+    "paragraph.1":"- 5 Video tutorials through which he internalizes the world of digital coaching with a marketing strategy and business growth.",
+    "paragraph.2":"- 2 Live sessions with a certified coach member of the Global Network of Mentors.",
+    "paragraph.3":"- 1 box of digital tools with which you can understand how the logic of the different social networks works for the promotion of your products or services. Extra bonus! Introduction to the world of Payoneer and the possibilities that this card opens up, having a safe and accessible way of charging and paying."
+  },
+  "commerce":{
+    "title":"E-commerce",
+    "paragraph.0":"1 box of digital tools with which you can understand how the logic of the different social networks works for the promotion of your products or services. extra bonus! Introduction to the world of Payoneer and the possibilities that this card opens up, having a safe and accessible way of charging and paying. Internet sales, opening and moving a large part of the markets to a digital market. This highlights the importance of being part of this change, having a virtual store that allows new brands to be known, offering both products and services in this way.",
+    "paragraph.1":"- Development of functional and creative E-commerce platforms that can relate the seller with his community, to sell his own products or to expose a portfolio of different brands.",
+    "paragraph.2":"- Integration with payment gateways.",
+    "paragraph.3":"- Management of orders, products and inventories.",
+    "paragraph.4":"- POS point of sales.",
+    "paragraph.5":"- Integration with ERP."
+  },
+  "dapps":{
+    "title":"Decentralized Applications",
+    "paragraph.0":"We are experiencing the rise of decentralization of the digital world expressed in the rise of various ecosystems. Decentralized applications (DAPPs) based on blockchain platforms are digital systems that can be used in various areas of industry such as food traceability, finance, asset tokenization, registration systems, education through network-based security. international nodes.",
+    "paragraph.1":"- Development of custom DAPPs for each company, which has international development standards, providing security to operations through transactions on Blockchain platforms.",
+    "paragraph.2":"- Develop specialized DAPPs for product traceability.",
+    "paragraph.3":"- Integration of Blockchain platforms with mobile applications."
+  },
+  "experience":{
+    "title":"OUR EXPERIENCE",
+    "paragraph":"KetanoLab is a Digital Services Agency focused on management systems and consulting specialized in open innovation, providing services with social responsibility in the digital age."
+  },
+  "beginning":{
+    "title-1":"Digital Systems",
+    "title-2":"Ecommerce",
+    "title-3":"Head hunting developers",
+    "title-4":"Mobile Apps",
+    "title-5":"Metaverse",
+    "coaching":"Coaching",
+    "coaching-1":"Virtual tourism",
+    "coaching-2":"Digital coaching",
+    "title-6":"NFT Digital Art",
+    "title-7":"Digital Strategy",
+    "title-8":"Immersive digital production",
+    "title-9":"Exponential Marketing",
+    "title-10":"Blockchain",
+    "title-10.1":"Blockchain",
+    "title-11":"Decentralized Applications",
+    "title-12":"New Zealand",
+    "title-13":"Automation of services",
+    "title-14":"Blockchain solutions"
+  },
+  "marketing":{
+    "title":"Exponential Marketing",
+    "paragraph.0":"Exponential Marketing is the sociology applied with data that helps us in the integral optimization of a business. Our Exponential Marketing System is focused on changing the mentality of a business with digitized information, employing or creating a function sales exponential.",
+    "paragraph.1":"Development of a communication plan based on exponential marketing, consisting of the following elements:",
+    "paragraph.2":"1. Exponential content.",
+    "paragraph.3":"2. Exponential Range.",
+    "paragraph.4":"3. Exponential digital trust.",
+    "paragraph.5":"4. Exponential sales.",
+    "paragraph.6":"5. Exponential digital relationships."
+  },
+  "nav":{
+    "title":"Nav Bar",
+    "title-1":"Services",
+    "title-2":"Us",
+    "title-3":"Our Experience",
+    "title-4":"Virtual Office"
+  },
+  "we":{
+    "title":"WE",
+    "person-1":"Roger Prado De La Fuente",
+    "person-1_description":"Business administrator with extensive experience in Startups, international public speaker, who has given talks in different South American countries.",
+    "person-2":"Pedro Terán Gezn",
+    "person-2_description":"Programmer and software architect with more than 10 years of experience working on global projects and leading multicultural technical development teams.",
+    "person-3":"Milenka Escobar Pereira",
+    "person-3_description":"Manager of technological-cultural projects for international development agencies, public and private institutions, finding in technology and culture (C+T) the perfect synergy for innovation, making each project an experience." ,
+    "person-4":"Samantha Ayleen Rueda",
+    "person-4_description":"Linguist passionate about culture and digital art, adding value to each technological project. ",
+    "person-5":"Melania San Miguel Chacon",
+    "person-5_description": "ILO certified facilitator, she has led teams for the implementation of training programs in tourism, her work revolves around the development of tourism-technological enterprises in urban and rural areas.",
+    "paragraph":"It is made up of a team of innovators with experience, knowledge and responsibility in different areas, from the development of platforms, blockchain solutions and digital services focused on changing the user experience to advice on digital culture from intercultural approaches. "
+  },
+  "production":{
+    "title":"Producción Digital",
+    "paragraph":"Imaginamos contigo tu proyecto con el fin de elevar tus productos audiovisuales digitales para redes sociales, paginas web, con animaciones 2D y 3D."
+  },
+  "services":{
+    "title":"Service automation",
+    "paragraph.0":"Having an online management system to automate services and processes allows you to reduce operating costs, increase customer satisfaction and reduce human errors, allowing you to operate operations in less time and with greater reliability." ,
+    "paragraph.1":"Development of digital systems tailored to the needs of each client.",
+    "paragraph.2":"Advice for design and automation process.",
+    "paragraph.3":"Creative UI/UX design adapted to the client's communication needs, providing accessibility with all current standards."
+  },
+  "sightseeing":{
+    "title":"Virtual Tourism",
+    "paragraph.0":"Tourism is also taking advantage of all that the new digital age has to offer since, through the use of digital platforms and tools such as virtual and augmented reality, people can visit places of historical and cultural interest such as museums, ancient archaeological sites, historic centers, natural sites, among others, entering them with your imagination as the limit.",
+    "paragraph.1":"- Being part of the Virtual Tourism Laboratory, learning to apply digital strategies and tools by participating in boot camps and meetings, which help generate new projects in tourism, providing an experience that motivates new virtual tourists to travel through cyberspace.",
+    "paragraph.2":"- Advice for the development of technological-tourism projects."
+  },
+  "developers":{
+    "title":"Head Hunting Developers New Zealand",
+    "paragraph.0":"The experience of living in a cosmopolitan country on the other side of the world provides the opportunity to broaden your vision and develop new skills as a programmer, in a diverse and high-level environment. Based on our experience in New Zealand we advise and connect with software companies interested in expanding their team and learning about new cultures.",
+    "paragraph.1":"- Specialized mentoring to access software development companies in New Zealand.",
+    "paragraph.2":"- 1 hour live session providing insight into the core skills required in business and work culture in the New Zealand tech sector.",
+    "paragraph.3":"- A PDF document containing information on: recruiters, tech companies, job boards, and New Zealand cultural interest data."
+  },
+  "blockchain":{
+    "title":"Blockchain Solutions",
+    "paragraph.0":"Blockchain is a disruptive technology considered to be the Internet of value, it is a gigantic account book in which records are linked and encrypted to protect the security and privacy of transactions. In other words, it is a database distributed, secure and inviolable data storage.",
+    "paragraph.1":"We develop comprehensive custom systems based on Blockchain that include:",
+    "paragraph.2":"- Development of customized Blockchain platforms for each company, which has international development standards.",
+    "paragraph.3":"- Integration with the different public and private Blockchain platforms.",
+    "paragraph.4":"- Development of Cold Wallets.",
+    "paragraph.5":"- Development of a governance system through a Decentralized Autonomous Organization DAO."
+  },
+  "ofrecemos":{
+    "title":"What do we offer?"
+  },
+
+  "button":{
+    "contact":"Contact us"
+  }
 }

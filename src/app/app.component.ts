@@ -7,12 +7,15 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'paginaWeb';
+  title = 'KetanoLab';
 
-  constructor(public traslate: TranslateService) {
-    this.traslate.addLangs(['es', 'en']);
-    this.traslate.setDefaultLang('en');
-    this.traslate.use('es');
+  constructor(public translate: TranslateService) {
+    this.translate.addLangs(['es', 'en']);
+    this.translate.setDefaultLang('en');
+   if(localStorage.getItem('language')) {
+         var language = localStorage.getItem("language") as string;
+         this.translate.use(language);
+       }
+
   }
 }
-
