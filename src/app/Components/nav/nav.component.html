@@ -20,46 +20,46 @@
           <!-- Construcción con before y after de los botones del navbar -->
 
           <!-- Servicios -->
-            
-            <div id="servicios">    
+
+            <div id="servicios">
             </div>
             <a href="/inicio" id="a_servicios">
               {{"nav.title-1" | translate}}
             </a>
-            
+
           <!-- Nosotros -->
-            
-          <div id="nosotros">    
+
+          <div id="nosotros">
           </div>
           <a href="/nosotros" id="a_nosotros">
             {{"nav.title-2" | translate}}
           </a>
-         
+
           <!-- Nuestra Experiencia -->
-            
-          <div id="experiencia">    
+
+          <div id="experiencia">
           </div>
           <a href="/experiencia" id="a_experiencia">
             {{"nav.title-3" | translate}}
           </a>
-        
+
           <!-- Oficina Virtual -->
-            
-          <div id="oficina">    
+
+          <div id="oficina">
           </div>
           <a href="https://gather.town/app/zmougmiMJ2HHVYbZ/ketanolab" id="a_oficina" target="_blank">
             {{"nav.title-4" | translate}}
           </a>
-        
+
         <!-- Enlaces de Español e Inglés. -->
 
         <!-- Inglés -->
-        <a href="#" id="a_EN">
+        <a href="#" id="a_EN" (click)="setEn()">
           EN
         </a>
 
         <!-- Español -->
-        <a class="mb-16" href="#" id="a_ES">
+        <a class="mb-16" href="#" id="a_ES" (click)="setEs()">
           ES
         </a>
 
