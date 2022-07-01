@@ -1,7 +1,7 @@
 .bg-ketanolab {
     background-image: url("../../../assets/img/Inicio/middlebara.png");
     background-repeat: no-repeat;
-    background-position-y: 6.2rem;
+    background-position-y: 7.3rem;
     background-position-x: 16rem;
     background-size: 66.69rem 0.76rem;
 }
@@ -14,7 +14,7 @@
     background-position-x: -20rem;
     padding-top: 5rem;
     padding-left: 16.3rem;
-    margin-top: -4.7rem;
+    margin-top: -5.7rem;
     margin-left: 0rem;
 }
 
@@ -26,7 +26,7 @@
     background-position-x: 0rem;
     padding-top: 5rem;
     padding-left: 16.3rem;
-    margin-top: -4.7rem;
+    margin-top: -5.7rem;
     margin-left: -17rem;
 }
 
@@ -52,12 +52,14 @@ a {
 /* 1.- Construcción del botón servicios. */
 
 /* Aquí en #servicios, modificando el atributo margin se puede manipular fácilmente la ubicación de todo el botón */
+#serviciosposition {
+    margin-top: 5.8rem;
+}
+
 #servicios {
     background-image: url("../../../assets/img/img/middle.png");
     background-repeat: no-repeat;
-    margin-top: 4.5rem;
-    margin-left: 4rem;
-    background-size: 7rem 3.1rem;
+    background-size: 7rem 3.16rem;
 }
 
 #servicios::before {
@@ -82,8 +84,8 @@ a {
 
 #a_servicios {
     position: relative;
-    top: 5.1rem;
-    left: -16.5rem;
+    top: -9.5rem;
+    left: 5rem;
     max-height: 2rem;
 }
 
@@ -94,12 +96,16 @@ a {
 
 
 /* Aquí en #nosotros, modificando el atributo margin se puede manipular fácilmente la ubicación de todo el botón */
+#nosotrosposition {
+    margin-top: 5.8rem;
+    margin-left: 6rem;
+
+}
+
 #nosotros {
     background-image: url("../../../assets/img/img/middle.png");
     background-repeat: no-repeat;
-    margin-top: 4.5rem;
-    margin-left: -10rem;
-    background-size: 7rem 3.1rem;
+    background-size: 7rem 3.16rem;
 }
 
 #nosotros::before {
@@ -126,8 +132,8 @@ a {
 
 #a_nosotros {
     position: relative;
-    top: 5.1rem;
-    left: -16.5rem;
+    top: -9.5rem;
+    left: -9rem;
     max-height: 2rem;
 }
 
@@ -138,12 +144,15 @@ a {
 
 
 /* Aquí en #experiencia, modificando el atributo margin se puede manipular fácilmente la ubicación de todo el botón */
+#experienciaposition {
+    margin-top: 5.8rem;
+    margin-left: 5.5rem;
+}
+
 #experiencia {
     background-image: url("../../../assets/img/img/middle.png");
     background-repeat: no-repeat;
-    margin-top: 4.5rem;
-    margin-left: -10rem;
-    background-size: 14rem 3.1rem;
+    background-size: 14rem 3.16rem;
 }
 
 #experiencia::before {
@@ -168,8 +177,8 @@ a {
 
 #a_experiencia {
     position: relative;
-    top: 5.1rem;
-    left: -23.5rem;
+    top: -9.5rem;
+    left: -8.5rem;
     min-width: 15rem;
     max-height: 2rem;
 }
@@ -181,12 +190,15 @@ a {
 
 
 /* Aquí en #oficina, modificando el atributo margin se puede manipular fácilmente la ubicación de todo el botón */
+#oficinaposition {
+    margin-top: 5.8rem;
+    margin-left: 15rem;
+}
+
 #oficina {
     background-image: url("../../../assets/img/img/middle.png");
     background-repeat: no-repeat;
-    margin-top: 4.5rem;
-    margin-left: -19rem;
-    background-size: 9.5rem 3.1rem;
+    background-size: 9.5rem 3.16rem;
 }
 
 #oficina::before {
@@ -211,7 +223,7 @@ a {
 
 #a_oficina {
     position: relative;
-    top: 5.1rem;
+    top: -9.5rem;
     left: -19rem;
     min-width: 10rem;
     max-height: 2rem;
@@ -223,9 +235,9 @@ a {
 
 /* Inglés */
 #a_EN {
-    position: relative;
-    top: 5rem;
-    left: -17.5rem;
+    
+    margin-top: 6.5rem;
+    margin-left: -16rem;
     max-height: 2rem;
 }
 
@@ -235,9 +247,8 @@ a {
 
 /* Español */
 #a_ES {
-    position: relative;
-    top: 5rem;
-    left: -16.5rem;
+    margin-top: 6.5rem;
+    margin-left: 1rem;
     max-height: 2rem;
 }
 
@@ -256,8 +267,12 @@ a {
     margin-left: -13rem;
     }
    
-    #servicios {
+    #serviciosposition {
         margin-left: 4rem;
+    }
+
+    #a_servicios {
+        margin-left: -5rem;
     }
 
     #nosotros {
