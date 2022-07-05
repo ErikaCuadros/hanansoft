@@ -1,25 +1,68 @@
-<nav class="navbar navbar-expand-xl navbar-dark">
+<!-- Inicio Navbar que colapsa en hamburguesa en el pixel 1200 de width-->
+<nav class="navbar navbar-expand-xl navbar-dark bg-ketanolab">
+  <!-- Container -->
   <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="../../../assets/img/img/circulo-01.svg" alt="" width="50" height="24" class="d-inline-block align-text-top">
-      Ketanolab
-    </a>
-
+    <!-- Brand de Ketanolab vista en móviles -->
+      <a class="navbar-brand d-xl-none" href="#">
+        <img class="brand-mobile" src="../../assets/img/img/circulo-01.svg" alt="Ketanolab">
+      </a>
+      <!-- Botón sánduche en vista móvil -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav navbar-ketanolab">
-        <a class="nav-link btn-ketanolab" href="/inicio">{{"nav.title-1" | translate}}</a>
-        <a class="nav-link btn-ketanolab" href="/nosotros">{{"nav.title-2" | translate}}</a>
-        <a class="nav-link btn-ketanolab" href="/experiencia">{{"nav.title-3" | translate}}</a>
-        <a class="nav-link btn-ketanolab" href="#">{{"nav.title-4" | translate}}</a>
-        <span class="nav-link nav-idiomas">
-          <a class="btn-idioma" href="#" (click)="setEn()">EN</a>
-          <span> | </span>
-          <a class="btn-idioma" href="#" (click)="setEs()">ES</a>
-        </span>
+      <div class="navbar-nav">
+        <!-- Navbar vista Pc -->
+          <a class="navbar-brand d-none d-xl-block" href="#">
+              <img src="../../assets/img/img/circulo-01.svg" alt="Ketanolab">
+          </a>
+
+          <!-- Construcción con before y after de los botones del navbar -->
+
+          <!-- Servicios -->
+            <div id="serviciosposition">
+              <div id="servicios">
+              </div>
+              <a href="/inicio" id="a_servicios">
+                {{"nav.title-1" | translate}}
+              </a>
+            </div>
+            <!-- Nosotros -->
+          <div id="nosotrosposition">
+            <div id="nosotros">
+            </div>
+            <a href="/nosotros" id="a_nosotros">
+              {{"nav.title-2" | translate}}
+            </a>
+          </div>
+            <!-- Nuestra Experiencia -->
+          <div id="experienciaposition">
+            <div id="experiencia">
+            </div>
+            <a href="/experiencia" id="a_experiencia">
+              {{"nav.title-3" | translate}}
+            </a>
+          </div>
+            <!-- Oficina Virtual -->
+          <div id="oficinaposition">
+            <div id="oficina">
+            </div>
+            <a href="https://gather.town/app/zmougmiMJ2HHVYbZ/ketanolab" id="a_oficina" target="_blank">
+              {{"nav.title-4" | translate}}
+            </a>
+          </div>
+          <!-- Enlaces de Español e Inglés. -->
+
+          <!-- Inglés -->
+          <a href="#" id="a_EN" (click)="setEn()">
+            EN
+          </a>
+
+          <!-- Español -->
+          <a class="mb-16" href="#" id="a_ES" (click)="setEs()">
+            ES
+          </a>
+
       </div>
     </div>
   </div>

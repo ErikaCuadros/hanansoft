@@ -18,6 +18,122 @@ a:hover {
     background-color: #00000020;
   }
 
+/* Altura de las columnas de la página */
+#columna-1 {
+    max-height: 24rem;
+    background-color: #00302A;
+}
+
+#columna-I {
+    max-height: 24rem;
+    background-color: #242A00;
+}
+
+#columna-2 {
+    max-height: 24rem;
+    background-color: #00032A;
+} 
+
+#columna-II {
+    max-height: 24rem;
+    background-color: #252C32;
+
+}
+
+/* Containers centrales con efectos :hover transform:scale*/
+
+.img-container-estrategias {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    width: 19rem;
+    height: 12rem;
+    position: relative;
+    top: 6rem;
+    left: 30%;
+    text-align: center;
+    z-index:2;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+/* Efecto hover zoom */
+.img-container-estrategias :hover {    
+    transform: scale(1.17, 1.19);
+}
+
+.img-container-estrategias :hover + .centered {
+    display: none;
+}
+
+.img-container-blockchain {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    width: 19rem;
+    height: 12rem;
+    position: relative;
+    top: 5rem;
+    left: 30%;
+    text-align: center;
+    z-index:2;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+/* Efecto hover zoom */
+.img-container-blockchain :hover{
+    transform: scale(1.17, 1.19);
+}
+
+.img-container-blockchain :hover + .centered {
+    display: none;
+}
+
+.img-container-digitales {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    width: 19rem;
+    height: 12rem;
+    position: relative;
+    top: 6rem;
+    left: 30%;
+    text-align: center;
+    z-index:2;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+/* Efecto hover zoom */
+.img-container-digitales :hover{
+    transform: scale(1.17, 1.19);
+}
+
+.img-container-digitales :hover + .centered {
+    display: none;
+}
+
+.img-container-metaverso {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    width: 19rem;
+    height: 12rem;
+    position: relative;
+    top: 6rem;
+    left: 32%;
+    text-align: center;
+    z-index:2;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+/* Efecto hover zoom */
+.img-container-metaverso :hover{
+    transform: scale(1.17, 1.19);
+}
+
+.img-container-metaverso :hover + .centered {
+    display: none;
+}
 
 /* Contenido de los contenedores centrales */
 
@@ -55,51 +171,9 @@ a:hover {
     outline-offset: -15px;
 }
 
+/* Satélites */
 
-
-/* Aquí empieza el responsive */
-
-.img-container-mundo {
-    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
-    width: 19rem;
-    height: 12rem;
-    position: relative;
-    text-align: center;
-    z-index:2;
-    transition: all 0.3s ease-out;
-    overflow: hidden;
-}
-
-.box-mundo {
-    width: 19rem;
-    height: 12rem;
-    z-index: 2;
-    border: 1px solid #004483ff;
-    background-image: linear-gradient(#007df1ff, #007df1ff),
-                    linear-gradient(#007df1ff, #007df1ff),
-                    linear-gradient(#007df1ff, #007df1ff),
-                    linear-gradient(#007df1ff, #007df1ff);
-    background-repeat: no-repeat;
-    background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
-    background-position: left bottom, left bottom, right top, right top, 1px 1px;
-    padding: 2px;
-    transition: all 0.3s ease-out;
-    outline: 2px solid white;
-    outline-style: groove;
-    outline-offset: -15px;
-}
-
-.box-mundo:hover {    
-    transform: scale(1.17, 1.19);
-}
-
-.box-mundo:hover + .centered {
-    display: none;
-}
-
-.box-servicios {
+.servicios-box-estrategia-1 {
     box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
@@ -109,258 +183,193 @@ a:hover {
     padding: 0.5rem 1rem;
     border: #002443ff 10px double;
     outline: 6px double rgb(48, 74, 124);
+    position: relative;
     width: 12rem;
     height: 5rem;
     display: block;
     font-size: 15px;
+    top: -11rem;
+    left: 38%;
     text-transform: uppercase;
 }
 
-
-.espacio {
+.servicios-box-estrategia-2 {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
     position: relative;
-    min-height: 25rem;
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    top: -9rem;
+    left: 70%;
+    text-transform: uppercase;
 }
 
-.estrategias-mundo {
-    position: absolute;
-    top: 6rem;
-    right: 23rem;
-    margin-left: 4rem;
+.servicios-box-estrategia-3 {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 0.5rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    top: -4rem;
+    left: 20%;
+    text-transform: uppercase;
 }
 
-.estrategias-1{
-    position: absolute;
-    top: -75px;
-    left: 55px;
+.servicios-box-blockchain-1 {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 0.5rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    top: -11rem;
+    left: 19%;
+    text-transform: uppercase;
 }
 
-.estrategias-2{
-    position: absolute;
-    top: 39px;
-    right: -178px;
+.servicios-box-blockchain-2 {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 0.5rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    top: 0rem;
+    left: 19%;
+    text-transform: uppercase;
 }
 
-.estrategias-3{
-    position: absolute;
-    bottom: -72px;
-    right: 175px;
+.servicios-box-digitales-1 {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    top: -3rem;
+    left: 5%;
+    text-transform: uppercase;
 }
 
-.blockchain-mundo {
-    position: absolute;
-    top: 6rem;
-    right: 24rem;
-    margin-left: 4rem;
+.servicios-box-digitales-2 {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 0.5rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    top: -14rem;
+    left: 69%;
+    text-transform: uppercase;
 }
 
-.blockchain-1 {
-    position: absolute;
-    top: -75px;
-    left: -80px;
+.servicios-box-digitales-3 {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    top: -6rem;
+    left: 69%;
+    text-transform: uppercase;
 }
 
-.blockchain-2 {
-    position: absolute;
-    bottom: -75px;
-    left: -35px;
+.servicios-box-metaverso-1 {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    top: -11rem;
+    left: 49%;
+    text-transform: uppercase;
 }
 
-.digitales-mundo {
-    position: absolute;
-    top: 6rem;
-    right: 16rem;
-    margin-left: 4rem;
+.servicios-box-metaverso-2 {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 1rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    position: relative;
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    top: 1rem;
+    left: 37%;
+    text-transform: uppercase;
 }
-
-.digitales-1 {
-    position: absolute;
-    top: 50px;
-    left: -185px;
-}
-
-.digitales-2 {
-    position: absolute;
-    top: -75px;
-    right: -115px;
-}
-
-.digitales-3 {
-    position: absolute;
-    bottom: -75px;
-    right: -50px;
-}
-
-.metaverso-mundo {
-    position: absolute;
-    top: 6rem;
-    right: 23rem;
-    margin-left: 4rem;
-}
-
-.metaverso-1 {
-    position: absolute;
-    top: -75px;
-    right: -70px;
-}
-
-.metaverso-2 {
-    position: absolute;
-    bottom: -75px;
-    left: -70px;
-}
-
-
-@media all and (min-width: 1200px) and (max-width: 1400px) { 
-    .estrategias-mundo {
-        right: 9rem;
-    }
-
-    .blockchain-mundo {
-        right: 9rem;
-    }
-
-    .digitales-mundo {
-        right: 3rem;
-    }
-
-    .metaverso-mundo {
-        right: 10rem;
-    }
-}
-
-@media all and (min-width: 992px) and (max-width: 1200px) { 
-    .estrategias-mundo {
-        right: 34rem;
-    }
-
-    .blockchain-mundo {
-        right: 14rem;
-    }
-
-    .digitales-mundo {
-        right: 34rem;
-    }
-
-    .metaverso-mundo {
-        right: 24rem;
-    }
-}
-
-@media all and (min-width: 768px) and (max-width: 992px) { 
-    
-}
-
-@media all and (min-width: 576px) and (max-width: 768px) { 
-    .estrategias-mundo {
-        right: 14rem;
-    }
-
-    .blockchain-mundo {
-        right: 6rem;
-    }
-
-    .digitales-mundo {
-        right: 9rem;
-    }
-
-    .metaverso-mundo {
-        right: 11rem;
-    }
-}
-
-@media all and (max-width: 576px) {
-    .estrategias-mundo {
-        position: relative;
-        top: 0;
-        right: 0;
-        margin-left: 1rem;
-    }
-    
-    .estrategias-1{
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    
-    .estrategias-2{
-        position: relative;
-        top: 0;
-        right: 0;
-    }
-    
-    .estrategias-3{
-        position: relative;
-        bottom: 0;
-        right: 0;
-    }
-
-    .blockchain-mundo {
-        position: relative;
-        top: 0;
-        right: 0;
-        margin-left: 1rem;
-        margin-top: 3rem;
-
-    }
-    
-    .blockchain-1 {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    
-    .blockchain-2 {
-        position: relative;
-        bottom: 0;
-        left: 0;
-    }
-    
-    .digitales-mundo {
-        position: relative;
-        top: 0;
-        right: 0;
-        margin-left: 1rem;
-        margin-top: 3rem;
-
-    }
-    
-    .digitales-1 {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    
-    .digitales-2 {
-        position: relative;
-        top: 0;
-        right: 0;
-    }
-    
-    .digitales-3 {
-        position: relative;
-        bottom: 0;
-        right: 0;
-    }
-    
-    .metaverso-mundo {
-        position: relative;
-        top: 0;
-        right: 0;
-        margin-left: 1rem;
-        margin-top: 3rem;
-    }
-    
-    .metaverso-1 {
-        position: relative;
-        top: 0;
-        right: 0;
-    }
-    
-    .metaverso-2 {
-        position: relative;
-        bottom: 0;
-        left: 0;
-    }
-
- }
+/* Aquí empieza el responsive */

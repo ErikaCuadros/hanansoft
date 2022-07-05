@@ -1,9 +1,0 @@
-<svg width="15.211mm" height="12.701mm" version="1.1" viewBox="0 0 15.211 12.701" xmlns="http://www.w3.org/2000/svg">
- <pattern id="bg" patternUnits="userSpaceOnUse" width="130" height="24">
-     <g transform="translate(-37.417 -79.7)">
-    <path d="m40.925 82.079-1.8655 3.5378v4.4509h3.2065l3.5853-7.9887zm6.0105 0-3.5853 7.9887h1.5617l3.5853-7.9887zm2.6458 0-3.5853 7.9887h1.5617l3.5853-7.9887zm2.6458 0-3.5853 7.9887h3.9858v-7.9887z" fill="#10acc8" fill-opacity=".8"/>
-    <path d="m52.627 80.695h-12.015l-2.4014 4.7175v5.9361h14.416" fill="none" stroke="#0facc8" stroke-opacity=".8" stroke-width=".2385px"/>
-    <path d="m52.627 79.832h-12.344l-2.7347 5.5072v6.9293h15.079" fill="none" stroke="#0facc8" stroke-opacity=".8" stroke-width=".26458px"/>
-    </g>
- </pattern>
-</svg>
