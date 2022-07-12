@@ -4,7 +4,6 @@
   background-attachment: fixed;
   position: relative;
   padding-bottom: 1rem;
-  height: 86rem;
 }
 
 .container-experiencia::before {
@@ -96,16 +95,19 @@
 
 /* Termina efecto */
 
+
+.logo {
+  margin: 1rem 1rem;
+}
+
+
 /* Configuración de las imágenes de los logos de clientes */
 #imagen1 {
   width: 175px;
-  margin-right: 1rem;
 }
 
 #imagen2 {
-  margin-top: 1rem;
   width: 175px;
-  margin-right: 1rem;
 }
 
 #imagen3 {
@@ -114,13 +116,10 @@
 
 #imagen4 {
   width: 80px;
-  margin-left: 1rem;
 }
 
 #imagen5 {
-  margin-top: 1rem;
   width: 200px;
-  margin-left: 2rem;
 }
 
 #imagenesaliados1 {
