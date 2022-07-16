@@ -11,12 +11,12 @@
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav navbar-ketanolab">
-        <a class="nav-link btn-ketanolab" href="/inicio">{{"nav.title-1" | translate}}</a>
-        <a class="nav-link btn-ketanolab" href="/nosotros">{{"nav.title-2" | translate}}</a>
-        <a class="nav-link btn-ketanolab" href="/experiencia">{{"nav.title-3" | translate}}</a>
-        <a class="nav-link btn-ketanolab" href="#">{{"nav.title-4" | translate}}</a>
+        <a class="nav-link btn-ketanolab" href="/inicio">{{"nav.servicios" | translate}}</a>
+        <a class="nav-link btn-ketanolab" href="/nosotros">{{"nav.nosotros" | translate}}</a>
+        <a class="nav-link btn-ketanolab" href="/experiencia">{{"nav.experiencia" | translate}}</a>
+        <a class="nav-link btn-ketanolab" href="#">{{"nav.oficina" | translate}}</a>
         <span class="nav-link nav-idiomas">
-          <a class="btn-idioma" href="#" (click)="setEn()">EN</a>
+          <a class="btn-idioma" [ngClass]="{'selected':false}" href="#" (click)="setEn(); switchIdiomaEN = true;">EN</a>
           <span> | </span>
           <a class="btn-idioma" href="#" (click)="setEs()">ES</a>
         </span>

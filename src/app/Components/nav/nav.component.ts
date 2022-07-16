@@ -9,6 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class NavComponent implements OnInit {
 
   constructor(public translate: TranslateService) { }
+  switchIdiomaEN:boolean = false;
 
   ngOnInit(): void {
   }

@@ -121,6 +121,11 @@ a {
     color: #00AEC6;
     z-index: 3;
 }
+
+.selected {
+    background-color: red;
+}
+
 /* Construcción de los botones del nav con pseudo elementos before y after */
 /*
 .navbar-ketanolab {

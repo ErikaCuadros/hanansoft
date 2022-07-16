@@ -2,6 +2,9 @@
     "home":{
         "services": "SERVICIOS"
     },
+    "webservices":{
+        "title":"Servicios Web"
+    },
     "apps":{
         "title":"Aplicaciones Móviles",
         "paragraph.0":"Hoy en día los celulares son la principal ventana de entrada de las personas a internet. El desarrollo de aplicaciones para dispositivos móviles permite brindar un acceso rápido, sencillo y eficiente a la información que se proporciona, diseñando funcionalidades específicas que  mejoran la capacidad de conectividad y disponibilidad de servicios y productos, permitiendo generar una conexión más profunda y una comunicación más fluida con los clientes.",
@@ -40,7 +43,7 @@
         "paragraph.3":"- Integración de plataformas Blockchain con aplicaciones móviles."
     },
     "experience":{
-        "title":"NUESTRA EXPERIENCIA",
+        "title":"Nuestra Experiencia",
         "paragraph":"KetanoLab es una Agencia de Servicios Digitales enfocada en sistemas de gestión y consultoría especializada en innovación abierta brindando servicios con responsabilidad social en la era digital."
     },
     "beginning":{
@@ -75,13 +78,17 @@
     },
     "nav":{
         "title":"Nav Bar",
-        "title-1":"Servicios",
-        "title-2":"Nosotros",
-        "title-3":"Nuestra Experiencia",
-        "title-4":"Oficina virtual"
+        "servicios":"Servicios",
+        "nosotros":"Nosotros",
+        "experiencia":"Nuestra Experiencia",
+        "oficina":"Oficina Virtual"
+      },
+    "footer":{
+        "links":"Enlaces",
+        "contact":"Contacto"
     },
     "we":{
-        "title":"NOSOTROS",
+        "title":"Nosotros",
         "person-1":"Roger Prado De La Fuente",
         "person-1_description":"Administrador de empresas con amplia experiencia en Startups, international public speaker, que ha dado charlas en diferentes países de Sudamérica.",
         "person-2":"Pedro Terán Gezn",

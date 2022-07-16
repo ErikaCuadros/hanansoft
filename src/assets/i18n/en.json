@@ -2,6 +2,9 @@
   "home":{
     "services": "SERVICES"
   },
+  "webservices":{
+    "title":"Web Services"
+  },
   "apps":{
     "title":"Mobile Apps",
     "paragraph.0":"Nowadays, cell phones are the main window to the internet. The development of applications for mobile devices allows quick, simple and efficient access to the information provided, designing specific functionalities that improve the connectivity, capacity and availability of services and products allowing to generate a deeper connection and more fluid communication with the clients.",
@@ -75,10 +78,14 @@
   },
   "nav":{
     "title":"Nav Bar",
-    "title-1":"Services",
-    "title-2":"About Us",
-    "title-3":"Our Experience",
-    "title-4":"Virtual Office"
+    "servicios":"Services",
+    "nosotros":"About Us",
+    "experiencia":"Our Experience",
+    "oficina":"Virtual Office"
+  },
+  "footer":{
+    "links":"Sections",
+    "contact":"Contact"
   },
   "we":{
     "title":"WE",
