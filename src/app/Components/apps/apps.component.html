@@ -1,31 +1,95 @@
-<app-nav></app-nav>
-<div class="container, align-top">
-<div class="container, align-top" (mouseover)="estado=true" (mouseout)="estado=false">
-<div *ngIf="!estado" class="row justify-content-center">
-    <div class="col-auto posicion">
-        <div class="figura">
-            <p class="pt-6 ml-1 fuente">{{"APPS.TITLE" | translate}}</p>
-        </div>
-        <img src="../../../assets/img/app.png" class="img1" alt="">
-    </div>
-    <div class="col col-md-3 ml-2 color p-7">
-        <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-        <p class="pt-4 h6">{{"APPS.PARAGRAPH" | translate}}</p>
-    </div>
-    </div>
+<!-- Inicio container general -->
+<div class="container-fluir mt-16 mb-16 fondo">
+    <!-- NavBar -->
+    <app-nav></app-nav>
+    <!-- Inicio container contenido de página -->
+    <div class="container">
+        <!-- h1 -->
+    <h1 class="mt-16">
+        {{"apps.title" | translate}}
+    </h1>
+        <div class="row">
+            <div class="col-md-4 mt-16">
+                <article>
+                    <p class="text-justify">
+                        {{"apps.paragraph.0" | translate}}
+                    </p>
+                </article>
+            </div>
+            <div class="col-md-4 mt-16">
+                <article>
+                    <ul>
+                        <li>
+                            <h2 class="ofrecemos bold">
+                                {{"ofrecemos.title" | translate}}
+                            </h2>
+                        </li>
+                        <li class="text-justify mt-5">
+                            {{"apps.paragraph.1" | translate}}
+                        </li>
+                        <li class="text-justify mt-5">
+                            {{"apps.paragraph.2" | translate}}
+                        </li>
+                        <li class="text-justify mt-5">
+                            {{"apps.paragraph.3" | translate}}
+                        </li>
+                        <li class="centrar_boton">
 
-<!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
-<div *ngIf="estado" class="row justify-content-center">
-<div class="col-auto posicion">
-    <div class="figura">
-        <p class="pt-6 ml-1 fuente">{{"APPS.TITLE" | translate}}</p>
+                        <!-- Formulario con efecto ngIF, se oculta el botòn y aparece el formulario -->
+                        
+                            <div class="container" (click)="estado=!estado">
+                                <div *ngIf="estado">
+                                    <a  class="button-form centrar"> 
+                                        <span class="text">
+                                            {{"button.contact" | translate}}
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <article>
+                    <img src="../../../assets/img/app.png" class="img1 pequeño mt-14" alt="">
+                </article>
+            </div>
+        </div>
     </div>
-    <img style="width: 28m; height: 10em" src="../../../assets/img/app.png" class="img1" alt="">
-</div>
-<div class="offset-1 col-10 color p-7">
-    <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-    <p class="pt-4 h6">{{"APPS.PARAGRAPH" | translate}}</p>
-</div>
-</div>
-</div>
+    <!-- Container Formulario -->
+
+  <div class="container mt-16 mb-16">
+        <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
+    <div class="row">
+        <div class="col-md-6">
+        <div *ngIf="!estado" class="mt-16 mb-16">
+            <form class="p-8 formulario" target="_blank" action="https://formsubmit.co/contacto@ketanolab.com" method="POST">
+                <div class="form-group">
+                    <label for="nombreapellido">
+                        Nombre y Apellido
+                    </label>
+                    <input type="text" class="form-control mt-5 tamaño" id="nombreapellido" placeholder="Nombre y Apellido" value="Tu Nombre y Apellido" required>
+                </div>
+                <div class="form-group mt-5">
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="email" class="form-control mt-5 tamaño" id="email" placeholder="Ingresa tu correo electrónico">
+                    </div>
+                <div class="form-group mt-5">
+                    <label for="consulta">
+                        Área de Consulta
+                    </label>
+                    <textarea class="form-control mt-5 tamaño" id="consulta" rows="5"></textarea>
+                </div>
+                <button class="btn btn-primary mt-5" type="submit">Enviar Formulario</button>
+            </form>    
+        </div>  
+        </div>
+        </div>
+    </div>
+    <!-- Fin div Formulario -->
+<app-footer></app-footer>
 </div>

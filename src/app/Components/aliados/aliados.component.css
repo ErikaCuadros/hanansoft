@@ -1,18 +1,77 @@
-.img1{
-    width: 200px;
-    height: 200px;
-    margin-top: -80%;
-    margin-left: 10%;
+.fondo {
+    background-image: url(../../../assets/img/planet.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
-.card1{
-    margin-left: 15px;
-    width: 20rem;
+
+.card, .card ::after {
+    position: relative;
+    width: 15rem;
+    height:15rem;
+    left: 5px;
+    top: 5px;
+    background: url(../../../assets/img/marco.svg);
+    background-repeat: no-repeat;
 }
-.cuadro2{
-    margin-top: 15%;
+
+.card-img {
+    position: absolute;
+    top: -0.2rem;
+    left: -0.9rem;
+    transition: .5s cubic-bezier(.5,.03,.41,1);
 }
-.img2{
-  margin-top: -30%;
-  width: 225px;
-  margin-left: 5%;
+
+.img1 {
+    position: absolute;
+    width: 11rem;
+    padding: 1rem;
+    height: 11rem;
+    top: 1rem;
+    left: 2.5rem;
+    transition: all .5s;
+}
+
+.marco-int {
+    /*box-shadow: 15px 18px 5px rgba(0, 0, 0, 0.623);*/  
+    /*border: 1px solid #1A99B3;*/       
+    background-image: linear-gradient(#1A99B3, #1A99B3),
+    linear-gradient(#1A99B3, #1A99B3),
+    linear-gradient(#1A99B3, #1A99B3),
+    linear-gradient(#1A99B3, #1A99B3);    
+    background-repeat: no-repeat;
+    background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
+    background-position: left bottom, left bottom, right top, right top, 1px 1px;
+    padding: 2rem;
+    /*outline: 2px solid ;
+    outline-offset: -5px;*/
+    transition: all .5s;
+}
+
+.marco-ext {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#fff, #fff),
+    linear-gradient(#fff, #fff),
+    linear-gradient(#fff, #fff),
+    linear-gradient(#fff, #fff); 
+    background-size: 2px 37%, 15% 2px, 2px 38%, 15% 2px, calc(100% - 1px) calc(100% - 1px);
+    background-position: top left, left top, right bottom, right bottom, 1px 1px;
+    padding: 10px;
+    margin: 2rem 2rem;
+    width: 300px;
+}
+
+.marco-fondo {
+}
+
+/* Comienza efecto */
+.card :hover {
+    transform: translate(-15px, -15px);
+}
+
+.imagen {
+    height: 150px;
+}
+
+.container-logos {
 }

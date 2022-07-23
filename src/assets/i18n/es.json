@@ -1,84 +1,146 @@
 {
-    "HOME":{
-        "SERVICES": "SERVICIOS"
+    "home":{
+        "services": "SERVICIOS"
     },
-    "APPS":{
-        "TITLE":"APPs",
-        "PARAGRAPH":"El desarrollo de aplicaciones para dispositivos móviles permite brindar un funcionamiento y recursos que aportan un acceso más rápido y sencillo a la información necesaria, con versatilidad en cuanto a su utilización y atribución de funcionalidades.Desarrollamos contigo aplicaciones moviles bajo las plataformas Android y iOS que permitan buscar posibilidades nuevas y fomentar la creatividad, dependiendo del tipo de contenido que se quiere ofrecer, con el fin de brindar al usuario una experiencia integral mediante  el uso de diferentes herramientas digitales."
+    "webservices":{
+        "title":"Servicios Web"
     },
-    "DIGITAL-ART":{
-        "TITLE":"COACHING ARTE DIGITAL",
-        "PARAGRAPH":"El surgimiento de los NFTs (Tokens no fungibles) definidos como activos digitales que estan basados en redes blockchain, han llegado a revolucionar el mundo del arte, dando lugar al Cryptoarte que es una forma de introducir escasez y valor al arte en forma digital, explorando nuevas estéticas, donde participan diferentes artistas desde fotografos hasta artistas en ilustración digital, arte glitch / gif, collage de video, arte con IA, realidad virtual entre otros.Nosotros te acompañamos en el proceso para identificar qué obras pueden ser un NFT, como producirlas en las diferentes plataformas y a difundir tu portafolio de arte digital, ademas de formar parte de comunidades de artistas digitales en Lationoamerica."
+    "apps":{
+        "title":"Aplicaciones Móviles",
+        "paragraph.0":"Hoy en día los celulares son la principal ventana de entrada de las personas a internet. El desarrollo de aplicaciones para dispositivos móviles permite brindar un acceso rápido, sencillo y eficiente a la información que se proporciona, diseñando funcionalidades específicas que  mejoran la capacidad de conectividad y disponibilidad de servicios y productos, permitiendo generar una conexión más profunda y una comunicación más fluida con los clientes.",
+        "paragraph.1":"- Desarrollo de aplicaciones móviles bajo las plataformas Android e iOS.",
+        "paragraph.2":"- Diseño UI/UX creativo adaptado a las necesidades comunicacionales y de marca, con el fin de brindar al usuario una experiencia integral mediante el uso de diferentes herramientas digitales.",
+        "paragraph.3":"- Desarrollo Escalable con clean architecture, principios de accesibilidad e internacionalización."
     },
-    "DIGITAL-PROJECTS":{
-        "TITLE":"COACHING PROYECTOS DIGITALES",
-        "PARAGRAPH":"El coach digital exponencial se diferencia por acompañar a las personas a  reinventarse ofreciéndoles conocimientos y experimentación a través de la sinergia del uso de las nuevas tecnologías y la aplicación de la inteligencia emocional.Antes de comenzar un proyecto digital debes tener una hoja de ruta y conocer en que etapa te encuentras, siguiendo nuestra metodologia AVALON te ayudaremos a  coocrear juntos tu nueva realidad de forma simple, creativa y efectiva, brinadandote un coaching digital exponencial sin días y horarios cerrados, utilizando las diferentes plataformas y aplicaciones en las cuales un coach estara disponible para tomar sesiones donde obtendras una estimación del costo según la cantidad de tiempo de la sesión on-line."
+    "digital-art":{
+        "title":"Arte Digital NFT's",
+        "paragraph.0":"El desarrollo de los diferentes ecosistemas digitales basado en plataformas Blockchain han dado surgimiento a los NFTs (tokens no fungibles) definidos como activos digitales que están revolucionando el mundo del arte, los videojuegos, los bienes raíces, etc.",
+        "paragraph.1":"- Desarrollo de plataformas de tokenización NFTs.",
+        "paragraph.2":"- Diseño y desarrollo de espacios virtuales en Metaversos.",
+        "paragraph.3":"- Asesoría para el desarrollo de proyectos NFTs."
     },
-    "COMMERCE":{
-        "TITLE":"E-COMMERCE",
-        "PARAGRAPH":"En el año 2020 se ha visto un avance de 10 años en el desarrollo del E-comerce y la adaptacion de la realidad aumentada asi como de la  inteligencia artificial seran importantes  en los proximos años; a su vez  se ha visto el surgimiento de marcas locales mas alla de las marcas internacionales en diferentes areas de consumo. Ofrecemos el desarrollo de una plataforma E-commerce funcional y creativa que pueda relacionar al vendedor con la comunidad que ha elegido, ya sea que se ofrezca  productos que muestren la filosofia de su propia  marca o  para vender un portafolio de diferentes marcas."
+    "digital-projects":{
+        "title":"Coaching Digital",
+        "paragraph.0":"Programa de Coaching Digital: “Puente Digital hacia el Dorado”. El programa de coaching digital está dirigido a emprendedores y startups que se encuentran en la transición hacia lo digital, y quieren contar con una  estrategia concreta para llevar  su emprendimiento al siguiente nivel. El objetivo es abrir la visión a las posibilidades que la migración digital puede brindar de cara al futuro.",
+        "paragraph.1":"- 5 Videotutoriales mediante los cuales se interioriza en el mundo del coaching digital contando con una estrategia de marketing y crecimiento empresarial.",
+        "paragraph.2":"- 2 Sesiones en vivo con un coach certificado miembro de la Red Global de Mentores. ",
+        "paragraph.3":"- 1 caja de herramientas digitales con las que se podrá entender cómo funciona la lógica de las distintas redes sociales para la promoción de sus productos o servicios. ¡Bono extra! Introducción al  mundo de Payoneer y las posibilidades que abre esta tarjeta, teniendo una vía segura y accesible de cobros y pagos."
     },
-    "DAPPS":{
-        "TITLE":"DAPPs",
-        "PARAGRAPH":"La tecnología blockchain vino a revolucionar el mundo, dado que tendrá una amplia repercusión en las finanzas, el marketing y los negocios, desde ya se apuntala a convertirse en una especie de institución tecnológica que hará cambiar las operaciones en bancos, organizaciones y empresas, convirtiendose en el Internet del valor.Nosotros estructuramos redes Blockchain públicas y privadas, utilizando diferentes plataformas como Hyperledger y Ethereum entre otras, para ofrecer soluciones que puedan aplicarse a diferentes negocios ya que la innovacion de la tecnologia del blockchain cada vez va creando nuevos caminos."
+    "commerce":{
+        "title":"E-commerce",
+        "paragraph.0":"El año 2020 ha marcado un hito en la historia del comercio digital, se ha visto un avance significativo en el desarrollo de las ventas por internet, abriendo y moviendo una gran parte de los mercados a un mercado digital. Esto pone de manifiesto la importancia de formar parte de  este cambio, contando con una tienda virtual que permita dar a conocer marcas nuevas ofreciendo de esta manera tanto  productos como servicios.",
+        "paragraph.1":"- Desarrollo de plataformas de E-commerce funcionales y creativas que puedan relacionar al vendedor con su comunidad, para vender sus propios productos o para exponer un portafolio de diferentes marcas.",
+        "paragraph.2":"- Integración con pasarelas de pago.",
+        "paragraph.3":"- Gestión de pedidos, productos e inventarios.",
+        "paragraph.4":"- Punto de ventas POS.",
+        "paragraph.5":"- Integración con ERP."
     },
-    "EXPERIENCE":{
-        "TITLE":"NUESTRA EXPERIENCIA",
-        "PARAGRAPH":"KetanoLab es una Agencia de Servicios Digitales enfocada en aportar un valor diferencial, enlazando plataformas, mejorando la experiencia de consumo adaptándose a la transformación digital y brindando servicios que vayan  en tendencia a las nuevas  tecnologias siguiendo al ritmo de cada proyecto."
+    "dapps":{
+        "title":"Aplicaciones Descentralizadas",
+        "paragraph.0":"Estamos experimentando el surgimiento de la descentralización del mundo digital expresado en el surgimiento de varios ecosistemas. Las aplicaciones descentralizadas (DAPPs) basadas en plataformas blockchain,  son sistemas digitales que pueden ser utilizadas en varias áreas de la industria como la trazabilidad de alimentos, las finanzas, la tokenización de activos, los sistemas de registro educación mediante la seguridad  basada en una  red nodos internacional.",
+        "paragraph.1":"- Desarrollo de DAPPs a medida para cada empresa, que cuente con estándares internacionales de desarrollo, brindando seguridad a las  operaciones mediante transacciones en plataformas Blockchain.",
+        "paragraph.2":"- Desarrollar DAPPs especializadas para la trazabilidad de productos.",
+        "paragraph.3":"- Integración de plataformas Blockchain con aplicaciones móviles."
     },
-    "BEGINNING":{
-        "TITLE-1":"Sistemas digitales",
-        "TITLE-2":"E-Commerce",
-        "TITLE-3":"Head hunting developers",
-        "TITLE-4":"APPs",
-        "TITLE-5":"Metaverso",
-        "COACHING":"Coaching",
-        "COACHING-1":"Turismo virtual",
-        "COACHING-2":"Coaching digital",
-        "TITLE-6":"Arte digital NFT",
-        "TITLE-7":"Estrategia digital",
-        "TITLE-8":"Producción digital",
-        "TITLE-9":"Marketing exponencial",
-        "TITLE-10":" Soluciones blockchain",
-        "TITLE-10.1":"Blockchain",
-        "TITLE-11":"DAPPs",
-        "TITLE-12":"Nueva Zelanda"
+    "experience":{
+        "title":"Nuestra Experiencia",
+        "paragraph":"KetanoLab es una Agencia de Servicios Digitales enfocada en sistemas de gestión y consultoría especializada en innovación abierta brindando servicios con responsabilidad social en la era digital."
     },
-    "MARKETING":{
-        "TITLE":"MARKETING EXPONENCIAL",
-        "PARAGRAPH":"El Marketing exponencial es sociologia aplicada con datos que nos ayudan en la optimizacion integral de un negocio.",
-        "PARAGRAPH-1":"Nuestro Sistema de Marketing Exponencial esta enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas, mediante:",
-        "LIST":"1. Contenido exponencial.",
-        "LIST-1":"2. Alcance Exponencial.",
-        "LIST-2":"3. Confianza digital exponencial.",
-        "LIST-3":"4. Ventas exponenciales.",
-        "LIST-4":"5. Relaciones digitales exponenciales."
+    "beginning":{
+        "title-1":"Sistemas digitales",
+        "title-2":"E-Commerce",
+        "title-3":"Head hunting developers",
+        "title-4":"Aplicaciones móviles",
+        "title-5":"Metaverso",
+        "coaching":"Coaching",
+        "coaching-1":"Turismo virtual",
+        "coaching-2":"Coaching digital",
+        "title-6":"Arte digital NFT",
+        "title-7":"Estrategia digital",
+        "title-8":"Producción digital inmersiva",
+        "title-9":"Marketing exponencial",
+        "title-10":"Blockchain",
+        "title-10.1":"Blockchain",
+        "title-11":"Aplicaciones descentralizadas",
+        "title-12":"Nueva Zelanda",
+        "title-13":"Automatización de servicios",
+        "title-14":"Soluciones blockchain"
     },
-    "NAV":{
-        "TITLE":"Nav Bar",
-        "TITLE-1":"Nosotros",
-        "TITLE-2":"Nuestra experiencia",
-        "TITLE-3":"Aliados",
-        "TITLE-4":"Oficina virtual",
-        "TITLE-5":"Inicio"
+    "marketing":{
+        "title":"Marketing Exponencial",
+        "paragraph.0":"El Marketing exponencial es la sociología aplicada con datos que nos ayudan en la optimización integral de un negocio. Nuestro Sistema de Marketing Exponencial está enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas.",
+        "paragraph.1":"Desarrollo de un plan de comunicación basado en marketing exponencial, que consta de los siguientes elementos:",
+        "paragraph.2":"1. Contenido exponencial.",
+        "paragraph.3":"2. Alcance Exponencial.",
+        "paragraph.4":"3. Confianza digital exponencial.",
+        "paragraph.5":"4. Ventas exponenciales.",
+        "paragraph.6":"5. Relaciones digitales exponenciales."
     },
-    "WE":{
-        "TITLE":"NOSOTROS",
-        "PERSON-1":"Roger Prado De La Fuente",
-        "PERSON-2":"Pedro Terán",
-        "PERSON-3":"Milenka E. Pereira",
-        "PARAGRAPH":"KetanoLab es una Agencia de Servicios Digitales enfocada en aportar un valor diferencial, enlazando plataformas, mejorando la experiencia de consumo adaptándose a la transformación digital y brindando servicios que vayan  en tendencia a las nuevas  tecnologias siguiendo al ritmo de cada proyecto."
+    "nav":{
+        "title":"Nav Bar",
+        "servicios":"Servicios",
+        "nosotros":"Nosotros",
+        "experiencia":"Nuestra Experiencia",
+        "oficina":"Oficina Virtual"
+      },
+    "footer":{
+        "links":"Enlaces",
+        "contact":"Contacto"
     },
-    "PRODUCTION":{
-        "TITLE":"PRODUCCIÓN DIGITAL",
-        "PARAGRAPH":"Imaginamos contigo tu proyecto con el fin de elevar tus productos audiovisuales digitales para redes sociales, paginas web, con animaciones 2D y 3D."
+    "we":{
+        "title":"Nosotros",
+        "person-1":"Roger Prado De La Fuente",
+        "person-1_description":"Administrador de empresas con amplia experiencia en Startups, international public speaker, que ha dado charlas en diferentes países de Sudamérica.",
+        "person-2":"Pedro Terán Gezn",
+        "person-2_description":"Programador y arquitecto de software  con más de 10 años de experiencia trabajando en proyectos globales y dirigido equipos de desarrollo técnico multiculturales.",
+        "person-3":"Milenka Escobar Pereira",
+        "person-3_description":"Gestora de proyectos tecnológico-culturales para agencias de desarrollo internacionales, instituciones públicas y privadas, encontrando en la tecnología y cultura (C+T) la sinergia perfecta para la innovación, haciendo de cada proyecto una experiencia.",
+        "person-4":"Samantha Ayleen Rueda",
+        "person-4_description":"Lingüista apasionada por la cultura y el arte digital, aportando valor en cada proyecto tecnológico. ",
+        "person-5":"Melania San Miguel Chacón",
+        "person-5_description":"Facilitadora certificada por la OIT, ha liderado equipos para la implementación de programas de capacitación en turismo, su trabajo gira en torno al desarrollo de emprendimientos turistico-tecnologicos en las áreas urbana y rural.",
+        "paragraph":"Está compuesto por un equipo de innovadores con experiencia, conocimiento y responsabilidad en diferentes áreas, desde el desarrollo de plataformas, soluciones blockchain y servicios digitales enfocados en cambiar la experiencia del usuario hasta la asesoría en cultura digital desde enfoques interculturales."
     },
-    "SERVICES":{
-        "TITLE":"SERVICIOS WEB",
-        "PARAGRAPH":"Tener un sitio web hoy en día es mas accesible y fundamental para estar inmersos en las oportunidades que nos ofrece el mercado virtual.   Nosrotros te acompanamos a disenar tu proyecto con un diseno y desarrollo web vanguardista y creativo transformando tu web en una experiencia, contando para esto con herramientas digitales como la  realidad virtual y realidad aumentada."
+    "production":{
+        "title":"Producción Digital",
+        "paragraph":"Imaginamos contigo tu proyecto con el fin de elevar tus productos audiovisuales digitales para redes sociales, paginas web, con animaciones 2D y 3D."
     },
-    "SIGHTSEEING":{
-        "TITLE":"COACHING TURISMO VIRTUAL",
-        "PARAGRAPH":"El Turismo también esta en camino a la nueva era digital, donde a través del uso de plataformas y herramientas digitales como la realidad virtual las personas puedan visitar lugares de interés como zonas arqueológicas milenarias, edificios emblemáticos, centros históricos y hasta sumergirse en misterioso lagos de manera  interactiva mas alla de su imaginacion.Aprende con nosotros a aplicar estrategias y herramientas digitales que te ayuden a generar nuevos proyectos para un sitio turistico donde se brinde una experiencia que motive a los nuevos turistas virtuales a viajar a través del tiempo y el ciberespacio a lugares magicos. Laboratorio de Virtualizacion del Patrimonio Turistico."
+    "services":{
+        "title":"Automatización de servicios",
+        "paragraph.0":"Tener un sistema de gestión online para automatizar servicios y procesos, permite reducir los costos operacionales, aumentar la satisfacción de los clientes y reducir los errores humanos, permitiendo operar las operaciones en menor tiempo y con mayor confiabilidad.",
+        "paragraph.1":"Desarrollo de sistemas digitales a medida de las necesidades de cada cliente.",
+        "paragraph.2":"Asesoramiento para el diseño y el proceso de automatización.",
+        "paragraph.3":"Diseño de UI/UX creativo adaptado a las necesidades comunicacionales del cliente, brindando accesibilidad con todos los estándares actuales."
+    },
+    "sightseeing":{
+        "title":"Turismo Virtual",
+        "paragraph.0":"El turismo también está aprovechando todo lo que ofrece la nueva era digital ya que, a través del uso de plataformas y herramientas digitales como la realidad virtual y aumentada, las personas, pueden visitar lugares de interés histórico-cultural como museos, zonas arqueológicas milenarias, centros históricos, sitios naturales entre otros, adentrándose a ellos teniendo como límite su imaginación.",
+        "paragraph.1":"- Formar parte del Laboratorio de Turismo Virtual, aprendiendo a aplicar estrategias y herramientas digitales participando en Boot camps y encuentros, que  ayuden a generar nuevos proyectos en turismo, brindando una experiencia que motive a los nuevos turistas virtuales a viajar a través del ciberespacio.",
+        "paragraph.2":"- Asesoría para el desarrollo de  proyectos turístico-tecnológicos."
+    },
+    "developers":{
+        "title":"Head Hunting Developers Nueva Zelanda",
+        "paragraph.0":"La experiencia de vivir en un país cosmopolita al otro lado del mundo brinda la oportunidad de ampliar la visión y desarrollar nuevas capacidades como programador, en un entorno diverso y de alto nivel. En base a nuestra experiencia vivida en Nueva Zelanda asesoramos y ponemos en contacto con empresas de software interesadas en expandir su equipo y conocer nuevas culturas.",
+        "paragraph.1":"- Mentoría especializada para poder acceder a empresas de desarrollo de software en Nueva Zelanda.",
+        "paragraph.2":"- Sesión en vivo de 1 hora que brinda información sobre las capacidades principales requeridas en las  empresas y cultura laboral en el sector tecnológico de Nueva Zelanda.",
+        "paragraph.3":"- Un documento en PDF que contenga información sobre: reclutadores, empresas tecnológicas, bolsas de trabajo, y  datos de interés cultural de Nueva Zelanda."
+    },
+    "blockchain":{
+        "title":"Soluciones Blockchain",
+        "paragraph.0":"Blockchain es una tecnología disruptiva considerada como el Internet del valor, es  un gigantesco libro de cuentas en la que los registros están enlazados y cifrados para proteger la seguridad y privacidad de las transacciones. En otras palabras es una base de datos distribuida,  segura e inviolable.",
+        "paragraph.1":"Desarrollamos sistemas integrales a medida basados en Blockchain que incluyen:",
+        "paragraph.2":"- Desarrollo de plataformas Blockchain a medida para cada empresa, que cuente con estándares internacionales de desarrollo.",
+        "paragraph.3":"- Integración con las diferentes plataformas públicas y privadas Blockchain.",
+        "paragraph.4":"- Desarrollo de Cold Wallets.",
+        "paragraph.5":"- Desarrollo de un sistema de gobernanza mediante una Organización autónoma descentralizada DAO."
+        
+    },
+    "ofrecemos":{
+        "title":"¿Qué Ofrecemos?"
+    },
+
+    "button":{
+    "contact":"Contáctanos"
     }
 }
+ 

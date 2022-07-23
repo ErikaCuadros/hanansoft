@@ -1,31 +1,148 @@
-.home-container {
+.fondo {
     background-image: url("../../../assets/img/Home/home.png");
-    background-size: cover;
-    background-repeat: no-repeat;    
     height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
 }
 
-.home-logo {
-    height: auto;
-    width: auto;
-    margin-top: 18vh;
-    max-height: 500px;
+/* Todo el logo*/
+.logo{
+    position: relative;
+    max-width: 600px;
 }
 
-.home-candado {
-    width: 150px;
-    height: 150px;
+/* Sombra de la palabra Ketanolab */
+.home-sombra {
+    z-index: 1;
+    filter: brightness(50%);
 }
+
+
+    
+/* Animación de sombra */
+@keyframes fadeIn {
+  0% {
+      opacity: .5;
+  }
+
+  50% {
+      opacity: .25;
+  }
+
+  75% {
+      opacity: .75;
+  }
+
+  100% {
+      opacity: .5;
+  }
+}
+
+.home-sombra{
+animation: fadeIn 4s infinite linear;
+}
+
+
+/* Íconos Redes Sociales */
 
 .home-twiter {
-    width: 75px;
+    position: relative;
+    top: -40rem;
+    width: 5rem;
 }
 
-.home-in{
-    width: 75px;
+.home-in {
+    position: relative;
+    top: -40rem;
+    width: 5rem;
 }
 
 .home-facebook{
-    width: 75px;
+    position: relative;
+    top: -40rem;
+    width: 5rem;
 }
 
+.nav-link-1 {
+    padding-top: 12px;
+    padding-left: 65px;
+    padding-right: 25px;
+}
+
+.home-btn {
+    margin: 0 auto;
+}
+
+/* Botón 64 */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#021e5a, #4ee6f1 50%,#012863);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: orbitron;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  width: 10rem;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.siguenos {
+    margin-top: 3rem;
+}
+
+.azul:hover {
+    color: #4ee6f1;
+}
+
+.home-logo {
+    margin: 2rem 0;
+    resize: both;
+}
+
+.home-logo-text {
+    font-size: 4rem;
+    font-family: Orbitron;
+    color: royalblue;
+    background: -webkit-linear-gradient(47deg, #00FFFF, #002DFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

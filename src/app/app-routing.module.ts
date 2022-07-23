@@ -15,12 +15,13 @@ import { TurismoComponent } from './Components/turismo/turismo.component';
 import { NosotrosComponent } from './Components/nosotros/nosotros.component';
 import { AliadosComponent } from './Components/aliados/aliados.component';
 import { ExperienciaComponent } from './Components/experiencia/experiencia.component';
-import { PruebaComponent } from './Components/prueba/prueba.component';
+import { footerComponent } from './Components/footer/footer.component';
 import { NavComponent } from './Components/nav/nav.component';
-import { NavbarComponent } from './Components/navbar/navbar.component';
+import { developersComponent } from './Components/developers/developers.component';
+import { blockchainComponent } from './Components/blockchain/blockchain.component';
 const routes: Routes = [
 
-  {path: '', component:HomeComponent},
+  {path: '', component:InicioComponent},
   {path: 'home', component:HomeComponent},
   {path: 'inicio', component:InicioComponent},
   {path: 'marketing', component:MarketingComponent},
@@ -35,9 +36,10 @@ const routes: Routes = [
   {path: 'nosotros', component:NosotrosComponent},
   {path: 'aliados', component:AliadosComponent},
   {path: 'experiencia', component:ExperienciaComponent},
-  {path: 'prueba', component:PruebaComponent},
+  {path: 'footer', component:footerComponent},
   {path: 'nav', component:NavComponent},
-  {path: 'navbar', component:NavbarComponent},
+  {path: 'developers', component:developersComponent},
+  {path: 'blockchain', component:blockchainComponent},
 
 ];
 

@@ -4,7 +4,8 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './Components/navbar/navbar.component';
+import { developersComponent } from './Components/developers/developers.component';
+import { blockchainComponent } from './Components/blockchain/blockchain.component';
 
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
@@ -23,10 +24,12 @@ import { TurismoComponent } from './Components/turismo/turismo.component';
 import { NosotrosComponent } from './Components/nosotros/nosotros.component';
 import { AliadosComponent } from './Components/aliados/aliados.component';
 import { ExperienciaComponent } from './Components/experiencia/experiencia.component';
-import { PruebaComponent } from './Components/prueba/prueba.component';
+import { footerComponent } from './Components/footer/footer.component';
 import { NguCarouselModule } from '@ngu/carousel';
 import { NavComponent } from './Components/nav/nav.component';
 import { ChatComponent} from './Components/chat/chat.component';
+import { ConfirmacionComponent } from './Components/confirmacion/confirmacion.component';
+import { FormularioComponent } from './Components/formulario/formulario.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -35,7 +38,9 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
+    footerComponent,
+    blockchainComponent,
+    developersComponent,
     HomeComponent,
     InicioComponent,
     MarketingComponent,
@@ -50,9 +55,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     NosotrosComponent,
     AliadosComponent,
     ExperienciaComponent,
-    PruebaComponent,
     NavComponent,
     ChatComponent,
+    ConfirmacionComponent,
+    FormularioComponent,
   ],
   imports: [
     BrowserModule,
