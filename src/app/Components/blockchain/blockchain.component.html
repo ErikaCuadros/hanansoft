@@ -1,111 +1,59 @@
-<!-- Container General -->
-<div class="container-fluid mt-16 mb-16 fondo">
-    <!-- navbar metido en container -->
-    <app-nav></app-nav>
-    <!-- Container contenido página -->
-    <div class="container">
-        <!-- h1 -->
-    <h1 class="mt-16">
-        {{"blockchain.title" | translate}}    
-    </h1>
-        <div class="row">
-            <div class="col-md-4 mt-16">
-                <article>
-                    <p class="text-justify"> 
-                        {{"blockchain.paragraph.0" | translate}}
-                    </p>    
-                </article>
-            </div>
-            <div class="col-md-4 mt-16">
-                <article>
-                    <ul>
-                        <li>
-                            <h2 class="ofrecemos bold">
-                                {{"ofrecemos.title" | translate}}
-                            </h2>
-                        </li>
-                        <li>
-                            <p class="text-justify mt-5"> 
-                                {{"blockchain.paragraph.1" | translate}}
-                            </p>
-                        </li>
-                        <li>
-                            <p class="text-justify mt-5"> 
-                                {{"blockchain.paragraph.2" | translate}}
-                            </p>
-                        </li>
-                        <li>
-                            <p class="text-justify mt-5"> 
-                                {{"blockchain.paragraph.3" | translate}}
-                            </p>
-                        </li>
-                        <li>
-                            <p class="text-justify mt-5"> 
-                                {{"blockchain.paragraph.4" | translate}}
-                            </p>
-                        </li>
-                        <li>
-                            <p class="text-justify mt-5"> 
-                                {{"blockchain.paragraph.5" | translate}}
-                            </p>
-                        </li>
-                        <li class="centrar_boton">
+<app-nav></app-nav>
 
-                        <!-- Formulario con efecto ngIF, se oculta el botòn y aparece el formulario -->
-                        
-                            <div class="container" (click)="estado=!estado">
-                                <div *ngIf="estado">
-                                    <a  class="button-form centrar"> 
-                                        <span class="text">
-                                            {{"button.contact" | translate}}
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
+<div class="fondo container-servicios">
+    <div class="container">
+        <h2>{{"blockchain.title" | translate}}</h2>
+        
+        <div class="row">
+            <div class="col-md-7">
+                <article>
+                    <p class="text-justify">
+                      {{"blockchain.paragraph.0" | translate}}
+                    </p>
+
+                    <h3>{{"ofrecemos.title" | translate}}</h3>
+                    <ul class="align">
+                        <li class="text-justify">
+                          {{"blockchain.paragraph.1" | translate}}
+                        </li>
+                        <li>
+                          {{"blockchain.paragraph.2" | translate}}
+                        </li>
+                        <li>
+                          {{"blockchain.paragraph.3" | translate}}
+                        </li>
+                        <li>
+                          {{"blockchain.paragraph.4" | translate}}
+                        </li>
+                        <li>
+                          {{"blockchain.paragraph.5" | translate}}
                         </li>
                     </ul>
                 </article>
+                
             </div>
-            <div class="col-md-4 mt-12">
-                <article>
-                    <img src="../../../assets/img/blockchain.jpg" class="img1 pequeño" alt="marketing exponencial">    
-                </article>
-            </div>   
+
+            <div class="col-md-5">
+                <img src="../../../assets/img/blockchain.jpg" class="img1 img-fluid" alt="marketing exponencial">
+            </div>
         </div>
-</div>
-<!-- Container Formulario -->
 
-<div class="container mt-16 mb-16">
+        <div class="" (click)="estado=!estado">
+            <div *ngIf="estado">
+                <a class="button-form">
+                    <span class="text">
+                        {{"button.contact" | translate}}
+                    </span>
+                </a>
+            </div>
+        </div>
 
-        <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
-    <div class="row">
-        <div class="col-md-6">
-        <div *ngIf="!estado" class="mt-16 mb-16">
-            <form class="p-8 formulario" target="_blank" action="https://formsubmit.co/contacto@ketanolab.com" method="POST">
-                <div class="form-group">
-                    <label for="nombreapellido">
-                        Nombre y Apellido
-                    </label>
-                    <input type="text" class="form-control mt-5 tamaño" id="nombreapellido" placeholder="Nombre y Apellido" value="Tu Nombre y Apellido" required>
+        <div class="row formulario-servicios">
+                <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
+                <div *ngIf="!estado">
+                    <app-formulario></app-formulario>
                 </div>
-                <div class="form-group mt-5">
-                    <label for="email">
-                        Email
-                    </label>
-                    <input type="email" class="form-control mt-5 tamaño" id="email" placeholder="Ingresa tu correo electrónico">
-                    </div>
-                <div class="form-group mt-5">
-                    <label for="consulta">
-                        Área de Consulta
-                    </label>
-                    <textarea class="form-control mt-5 tamaño" id="consulta" rows="5"></textarea>
-                    </div>
-                <button class="btn btn-primary mt-5" type="submit">Enviar Formulario</button>
-            </form>    
-        </div>  
+        </div>
     </div>
-    </div>
-    </div>
-    <!-- Fin div Formulario -->
-<app-footer></app-footer>
 </div>
+<app-footer></app-footer>

@@ -1,76 +1,66 @@
 <app-nav></app-nav>
-
-<!-- Inicio container general -->
-<div class="container-nosotros">
-
+<div class="container-fondo">
   <div class="container">
-
-  <!-- nav metido en container -->
-  <!-- inicio container quiénes somos-->
-  <div class="quienes-somos">
-    <!-- h1 quiénes somos -->
-    <h1 class="text-center">Sobre Hanansoft</h1>
-    <!-- p quiénes somos -->
-    <p class="text-justify">{{"we.paragraph" | translate}}</p>
-  </div>
-  <!-- Fin container quiénes somos -->
-
-  <!-- Inicio container equipo -->
-  <!-- inicio fila 1 -->
-  <div class="row equipo justify-content-center">
-    <!-- inicio columna 2 de fila 1 -->
-    <div class="col-md-4">
-      <!-- inicio card de Pedro. -->
-      <div class="card tarjeta">
-        <img class="card-img" src="../../../assets/img/pedro.png"  alt="Pedro.">
-        <div class="card-img-overlay">
-          <h4 class="card-title">{{"we.person-2" | translate}}</h4>
-          <p class="card-text justificado"> {{"we.person-2_description" | translate}} </p>
-          <a href="https://uy.linkedin.com/in/gezn" target="_blank" ></a>
-        </div>
+    <h2 class="text-center">Quiénes somos</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <p>{{ "we.paragraph"| translate }}</p>
       </div>
     </div>
-    <!-- inicio columna 3 de fila 1 -->
-    <div class="col-md-4">
-      <!-- inicio card de Milenka. -->
-        <div  class="card tarjeta">
-          <img class="card-img" src="../../../assets/img/mile.jpg" alt="Milenka.">
+
+    <div class="row equipo justify-content-start">
+      <!-- inicio columna 2 de fila 1 -->
+      <div class="col-md-4">
+        <!-- inicio card de Pedro. -->
+        <div class="card tarjeta">
+          <img class="card-img" src="../../../assets/img/pedro.png"  alt="Pedro.">
           <div class="card-img-overlay">
-            <h4 class="card-title">{{"we.person-3" | translate}}</h4>
-            <p class="card-text justificado milenka"> {{"we.person-3_description" | translate}} </p>
-            <a href="https://www.linkedin.com/in/milenka-escobar-pereira-648a0942/" target="_blank" ></a>
+            <h4 class="card-title">{{"we.person-2" | translate}}</h4>
+            <p class="card-text justificado"> {{"we.person-2_description" | translate}} </p>
+            <a href="https://uy.linkedin.com/in/gezn" target="_blank" ></a>
           </div>
         </div>
+      </div>
+      <!-- inicio columna 3 de fila 1 -->
+      <div class="col-md-4">
+        <!-- inicio card de Milenka. -->
+          <div  class="card tarjeta">
+            <img class="card-img" src="../../../assets/img/mile.jpg" alt="Milenka.">
+            <div class="card-img-overlay">
+              <h4 class="card-title">{{"we.person-3" | translate}}</h4>
+              <p class="card-text justificado milenka"> {{"we.person-3_description" | translate}} </p>
+              <a href="https://www.linkedin.com/in/milenka-escobar-pereira-648a0942/" target="_blank" ></a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Inicio fila 2 -->
+    <div class="row equipo justify-content-end">
+      <!-- inicio columna 1 de fila 2 -->
+      <div class="col-md-4">
+        <!-- inicio card de Samantha. -->
+        <div class="card tarjeta">
+          <img class="card-img" src="../../../assets/img/samantha.jpeg"   alt="Samantha.">
+          <div class="card-img-overlay">
+            <h4 class="card-title">{{"we.person-4" | translate}}</h4>
+            <p class="card-text justificado"> {{"we.person-4_description" | translate}}</p>
+            <a href="https://www.linkedin.com/in/samantha-rueda-80176b22b/" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+      <!-- inicio columna 2 de fila 2 -->
+      <div class="col-md-4">
+        <!-- inicio card de Melania. -->
+        <div class="card tarjeta mb-16">
+          <img class="card-img" src="../../../assets/img/melania.png"  alt="Melania.">
+          <div class="card-img-overlay">
+            <h4 class="card-title">{{"we.person-5" | translate}}</h4>
+            <p class="card-text justificado"> {{"we.person-5_description" | translate}} </p>
+            <a href="https://www.linkedin.com/in/melaniasanmiguel/" target="_blank" ></a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-<!-- Inicio fila 2 -->
-  <div class="row equipo mt-16 justify-content-center">
-    <!-- inicio columna 1 de fila 2 -->
-    <div class="col-md-4">
-      <!-- inicio card de Samantha. -->
-      <div class="card tarjeta">
-        <img class="card-img" src="../../../assets/img/samantha.jpeg"   alt="Samantha.">
-        <div class="card-img-overlay">
-          <h4 class="card-title">{{"we.person-4" | translate}}</h4>
-          <p class="card-text justificado"> {{"we.person-4_description" | translate}}</p>
-          <a href="https://www.linkedin.com/in/samantha-rueda-80176b22b/" target="_blank"></a>
-        </div>
-      </div>
-    </div>
-    <!-- inicio columna 2 de fila 2 -->
-    <div class="col-md-4">
-      <!-- inicio card de Melania. -->
-      <div class="card tarjeta mb-16">
-        <img class="card-img" src="../../../assets/img/melania.png"  alt="Melania.">
-        <div class="card-img-overlay">
-          <h4 class="card-title">{{"we.person-5" | translate}}</h4>
-          <p class="card-text justificado"> {{"we.person-5_description" | translate}} </p>
-          <a href="https://www.linkedin.com/in/melaniasanmiguel/" target="_blank" ></a>
-        </div>
-      </div>
-    </div>
-    </div>
-</div>
 </div>
 <app-footer></app-footer>
-

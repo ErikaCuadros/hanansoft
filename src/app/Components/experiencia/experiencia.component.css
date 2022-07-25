@@ -3,7 +3,7 @@
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  padding-bottom: 1rem;
+  padding: 3rem 0;
 }
 
 .container-experiencia::before {

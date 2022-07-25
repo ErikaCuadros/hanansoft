@@ -1,31 +1,51 @@
 <app-nav></app-nav>
-<div class="container align-top" (click)="estado=!estado">
-    <div *ngIf="estado" class="row justify-content-center">
-        <div class="col-auto">
-            <div class="servicios-solapa">
-                <p class="pt-6 ml-1">{{"DIGITAL-ART.TITLE" | translate}}</p>
+
+<div class="fondo container-servicios">
+    <div class="container">
+        <h2>{{"digital-art.title" | translate}}</h2>
+        
+        <div class="row">
+            <div class="col-md-7">
+                <article>
+                    <p class="text-justify">
+                        {{"digital-art.paragraph.0" | translate}}
+                    </p>
+
+                    <h3>{{"ofrecemos.title" | translate}}</h3>
+                    <ul class="align">
+                        <li class="text-justify">
+                            {{"digital-art.paragraph.1" | translate}}
+                        </li>
+                        <li>
+                            {{"digital-art.paragraph.2" | translate}}
+                        </li>
+
+                    </ul>
+                </article>
+                
             </div>
-            <img src="../../../assets/img/Recurso 11.png" class="img1" alt="">
+
+            <div class="col-md-5">
+                <img src="../../../assets/img/markexp.png" class="img1 img-fluid" alt="digital-art exponencial">
+            </div>
         </div>
-        <div class="col col-md-3 ml-2 servicios-box">
-            <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-            <p class=" pb-6 pt-6 h6 p-5">{{"DIGITAL-ART.PARAGRAPH" | translate}}</p>
+
+        <div class="" (click)="estado=!estado">
+            <div *ngIf="estado">
+                <a class="button-form">
+                    <span class="text">
+                        {{"button.contact" | translate}}
+                    </span>
+                </a>
+            </div>
         </div>
-    </div>
-    <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
-    <div *ngIf="!estado" class="row justify-content-center">
-        <div class="col-auto">
-            <div class="servicios-solapa">
-                <p class="pt-6 ml-1">{{"DIGITAL-ART.TITLE" | translate}}</p>
-        </div>
-        <img style="width: 28m; height: 10em" src="../../../assets/img/Recurso 11.png" class="img1" alt="">
-    </div>
-    <div class="offset-1 col-10 servicios-box p-7">
-        <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
-            <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-            <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-            <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
-            <p class=" pb-6 pt-10 h6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aspernatur repudiandae officia reprehenderit illum, aperiam sit obcaecati voluptates quo amet facilis a assumenda, corporis hic dolores maiores harum culpa tenetur.</p>
+
+        <div class="row formulario-servicios">
+                <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
+                <div *ngIf="!estado">
+                    <app-formulario></app-formulario>
+                </div>
         </div>
     </div>
 </div>
+<app-footer></app-footer>

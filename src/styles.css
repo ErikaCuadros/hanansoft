@@ -242,3 +242,9 @@ body {
     border-bottom: 75px solid #0a3457;  
     padding-bottom: 1rem;   
 }
+
+.container-fondo {
+  background-image: url("./assets/img/background-3883181_1920.jpg");
+  background-attachment: fixed;
+  padding: 3rem 0;
+}

@@ -13,6 +13,5 @@ export class NosotrosComponent implements OnInit {
   ngOnInit(): void {
   }
   ngAfterViewInit(){
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#00172A';
   }
 }

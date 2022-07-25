@@ -50,6 +50,10 @@
     margin-right: 0.5rem;
 }
 
+.navbar-ketanolab a {
+    color: white;
+}
+
 
 .navbar-nav .nav-link {
     color: #fff;
@@ -87,7 +91,7 @@ a.nav-link {
 }
 
 .btn-idioma:hover {
-    color: #00AEC6;
+    color: #00AEC6 !important;
     z-index: 3;
 }
 
@@ -97,16 +101,16 @@ a.nav-link {
 
 /* Construcción de los botones del nav con pseudo elementos before y after */
 /*
-.navbar-ketanolab {
+.navbar-nave {
     border-bottom: solid 7px #00AEC6;
  }
 
- .navbar-ketanolab::before {
+ .navbar-nave::before {
     content: "*";
     background-color: #fff;
  }
 
- .navbar-ketanolab::after {
+ .navbar-nave::after {
     content: "*";
     background-color: #fff;
 }

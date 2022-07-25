@@ -8,39 +8,39 @@
     "apps":{
         "title":"Aplicaciones Móviles",
         "paragraph.0":"Hoy en día los celulares son la principal ventana de entrada de las personas a internet. El desarrollo de aplicaciones para dispositivos móviles permite brindar un acceso rápido, sencillo y eficiente a la información que se proporciona, diseñando funcionalidades específicas que  mejoran la capacidad de conectividad y disponibilidad de servicios y productos, permitiendo generar una conexión más profunda y una comunicación más fluida con los clientes.",
-        "paragraph.1":"- Desarrollo de aplicaciones móviles bajo las plataformas Android e iOS.",
-        "paragraph.2":"- Diseño UI/UX creativo adaptado a las necesidades comunicacionales y de marca, con el fin de brindar al usuario una experiencia integral mediante el uso de diferentes herramientas digitales.",
-        "paragraph.3":"- Desarrollo Escalable con clean architecture, principios de accesibilidad e internacionalización."
+        "paragraph.1":"Desarrollo de aplicaciones móviles bajo las plataformas Android e iOS.",
+        "paragraph.2":"Diseño UI/UX creativo adaptado a las necesidades comunicacionales y de marca, con el fin de brindar al usuario una experiencia integral mediante el uso de diferentes herramientas digitales.",
+        "paragraph.3":"Desarrollo Escalable con clean architecture, principios de accesibilidad e internacionalización."
     },
     "digital-art":{
         "title":"Arte Digital NFT's",
         "paragraph.0":"El desarrollo de los diferentes ecosistemas digitales basado en plataformas Blockchain han dado surgimiento a los NFTs (tokens no fungibles) definidos como activos digitales que están revolucionando el mundo del arte, los videojuegos, los bienes raíces, etc.",
-        "paragraph.1":"- Desarrollo de plataformas de tokenización NFTs.",
-        "paragraph.2":"- Diseño y desarrollo de espacios virtuales en Metaversos.",
-        "paragraph.3":"- Asesoría para el desarrollo de proyectos NFTs."
+        "paragraph.1":"Desarrollo de plataformas de tokenización NFTs.",
+        "paragraph.2":"Diseño y desarrollo de espacios virtuales en Metaversos.",
+        "paragraph.3":"Asesoría para el desarrollo de proyectos NFTs."
     },
     "digital-projects":{
         "title":"Coaching Digital",
         "paragraph.0":"Programa de Coaching Digital: “Puente Digital hacia el Dorado”. El programa de coaching digital está dirigido a emprendedores y startups que se encuentran en la transición hacia lo digital, y quieren contar con una  estrategia concreta para llevar  su emprendimiento al siguiente nivel. El objetivo es abrir la visión a las posibilidades que la migración digital puede brindar de cara al futuro.",
-        "paragraph.1":"- 5 Videotutoriales mediante los cuales se interioriza en el mundo del coaching digital contando con una estrategia de marketing y crecimiento empresarial.",
-        "paragraph.2":"- 2 Sesiones en vivo con un coach certificado miembro de la Red Global de Mentores. ",
-        "paragraph.3":"- 1 caja de herramientas digitales con las que se podrá entender cómo funciona la lógica de las distintas redes sociales para la promoción de sus productos o servicios. ¡Bono extra! Introducción al  mundo de Payoneer y las posibilidades que abre esta tarjeta, teniendo una vía segura y accesible de cobros y pagos."
+        "paragraph.1":"5 Videotutoriales mediante los cuales se interioriza en el mundo del coaching digital contando con una estrategia de marketing y crecimiento empresarial.",
+        "paragraph.2":"2 Sesiones en vivo con un coach certificado miembro de la Red Global de Mentores. ",
+        "paragraph.3":"1 caja de herramientas digitales con las que se podrá entender cómo funciona la lógica de las distintas redes sociales para la promoción de sus productos o servicios. ¡Bono extra! Introducción al  mundo de Payoneer y las posibilidades que abre esta tarjeta, teniendo una vía segura y accesible de cobros y pagos."
     },
     "commerce":{
         "title":"E-commerce",
         "paragraph.0":"El año 2020 ha marcado un hito en la historia del comercio digital, se ha visto un avance significativo en el desarrollo de las ventas por internet, abriendo y moviendo una gran parte de los mercados a un mercado digital. Esto pone de manifiesto la importancia de formar parte de  este cambio, contando con una tienda virtual que permita dar a conocer marcas nuevas ofreciendo de esta manera tanto  productos como servicios.",
-        "paragraph.1":"- Desarrollo de plataformas de E-commerce funcionales y creativas que puedan relacionar al vendedor con su comunidad, para vender sus propios productos o para exponer un portafolio de diferentes marcas.",
-        "paragraph.2":"- Integración con pasarelas de pago.",
-        "paragraph.3":"- Gestión de pedidos, productos e inventarios.",
-        "paragraph.4":"- Punto de ventas POS.",
-        "paragraph.5":"- Integración con ERP."
+        "paragraph.1":"Desarrollo de plataformas de E-commerce funcionales y creativas que puedan relacionar al vendedor con su comunidad, para vender sus propios productos o para exponer un portafolio de diferentes marcas.",
+        "paragraph.2":"Integración con pasarelas de pago.",
+        "paragraph.3":"Gestión de pedidos, productos e inventarios.",
+        "paragraph.4":"Punto de ventas POS.",
+        "paragraph.5":"Integración con ERP."
     },
     "dapps":{
         "title":"Aplicaciones Descentralizadas",
         "paragraph.0":"Estamos experimentando el surgimiento de la descentralización del mundo digital expresado en el surgimiento de varios ecosistemas. Las aplicaciones descentralizadas (DAPPs) basadas en plataformas blockchain,  son sistemas digitales que pueden ser utilizadas en varias áreas de la industria como la trazabilidad de alimentos, las finanzas, la tokenización de activos, los sistemas de registro educación mediante la seguridad  basada en una  red nodos internacional.",
-        "paragraph.1":"- Desarrollo de DAPPs a medida para cada empresa, que cuente con estándares internacionales de desarrollo, brindando seguridad a las  operaciones mediante transacciones en plataformas Blockchain.",
-        "paragraph.2":"- Desarrollar DAPPs especializadas para la trazabilidad de productos.",
-        "paragraph.3":"- Integración de plataformas Blockchain con aplicaciones móviles."
+        "paragraph.1":"Desarrollo de DAPPs a medida para cada empresa, que cuente con estándares internacionales de desarrollo, brindando seguridad a las  operaciones mediante transacciones en plataformas Blockchain.",
+        "paragraph.2":"Desarrollar DAPPs especializadas para la trazabilidad de productos.",
+        "paragraph.3":"Integración de plataformas Blockchain con aplicaciones móviles."
     },
     "experience":{
         "title":"Nuestra Experiencia",
@@ -115,24 +115,24 @@
     "sightseeing":{
         "title":"Turismo Virtual",
         "paragraph.0":"El turismo también está aprovechando todo lo que ofrece la nueva era digital ya que, a través del uso de plataformas y herramientas digitales como la realidad virtual y aumentada, las personas, pueden visitar lugares de interés histórico-cultural como museos, zonas arqueológicas milenarias, centros históricos, sitios naturales entre otros, adentrándose a ellos teniendo como límite su imaginación.",
-        "paragraph.1":"- Formar parte del Laboratorio de Turismo Virtual, aprendiendo a aplicar estrategias y herramientas digitales participando en Boot camps y encuentros, que  ayuden a generar nuevos proyectos en turismo, brindando una experiencia que motive a los nuevos turistas virtuales a viajar a través del ciberespacio.",
-        "paragraph.2":"- Asesoría para el desarrollo de  proyectos turístico-tecnológicos."
+        "paragraph.1":"Formar parte del Laboratorio de Turismo Virtual, aprendiendo a aplicar estrategias y herramientas digitales participando en Boot camps y encuentros, que  ayuden a generar nuevos proyectos en turismo, brindando una experiencia que motive a los nuevos turistas virtuales a viajar a través del ciberespacio.",
+        "paragraph.2":"Asesoría para el desarrollo de  proyectos turístico-tecnológicos."
     },
     "developers":{
         "title":"Head Hunting Developers Nueva Zelanda",
         "paragraph.0":"La experiencia de vivir en un país cosmopolita al otro lado del mundo brinda la oportunidad de ampliar la visión y desarrollar nuevas capacidades como programador, en un entorno diverso y de alto nivel. En base a nuestra experiencia vivida en Nueva Zelanda asesoramos y ponemos en contacto con empresas de software interesadas en expandir su equipo y conocer nuevas culturas.",
-        "paragraph.1":"- Mentoría especializada para poder acceder a empresas de desarrollo de software en Nueva Zelanda.",
-        "paragraph.2":"- Sesión en vivo de 1 hora que brinda información sobre las capacidades principales requeridas en las  empresas y cultura laboral en el sector tecnológico de Nueva Zelanda.",
-        "paragraph.3":"- Un documento en PDF que contenga información sobre: reclutadores, empresas tecnológicas, bolsas de trabajo, y  datos de interés cultural de Nueva Zelanda."
+        "paragraph.1":"Mentoría especializada para poder acceder a empresas de desarrollo de software en Nueva Zelanda.",
+        "paragraph.2":"Sesión en vivo de 1 hora que brinda información sobre las capacidades principales requeridas en las  empresas y cultura laboral en el sector tecnológico de Nueva Zelanda.",
+        "paragraph.3":"Un documento en PDF que contenga información sobre: reclutadores, empresas tecnológicas, bolsas de trabajo, y  datos de interés cultural de Nueva Zelanda."
     },
     "blockchain":{
         "title":"Soluciones Blockchain",
         "paragraph.0":"Blockchain es una tecnología disruptiva considerada como el Internet del valor, es  un gigantesco libro de cuentas en la que los registros están enlazados y cifrados para proteger la seguridad y privacidad de las transacciones. En otras palabras es una base de datos distribuida,  segura e inviolable.",
         "paragraph.1":"Desarrollamos sistemas integrales a medida basados en Blockchain que incluyen:",
-        "paragraph.2":"- Desarrollo de plataformas Blockchain a medida para cada empresa, que cuente con estándares internacionales de desarrollo.",
-        "paragraph.3":"- Integración con las diferentes plataformas públicas y privadas Blockchain.",
-        "paragraph.4":"- Desarrollo de Cold Wallets.",
-        "paragraph.5":"- Desarrollo de un sistema de gobernanza mediante una Organización autónoma descentralizada DAO."
+        "paragraph.2":"Desarrollo de plataformas Blockchain a medida para cada empresa, que cuente con estándares internacionales de desarrollo.",
+        "paragraph.3":"Integración con las diferentes plataformas públicas y privadas Blockchain.",
+        "paragraph.4":"Desarrollo de Cold Wallets.",
+        "paragraph.5":"Desarrollo de un sistema de gobernanza mediante una Organización autónoma descentralizada DAO."
         
     },
     "ofrecemos":{
