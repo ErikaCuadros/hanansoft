@@ -50,6 +50,7 @@ a {
 
 .h6, h6 {
   color: #00AEC6;
+  font-family: 'Orbitron';
 }
 
 .navbar-toggler {
@@ -221,10 +222,13 @@ body {
 /* Estilos que afectan al formulario de Contáctanos */
 
 .formulario {
-  background-color: #3b317c;
+  background: linear-gradient(43deg, rgba(14,22,64,1) 0%, rgba(34,208,209,1) 74%, rgba(40,27,124,1) 100%);
   padding: 2rem;
 }
 
+.fondo {
+  background-image: url("./assets/img/background-3883181_1920.jpg");
+}
    
 
 .servicios-box{

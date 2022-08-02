@@ -1,6 +1,7 @@
 {
     "home":{
-        "services": "SERVICIOS"
+        "services": "SERVICIOS",
+        "start": "Ingresa"
     },
     "webservices":{
         "title":"Servicios Web"
@@ -70,11 +71,11 @@
         "title":"Marketing Exponencial",
         "paragraph.0":"El Marketing exponencial es la sociología aplicada con datos que nos ayudan en la optimización integral de un negocio. Nuestro Sistema de Marketing Exponencial está enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas.",
         "paragraph.1":"Desarrollo de un plan de comunicación basado en marketing exponencial, que consta de los siguientes elementos:",
-        "paragraph.2":"1. Contenido exponencial.",
-        "paragraph.3":"2. Alcance Exponencial.",
-        "paragraph.4":"3. Confianza digital exponencial.",
-        "paragraph.5":"4. Ventas exponenciales.",
-        "paragraph.6":"5. Relaciones digitales exponenciales."
+        "paragraph.2":"Contenido exponencial.",
+        "paragraph.3":"Alcance Exponencial.",
+        "paragraph.4":"Confianza digital exponencial.",
+        "paragraph.5":"Ventas exponenciales.",
+        "paragraph.6":"Relaciones digitales exponenciales."
     },
     "nav":{
         "title":"Nav Bar",
@@ -140,7 +141,11 @@
     },
 
     "button":{
-    "contact":"Contáctanos"
+        "contact":"Contáctanos",
+        "name":"Nombre y apellido",
+        "email":"Correo electrónico",
+        "body":"Consulta",
+        "send":"Enviar consulta"
     }
 }
  
