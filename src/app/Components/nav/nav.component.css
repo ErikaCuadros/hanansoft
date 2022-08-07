@@ -45,7 +45,7 @@
 }
 
 .navbar-brand img {
-    width: 80px;
+    width: 200px;
     z-index: 3;
     margin-right: 0.5rem;
 }
@@ -72,7 +72,6 @@ a.nav-link {
     background-color: #000 !important;
     padding: 1rem 0;
 }
-
 
 
 .menu-principal {

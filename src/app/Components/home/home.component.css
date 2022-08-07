@@ -133,8 +133,9 @@ animation: fadeIn 4s infinite linear;
 }
 
 .home-logo {
-    margin: 2rem 0;
+    margin: 1rem 0;
     resize: both;
+    width: 150px;
 }
 
 .home-logo-text {
@@ -144,4 +145,5 @@ animation: fadeIn 4s infinite linear;
     background: -webkit-linear-gradient(47deg, #00FFFF, #002DFF);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
