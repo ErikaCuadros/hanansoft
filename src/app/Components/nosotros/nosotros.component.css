@@ -30,7 +30,7 @@
 .tarjeta {
   position: relative;
   overflow: hidden;    
-  height: 20rem;
+  height: 23rem;
   margin: 1rem;
   background-color: transparent;
 }
@@ -61,20 +61,14 @@
   height: 80px;
 }
 
-.card-text {
-  margin-top: 2rem;
+.card-title {
+  font-size: 1.2rem;
+  font-family: "Orbitron";
 }
 
-.card-title {
-  font-weight: bold;
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  font-family: "orbitron";
-}
 .card-text {
+  margin-top: 3rem;
   font-size: 1rem;
-  letter-spacing: 1px;
-  opacity: 0.9;
 }
 
 .milenka {

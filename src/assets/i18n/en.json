@@ -89,7 +89,7 @@
     "contact":"Contact"
   },
   "we":{
-    "title":"WE",
+    "title":"About us",
     "person-1":"Roger Prado De La Fuente",
     "person-1_description":"Business administrator with extensive experience in Startups, international public speaker, who has given talks in different South American countries.",
     "person-2":"Pedro Terán Gezn",
@@ -100,7 +100,7 @@
     "person-4_description":"Linguist passionate about culture and digital art, adding value to each technological project. ",
     "person-5":"Melania San Miguel Chacon",
     "person-5_description": "ILO certified facilitator, she has led teams for the implementation of training programs in tourism, her work revolves around the development of tourism-technological enterprises in urban and rural areas.",
-    "paragraph":"It is made up of a team of innovators with experience, knowledge and responsibility in different areas, from the development of platforms, blockchain solutions and digital services focused on changing the user experience to advice on digital culture from intercultural approaches. "
+    "paragraph":"Our team is composed by innovators with experience, knowledge and responsibility in different areas, from the development of platforms, blockchain solutions and digital services focused on changing the user experience to advice on digital culture from intercultural approaches. "
   },
   "production":{
     "title":"Producción Digital",
@@ -145,5 +145,9 @@
     "email":"Email",
     "body":"Question",
     "send":"Send form"
-    }
+    },
+
+  "inicio":{
+    "presentation":"We are a startup that work with social resposibility and cultural compromise, designing and developing digital solution with creativity and innovation"
+  }
 }

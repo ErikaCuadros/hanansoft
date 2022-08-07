@@ -89,7 +89,7 @@
         "contact":"Contacto"
     },
     "we":{
-        "title":"Nosotros",
+        "title":"Quiénes somos",
         "person-1":"Roger Prado De La Fuente",
         "person-1_description":"Administrador de empresas con amplia experiencia en Startups, international public speaker, que ha dado charlas en diferentes países de Sudamérica.",
         "person-2":"Pedro Terán Gezn",
@@ -146,6 +146,10 @@
         "email":"Correo electrónico",
         "body":"Consulta",
         "send":"Enviar consulta"
+    },
+
+    "inicio":{
+        "presentation":"Somos una startup tecnológica con responsabilidad social y compromiso cultural, que innova en soluciones de sistemas digitales"
     }
 }
  

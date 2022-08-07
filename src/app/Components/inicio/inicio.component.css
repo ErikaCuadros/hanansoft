@@ -379,6 +379,10 @@ a:hover {
 }
 
 
+.texto-presentacion > h2 {
+    font-family: 'Jost';
+}
+
 
 /** Servicios  **/
 

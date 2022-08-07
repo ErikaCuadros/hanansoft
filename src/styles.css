@@ -31,6 +31,17 @@ a {
     font-weight: 300;
 }
 
+.container-servicios > .container > h2::after {
+  content: "";
+  width: 150px;
+  height: 5px;
+  background-color: #0DABC8;
+  top: 7px;
+  right: 0;
+  position: relative;
+  display: block;
+}
+
 .h3, h3 {
   font-size: 1.5rem;
   font-family: 'Orbitron';
