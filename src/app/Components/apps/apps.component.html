@@ -1,0 +1,53 @@
+<app-nav></app-nav>
+
+<div class="fondo container-servicios">
+    <div class="container">
+        <h2>{{"apps.title" | translate}}</h2>
+        
+        <div class="row">
+            <div class="col-md-7">
+                <article>
+                    <p class="text-justify">
+                        {{"apps.paragraph.0" | translate}}
+                    </p>
+
+                    <h3>{{"ofrecemos.title" | translate}}</h3>
+                    <ul class="align">
+                        <li class="text-justify">
+                            {{"apps.paragraph.1" | translate}}
+                        </li>
+                        <li>
+                            {{"apps.paragraph.2" | translate}}
+                        </li>
+                        <li>
+                            {{"apps.paragraph.3" | translate}}
+                        </li>
+                    </ul>
+                </article>
+                
+            </div>
+
+            <div class="col-md-5">
+                <img src="../../../assets/img/app.png" class="img1 img-fluid" alt="apps exponencial">
+            </div>
+        </div>
+
+        <div class="" (click)="estado=!estado">
+            <div *ngIf="estado">
+                <a class="button-form">
+                    <span class="text">
+                        {{"button.contact" | translate}}
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row formulario-servicios">
+                <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
+                <div *ngIf="!estado">
+                    <app-formulario></app-formulario>
+                </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

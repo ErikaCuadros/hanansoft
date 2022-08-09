@@ -1,0 +1,31 @@
+<div class="container-contacto">
+      <h2 class="">{{"button.contact" | translate}}</h2>
+    
+    <div class="row">
+      <div class="col-md-7">
+      <div class="formulario">
+          <form class="p-8" target="_blank" action="https://formsubmit.co/contacto@ketanolab.com" method="POST">
+              <div class="form-group">
+                  <label for="nombreapellido">
+                      {{"button.name"|translate}}
+                  </label>
+                  <input type="text" class="form-control mt-2" id="nombreapellido" placeholder="Nombre y Apellido" required>
+              </div>
+              <div class="form-group mt-4">
+                  <label for="email">
+                      {{"button.email"|translate}}
+                  </label>
+                  <input type="email" class="form-control mt-2" id="email" placeholder="Ingresa tu correo electrónico" required>
+                  </div>
+              <div class="form-group mt-4">
+                  <label for="consulta">
+                      {{"button.body"|translate}}
+                  </label>
+                  <textarea class="form-control mt-2" id="consulta" rows="5"></textarea>
+                  </div>
+              <button class="btn btn-ketanolab mt-5" type="submit">{{"button.send"|translate}}</button>
+          </form>    
+          </div>
+      </div>
+    </div>
+  </div>

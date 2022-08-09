@@ -1,0 +1,392 @@
+.card-servicios {
+    background-color: transparent;
+    width: 34rem;
+    margin-bottom: 2rem;
+}
+
+a:hover {
+    color: #00AEC6;
+}
+
+.container-inicio {
+    background-image: url("../../../assets/img/earth-1272884_1920.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 4rem 0;
+  }
+  
+  .container-inicio::before {
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #00000020;
+  }
+
+
+/* Contenido de los contenedores centrales */
+
+/* Texto */
+.centered {
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    min-width: 13rem;
+    z-index:2 ;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-out;
+}
+
+/* Imágen */
+.img-inicio {
+    width: 19rem;
+    height: 12rem;
+    z-index: 2;
+    border: 1px solid #004483ff;
+    background-image: linear-gradient(#007df1ff, #007df1ff),
+                    linear-gradient(#007df1ff, #007df1ff),
+                    linear-gradient(#007df1ff, #007df1ff),
+                    linear-gradient(#007df1ff, #007df1ff);
+    background-repeat: no-repeat;
+    background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
+    background-position: left bottom, left bottom, right top, right top, 1px 1px;
+    padding: 2px;
+    position: relative;
+    transition: all 0.3s ease-out;
+    outline: 2px solid white;
+    outline-style: groove;
+    outline-offset: -15px;
+}
+
+
+
+/* Aquí empieza el responsive */
+
+.img-container-mundo {
+    position: relative;
+    z-index:2;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.box-mundo {
+    width: 19rem;
+    height: 12rem;
+    z-index: 2;
+    border: 1px solid #004483ff;
+    background-image: linear-gradient(#007df1ff, #007df1ff),
+                    linear-gradient(#007df1ff, #007df1ff),
+                    linear-gradient(#007df1ff, #007df1ff),
+                    linear-gradient(#007df1ff, #007df1ff);
+    background-repeat: no-repeat;
+    background-size: 10px 37%, 15% 10px, 10px 38%, 15% 10px, calc(100% - 1px) calc(100% - 1px);
+    background-position: left bottom, left bottom, right top, right top, 1px 1px;
+    padding: 2px;
+    transition: all 0.3s ease-out;
+    outline: 2px solid white;
+    outline-style: groove;
+    outline-offset: -15px;
+}
+
+.box-mundo:hover {    
+    transform: scale(1.17, 1.19);
+}
+
+.box-mundo:hover + .centered {
+    display: none;
+}
+
+.box-servicios {
+    box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 11px rgba(0,0,0,0.75);
+    z-index: 1;
+    text-align: center;
+    background-color: #001e36;
+    padding: 0.5rem 1rem;
+    border: #002443ff 10px double;
+    outline: 6px double rgb(48, 74, 124);
+    width: 12rem;
+    height: 5rem;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+.espacio {
+    position: relative;
+    min-height: 25rem;
+}
+
+.estrategias-mundo {
+    position: absolute;
+    top: 6rem;
+    right: 23rem;
+    margin-left: 4rem;
+}
+
+.estrategias-1{
+    position: absolute;
+    top: -75px;
+    left: 55px;
+}
+
+.estrategias-2{
+    position: absolute;
+    top: 39px;
+    right: -178px;
+}
+
+.estrategias-3{
+    position: absolute;
+    bottom: -72px;
+    right: 175px;
+}
+
+.blockchain-mundo {
+    position: absolute;
+    top: 6rem;
+    right: 24rem;
+    margin-left: 4rem;
+}
+
+.blockchain-1 {
+    position: absolute;
+    top: -75px;
+    left: -80px;
+}
+
+.blockchain-2 {
+    position: absolute;
+    bottom: -75px;
+    left: -35px;
+}
+
+.digitales-mundo {
+    position: absolute;
+    top: 6rem;
+    right: 16rem;
+    margin-left: 4rem;
+}
+
+.digitales-1 {
+    position: absolute;
+    top: 50px;
+    left: -185px;
+}
+
+.digitales-2 {
+    position: absolute;
+    top: -75px;
+    right: -115px;
+}
+
+.digitales-3 {
+    position: absolute;
+    bottom: -75px;
+    right: -50px;
+}
+
+.metaverso-mundo {
+    position: absolute;
+    top: 6rem;
+    right: 23rem;
+    margin-left: 4rem;
+}
+
+.metaverso-1 {
+    position: absolute;
+    top: -75px;
+    right: -70px;
+}
+
+.metaverso-2 {
+    position: absolute;
+    bottom: -75px;
+    left: -70px;
+}
+
+
+@media all and (min-width: 1200px) and (max-width: 1400px) { 
+    .estrategias-mundo {
+        right: 9rem;
+    }
+
+    .blockchain-mundo {
+        right: 9rem;
+    }
+
+    .digitales-mundo {
+        right: 3rem;
+    }
+
+    .metaverso-mundo {
+        right: 10rem;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) { 
+    .estrategias-mundo {
+        right: 34rem;
+    }
+
+    .blockchain-mundo {
+        right: 14rem;
+    }
+
+    .digitales-mundo {
+        right: 34rem;
+    }
+
+    .metaverso-mundo {
+        right: 24rem;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) { 
+    
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) { 
+    .estrategias-mundo {
+        right: 14rem;
+    }
+
+    .blockchain-mundo {
+        right: 6rem;
+    }
+
+    .digitales-mundo {
+        right: 9rem;
+    }
+
+    .metaverso-mundo {
+        right: 11rem;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .estrategias-mundo {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-left: 1rem;
+    }
+    
+    .estrategias-1{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .estrategias-2{
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    
+    .estrategias-3{
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+
+    .blockchain-mundo {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-left: 1rem;
+        margin-top: 3rem;
+
+    }
+    
+    .blockchain-1 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .blockchain-2 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .digitales-mundo {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-left: 1rem;
+        margin-top: 3rem;
+
+    }
+    
+    .digitales-1 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .digitales-2 {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    
+    .digitales-3 {
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .metaverso-mundo {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+    
+    .metaverso-1 {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    
+    .metaverso-2 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+ }
+
+ .container-presentacion {
+    padding: 6rem 0;
+ }
+
+ .texto-presentacion > h1 {
+    color: #fff;
+}
+
+.container-contacto {
+    padding: 6rem 0;
+}
+
+
+.texto-presentacion > h2 {
+    font-family: 'Jost';
+}
+
+
+/** Servicios  **/
+
+.fondo {
+    background-image: url("./../../../assets/img/background-3883181_1920.jpg");
+    background-size: cover;
+}

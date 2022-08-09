@@ -1,0 +1,29 @@
+<nav id="inicio" class="navbar navbar-hanansoft navbar-expand-lg bg-dark sticky-top">
+  <div class="container navbar-ketanolab">
+    <a class="navbar-brand" href="#"><img class="navbar-logo" src="../../../assets/img/Home/logo.svg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-nave" id="navbarNav">
+      <ul class="navbar-nav navbar-ketanolab ms-auto">
+        <li class="nav-item">
+          <a class="nav-link btn-ketanolab" href="#servicios">{{"nav.servicios" | translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-ketanolab" href="/nosotros">{{"nav.nosotros" | translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-ketanolab" href="/experiencia">{{"nav.experiencia" | translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-ketanolab" target="_blank" href="https://app.gather.town/app/6pXc4faC3hRl8FkQ/hanansoft">{{"nav.oficina" | translate}}</a>
+        </li>
+        <span class="nav-link nav-idiomas">
+          <a class="btn-idioma" [ngClass]="{'selected':false}" href="#" (click)="setEn(); switchIdiomaEN = true;">EN</a>
+          <span> | </span>
+          <a class="btn-idioma" href="#" (click)="setEs()">ES</a>
+        </span>
+      </ul>
+    </div>
+  </div>
+</nav>

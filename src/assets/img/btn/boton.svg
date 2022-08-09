@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="793.70081"
+   height="1122.5197"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   sodipodi:docname="boton.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="2.103078"
+     inkscape:cx="61.814159"
+     inkscape:cy="155.96188"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="3.6757795"
+       height="48.003903"
+       patternTransform="translate(128.26172,0.71484444)"
+       id="pattern13804">
+      <path
+         id="rect9488"
+         style="opacity:1;fill:#0facc8;fill-opacity:0.992157;fill-rule:evenodd;stroke:none;stroke-width:1.91622;stroke-linejoin:round;stroke-opacity:0.8;paint-order:stroke fill markers"
+         d="M 0,8.9941398 V 39.187499 H 3.6757795 V 8.9941398 Z" />
+      <path
+         id="path9572"
+         style="fill:none;stroke:#0facc8;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.8"
+         d="m 0,47.503903 h 3.6757795 m 0,-47.00390365 H 0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         id="path9576"
+         style="fill:none;stroke:#0facc8;stroke-width:0.901429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.8"
+         d="M 3.6757795,3.761718 H 0 m 0,40.265625 h 3.6757795"
+         sodipodi:nodetypes="cccc" />
+    </pattern>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#0facc8;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.80000001"
+       d="M 3.04077,0.32148123 H 26.861217 V 6.9123583 l -2.7153,5.8456157 H 0.30566881 V 5.8287273 Z"
+       id="path893" />
+    <path
+       style="fill:none;stroke:#0facc8;stroke-width:0.238503px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.80000001"
+       d="M 3.3695812,1.1843977 H 26.157484 v 5.6460296 l -2.51183,5.0076057 H 0.96819844 V 5.9021413 Z"
+       id="path975"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       id="path1462"
+       style="fill:#10acc8;fill-opacity:0.8;stroke:none;stroke-width:0.199817px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 3.6819459,2.5688354 1.8164266,6.1066043 V 10.557495 H 5.0229492 L 8.6082599,2.5688354 Z m 6.0104855,0 -3.5853108,7.9886596 H 7.6687825 L 11.254093,2.5688354 Z m 2.6458336,0 -3.5853111,7.9886596 h 1.5616621 l 3.585311,-7.9886596 z m 2.645833,0 -3.585311,7.9886596 H 23.377384 L 25.395349,6.8026853 V 2.5688354 Z" />
+    <path
+       id="path9312"
+       style="fill:none;stroke:#0dacca;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="M 44.295488,12.757877 H 45.31248 L 48.028077,6.9122395 V 0.32142742 h -3.732589"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/baon/after.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       id="path9314"
+       style="fill:none;stroke:#0dacca;stroke-width:0.238503px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 44.295488,11.838037 h 0.516765 L 47.324244,6.8305907 V 1.1844238 h -3.028756"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/baon/after.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       id="path9316"
+       style="fill:#0eacc9;fill-opacity:0.99215686;stroke:none;stroke-width:0.199817px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 44.295488,2.5688354 v 7.9886596 h 0.248564 L 46.562017,6.8026856 V 2.5688354 Z"
+       inkscape:export-filename="/home/baon/after.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <rect
+       style="fill:none;stroke:none;stroke-width:0.264583"
+       width="0.97254997"
+       height="12.701033"
+       x="33.935913"
+       y="0.18913586"
+       id="rect13809"
+       inkscape:export-filename="/home/baon/middle.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       id="path12436"
+       style="fill:#10acc8;fill-opacity:0.8;stroke:none;stroke-width:0.199817px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 3.6819459,2.5688354 1.8164266,6.1066043 V 10.557495 H 5.0229492 L 8.6082599,2.5688354 Z m 6.0104855,0 -3.5853108,7.9886596 H 7.6687825 L 11.254093,2.5688354 Z m 2.6458336,0 -3.5853111,7.9886596 h 1.5616621 l 3.585311,-7.9886596 z m 2.645833,0 -3.585311,7.9886596 H 23.377384 L 25.395349,6.8026853 V 2.5688354 Z" />
+    <path
+       id="path12438"
+       style="fill:#0eacc9;fill-opacity:0.99215686;stroke:none;stroke-width:0.199817px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 56.598615,2.5688354 -1.865519,3.5377685 v 4.4508911 h 3.206523 L 61.52493,2.5688354 Z m 6.010486,0 -3.585311,7.9886596 h 1.561662 l 3.585311,-7.9886596 z m 2.645833,0 -3.58531,7.9886596 h 1.561661 l 3.585311,-7.9886596 z m 2.645834,0 -3.585311,7.9886596 H 68.30126 V 2.5688354 Z"
+       inkscape:export-filename="/home/baon/before.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       style="fill:none;stroke:#0facc8;stroke-width:0.238503px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.80000001"
+       d="M 3.3695812,1.1843977 H 26.157484 v 5.6460296 l -2.51183,5.0076057 H 0.96819844 V 5.9021413 Z"
+       id="path12440"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       id="path12442"
+       style="fill:none;stroke:#0dacca;stroke-width:0.238503px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="M 68.30126,1.1844238 H 56.286489 L 53.885086,5.9019654 V 11.838037 H 68.30126"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/baon/before.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       style="fill:none;stroke:#0facc8;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.80000001"
+       d="M 3.04077,0.32148123 H 26.861217 V 6.9123583 l -2.7153,5.8456157 H 0.30566881 V 5.8287273 Z"
+       id="path12444" />
+    <path
+       id="path12446"
+       style="fill:none;stroke:#0dacca;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="M 68.30126,0.32142742 H 55.957311 L 53.222594,5.8285848 V 12.757877 H 68.30126"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/baon/before.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       id="path57596"
+       style="opacity:1;fill:#0facc8;fill-opacity:0.992157;fill-rule:evenodd;stroke:none;stroke-width:0.507;stroke-linejoin:round;stroke-opacity:0.8;paint-order:stroke fill markers"
+       d="m 33.935913,2.5688354 v 7.9886596 h 0.97255 V 2.5688354 Z"
+       inkscape:export-filename="/home/baon/middle.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       id="path57598"
+       style="fill:none;stroke:#0caccb;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 33.935913,12.757877 h 0.97255 m 0,-12.43644958 h -0.97255"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/baon/middle.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       id="path57600"
+       style="fill:none;stroke:#0caccb;stroke-width:0.238503px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99215686"
+       d="m 34.908463,1.1844238 h -0.97255 m 0,10.6536132 h 0.97255"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/baon/middle.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+  </g>
+</svg>

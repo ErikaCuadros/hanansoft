@@ -1,0 +1,28 @@
+footer {
+    background-color: #000;
+    font-size: 14px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: 2px solid #b3d7df;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #0DABC8;
+}
+
+p {
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.estilo {
+    margin-top: -5rem;
+}
+
+.img-rrss {
+    margin-right: 0.5rem;
+}

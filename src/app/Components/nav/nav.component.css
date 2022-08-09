@@ -1,0 +1,145 @@
+.nav-ketanolab {
+    background-image: linear-gradient(#00AEC6, #00AEC6);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1390px;
+    position: relative;
+    background-position-y: 95px;
+    padding-bottom: 65px;
+    background-position-x: 6px;
+    background-size: 100% 7px;
+    z-index: 1;
+}
+
+.nav-ketanolab::before {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/Inicio/beforebara.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+    right: 570px;
+    top: -11px;
+    z-index: 1;
+}
+
+.nav-ketanolab::after {
+    content: "";
+    display: block;
+    background-image: url("../../../assets/img/Inicio/afterbara.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+    left: 405px;
+    top: -11px;
+    z-index: 1;
+}
+
+.navbar-brand {
+    align-items: center;
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 200px;
+    z-index: 3;
+    margin-right: 0.5rem;
+}
+
+.navbar-ketanolab a {
+    color: white;
+}
+
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+a {
+    font-family: 'Orbitron';
+}
+
+a.nav-link {
+    color: #fff;    
+    font-size: 1rem;
+}
+
+.navbar-hanansoft {
+    background-color: #000 !important;
+    padding: 1rem 0;
+}
+
+
+.menu-principal {
+    margin: 0 auto;
+    max-width: max-content;
+    padding-top: 50px;
+    z-index: 2;
+}
+
+
+.btn-idioma {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    z-index: 3;
+    position: relative;
+}
+
+.btn-idioma:hover {
+    color: #00AEC6 !important;
+    z-index: 3;
+}
+
+.selected {
+    background-color: red;
+}
+
+/* Construcción de los botones del nav con pseudo elementos before y after */
+/*
+.navbar-nave {
+    border-bottom: solid 7px #00AEC6;
+ }
+
+ .navbar-nave::before {
+    content: "*";
+    background-color: #fff;
+ }
+
+ .navbar-nave::after {
+    content: "*";
+    background-color: #fff;
+}
+*/
+/* Media Queries para hacer responsive la página */
+
+@media all and (min-width: 1200px) and (max-width: 1400px) { 
+
+    a {
+        font-size: 11px;
+    }
+
+    .btn-ketanolab {
+        padding: 11px 0;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) { 
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) { 
+    
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) { 
+
+}
+
+@media all and (max-width: 576px) {
+
+
+ }

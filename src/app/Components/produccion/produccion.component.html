@@ -1,0 +1,30 @@
+<app-nav></app-nav>
+    <div class="container" (mouseover)="estado=true" (mouseout)="estado=false">
+        <div *ngIf="!estado" class="row justify-content-center">
+            <div class="col-auto">
+                <div class="figura">
+                    <p class="pt-6 ml-1">{{"PRODUCTION.TITLE" | translate}}</p>
+                </div>
+                <img src="../../../assets/img/serviciosWeb.svg" class="img1" alt="">
+            </div>
+            <div class="col col-md-3 ml-2 servicios-box">
+                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+                <p class=" pb-6 pt-6">{{"PRODUCTION.PARAGRAPH" | translate}}</p>
+            </div>
+        </div>
+
+<!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
+
+        <div *ngIf="estado" class="row justify-content-center">
+            <div  class="col-auto">
+                <div class="figura">
+                    <p class="pt-6 ml-1">{{"PRODUCTION.TITLE" | translate}}</p>
+                </div>
+                <img src="../../../assets/img/serviciosWeb.svg" class="img1_v2" alt="">
+            </div>
+            <div class="offset-1 col-10 servicios-box">
+                <img src="../../../assets/img/marcoInter.png" class="img2" alt="">
+                <p class=" pb-6 pt-6">{{"PRODUCTION.PARAGRAPH" | translate}}</p>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,51 @@
+<app-nav></app-nav>
+
+<div class="fondo container-servicios">
+    <div class="container">
+        <h2>{{"digital-art.title" | translate}}</h2>
+        
+        <div class="row">
+            <div class="col-md-7">
+                <article>
+                    <p class="text-justify">
+                        {{"digital-art.paragraph.0" | translate}}
+                    </p>
+
+                    <h3>{{"ofrecemos.title" | translate}}</h3>
+                    <ul class="align">
+                        <li class="text-justify">
+                            {{"digital-art.paragraph.1" | translate}}
+                        </li>
+                        <li>
+                            {{"digital-art.paragraph.2" | translate}}
+                        </li>
+
+                    </ul>
+                </article>
+                
+            </div>
+
+            <div class="col-md-5">
+                <img src="../../../assets/img/nft.png" class="img1 img-fluid" alt="digital-art exponencial">
+            </div>
+        </div>
+
+        <div class="" (click)="estado=!estado">
+            <div *ngIf="estado">
+                <a class="button-form">
+                    <span class="text">
+                        {{"button.contact" | translate}}
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row formulario-servicios">
+                <!-- De aquí para abajo aparece la nueva parte, que se activa con el evento-->
+                <div *ngIf="!estado">
+                    <app-formulario></app-formulario>
+                </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

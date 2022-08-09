@@ -1,0 +1,155 @@
+{
+    "home":{
+        "services": "SERVICIOS",
+        "start": "Ingresa"
+    },
+    "webservices":{
+        "title":"Servicios Web"
+    },
+    "apps":{
+        "title":"Aplicaciones Móviles",
+        "paragraph.0":"Hoy en día los celulares son la principal ventana de entrada de las personas a internet. El desarrollo de aplicaciones para dispositivos móviles permite brindar un acceso rápido, sencillo y eficiente a la información que se proporciona, diseñando funcionalidades específicas que  mejoran la capacidad de conectividad y disponibilidad de servicios y productos, permitiendo generar una conexión más profunda y una comunicación más fluida con los clientes.",
+        "paragraph.1":"Desarrollo de aplicaciones móviles bajo las plataformas Android e iOS.",
+        "paragraph.2":"Diseño UI/UX creativo adaptado a las necesidades comunicacionales y de marca, con el fin de brindar al usuario una experiencia integral mediante el uso de diferentes herramientas digitales.",
+        "paragraph.3":"Desarrollo Escalable con clean architecture, principios de accesibilidad e internacionalización."
+    },
+    "digital-art":{
+        "title":"Arte Digital NFT's",
+        "paragraph.0":"El desarrollo de los diferentes ecosistemas digitales basado en plataformas Blockchain han dado surgimiento a los NFTs (tokens no fungibles) definidos como activos digitales que están revolucionando el mundo del arte, los videojuegos, los bienes raíces, etc.",
+        "paragraph.1":"Desarrollo de plataformas de tokenización NFTs.",
+        "paragraph.2":"Diseño y desarrollo de espacios virtuales en Metaversos.",
+        "paragraph.3":"Asesoría para el desarrollo de proyectos NFTs."
+    },
+    "digital-projects":{
+        "title":"Coaching Digital",
+        "paragraph.0":"Programa de Coaching Digital: “Puente Digital hacia el Dorado”. El programa de coaching digital está dirigido a emprendedores y startups que se encuentran en la transición hacia lo digital, y quieren contar con una  estrategia concreta para llevar  su emprendimiento al siguiente nivel. El objetivo es abrir la visión a las posibilidades que la migración digital puede brindar de cara al futuro.",
+        "paragraph.1":"5 Videotutoriales mediante los cuales se interioriza en el mundo del coaching digital contando con una estrategia de marketing y crecimiento empresarial.",
+        "paragraph.2":"2 Sesiones en vivo con un coach certificado miembro de la Red Global de Mentores. ",
+        "paragraph.3":"1 caja de herramientas digitales con las que se podrá entender cómo funciona la lógica de las distintas redes sociales para la promoción de sus productos o servicios. ¡Bono extra! Introducción al  mundo de Payoneer y las posibilidades que abre esta tarjeta, teniendo una vía segura y accesible de cobros y pagos."
+    },
+    "commerce":{
+        "title":"E-commerce",
+        "paragraph.0":"El año 2020 ha marcado un hito en la historia del comercio digital, se ha visto un avance significativo en el desarrollo de las ventas por internet, abriendo y moviendo una gran parte de los mercados a un mercado digital. Esto pone de manifiesto la importancia de formar parte de  este cambio, contando con una tienda virtual que permita dar a conocer marcas nuevas ofreciendo de esta manera tanto  productos como servicios.",
+        "paragraph.1":"Desarrollo de plataformas de E-commerce funcionales y creativas que puedan relacionar al vendedor con su comunidad, para vender sus propios productos o para exponer un portafolio de diferentes marcas.",
+        "paragraph.2":"Integración con pasarelas de pago.",
+        "paragraph.3":"Gestión de pedidos, productos e inventarios.",
+        "paragraph.4":"Punto de ventas POS.",
+        "paragraph.5":"Integración con ERP."
+    },
+    "dapps":{
+        "title":"Aplicaciones Descentralizadas",
+        "paragraph.0":"Estamos experimentando el surgimiento de la descentralización del mundo digital expresado en el surgimiento de varios ecosistemas. Las aplicaciones descentralizadas (DAPPs) basadas en plataformas blockchain,  son sistemas digitales que pueden ser utilizadas en varias áreas de la industria como la trazabilidad de alimentos, las finanzas, la tokenización de activos, los sistemas de registro educación mediante la seguridad  basada en una  red nodos internacional.",
+        "paragraph.1":"Desarrollo de DAPPs a medida para cada empresa, que cuente con estándares internacionales de desarrollo, brindando seguridad a las  operaciones mediante transacciones en plataformas Blockchain.",
+        "paragraph.2":"Desarrollar DAPPs especializadas para la trazabilidad de productos.",
+        "paragraph.3":"Integración de plataformas Blockchain con aplicaciones móviles."
+    },
+    "experience":{
+        "title":"Nuestra Experiencia",
+        "paragraph":"KetanoLab es una Agencia de Servicios Digitales enfocada en sistemas de gestión y consultoría especializada en innovación abierta brindando servicios con responsabilidad social en la era digital."
+    },
+    "beginning":{
+        "title-1":"Sistemas digitales",
+        "title-2":"E-Commerce",
+        "title-3":"Head hunting developers",
+        "title-4":"Aplicaciones móviles",
+        "title-5":"Metaverso",
+        "coaching":"Coaching",
+        "coaching-1":"Turismo virtual",
+        "coaching-2":"Coaching digital",
+        "title-6":"Arte digital NFT",
+        "title-7":"Estrategia digital",
+        "title-8":"Producción digital inmersiva",
+        "title-9":"Marketing exponencial",
+        "title-10":"Blockchain",
+        "title-10.1":"Blockchain",
+        "title-11":"Aplicaciones descentralizadas",
+        "title-12":"Nueva Zelanda",
+        "title-13":"Automatización de servicios",
+        "title-14":"Soluciones blockchain"
+    },
+    "marketing":{
+        "title":"Marketing Exponencial",
+        "paragraph.0":"El Marketing exponencial es la sociología aplicada con datos que nos ayudan en la optimización integral de un negocio. Nuestro Sistema de Marketing Exponencial está enfocado en cambiar la mentalidad de un negocio con información digitalizada, empleando o creando una función exponencial de ventas.",
+        "paragraph.1":"Desarrollo de un plan de comunicación basado en marketing exponencial, que consta de los siguientes elementos:",
+        "paragraph.2":"Contenido exponencial.",
+        "paragraph.3":"Alcance Exponencial.",
+        "paragraph.4":"Confianza digital exponencial.",
+        "paragraph.5":"Ventas exponenciales.",
+        "paragraph.6":"Relaciones digitales exponenciales."
+    },
+    "nav":{
+        "title":"Nav Bar",
+        "servicios":"Servicios",
+        "nosotros":"Nosotros",
+        "experiencia":"Nuestra Experiencia",
+        "oficina":"Oficina Virtual"
+      },
+    "footer":{
+        "links":"Enlaces",
+        "contact":"Contacto"
+    },
+    "we":{
+        "title":"Quiénes somos",
+        "person-1":"Roger Prado De La Fuente",
+        "person-1_description":"Administrador de empresas con amplia experiencia en Startups, international public speaker, que ha dado charlas en diferentes países de Sudamérica.",
+        "person-2":"Pedro Terán Gezn",
+        "person-2_description":"Programador y arquitecto de software  con más de 10 años de experiencia trabajando en proyectos globales y dirigido equipos de desarrollo técnico multiculturales.",
+        "person-3":"Milenka Escobar Pereira",
+        "person-3_description":"Gestora de proyectos tecnológico-culturales para agencias de desarrollo internacionales, instituciones públicas y privadas, encontrando en la tecnología y cultura (C+T) la sinergia perfecta para la innovación, haciendo de cada proyecto una experiencia.",
+        "person-4":"Samantha Ayleen Rueda",
+        "person-4_description":"Lingüista apasionada por la cultura y el arte digital, aportando valor en cada proyecto tecnológico. ",
+        "person-5":"Melania San Miguel Chacón",
+        "person-5_description":"Facilitadora certificada por la OIT, ha liderado equipos para la implementación de programas de capacitación en turismo, su trabajo gira en torno al desarrollo de emprendimientos turistico-tecnologicos en las áreas urbana y rural.",
+        "paragraph":"Está compuesto por un equipo de innovadores con experiencia, conocimiento y responsabilidad en diferentes áreas, desde el desarrollo de plataformas, soluciones blockchain y servicios digitales enfocados en cambiar la experiencia del usuario hasta la asesoría en cultura digital desde enfoques interculturales."
+    },
+    "production":{
+        "title":"Producción Digital",
+        "paragraph":"Imaginamos contigo tu proyecto con el fin de elevar tus productos audiovisuales digitales para redes sociales, paginas web, con animaciones 2D y 3D."
+    },
+    "services":{
+        "title":"Automatización de servicios",
+        "paragraph.0":"Tener un sistema de gestión online para automatizar servicios y procesos, permite reducir los costos operacionales, aumentar la satisfacción de los clientes y reducir los errores humanos, permitiendo operar las operaciones en menor tiempo y con mayor confiabilidad.",
+        "paragraph.1":"Desarrollo de sistemas digitales a medida de las necesidades de cada cliente.",
+        "paragraph.2":"Asesoramiento para el diseño y el proceso de automatización.",
+        "paragraph.3":"Diseño de UI/UX creativo adaptado a las necesidades comunicacionales del cliente, brindando accesibilidad con todos los estándares actuales."
+    },
+    "sightseeing":{
+        "title":"Turismo Virtual",
+        "paragraph.0":"El turismo también está aprovechando todo lo que ofrece la nueva era digital ya que, a través del uso de plataformas y herramientas digitales como la realidad virtual y aumentada, las personas, pueden visitar lugares de interés histórico-cultural como museos, zonas arqueológicas milenarias, centros históricos, sitios naturales entre otros, adentrándose a ellos teniendo como límite su imaginación.",
+        "paragraph.1":"Formar parte del Laboratorio de Turismo Virtual, aprendiendo a aplicar estrategias y herramientas digitales participando en Boot camps y encuentros, que  ayuden a generar nuevos proyectos en turismo, brindando una experiencia que motive a los nuevos turistas virtuales a viajar a través del ciberespacio.",
+        "paragraph.2":"Asesoría para el desarrollo de  proyectos turístico-tecnológicos."
+    },
+    "developers":{
+        "title":"Head Hunting Developers Nueva Zelanda",
+        "paragraph.0":"La experiencia de vivir en un país cosmopolita al otro lado del mundo brinda la oportunidad de ampliar la visión y desarrollar nuevas capacidades como programador, en un entorno diverso y de alto nivel. En base a nuestra experiencia vivida en Nueva Zelanda asesoramos y ponemos en contacto con empresas de software interesadas en expandir su equipo y conocer nuevas culturas.",
+        "paragraph.1":"Mentoría especializada para poder acceder a empresas de desarrollo de software en Nueva Zelanda.",
+        "paragraph.2":"Sesión en vivo de 1 hora que brinda información sobre las capacidades principales requeridas en las  empresas y cultura laboral en el sector tecnológico de Nueva Zelanda.",
+        "paragraph.3":"Un documento en PDF que contenga información sobre: reclutadores, empresas tecnológicas, bolsas de trabajo, y  datos de interés cultural de Nueva Zelanda."
+    },
+    "blockchain":{
+        "title":"Soluciones Blockchain",
+        "paragraph.0":"Blockchain es una tecnología disruptiva considerada como el Internet del valor, es  un gigantesco libro de cuentas en la que los registros están enlazados y cifrados para proteger la seguridad y privacidad de las transacciones. En otras palabras es una base de datos distribuida,  segura e inviolable.",
+        "paragraph.1":"Desarrollamos sistemas integrales a medida basados en Blockchain que incluyen:",
+        "paragraph.2":"Desarrollo de plataformas Blockchain a medida para cada empresa, que cuente con estándares internacionales de desarrollo.",
+        "paragraph.3":"Integración con las diferentes plataformas públicas y privadas Blockchain.",
+        "paragraph.4":"Desarrollo de Cold Wallets.",
+        "paragraph.5":"Desarrollo de un sistema de gobernanza mediante una Organización autónoma descentralizada DAO."
+        
+    },
+    "ofrecemos":{
+        "title":"¿Qué Ofrecemos?"
+    },
+
+    "button":{
+        "contact":"Contáctanos",
+        "name":"Nombre y apellido",
+        "email":"Correo electrónico",
+        "body":"Consulta",
+        "send":"Enviar consulta"
+    },
+
+    "inicio":{
+        "presentation":"Somos una startup tecnológica con responsabilidad social y compromiso cultural, que innova en soluciones de sistemas digitales"
+    }
+}
+ 
