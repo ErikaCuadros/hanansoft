@@ -150,6 +150,13 @@
 
     "inicio":{
         "presentation":"Somos una startup tecnológica con responsabilidad social y compromiso cultural, que innova en soluciones de sistemas digitales"
+    },
+
+    "titles": {
+        "services":"Otros servicios",
+        "experiencia":"Nuestra experiencia",
+        "clientes":"Confían en nosotros",
+        "aliados":"Nuestros aliados" 
     }
 }
  

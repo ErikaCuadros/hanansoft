@@ -41,7 +41,7 @@
 }
 
 .home-sombra{
-animation: fadeIn 4s infinite linear;
+    animation: fadeIn 4s infinite linear;
 }
 
 
@@ -132,10 +132,15 @@ animation: fadeIn 4s infinite linear;
     color: #4ee6f1;
 }
 
+@media (min-width: 992px){
+    .home-logo {
+        margin: 1.5rem 0;
+        width: 800px;
+    } 
+}
+
 .home-logo {
-    margin: 1rem 0;
-    resize: both;
-    width: 150px;
+    margin: 1.5rem 0;
 }
 
 .home-logo-text {

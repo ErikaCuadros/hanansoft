@@ -149,5 +149,12 @@
 
   "inicio":{
     "presentation":"We are a startup that work with social resposibility and cultural compromise, designing and developing digital solution with creativity and innovation"
+  },
+
+  "titles": {
+      "services":"More services",
+      "experiencia":"Our experience",
+      "clientes":"Our clients",
+      "aliados":"Our partners" 
   }
 }
