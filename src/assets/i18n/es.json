@@ -14,7 +14,7 @@
         "paragraph.3":"Desarrollo Escalable con clean architecture, principios de accesibilidad e internacionalización."
     },
     "digital-art":{
-        "title":"Arte Digital NFT's",
+        "title":"Servicios NFTs",
         "paragraph.0":"El desarrollo de los diferentes ecosistemas digitales basado en plataformas Blockchain han dado surgimiento a los NFTs (tokens no fungibles) definidos como activos digitales que están revolucionando el mundo del arte, los videojuegos, los bienes raíces, etc.",
         "paragraph.1":"Desarrollo de plataformas de tokenización NFTs.",
         "paragraph.2":"Diseño y desarrollo de espacios virtuales en Metaversos.",
@@ -28,7 +28,7 @@
         "paragraph.3":"1 caja de herramientas digitales con las que se podrá entender cómo funciona la lógica de las distintas redes sociales para la promoción de sus productos o servicios. ¡Bono extra! Introducción al  mundo de Payoneer y las posibilidades que abre esta tarjeta, teniendo una vía segura y accesible de cobros y pagos."
     },
     "commerce":{
-        "title":"E-commerce",
+        "title":"Plataformas web",
         "paragraph.0":"El año 2020 ha marcado un hito en la historia del comercio digital, se ha visto un avance significativo en el desarrollo de las ventas por internet, abriendo y moviendo una gran parte de los mercados a un mercado digital. Esto pone de manifiesto la importancia de formar parte de  este cambio, contando con una tienda virtual que permita dar a conocer marcas nuevas ofreciendo de esta manera tanto  productos como servicios.",
         "paragraph.1":"Desarrollo de plataformas de E-commerce funcionales y creativas que puedan relacionar al vendedor con su comunidad, para vender sus propios productos o para exponer un portafolio de diferentes marcas.",
         "paragraph.2":"Integración con pasarelas de pago.",
@@ -49,14 +49,14 @@
     },
     "beginning":{
         "title-1":"Sistemas digitales",
-        "title-2":"E-Commerce",
+        "title-2":"Plataformas web",
         "title-3":"Head hunting developers",
         "title-4":"Aplicaciones móviles",
         "title-5":"Metaverso",
         "coaching":"Coaching",
         "coaching-1":"Turismo virtual",
         "coaching-2":"Coaching digital",
-        "title-6":"Arte digital NFT",
+        "title-6":"Servicios NFTs",
         "title-7":"Estrategia digital",
         "title-8":"Producción digital inmersiva",
         "title-9":"Marketing exponencial",
@@ -149,7 +149,7 @@
     },
 
     "inicio":{
-        "presentation":"Somos una startup tecnológica con responsabilidad social y compromiso cultural, que innova en soluciones de sistemas digitales"
+        "presentation":"Somos una empresa tecnológica con responsabilidad social y compromiso cultural, que innova en soluciones de sistemas digitales"
     },
 
     "titles": {
