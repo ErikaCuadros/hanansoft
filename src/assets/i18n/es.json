@@ -29,19 +29,17 @@
     },
     "commerce":{
         "title":"Plataformas web",
-        "paragraph.0":"El año 2020 ha marcado un hito en la historia del comercio digital, se ha visto un avance significativo en el desarrollo de las ventas por internet, abriendo y moviendo una gran parte de los mercados a un mercado digital. Esto pone de manifiesto la importancia de formar parte de  este cambio, contando con una tienda virtual que permita dar a conocer marcas nuevas ofreciendo de esta manera tanto  productos como servicios.",
-        "paragraph.1":"Desarrollo de plataformas de E-commerce funcionales y creativas que puedan relacionar al vendedor con su comunidad, para vender sus propios productos o para exponer un portafolio de diferentes marcas.",
-        "paragraph.2":"Integración con pasarelas de pago.",
-        "paragraph.3":"Gestión de pedidos, productos e inventarios.",
-        "paragraph.4":"Punto de ventas POS.",
-        "paragraph.5":"Integración con ERP."
+        "paragraph.0":"El año 2020 ha marcado un hito en la historia de la transformación digital, se ha visto un avance significativo en el desarrollo de las ventas y la gestión de procesos por Internet. Hoy en día un organización que no tiene presencia en Internet, no existe.",
+        "paragraph.1":"Desarrollo de páginas web a medida.",
+        "paragraph.2":"Desarrollo de plataformas de E-commerce funcionales y creativas que puedan relacionar al vendedor con su comunidad, para vender sus propios productos o para exponer un portafolio de diferentes marcas.",
+        "paragraph.3":"Integración con pasarelas de pago,  punto de ventas POS e integración con ERP."
     },
     "dapps":{
         "title":"Aplicaciones Descentralizadas",
         "paragraph.0":"Estamos experimentando el surgimiento de la descentralización del mundo digital expresado en el surgimiento de varios ecosistemas. Las aplicaciones descentralizadas (DAPPs) basadas en plataformas blockchain,  son sistemas digitales que pueden ser utilizadas en varias áreas de la industria como la trazabilidad de alimentos, las finanzas, la tokenización de activos, los sistemas de registro educación mediante la seguridad  basada en una  red nodos internacional.",
-        "paragraph.1":"Desarrollo de DAPPs a medida para cada empresa, que cuente con estándares internacionales de desarrollo, brindando seguridad a las  operaciones mediante transacciones en plataformas Blockchain.",
-        "paragraph.2":"Desarrollar DAPPs especializadas para la trazabilidad de productos.",
-        "paragraph.3":"Integración de plataformas Blockchain con aplicaciones móviles."
+        "paragraph.1":"Desarrollo de DAPPs a medida para cada empresa, que cuente con estándares internacionales de desarrollo, brindando seguridad a las operaciones mediante transacciones en plataformas Blockchain.",
+        "paragraph.2":"Integración con las diferentes plataformas públicas y privadas Blockchain.",
+        "paragraph.3":"Desarrollo de un sistema de gobernanza mediante una Organización autónoma descentralizada DAO."
     },
     "experience":{
         "title":"Nuestra Experiencia",
