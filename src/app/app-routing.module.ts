@@ -19,6 +19,7 @@ import { footerComponent } from './Components/footer/footer.component';
 import { NavComponent } from './Components/nav/nav.component';
 import { developersComponent } from './Components/developers/developers.component';
 import { blockchainComponent } from './Components/blockchain/blockchain.component';
+import { FormularioComponent } from './Components/formulario/formulario.component';
 const routes: Routes = [
 
   {path: '', component:InicioComponent},
@@ -40,6 +41,7 @@ const routes: Routes = [
   {path: 'nav', component:NavComponent},
   {path: 'developers', component:developersComponent},
   {path: 'blockchain', component:blockchainComponent},
+  {path: 'form', component:FormularioComponent},
 
 ];
 
