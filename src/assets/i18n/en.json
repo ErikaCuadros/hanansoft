@@ -14,7 +14,7 @@
     "paragraph.3":"Scalable development with clean architecture, principles of accessibility and internationalization."
   },
   "digital-art":{
-    "title":"NFT's Digital Art",
+    "title":"NFTs Services",
     "paragraph.0":"The development of different digital ecosystems based on Blockchain platforms have given rise to NFTs (non-fungible tokens) defined as digital assets that are revolutionizing the world of art, video games, real estate, etc.",
     "paragraph.1":"Development of NFT tokenization platforms.",
     "paragraph.2":"Design and development of virtual spaces in Metaverses.",
@@ -28,20 +28,18 @@
     "paragraph.3":"1 box of digital tools with which you can understand how the logic of the different social networks works for the promotion of your products or services. Extra bonus! Introduction to the world of Payoneer and the possibilities that this card opens up, having a safe and accessible way of charging and paying."
   },
   "commerce":{
-    "title":"E-commerce",
-    "paragraph.0":"1 box of digital tools with which you can understand how the logic of the different social networks works for the promotion of your products or services. extra bonus! Introduction to the world of Payoneer and the possibilities that this card opens up, having a safe and accessible way of charging and paying. Internet sales, opening and moving a large part of the markets to a digital market. This highlights the importance of being part of this change, having a virtual store that allows new brands to be known, offering both products and services in this way.",
+    "title":"Web platforms",
+    "paragraph.0":"The year 2020 has marked a milestone in the history of digital transformation, a significant advance has been seen in the development of sales and process management over the Internet. Today an organization that does not have an Internet presence does not exist.",
     "paragraph.1":"Development of functional and creative E-commerce platforms that can relate the seller with his community, to sell his own products or to expose a portfolio of different brands.",
     "paragraph.2":"Integration with payment gateways.",
-    "paragraph.3":"Management of orders, products and inventories.",
-    "paragraph.4":"POS point of sales.",
-    "paragraph.5":"Integration with ERP."
+    "paragraph.3":"Management of orders, products and inventories."
   },
   "dapps":{
     "title":"Decentralized Applications",
     "paragraph.0":"We are experiencing the rise of decentralization of the digital world expressed in the rise of various ecosystems. Decentralized applications (DAPPs) based on blockchain platforms are digital systems that can be used in various areas of industry such as food traceability, finance, asset tokenization, registration systems, education through network-based security. international nodes.",
     "paragraph.1":"Development of custom DAPPs for each company, which has international development standards, providing security to operations through transactions on Blockchain platforms.",
-    "paragraph.2":"Develop specialized DAPPs for product traceability.",
-    "paragraph.3":"Integration of Blockchain platforms with mobile applications."
+    "paragraph.2":"Development of a governance system through a Decentralized Autonomous Organization DAO.",
+    "paragraph.3":"Integration with public and privates blockchain plattfoms."
   },
   "experience":{
     "title":"OUR EXPERIENCE",
@@ -49,14 +47,14 @@
   },
   "beginning":{
     "title-1":"Digital Systems",
-    "title-2":"Ecommerce",
+    "title-2":"Web platforms",
     "title-3":"Head hunting developers",
     "title-4":"Mobile Apps",
     "title-5":"Metaverse",
     "coaching":"Coaching",
     "coaching-1":"Virtual tourism",
     "coaching-2":"Digital coaching",
-    "title-6":"NFT Digital Art",
+    "title-6":"NFTs Services",
     "title-7":"Digital Strategy",
     "title-8":"Immersive digital production",
     "title-9":"Exponential Marketing",
@@ -148,6 +146,13 @@
     },
 
   "inicio":{
-    "presentation":"We are a startup that work with social resposibility and cultural compromise, designing and developing digital solution with creativity and innovation"
+    "presentation":"We are an enterprise that work with social resposibility and cultural compromise, designing and developing digital solution with creativity and innovation"
+  },
+
+  "titles": {
+      "services":"More services",
+      "experiencia":"Our experience",
+      "clientes":"Our clients",
+      "aliados":"Our partners" 
   }
 }

@@ -1,6 +1,5 @@
 .card-servicios {
     background-color: transparent;
-    width: 34rem;
     margin-bottom: 2rem;
 }
 
@@ -73,9 +72,31 @@ a:hover {
     overflow: hidden;
 }
 
+.services-title {
+    width: 100%;
+}
+
+.services-title:hover {
+    width: 100%;
+    animation: fade 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes fade {
+    50% {
+        background-color: #00AEC6;
+
+    }
+  }
+
+#services-principal {
+    margin: 2rem 0 5rem 0;
+}
+
 .box-mundo {
-    width: 19rem;
-    height: 12rem;
+    width: 100%;
+    height: 15rem;
     z-index: 2;
     border: 1px solid #004483ff;
     background-image: linear-gradient(#007df1ff, #007df1ff),

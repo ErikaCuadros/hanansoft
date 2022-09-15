@@ -3,29 +3,55 @@
     
     <div class="row">
       <div class="col-md-7">
+          
+      <!--    
       <div class="formulario">
-          <form class="p-8" target="_blank" action="https://formsubmit.co/contacto@ketanolab.com" method="POST">
+          <form class="p-8" target="_blank" action="https://formsubmit.co/contacto@hanansoft.com" method="POST">
+            <input type="hidden" name="_subject" value="New submission!">
               <div class="form-group">
                   <label for="nombreapellido">
                       {{"button.name"|translate}}
                   </label>
-                  <input type="text" class="form-control mt-2" id="nombreapellido" placeholder="Nombre y Apellido" required>
+                  <input type="text" name="name" class="form-control mt-2" id="nombreapellido" placeholder="Nombre y Apellido" required>
               </div>
               <div class="form-group mt-4">
                   <label for="email">
                       {{"button.email"|translate}}
                   </label>
-                  <input type="email" class="form-control mt-2" id="email" placeholder="Ingresa tu correo electrónico" required>
+                  <input type="email" name="email" class="form-control mt-2" id="email" placeholder="Ingresa tu correo electrónico" required>
                   </div>
               <div class="form-group mt-4">
                   <label for="consulta">
                       {{"button.body"|translate}}
                   </label>
-                  <textarea class="form-control mt-2" id="consulta" rows="5"></textarea>
+                  <textarea type="text" name="message" class="form-control mt-2" id="consulta" rows="5"></textarea>
                   </div>
               <button class="btn btn-ketanolab mt-5" type="submit">{{"button.send"|translate}}</button>
           </form>    
-          </div>
+          </div>-->
       </div>
-    </div>
+    </div> 
+
+
+    <form action="https://formsubmit.co/arcontesirve@gmail.com" method="POST">
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <button type="submit">Send</button>
+   </form>
+
+   <script>
+
+        console.log("Hello world!");
+
+       const $form = document.querySelector('form')
+
+       $form.addEventListener('submit', handleSubmit)
+
+       function handleSubmit(event){
+            event.preventDefault()
+            const form = new FormData(this)
+            console.log(form.get('name'))
+       }
+   </script>
+
   </div>

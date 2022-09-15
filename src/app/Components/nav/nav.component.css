@@ -54,6 +54,10 @@
     color: white;
 }
 
+.btn-ketanolab:hover {
+    color: #333 !important;
+  }
+
 
 .navbar-nav .nav-link {
     color: #fff;
